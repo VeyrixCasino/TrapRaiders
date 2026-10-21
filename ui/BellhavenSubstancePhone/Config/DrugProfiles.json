@@ -1,0 +1,1490 @@
+{
+  "schemaVersion": 1,
+  "disclaimer": "Fictional unitless gameplay profiles. No clinical potency or lethal-dose values. Developer-only config; do not expose hidden substance contents to players.",
+  "classOrder": [
+    "Opioids",
+    "Benzodiazepines",
+    "Stimulants",
+    "Dissociatives"
+  ],
+  "simulation": {
+    "tickLabel": "game tick",
+    "responseSaturation": 0.65,
+    "toleranceRecoveryMultiplier": 1.0,
+    "interactionSaturation": 0.9,
+    "effectVisibilityThreshold": 0.1,
+    "developerDebugOnly": true,
+    "familyGainScale": 0.3,
+    "familyRecoveryPerTick": {
+      "Opioids": 0.0024,
+      "Benzodiazepines": 0.0022,
+      "Stimulants": 0.0028,
+      "Dissociatives": 0.0026
+    }
+  },
+  "drugs": [
+    {
+      "id": "morphine",
+      "displayName": "Morphine",
+      "class": "Opioids",
+      "reference": "Morphine",
+      "gamePotencyIndex": 1.0,
+      "timeCourse": {
+        "riseTicks": 9,
+        "decayHalfLifeTicks": 23,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral",
+          "intranasal",
+          "smoking",
+          "iv"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.25,
+        "gainPerExposure": 0.055,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00302,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.163,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.015,
+        "maintenanceGainPerTick": 0.0018,
+        "recoveryPerTick": 0.00082,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.018,
+        "recoveryPerTick": 0.00045,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "painResponse": 0.8,
+        "sedation": 0.6,
+        "motorImpairment": 0.25,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "codeine",
+      "displayName": "Codeine",
+      "class": "Opioids",
+      "reference": "Morphine",
+      "gamePotencyIndex": 0.6,
+      "timeCourse": {
+        "riseTicks": 11,
+        "decayHalfLifeTicks": 17,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.35,
+        "gainPerExposure": 0.037,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00203,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.188,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.009,
+        "maintenanceGainPerTick": 0.00108,
+        "recoveryPerTick": 0.00049,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.012,
+        "recoveryPerTick": 0.0003,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "painResponse": 0.8,
+        "sedation": 0.6,
+        "motorImpairment": 0.25,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "oxycodone",
+      "displayName": "Oxycodone",
+      "class": "Opioids",
+      "reference": "Morphine",
+      "gamePotencyIndex": 1.25,
+      "timeCourse": {
+        "riseTicks": 10,
+        "decayHalfLifeTicks": 24,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.31,
+        "gainPerExposure": 0.068,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00374,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.177,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.018,
+        "maintenanceGainPerTick": 0.00216,
+        "recoveryPerTick": 0.00099,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.017,
+        "recoveryPerTick": 0.00043,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "painResponse": 0.8,
+        "sedation": 0.6,
+        "motorImpairment": 0.25,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "heroin",
+      "displayName": "Heroin",
+      "class": "Opioids",
+      "reference": "Morphine",
+      "gamePotencyIndex": 1.3,
+      "timeCourse": {
+        "riseTicks": 5,
+        "decayHalfLifeTicks": 15,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral",
+          "intranasal",
+          "smoking",
+          "iv"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.42,
+        "gainPerExposure": 0.083,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00457,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.205,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.02,
+        "maintenanceGainPerTick": 0.0024,
+        "recoveryPerTick": 0.0011,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.027,
+        "recoveryPerTick": 0.00068,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "painResponse": 0.8,
+        "sedation": 0.6,
+        "motorImpairment": 0.25,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "hydromorphone",
+      "displayName": "Hydromorphone",
+      "class": "Opioids",
+      "reference": "Morphine",
+      "gamePotencyIndex": 1.5,
+      "timeCourse": {
+        "riseTicks": 8,
+        "decayHalfLifeTicks": 19,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral",
+          "intranasal",
+          "smoking",
+          "iv"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.33,
+        "gainPerExposure": 0.061,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00335,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.182,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.016,
+        "maintenanceGainPerTick": 0.00192,
+        "recoveryPerTick": 0.00088,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.022,
+        "recoveryPerTick": 0.00055,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "painResponse": 0.8,
+        "sedation": 0.6,
+        "motorImpairment": 0.25,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "fentanyl",
+      "displayName": "Fentanyl",
+      "class": "Opioids",
+      "reference": "Morphine",
+      "gamePotencyIndex": 1.8,
+      "timeCourse": {
+        "riseTicks": 3,
+        "decayHalfLifeTicks": 12,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "intranasal",
+          "smoking",
+          "iv"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.36,
+        "gainPerExposure": 0.074,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00407,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.19,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.022,
+        "maintenanceGainPerTick": 0.00264,
+        "recoveryPerTick": 0.00121,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.026,
+        "recoveryPerTick": 0.00065,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "painResponse": 0.8,
+        "sedation": 0.6,
+        "motorImpairment": 0.25,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "u47700",
+      "displayName": "U-47700",
+      "class": "Opioids",
+      "reference": "Morphine",
+      "gamePotencyIndex": 1.6,
+      "timeCourse": {
+        "riseTicks": 5,
+        "decayHalfLifeTicks": 14,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "intranasal",
+          "smoking",
+          "iv"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.4,
+        "gainPerExposure": 0.08,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.0044,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.2,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.02,
+        "maintenanceGainPerTick": 0.0024,
+        "recoveryPerTick": 0.0011,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.025,
+        "recoveryPerTick": 0.00063,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "painResponse": 0.8,
+        "sedation": 0.6,
+        "motorImpairment": 0.25,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "alprazolam",
+      "displayName": "Alprazolam",
+      "class": "Benzodiazepines",
+      "reference": "Alprazolam",
+      "gamePotencyIndex": 1.0,
+      "timeCourse": {
+        "riseTicks": 8,
+        "decayHalfLifeTicks": 22,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.23,
+        "gainPerExposure": 0.049,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00269,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.158,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.016,
+        "maintenanceGainPerTick": 0.00192,
+        "recoveryPerTick": 0.00088,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.015,
+        "recoveryPerTick": 0.00038,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "sedation": 0.8,
+        "motorImpairment": 0.55,
+        "memoryImpairment": 0.4,
+        "physiologicalStress": 0.2
+      }
+    },
+    {
+      "id": "diazepam",
+      "displayName": "Diazepam",
+      "class": "Benzodiazepines",
+      "reference": "Alprazolam",
+      "gamePotencyIndex": 0.78,
+      "timeCourse": {
+        "riseTicks": 13,
+        "decayHalfLifeTicks": 42,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.3,
+        "gainPerExposure": 0.035,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00193,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.175,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.012,
+        "maintenanceGainPerTick": 0.00144,
+        "recoveryPerTick": 0.00066,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.009,
+        "recoveryPerTick": 0.00022,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "sedation": 0.8,
+        "motorImpairment": 0.55,
+        "memoryImpairment": 0.4,
+        "physiologicalStress": 0.2
+      }
+    },
+    {
+      "id": "lorazepam",
+      "displayName": "Lorazepam",
+      "class": "Benzodiazepines",
+      "reference": "Alprazolam",
+      "gamePotencyIndex": 0.94,
+      "timeCourse": {
+        "riseTicks": 10,
+        "decayHalfLifeTicks": 29,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.28,
+        "gainPerExposure": 0.042,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00231,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.17,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.015,
+        "maintenanceGainPerTick": 0.0018,
+        "recoveryPerTick": 0.00082,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.013,
+        "recoveryPerTick": 0.00032,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "sedation": 0.8,
+        "motorImpairment": 0.55,
+        "memoryImpairment": 0.4,
+        "physiologicalStress": 0.2
+      }
+    },
+    {
+      "id": "clonazepam",
+      "displayName": "Clonazepam",
+      "class": "Benzodiazepines",
+      "reference": "Alprazolam",
+      "gamePotencyIndex": 0.91,
+      "timeCourse": {
+        "riseTicks": 14,
+        "decayHalfLifeTicks": 37,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.29,
+        "gainPerExposure": 0.04,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.0022,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.172,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.014,
+        "maintenanceGainPerTick": 0.00168,
+        "recoveryPerTick": 0.00077,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 1.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.012,
+        "recoveryPerTick": 0.0003,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "sedation": 0.8,
+        "motorImpairment": 0.55,
+        "memoryImpairment": 0.4,
+        "physiologicalStress": 0.2
+      }
+    },
+    {
+      "id": "cocaine",
+      "displayName": "Cocaine",
+      "class": "Stimulants",
+      "reference": "Stimulant Game Index",
+      "gamePotencyIndex": 1.1,
+      "timeCourse": {
+        "riseTicks": 4,
+        "decayHalfLifeTicks": 11,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "intranasal"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.3,
+        "gainPerExposure": 0.064,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00352,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.175,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.009,
+        "maintenanceGainPerTick": 0.00108,
+        "recoveryPerTick": 0.00049,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.025,
+        "recoveryPerTick": 0.00063,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceivedAlertness": 0.85,
+        "speed": 0.18,
+        "stamina": 0.2,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "crack",
+      "displayName": "Crack Cocaine",
+      "class": "Stimulants",
+      "reference": "Stimulant Game Index",
+      "gamePotencyIndex": 1.22,
+      "timeCourse": {
+        "riseTicks": 2,
+        "decayHalfLifeTicks": 7,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "smoking"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.34,
+        "gainPerExposure": 0.076,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00418,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.185,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.008,
+        "maintenanceGainPerTick": 0.00096,
+        "recoveryPerTick": 0.00044,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.033,
+        "recoveryPerTick": 0.00083,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceivedAlertness": 0.85,
+        "speed": 0.18,
+        "stamina": 0.2,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "meth",
+      "displayName": "Methamphetamine",
+      "class": "Stimulants",
+      "reference": "Stimulant Game Index",
+      "gamePotencyIndex": 1.3,
+      "timeCourse": {
+        "riseTicks": 5,
+        "decayHalfLifeTicks": 37,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral",
+          "intranasal",
+          "smoking",
+          "iv"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.25,
+        "gainPerExposure": 0.07,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00385,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.163,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.01,
+        "maintenanceGainPerTick": 0.0012,
+        "recoveryPerTick": 0.00055,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.025,
+        "recoveryPerTick": 0.00063,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceivedAlertness": 0.85,
+        "speed": 0.18,
+        "stamina": 0.2,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "amphetamine",
+      "displayName": "Amphetamine",
+      "class": "Stimulants",
+      "reference": "Stimulant Game Index",
+      "gamePotencyIndex": 0.77,
+      "timeCourse": {
+        "riseTicks": 9,
+        "decayHalfLifeTicks": 26,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.25,
+        "gainPerExposure": 0.043,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00236,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.163,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.01,
+        "maintenanceGainPerTick": 0.0012,
+        "recoveryPerTick": 0.00055,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.016,
+        "recoveryPerTick": 0.0004,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceivedAlertness": 0.85,
+        "speed": 0.18,
+        "stamina": 0.2,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "mdma",
+      "displayName": "MDMA",
+      "class": "Stimulants",
+      "reference": "Stimulant Game Index",
+      "gamePotencyIndex": 1.0,
+      "timeCourse": {
+        "riseTicks": 9,
+        "decayHalfLifeTicks": 23,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.26,
+        "gainPerExposure": 0.062,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00341,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.165,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.012,
+        "maintenanceGainPerTick": 0.00144,
+        "recoveryPerTick": 0.00066,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.02,
+        "recoveryPerTick": 0.0005,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceivedAlertness": 0.85,
+        "speed": 0.18,
+        "stamina": 0.2,
+        "physiologicalStress": 0.38
+      }
+    },
+    {
+      "id": "ketamine",
+      "displayName": "Ketamine",
+      "class": "Dissociatives",
+      "reference": "Dissociative Game Index",
+      "gamePotencyIndex": 1.0,
+      "timeCourse": {
+        "riseTicks": 5,
+        "decayHalfLifeTicks": 16,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "intranasal"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.2,
+        "gainPerExposure": 0.046,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00253,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.15,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.007,
+        "maintenanceGainPerTick": 0.00084,
+        "recoveryPerTick": 0.00039,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.018,
+        "recoveryPerTick": 0.00045,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceptionUncertainty": 0.8,
+        "motorImpairment": 0.6,
+        "physiologicalStress": 0.22
+      }
+    },
+    {
+      "id": "pcp",
+      "displayName": "PCP",
+      "class": "Dissociatives",
+      "reference": "Dissociative Game Index",
+      "gamePotencyIndex": 1.4,
+      "timeCourse": {
+        "riseTicks": 7,
+        "decayHalfLifeTicks": 30,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "smoking"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.32,
+        "gainPerExposure": 0.067,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00369,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.18,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.009,
+        "maintenanceGainPerTick": 0.00108,
+        "recoveryPerTick": 0.00049,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.023,
+        "recoveryPerTick": 0.00057,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceptionUncertainty": 0.8,
+        "motorImpairment": 0.6,
+        "physiologicalStress": 0.22
+      }
+    },
+    {
+      "id": "dxm",
+      "displayName": "Dextromethorphan",
+      "class": "Dissociatives",
+      "reference": "Dissociative Game Index",
+      "gamePotencyIndex": 0.64,
+      "timeCourse": {
+        "riseTicks": 11,
+        "decayHalfLifeTicks": 35,
+        "residualTailFactor": 0.15,
+        "supportedRouteProfiles": [
+          "oral"
+        ],
+        "routeProfiles": {
+          "oral": {
+            "onsetScale": 1.35,
+            "exposureScale": 0.75
+          },
+          "intranasal": {
+            "onsetScale": 0.8,
+            "exposureScale": 0.83
+          },
+          "smoking": {
+            "onsetScale": 0.48,
+            "exposureScale": 0.84
+          },
+          "iv": {
+            "onsetScale": 0.24,
+            "exposureScale": 1.0
+          }
+        }
+      },
+      "tolerance": {
+        "familyCarryover": 0.24,
+        "gainPerExposure": 0.038,
+        "surgeGainMultiplier": 1.7,
+        "maintenancePlateauGain": 0.0,
+        "maintenanceWindowTicks": 40,
+        "recoveryPerTick": 0.00209,
+        "maxTolerance": 4.0,
+        "effectSensitivity": {
+          "reward": 1.0,
+          "speed": 0.7,
+          "stamina": 0.7,
+          "sedation": 0.45,
+          "motorImpairment": 0.35,
+          "physiologicalRisk": 0.2
+        },
+        "clearanceGainFraction": 0.16,
+        "highUseThreshold": 1.0
+      },
+      "dependence": {
+        "gainPerExposure": 0.011,
+        "maintenanceGainPerTick": 0.00132,
+        "recoveryPerTick": 0.0006,
+        "maxDependence": 4.0,
+        "withdrawalSensitivity": 0.0
+      },
+      "compulsiveness": {
+        "gainPerReward": 0.015,
+        "recoveryPerTick": 0.00038,
+        "cueSensitivity": 0.8,
+        "earlyRedoseLearningRate": 0.09,
+        "habitDecayPerTick": 0.002
+      },
+      "effects": {
+        "perceptionUncertainty": 0.8,
+        "motorImpairment": 0.6,
+        "physiologicalStress": 0.22
+      }
+    }
+  ],
+  "interactions": [
+    {
+      "id": "opioid-benzo",
+      "families": [
+        "Opioids",
+        "Benzodiazepines"
+      ],
+      "effectChannels": {
+        "sedation": 0.22,
+        "motorImpairment": 0.15,
+        "physiologicalStress": 0.38
+      },
+      "cap": 0.38,
+      "saturation": 0.95
+    },
+    {
+      "id": "opioid-stim",
+      "families": [
+        "Opioids",
+        "Stimulants"
+      ],
+      "effectChannels": {
+        "perceivedAlertness": 0.1,
+        "physiologicalStress": 0.19,
+        "motorImpairment": 0.08
+      },
+      "cap": 0.2,
+      "saturation": 1.1
+    },
+    {
+      "id": "benzo-stim",
+      "families": [
+        "Benzodiazepines",
+        "Stimulants"
+      ],
+      "effectChannels": {
+        "motorImpairment": 0.12,
+        "physiologicalStress": 0.13
+      },
+      "cap": 0.16,
+      "saturation": 1.0
+    },
+    {
+      "id": "stim-dissociative",
+      "families": [
+        "Stimulants",
+        "Dissociatives"
+      ],
+      "effectChannels": {
+        "perceptionUncertainty": 0.21,
+        "physiologicalStress": 0.15
+      },
+      "cap": 0.23,
+      "saturation": 1.15
+    },
+    {
+      "id": "opioid-dissociative",
+      "families": [
+        "Opioids",
+        "Dissociatives"
+      ],
+      "effectChannels": {
+        "motorImpairment": 0.23,
+        "physiologicalStress": 0.28
+      },
+      "cap": 0.31,
+      "saturation": 1.0
+    },
+    {
+      "id": "benzo-dissociative",
+      "families": [
+        "Benzodiazepines",
+        "Dissociatives"
+      ],
+      "effectChannels": {
+        "sedation": 0.16,
+        "motorImpairment": 0.18
+      },
+      "cap": 0.24,
+      "saturation": 1.0
+    }
+  ]
+}

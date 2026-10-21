@@ -1,0 +1,14 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1 Prototype",
+  "FriendlyName": "Bellhaven Substance Phone",
+  "Description": "In-game phone Substance Index browser panel with quick tooltips, detailed records, class sorting and Blueprint data bridge.",
+  "Category": "UI",
+  "CreatedBy": "Bellhaven",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [ { "Name": "BellhavenSubstancePhone", "Type": "Runtime", "LoadingPhase": "Default" } ],
+  "Plugins": [ { "Name": "WebBrowserWidget", "Enabled": true } ]
+}

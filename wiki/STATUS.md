@@ -1,0 +1,51 @@
+# Status
+
+Lead: wiki contract written. Agents start here.
+
+- [lead] wiki/README.md + CITY_MAP.md locked
+- [lead] wiki/product_families.md — analog kits + feel cards (cathinones/pyros, weird dissos, empathogens, phenidates). No opioids. No recipes. No 2C/NBOMe alphabet.
+- [lead] data bake: heightmap.r16, 4 splats, preview_color.bmp, roads.json, lights.csv (1189), trees.csv (3245)
+- [agent-height] wiki/height.md done
+- [agent-pois] wiki/pois.md done
+- [agent-signs] wiki/signs.md done
+- [agent-trees] wiki/trees.md done
+- [agent-lights] wiki/lights.md done
+- [agent-ground] wiki/ground.md done
+- [agent-unreal] wiki/unreal.md done
+- [agent-roads] wiki/roads.md done
+- [agent-buildings-industrial] done
+- [agent-gameplay] wiki/gameplay.md done
+- [check-A] PASS: 5 server js (4 real, names.js stub 14), 3 client (game.js real 238; html/css stubs); POST /api/inv/set → 403 rejectClientWrite; save() → data/inv_save.json; names 100/50; heightmap.r16 exists 8136578 bytes
+- [agent-buildings-fbx] done
+- [agent-buildings-housing] done
+- [agent-buildings-shops] done
+- [check-B] PASS — WASD POSTs /api/move; world.clampMove anti-teleport; KeyM map uses preview_color.bmp; 16 pool-named NPCs server-ticked; GET /api/state 200; POST /api/inv/set 403 server_owns_inventory
+- [check-C] 2026-10-21 `_check_c.js` PASS on the bake contract (346 roads, Cut stays depressed, 1862 lots). Still no `.uproject` / Landscape — that part is not done.
+- [lead] 2026-10-21 road graph: crossings → intersections (signal/stop/yield), snap or cul-de-sac (no dangling ends), hills + hillshade, bridges do not fill The Cut. Checks A/B/C are `_check_a.js` / `_check_b.js` / `_check_c.js`. No houses placed.
+- [lead] 2026-10-21 lots: city blocks ~108×100 (big buildings), residential ~60×50 (two houses), park/court + civic gaps. Pads locally benched. Swim breath 10.5s / 1.9 m/s — ocean around island, cannot reach special places. No houses placed.
+- [agent-interiors-house] 2026-10-21 wiki/interiors_house.md — 7 house templates (cottage/farm/townhouse/brick/semi/terrace/damaged), pockets at z−16, no load
+- [lead] 2026-10-21 bake: 346 roads, 770 intersections (0 dangling), 1862 lots (147 city / 910 house / 265 duplex / 209 park / 126 civic). Basement volume on 1322 pads. Checks A/B/C PASS. Spawned interiors-house, interiors-apt, housing-raid agents.
+- [agent-housing-raid] KeyE enter / KeyF exit + HUD `instanceId`≠`templateId`. Raid is that door’s pocket; two `int_townhouse` lots never share one interior.
+- [agent-roads-connect] 2026-10-21 connectors n-to-e / w-to-e / s-to-ring / s-to-e / w-to-harbor / w-to-coast / cut-south / cut-north. Graph: dangling=0, 349 roads, 806 intersections. N collectors↔E grid, W coast↔harbor-ave/I-9-west, S basin↔I-9 ring+E grid, bridges on both banks. No houses.
+- [agent-sector-south] 2026-10-21 wiki/sector_south.md done — Foundry Ward / Kiln inside I-9-ring; Foundry arterial; S meets E at Y=−200 and W in the NW lip.
+- [agent-sector-west] 2026-10-21 wiki/sector_west.md done — Pearl Row / Harbor (coast arterial, harbor, civic, brownstones, ferry; Cut bridges + I-9 west)
+- [agent-sector-north] 2026-10-21 wiki/sector_north.md done — Belvedere Heights street fabric, lot kinds, hills, still-needs-work
+- [check-A] PASS (independent): roads 346, lots 1862, intersections 770, heightmap.r16 8136578 (2017²×2); names 100/50 unique; 6 server js (5 real, names.js stub 15); client game.js real 304 / html+css stubs
+- [agent-interiors-apt] 2026-10-21 wiki/interiors_apt.md — KEEP studio 24 / 1bed 16 / walkup 12 per stack; city_block walk-ups 6–18; same-world unit pockets, no load.
+- [agent-height] 2026-10-21 terrain: island-wide 0.8–2.5 m / 40–120 m roll on land (east/south/docks/terrace included). Lot bench keeps the wave (~0.8–2.2 m on a 40 m lot, ~2–6% slope) plus 10–25 cm micro; no plastic plates. Cut / I-9 berm / bridges unchanged. No houses placed.
+- [agent-sector-east] 2026-10-21 wiki/sector_east.md done — Mason Flats grid, I-9-city spine, dock fingers
+- [agent-fly] 2026-10-21 KeyV fly/noclip: `player.fly`, clampMove skips water/ground/breath, 24 m/s cap, HUD FLY. Spawn land, fly off.
+- [check-B] 2026-10-21 independent PASS. Live 8787 already up (did not start). GET /api/state 200 npcs=16 named. POST /api/inv/set 403 server_owns_inventory. WASD→/api/move; clampMove exists; KeyM uses preview_color.bmp. Walk 8-dir from spawn works; teleport clamped. Fly is in source (`b.fly` → clampMove); live process ignores fly (no player.fly, z stays ground). `_check_b.js` PASS.
+- [lead] 2026-10-21 satellite: homemade GTA V B&W pause map. `_gen_sat.js` reads roads/lots/intersections/height + landMask, stamps every lot + KEEP pads from wiki/pois.md, writes `data/satellite.png` and `data/satellite_ui.jpg` (~1400px). Hooked at end of `_gen_terrain.js`. KeyM overlay is the satellite (drag/zoom/click lot → name/kind/district). Same island, no 3D house meshes.
+- [agent-clock] 2026-10-21 server-authoritative clock: 48 real min/day, 120 s/game hour, 2 s/game minute, 00:00–23:59 wrap. Starts 08:00. `/api/state` always includes `{ hour, minute, second, day, phase, t01 }`. Optional GET `/api/clock`. HUD HH:MM top-right. Fog/ambient tint by night/dawn/day/dusk. Does not pause in fly or interiors. In-memory.
+- [agent-phone] 2026-10-21 Bellhaven Mobile on Up arrow. Server owns prices, trades, photos, house claims, heat, and guns. Down closes only from the bottom row. Tab stays inventory.
+- [lead] 2026-10-21 color satellite is the default pause map. `_gen_sat.js` writes `data/satellite_color.png` + `data/satellite_color_ui.jpg` (hillshade + district tints: N green / W pale urban / E brick / S rust, dark-blue water, light roads, bright lot+KEEP footprints). Grayscale `satellite.png` / `satellite_ui.jpg` stay as a B&W toggle. `POST /api/build/place` `{ kind, x, y, w, h, district, name? }` appends `data/lots.json` then `bakeSatellite({ live: true })` in-process (no terrain spawn). Returns `{ lot, sat: { version, url } }`. Key M cache-busts `?v=` from `/api/state` sat version, reloads after place, polls every 3s. Map has COLOR/B&W, click-to-place, drop-house at player. `_gen_terrain.js` still bakes sat at the end.
+- [agent-substance-24] 2026-10-21 wiki/substance_research/24_lysergamides.md + .json — blotter clones vs actually-different analogues; 1P is the RC door; Orange Sunshine = LSD rumor; no recipes/doses
+- [agent-substance-14] 2026-10-21 wiki/substance_research/14_dissos_mxe_oxopce.md + .json — Kit L MXE-likes + Kit N O-PCE only; 3DMXE=DMXE; no recipes/doses
+- [agent-substance-24] 2026-10-21 wiki/substance_research/24_lysergamides.md + .json — lysergamide catalog, no recipes/doses. 29 SKUs + Orange Sunshine alias. 1P-LSD confirmed LSD prodrug; ALD-52/1cP/1B/1V/1T/1S likely coats. AL-LAD/ETH-LAD/PRO-LAD/LSZ/MIPLA distinct.
+- [agent-substance-13] 2026-10-21 wiki/substance_research/13_disso_ketamine.md + .json — Kit K ket-likes, 15 distinct, no recipes/doses, FXE≠CanKet merge table
+- [agent-substance-11-12] 2026-10-21 wiki/substance_research/11_12_empathogens.md + .json — Kits O+P MDMA/APB/MAPB/MDAI, closest-copy rank 5-MAPB then 6-MAPB/MDAI split, no recipes/doses
+- [agent-substance-17] 2026-10-21 wiki/substance_research/17_dissos_diaryl_other.md + .json — Kit W diaryls + DXM/N2O/memantine; families separate; remembered: ephenidine > MXP sticker > diphenidine; no recipes/doses
+- [agent-substance-25-26] 2026-10-21 wiki/substance_research/25_26_sedatives.md + .json — 184 non-opioid sedatives (91 benzo-kin / 93 other). Independent enjoy vs compulsiveness (clonazolam 18/94). Fun rack: ludes/G, not bars. No opioids/recipes/doses.
+- [agent-substance-21-23] 2026-10-21 wiki/substance_research/21_23_tryptamines.md + .json — tryptamines 81 SKUs (21 n=16 / 22 n=33 / 23 n=32). Enjoyment/euphoria lead; 5-MeO-DMT freight train not pyro; compulsiveness low; no recipes/doses/lysergamides/opioids.
+- [agent-substance-18-20] 2026-10-21 wiki/substance_research/18_20_phenethylamine_psychs.md + .json — Kits Q/R/S; 116 named IDs (48 2C / 40 N-benzyl / 28 DOx+FLY). UI 16 + scare BDF. v1 dealer: 2C-B, 2C-E, 25I-NBOMe. Receptor ≠ human on NBOMe. No recipes/doses/opioids.

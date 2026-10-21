@@ -1,0 +1,12 @@
+{
+  "name": "bellhaven-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local sim server for Bellhaven: inventory, walk, NPCs",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "terrain": "node _gen_terrain.js",
+    "sat": "node _gen_sat.js"
+  }
+}

@@ -1,0 +1,93 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: #0a1218; font-family: Consolas, monospace; color: #e8e4d8; }
+#view { display: block; width: 100%; height: 100%; }
+#hud { position: fixed; inset: 0; pointer-events: none; }
+#cross { position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; border: 1px solid #fff; border-radius: 50%; opacity: .5; }
+#hint { position: absolute; left: 16px; bottom: 16px; font-size: 12px; opacity: .75; }
+#raid { position: absolute; left: 16px; top: 16px; font-size: 12px; opacity: .85; text-shadow: 0 1px 3px #000; max-width: 70vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#nameplate { position: absolute; left: 50%; top: 18%; transform: translateX(-50%); font-size: 14px; text-shadow: 0 1px 4px #000; }
+#map, #inv { position: fixed; background: rgba(8,10,12,.92); border: 1px solid #4a4034; }
+#map { left: 50%; top: 50%; transform: translate(-50%,-50%); width: min(92vw, 92vh); height: min(92vw, 92vh); pointer-events: auto; overflow: hidden; z-index: 30; }
+#mapview { position: absolute; inset: 0; overflow: hidden; cursor: grab; }
+#mapview.drag { cursor: grabbing; }
+#mapstage { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
+#mapstage img { display: block; width: 1400px; height: 1400px; image-rendering: auto; }
+#mapdots { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.maplabel { position: absolute; left: 12px; top: 8px; letter-spacing: .2em; font-size: 12px; pointer-events: none; color: #f4efe2; text-shadow: 0 1px 4px #000; }
+#mapbar { position: absolute; left: 12px; top: 28px; display: flex; flex-wrap: wrap; gap: 6px; z-index: 4; pointer-events: auto; }
+#mapbar button { background: rgba(8,10,12,.88); color: #e8e4d8; border: 1px solid #5a4a32; padding: 4px 8px; font: 11px Consolas, monospace; cursor: pointer; }
+#mapbar button.on { outline: 1px solid #c9a227; color: #ffe7a0; }
+#maphint { position: absolute; right: 12px; bottom: 8px; font-size: 10px; opacity: .75; pointer-events: none; letter-spacing: .08em; color: #e8e4d8; text-shadow: 0 1px 3px #000; }
+#maptip { position: absolute; left: 12px; bottom: 10px; max-width: 72%; font-size: 13px; color: #ffe7a0; background: rgba(6,8,10,.92); border: 1px solid #c9a227; padding: 7px 10px; pointer-events: none; text-shadow: none; }
+#inv { right: 16px; top: 16px; width: 320px; padding: 12px; pointer-events: auto; }
+#inv h2 { margin: 0 0 6px; font-size: 16px; }
+.sub { margin: 0 0 10px; font-size: 11px; opacity: .65; }
+#slots { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+.slot { min-height: 46px; background: #1a1612; border: 1px solid #3a3228; font-size: 10px; padding: 4px; }
+.slot.on { outline: 1px solid #c9a227; }
+#give { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+#give button { background: #2a241c; color: #e8e4d8; border: 1px solid #5a4a32; padding: 4px 8px; cursor: pointer; }
+#invlog { font-size: 10px; white-space: pre-wrap; max-height: 80px; overflow: auto; }
+#clock { position: absolute; right: 16px; top: 16px; font-size: 15px; letter-spacing: .16em; font-variant-numeric: tabular-nums; text-shadow: 0 1px 4px #000, 0 0 8px #000; opacity: .92; }
+#fly { position: absolute; right: 16px; top: 40px; font-size: 14px; letter-spacing: .28em; color: #7fe3a0; text-shadow: 0 1px 4px #000; }
+#breath { position: absolute; left: 50%; bottom: 48px; transform: translateX(-50%); width: 180px; height: 10px; background: #12202c; border: 1px solid #4a7a9a; }
+#breathfill { height: 100%; width: 100%; background: #3cb4d8; }
+#breath span { position: absolute; left: 0; top: -14px; font-size: 10px; letter-spacing: .15em; opacity: .8; }
+.hidden { display: none !important; }
+#vitals { position: absolute; right: 16px; top: 40px; font-size: 12px; letter-spacing: .08em; text-shadow: 0 1px 4px #000; }
+#toast { position: absolute; left: 50%; top: 28%; transform: translateX(-50%); background: rgba(6,8,10,.88); border: 1px solid #c9a227; color: #ffe7a0; padding: 8px 12px; font-size: 13px; }
+#phone { position: fixed; inset: 0; z-index: 40; display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,.45); pointer-events: auto; }
+#phonecase { position: relative; width: min(390px, 94vw); height: min(820px, 94vh); border-radius: 36px; overflow: hidden; background: #07090d; box-shadow: 0 20px 80px rgba(0,0,0,.55), inset 0 0 0 2px #2a2e34; color: #f4f1ea; font-family: "Segoe UI", sans-serif; }
+#phonewall { position: absolute; inset: 0; background: #101820 url("/client/phone/wall.jpg") center/cover no-repeat; }
+#phonewall::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.25), rgba(0,0,0,.05) 30%, rgba(0,0,0,.45)); }
+.pstatus, .pbrand, #phonehome, #phoneapp, #phonedock, #phonehelp { position: relative; z-index: 1; }
+.pstatus { display: flex; justify-content: space-between; align-items: center; padding: 14px 22px 0; font-size: 15px; font-weight: 600; text-shadow: 0 1px 4px #000; }
+.psig { font-size: 12px; letter-spacing: .14em; display: flex; align-items: center; gap: 6px; }
+.batt { width: 22px; height: 10px; border: 1px solid #fff; border-radius: 2px; position: relative; }
+.batt::after { content: ""; position: absolute; inset: 1px 4px 1px 1px; background: #fff; }
+.pbrand { display: flex; justify-content: space-between; align-items: flex-start; padding: 18px 22px 8px; text-shadow: 0 2px 8px #000; }
+.pbrand b { display: block; letter-spacing: .18em; font-weight: 600; font-size: 18px; }
+.pbrand small, .pwx small { display: block; letter-spacing: .22em; font-size: 10px; opacity: .85; }
+.pwx { text-align: right; }
+.pwx b { letter-spacing: 0; font-size: 22px; }
+#phonehome { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px 12px; padding: 18px 22px 0; }
+#phonehome .app, #phonedock .app { position: relative; display: flex; flex-direction: column; align-items: center; gap: 6px; background: none; color: inherit; cursor: pointer; }
+.ico { position: relative; width: 62px; height: 62px; border-radius: 16px; display: block; background: #333 center/70% no-repeat; box-shadow: 0 8px 16px rgba(0,0,0,.28); }
+.ico::after { content: ""; position: absolute; inset: 0; display: grid; place-items: center; font-size: 28px; }
+.c-contacts::after { content: "👤"; }
+.c-messages::after { content: "💬"; }
+.c-camera::after { content: "📷"; }
+.c-harbor::after { content: "🏛"; }
+.c-corner::after { content: "👜"; }
+.c-wick::after { content: "₿"; color: #fff; font-weight: 700; }
+.c-properties::after { content: "📈"; }
+.c-boxly::after { content: "📦"; }
+.c-loop::after { content: "📡"; }
+.c-call::after { content: "📞"; }
+.c-compass::after { content: "🧭"; }
+.c-settings::after { content: "⚙"; color: #fff; }
+#phonedock .ico { width: 52px; height: 52px; border-radius: 14px; }
+.badge { position: absolute; top: -4px; right: calc(50% - 40px); min-width: 18px; height: 18px; padding: 0 5px; border-radius: 9px; background: #ff3b30; color: #fff; font-style: normal; font-size: 11px; line-height: 18px; text-align: center; }
+.app.on .ico { outline: 3px solid #ffe7a0; outline-offset: 3px; }
+.lbl { font-size: 12px; text-shadow: 0 1px 4px #000; }
+#phonedock { position: absolute; left: 16px; right: 16px; bottom: 36px; height: 76px; border-radius: 24px; background: rgba(40,40,46,.55); backdrop-filter: blur(10px); display: flex; align-items: center; justify-content: space-evenly; }
+#phonehelp { position: absolute; left: 0; right: 0; bottom: 10px; text-align: center; font-size: 10px; letter-spacing: .06em; opacity: .8; text-shadow: 0 1px 3px #000; }
+#phoneapp { position: absolute; left: 12px; right: 12px; top: 108px; bottom: 28px; background: rgba(10,12,16,.9); border-radius: 18px; overflow: auto; padding: 12px; }
+#phoneapp-title { font-size: 18px; letter-spacing: .08em; margin-bottom: 6px; }
+#phonenote { min-height: 16px; color: #ffe7a0; font-size: 12px; margin-bottom: 8px; }
+.prow { padding: 10px 8px; border-bottom: 1px solid rgba(255,255,255,.08); cursor: pointer; }
+.prow.on { background: rgba(201,162,39,.2); border-radius: 8px; }
+.prow b { display: block; font-weight: 600; }
+.prow span { display: block; opacity: .75; font-size: 12px; margin-top: 2px; }
+.c-contacts { background-color: #34c759; }
+.c-messages { background-color: #30d158; }
+.c-camera { background-color: #3a3a3c; }
+.c-harbor { background-color: #0a84ff; }
+.c-corner { background-color: #bf5af2; }
+.c-wick { background-color: #ff9f0a; }
+.c-properties { background-color: #0a84ff; }
+.c-boxly { background-color: #a2845e; }
+.c-loop { background-color: #ff375f; }
+.c-outlet { background: #1f8a4c url("/client/phone/outlet.png") center/cover no-repeat; }
+.c-call { background-color: #34c759; }
+.c-compass { background-color: #0a84ff; }
+.c-settings { background-color: #8e8e93; }

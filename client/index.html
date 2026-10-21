@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bellhaven — local walk</title>
+  <link rel="stylesheet" href="/client/style.css" />
+</head>
+<body>
+  <canvas id="view"></canvas>
+  <div id="hud">
+    <div id="cross"></div>
+    <div id="hint">WASD walk · Shift sprint · V fly · E door · F exit · ↑ phone · M map · Tab inventory · G take gun · click shoots</div>
+    <div id="vitals" class="hidden"></div>
+    <div id="toast" class="hidden"></div>
+    <div id="raid">raid: …</div>
+    <div id="nameplate"></div>
+    <div id="clock">08:00</div>
+    <div id="fly" class="hidden">FLY</div>
+    <div id="breath" class="hidden"><div id="breathfill"></div><span>BREATH</span></div>
+  </div>
+  <div id="map" class="hidden">
+    <div id="mapview">
+      <div id="mapstage">
+        <img id="mapimg" src="/data/satellite_color_ui.jpg" alt="Bellhaven satellite" />
+      </div>
+      <canvas id="mapdots"></canvas>
+    </div>
+    <div class="maplabel">BELLHAVEN</div>
+    <div id="mapbar">
+      <button id="mapcolor" class="on" type="button">COLOR</button>
+      <button id="mapgray" type="button">B&amp;W</button>
+      <button id="mapplace" type="button">click to place</button>
+      <button id="mapdrop" type="button">drop house</button>
+    </div>
+    <div id="maphint">drag · wheel zoom · click a lot · shift-click place</div>
+    <div id="maptip" class="hidden"></div>
+  </div>
+  <div id="inv" class="hidden">
+    <h2>Server inventory</h2>
+    <p class="sub">This box is not yours to write. The machine server owns it.</p>
+    <div id="slots"></div>
+    <div id="give">
+      <button data-item="cash">give cash</button>
+      <button data-item="bag_empty">give bag</button>
+      <button data-item="brick_wrap">give wrap</button>
+      <button data-item="key_house">give key</button>
+      <button data-item="phone">give phone</button>
+      <button data-item="mask">give mask</button>
+      <button data-item="gun_pistol">give gun</button>
+      <button data-item="cocaine">give coke</button>
+    </div>
+    <pre id="invlog"></pre>
+  </div>
+  <div id="phone" class="hidden">
+    <div id="phonecase">
+      <div id="phonewall"></div>
+      <div class="pstatus">
+        <div id="phone-time">8:00 AM</div>
+        <div class="psig">BH <span class="batt"></span></div>
+      </div>
+      <div class="pbrand">
+        <div><b>BELLHAVEN</b><small>MOBILE</small></div>
+        <div class="pwx"><b>62°</b><small>Bellhaven</small></div>
+      </div>
+      <div id="phonehome">
+        <div class="app" data-app="contacts" data-row="0" data-col="0"><span class="ico c-contacts"></span><span class="lbl">Contacts</span></div>
+        <div class="app" data-app="messages" data-row="0" data-col="1"><span class="ico c-messages"></span><span class="lbl">Messages</span><i class="badge" data-badge="messages"></i></div>
+        <div class="app" data-app="camera" data-row="0" data-col="2"><span class="ico c-camera"></span><span class="lbl">Camera</span></div>
+        <div class="app" data-app="harbor" data-row="1" data-col="0"><span class="ico c-harbor"></span><span class="lbl">Harbor</span><i class="badge" data-badge="harbor"></i></div>
+        <div class="app" data-app="corner" data-row="1" data-col="1"><span class="ico c-corner"></span><span class="lbl">Corner</span></div>
+        <div class="app" data-app="wick" data-row="1" data-col="2"><span class="ico c-wick"></span><span class="lbl">Wick</span></div>
+        <div class="app" data-app="properties" data-row="2" data-col="0"><span class="ico c-properties"></span><span class="lbl">Properties</span></div>
+        <div class="app" data-app="boxly" data-row="2" data-col="1"><span class="ico c-boxly"></span><span class="lbl">Boxly</span></div>
+        <div class="app" data-app="loop" data-row="2" data-col="2"><span class="ico c-loop"></span><span class="lbl">Loop</span><i class="badge" data-badge="loop"></i></div>
+        <div class="app" data-app="outlet" data-row="3" data-col="0"><span class="ico c-outlet"></span><span class="lbl">Outlet</span></div>
+      </div>
+      <div id="phoneapp" class="hidden">
+        <div id="phoneapp-title"></div>
+        <div id="phonenote"></div>
+        <div id="phoneapp-list"></div>
+      </div>
+      <div id="phonedock">
+        <div class="app dock" data-app="call" data-dock="0"><span class="ico c-call"></span></div>
+        <div class="app dock" data-app="compass" data-dock="1"><span class="ico c-compass"></span></div>
+        <div class="app dock" data-app="settings" data-dock="2"><span class="ico c-settings"></span></div>
+      </div>
+      <div id="phonehelp">arrows move · ↓ at the bottom closes</div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="/client/game.js"></script>
+  <script src="/client/phone.js"></script>
+</body>
+</html>
