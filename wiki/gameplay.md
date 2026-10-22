@@ -1,8 +1,10 @@
-# Bellhaven — local machine server
+# Bellhaven — launch authority (localhost)
 
-Owner: **agent-gameplay**. This is the **in-process / localhost sim** for walking Port Rook, not Unreal. World size, origin, and districts stay in `wiki/README.md`. KEEP pads stay in `wiki/pois.md`. Do not invent extra POIs or real-world city names.
+Owner: **agent-gameplay**. This is the **server-authoritative layer for the Unreal online game**, bound to this machine until dedicated replace it. It is **not** the player client. HTML on `/` is a debug harness so we can test the API before Unreal talks to it. Do not ship features only in the browser and call that TrapRaiders.
 
-Coords: meters, island center, **+X east, +Y north, +Z up**. Client Three.js maps world Y onto −Z.
+World size, origin, and districts stay in `wiki/README.md` + `wiki/PRODUCT.md`. KEEP pads stay in `wiki/pois.md`. Do not invent extra POIs or real-world city names.
+
+Coords: meters, island center, **+X east, +Y north, +Z up**. The debug canvas maps world Y onto −Z. Unreal uses cm (`×100`).
 
 ---
 
@@ -13,12 +15,13 @@ Coords: meters, island center, **+X east, +Y north, +Z up**. Client Three.js map
 | Kind | **local-machine** (`server: "local-machine"` on `/api/state`) |
 | Host | **127.0.0.1** only |
 | Port | **8787** (`PORT` env overrides) |
-| Start | `npm start` → `node server/index.js` |
-| Client | `http://127.0.0.1:8787` (`/` → `client/index.html`) |
+| Start | `npm start` → `node server/index.js` from `Z:\AI Hangout\TrapRaiders` |
+| Debug view | `http://127.0.0.1:8787` (`/` → `client/index.html`) — **not the game** |
+| Real client | Unreal pawn in `TrapRaiders.uproject` (not wired yet) |
 
-The process serves `client/` and `data/` as static files. CORS is open for the local page. This is a same-machine authority, not a public host.
+The process serves `client/` and `data/` as static files so the harness can run. CORS is open for the local page. Same-machine authority, not a public host. Do not start a second listener (`EADDRINUSE`). Recycle the one PID.
 
-Player spawn: **(−720, 280)** at Port Rook City Hall (W), `z` from `data/height_lo.json`.
+Player spawn (authoritative): Pearl / Harbor civic pad **(−960, 520)**, `z` from height (~23). Old **(−720, 280)** is the canal — do not use it.
 
 ---
 
@@ -29,8 +32,9 @@ Click the canvas to **pointer-lock** look. Movement posts a wish to the server; 
 | Key | Action |
 |---|---|
 | **WASD** | Walk. W/S along look yaw, A/D strafe. No move until pointer-lock. |
-| **Shift** | Sprint. Client wish ~8.2 m/s; server allows **8.4** (`SPRINT`). Walk is **5.2** (`WALK`). |
-| **M** | Toggle map overlay. |
+| **Shift** | Run. Ground walk **~1.65** m/s, run **~5.2** (`WALK` / `SPRINT`). Fly is faster. |
+| **Space** | Jump (when not flying). |
+| **M** | Debug sat overlay. Terrain in this harness is the height sample, not UE Landscape. |
 | **Tab** | Toggle inventory. Prevents default focus change. |
 | **↑** | Open Bellhaven Mobile if you have a burner. Arrows move. **↓** closes it only from the bottom row (the dock, or the last row inside an app). **Enter** opens the highlighted app. |
 | **1–0** | With inventory open, select slots 0–9. |
@@ -70,7 +74,7 @@ HUD: always-visible digital **HH:MM**, top-right (GTA-ish, small). Fog / ambient
 
 ## Map (M)
 
-Overlay on the homemade GTA-style **black-and-white satellite** (`data/satellite_ui.jpg`, full bake `data/satellite.png`). Not `preview_color.bmp`. Land is mid-gray with hillshade, water near-black, roads light, highways brighter, parks darker, lot footprints pale/white. No color districts.
+**M is a debug overlay**, not Unreal. Color sat under `data/satellite_color_ui.jpg` is the pause-map sketch. Landscape import is `wiki/unreal.md`.
 
 **Interactable:** mouse drag pans, wheel zooms (cursor-centered). Click a lot or KEEP pad to show **name / kind / district** from `/data/lots.json` (KEEP names from `wiki/pois.md` via `data/keep_pads.json`). Yellow player blip with heading; NPCs are small light dots.
 
@@ -147,9 +151,9 @@ A nameplate shows the nearest NPC within **4 m**.
 | `server/inventory.js` | authoritative slots |
 | `server/names.js` | 100 / 50 pool |
 | `server/npcs.js` | named walkers |
-| `client/index.html` `game.js` | WASD / M / Tab view |
+| `client/index.html` `game.js` | **debug harness only** — WASD / M / Tab / phone |
 | `data/names.json` | pools |
 | `data/inv_save.json` | last server inventory |
-| `data/height_lo.json` | walk mesh |
+| `data/height_lo.json` | authority height sample |
 
-Unreal import is `wiki/unreal.md`. This localhost walk does not replace the landscape project.
+Unreal is the game (`wiki/unreal.md`, `wiki/PRODUCT.md`). This process is the authority the Unreal client will call.

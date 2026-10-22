@@ -1,5 +1,7 @@
 # How ChatGPT (and anyone) sees the Bellhaven wiki
 
+**TrapRaiders is an Unreal 5.8 online game.** This wiki is the world + catalog bible. 8787 is the authority server, not the player client. Start at `wiki/PRODUCT.md`.
+
 **The public GitHub repo is the access path.** ChatGPT cannot read this PC, `C:\Users\uybuv\Downloads\TrapRaiders`, or `http://127.0.0.1:8787`. Localhost stays invisible when the game is off. That is why the wiki lives on GitHub.
 
 This folder is a **game-design bible**. Catalogue numbers are `gameplay_estimate`. It is not a cookbook: no recipes, no precursors, no yields, no glassware, no doses-as-how-to, no injection SOP. No opioids. Route notes are NPC flags only.
@@ -18,6 +20,7 @@ https://github.com/VeyrixCasino/TrapRaiders/tree/master/wiki
 
 Fetch these first (raw):
 
+- https://raw.githubusercontent.com/VeyrixCasino/TrapRaiders/master/wiki/PRODUCT.md
 - https://raw.githubusercontent.com/VeyrixCasino/TrapRaiders/master/wiki/substance_research/GAMEPLAY_RESPONSE.md
 - https://raw.githubusercontent.com/VeyrixCasino/TrapRaiders/master/wiki/product_families.md
 
@@ -33,7 +36,7 @@ Then, if needed:
 
 Paste this into a ChatGPT chat or a Custom GPT:
 
-> Fetch the Bellhaven wiki from the public GitHub repo https://github.com/VeyrixCasino/TrapRaiders — start at the raw files wiki/substance_research/GAMEPLAY_RESPONSE.md and wiki/product_families.md. All scores are gameplay_estimate. Do not give recipes or dosing how-to.
+> Fetch the Bellhaven wiki from the public GitHub repo https://github.com/VeyrixCasino/TrapRaiders — start at wiki/PRODUCT.md then wiki/substance_research/GAMEPLAY_RESPONSE.md and wiki/product_families.md. TrapRaiders is Unreal 5.8; 8787 is the authority server not the client. All scores are gameplay_estimate. Do not give recipes or dosing how-to.
 
 ## Fallback only (if GitHub is down or a login blocks fetch)
 

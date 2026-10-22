@@ -211,6 +211,6 @@ No stadium. No subway. No fifth apartment stack.
 3. **North AABB overrun.** City row **Y 1140** is 40 m past (1900, 1100). Treat it as baked fabric, not a sixth district.
 4. **I-9-city cuts the lattice.** Missing 108 × 100 cells along the diagonal are highway, not empty lots to refill.
 5. **Rust Finger is the only dock cul-de-sac.** Other fingers may meet water. Do not snap them inland or add a waterfront freeway.
-6. **No `.uproject` / Landscape yet.** Heightmap, roads, and lots exist as bake. Import is `wiki/unreal.md`.
+6. **`.uproject` exists; Landscape not imported.** Heightmap, roads, and lots exist as bake. Import is `wiki/unreal.md`.
 
 Do not edit `_gen_*.js`, server, or client from this file.

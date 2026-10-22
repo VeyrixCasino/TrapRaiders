@@ -26,4 +26,4 @@ Ran `_check_c.js` 2026-10-21T21:16:49.676Z. This line still does **not** claim a
 
 ## Still missing for real terrain
 
-No `.uproject`, no Landscape actor, no water mesh, no streetlight / signal meshes. Bake + graph only.
+`.uproject` **exists** (`Z:\AI Hangout\TrapRaiders 5.8\TrapRaiders.uproject`). **Landscape is not imported.** No water mesh, no streetlight / signal meshes in the editor. Bake + graph are ready to import (`wiki/unreal.md`). The Node canvas is not terrain.

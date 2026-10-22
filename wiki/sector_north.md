@@ -130,6 +130,6 @@ No N apartments. Housing KEEP in this district is **2 mansions + 1 house**.
 4. **Every N door faces S**, including park and civic rows that should not be raid doors (`housing.md`: park / civic have no template). Cul-de-sac and north-facing lots need real facings later.
 5. **Club terrace is sculpt, not a lot.** Flatten 32–38 m in Unreal; do not invent a civic “club” KEEP. Civic pads are anonymous 40 × 36 gaps.
 6. **South AABB is empty of pads** (Y 400–680). Oriole Crossing + Peak Pump live there. Do not flood that band with house lots.
-7. **No `.uproject` / Landscape yet.** Heightmap, roads, and lots exist as bake. Import is `wiki/unreal.md`.
+7. **`.uproject` exists; Landscape not imported.** Heightmap, roads, and lots exist as bake. Import is `wiki/unreal.md`.
 
 Do not edit `_gen_*.js`, server, or client from this file.

@@ -1,6 +1,6 @@
 # Unreal — Bellhaven import
 
-Owner: **agent-unreal**. This is the import / project playbook. World spec lives in `wiki/README.md`. Sculpt target in `wiki/height.md`. Do not invent POIs, street names, or extra landscape layers.
+Owner: **agent-unreal**. **This is the game.** World spec: `wiki/README.md` + `wiki/PRODUCT.md`. Sculpt: `wiki/height.md`. Do not invent POIs, street names, or extra landscape layers. Do not treat Node HTML as the player client.
 
 ## Machine check (this PC)
 
@@ -10,40 +10,26 @@ Owner: **agent-unreal**. This is the import / project playbook. World spec lives
 | Unreal Engine 5 | **Installed** — **UE 5.8.3** at `C:\UE\UE_5.8` |
 | Editor | `C:\UE\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe` |
 | PCG plugin | Present under `Engine\Plugins\PCG` |
-| Blank templates | `TP_Blank` / `TP_BlankBP` |
-| `TrapRaiders.uproject` | **Missing** — this folder is an FBX dump + wiki |
-| `TrapRaiders/data/` | **Not written yet** — import from here once height / splat / JSON / CSV land |
+| **The game `.uproject`** | **`Z:\AI Hangout\TrapRaiders 5.8\TrapRaiders.uproject`** |
+| Newer plugin copy | `Z:\UnrealProjects\TrapRaiders\TrapRaiders.uproject` (Sloyd, phone, Interchange) |
+| Bake to import | `Z:\AI Hangout\TrapRaiders\data\heightmap.r16` (2017²), `roads.json`, `lots.json`, splat bmps |
+| House meshes already in Content | `Content/SloydModels/` (brick/farm/terrace/town/trap) |
 
-Registry still lists a dead UE **4.0** path (`C:\Program Files\Epic Games\4.0\`). Ignore it. No `UnrealEditor.exe` under Program Files. Use **5.8 only**.
+Registry still lists a dead UE **4.0** path (`C:\Program Files\Epic Games\4.0\`). Ignore it. Use **5.8 only**. Desktop `Trap Raiders (UE 5.8).bat` pointing at `C:\TrapRaiders 5.8` is **stale** — do not use it.
 
-If this engine is ever uninstalled, recreate it from Epic Launcher → Unreal Engine → Library → **Engine Versions → +** → install **5.8** to `C:\UE\UE_5.8`, then repeat the project steps below.
+**Hole:** Landscape is **not** imported. Maps `TrapRaiders.umap` / `TrapRaiders2.umap` are starter tiles. Next job is section 3, not “create a blank project.”
+
+If this engine is ever uninstalled, recreate it from Epic Launcher → Unreal Engine → Library → **Engine Versions → +** → install **5.8** to `C:\UE\UE_5.8`.
 
 ---
 
-## 1. Create the blank UE5 project (no `.uproject` yet)
+## 1. Project already exists — do not make another
 
-Do **not** create the project inside `C:\Users\uybuv\Downloads\TrapRaiders`. That folder already holds 19 FBXs, installers, and the wiki. Keep it as the **source dump**. Put the engine project next to Documents.
+**Open** `Z:\AI Hangout\TrapRaiders 5.8\TrapRaiders.uproject`. Do **not** File→New a second TrapRaiders under Documents.
 
-### From Epic Launcher
+Bake originals stay in `Z:\AI Hangout\TrapRaiders\data\` (and the Cursor/Downloads copy). Junction or copy into `/Game/Bellhaven/Data` when importing.
 
-1. Open **Epic Games Launcher**.
-2. **Unreal Engine → Library → Launch** on **5.8**.
-3. Project Browser → **Games → Blank**.
-4. **Blueprint** (C++ not required for graybox import).
-5. **Project Name:** `TrapRaiders`
-6. **Location:** `C:\Users\uybuv\Documents\Unreal Projects`
-7. **Starter Content:** off. **Ray Tracing:** off.
-8. Create. Target file: `C:\Users\uybuv\Documents\Unreal Projects\TrapRaiders\TrapRaiders.uproject`
-
-### From the editor binary (same result)
-
-```
-"C:\UE\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe"
-```
-
-Then **Games → Blank**, name `TrapRaiders`, same location.
-
-### First-open project settings
+### First-open project settings (if a setting is missing)
 
 1. **Edit → Plugins** — enable **Procedural Content Generation Framework (PCG)**. Restart if asked.
 2. **Edit → Project Settings → Engine → Rendering**: leave defaults. Do not turn on Lumen/Nanite requirements for graybox.
@@ -62,21 +48,21 @@ Then **Games → Blank**, name `TrapRaiders`, same location.
 /Game/Bellhaven/Data
 ```
 
-5. Copy (or junction) source data into the project when it exists:
+5. Copy (or junction) bake data:
 
 ```
-<uproject>/Content/Bellhaven/Data/   ← copies of TrapRaiders/data/*
+<uproject>/Content/Bellhaven/Data/   ← Z:\AI Hangout\TrapRaiders\data\*
 ```
 
-Keep the wiki copies in `C:\Users\uybuv\Downloads\TrapRaiders\data\` as the authoring originals (PNG + JSON/CSV only).
+Authoring originals: `Z:\AI Hangout\TrapRaiders\data\` (PNG + JSON/CSV + `heightmap.r16`). Downloads copy is a working tree, not the only copy.
 
 ---
 
 ## 2. Open World + World Partition map
 
-Blank BP templates start with an old-style persistent level. Replace it.
+Starter maps `TrapRaiders.umap` / `TrapRaiders2.umap` are **not** Bellhaven. Make (or switch to) an Open World map named Bellhaven. Do not delete Sloyd meshes.
 
-1. **File → New Level → Open World**. This creates a **World Partition** map with a streaming grid and an empty landscape-ready world.
+1. **File → New Level → Open World** if `/Game/Bellhaven/Maps/Bellhaven` does not exist.
 2. **File → Save Current Level As…** → `/Game/Bellhaven/Maps/Bellhaven`
 3. **Window → World Settings**: confirm **Enable World Partition** is on. One landscape for v1 — do not split into multiple Landscape actors.
 4. **Window → World Partition**: set **Cell Size** to **25600** (256 m). Loading range **51200** is enough for a 4 km island.
@@ -87,7 +73,7 @@ Blank BP templates start with an old-style persistent level. Replace it.
 
 ## 3. Heightmap — 2017×2017 r16, 200 cm/quad
 
-Source (when written): `TrapRaiders/data/height.r16` (or 16-bit `height.png`). Spec: `wiki/height.md`.
+Source (**already written**): `Z:\AI Hangout\TrapRaiders\data\heightmap.r16` (2017×2017, 8136578 bytes). Spec: `wiki/height.md`. Encoding: `raw = 32768 + Z_m * 100`.
 
 **Why 2017:** Unreal valid size `16 components × 2 sections × 63 quads + 1 = 2017`.
 

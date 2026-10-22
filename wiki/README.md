@@ -1,8 +1,8 @@
 # Bellhaven Wiki
 
-**No terrain is in the game.** The live map is a blank plate (`data/blank_map.png`). Roads, height, lots, and district sculpts in this wiki are the spec for later. They are not the ground you walk.
+**Read `wiki/PRODUCT.md` first.** TrapRaiders is an **Unreal 5.8 online game**. 8787 is the launch **authority server**, not a second client. This wiki is the world + catalog bible. Height/roads/lots in `data/` are the Landscape **import spec** — they are not “the game” until they sit in the `.uproject`.
 
-Single source of truth. Every agent **reads this first** and **only writes their assigned file**. Do not edit another agent’s file. Append a dated line to `wiki/STATUS.md` when you finish.
+Every agent **reads PRODUCT.md then this file** and **only writes their assigned file**. Do not edit another agent’s file. Append a dated line to `wiki/STATUS.md` when you finish.
 
 ## World
 
@@ -27,6 +27,7 @@ Single source of truth. Every agent **reads this first** and **only writes their
 
 | Path | Owner | What |
 |---|---|---|
+| `wiki/PRODUCT.md` | lead | Unreal = the game; 8787 = authority |
 | `wiki/README.md` | lead | this contract |
 | `wiki/STATUS.md` | everyone appends | one line when done |
 | `wiki/height.md` | agent-height | hills, heightmap notes |
@@ -45,7 +46,7 @@ Data goes in `TrapRaiders/data/` (baked):
 - `splat_green/urban/brick/dirt.bmp` — layer weights
 - `roads.json` `lights.csv` `trees.csv` `signs.csv` `meta.json`
 
-UE 5.8 is at `C:\UE\UE_5.8`. No `.uproject` yet — see `wiki/unreal.md`.
+UE 5.8 is at `C:\UE\UE_5.8`. **The game project exists:** `Z:\AI Hangout\TrapRaiders 5.8\TrapRaiders.uproject`. Landscape import is **not done** — see `wiki/unreal.md`. Do not create a new blank project.
 
 ## KEEP POIs (do not invent extras)
 

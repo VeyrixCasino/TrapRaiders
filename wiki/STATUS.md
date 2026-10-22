@@ -1,5 +1,7 @@
 # Status
 
+**2026-10-22 PRODUCT LOCK:** TrapRaiders is Unreal 5.8 online. 8787 is the launch authority, not a second game. Read `wiki/PRODUCT.md`. `.uproject` exists at `Z:\AI Hangout\TrapRaiders 5.8`. Landscape **not** imported. Do not add HTML features and call that shipped. Older lines below that say “no `.uproject`” or “no terrain in the live game / blank plate as the product” are **stale**.
+
 Lead: wiki contract written. Agents start here.
 
 - [lead] wiki/README.md + CITY_MAP.md locked
