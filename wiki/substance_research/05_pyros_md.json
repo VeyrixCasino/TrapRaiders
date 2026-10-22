@@ -1,0 +1,1176 @@
+{
+  "assignment": "05",
+  "family": "md_pyros",
+  "subclass": "methylenedioxy_pyrrolidine_cathinone",
+  "disclaimer": "Game catalog. Not a cookbook. No recipes, doses, or injection SOP. Scores 0-100 or null. Pleasure axes independent of compulsiveness. Unknown is null, never 0.",
+  "out_of_scope": [
+    "unsubstituted_alpha_PXP_kit_I",
+    "4Me_centroton_wall",
+    "naphyrone_alpha_PVT_THPVP_kit_J"
+  ],
+  "pairing_table": [
+    {
+      "tail": "C3 propion",
+      "alpha_pxp": "alpha-PPP",
+      "md": "MDPPP",
+      "name_status": "market-confirmed",
+      "market": "rc_era"
+    },
+    {
+      "tail": "C4 butyro",
+      "alpha_pxp": "alpha-PBP",
+      "md": "MDPBP",
+      "name_status": "market-confirmed",
+      "market": "rc_era"
+    },
+    {
+      "tail": "C5 valero",
+      "alpha_pxp": "alpha-PVP",
+      "md": "MDPV",
+      "name_status": "market-confirmed",
+      "market": "street"
+    },
+    {
+      "tail": "C6 hexano",
+      "alpha_pxp": "alpha-PHP",
+      "md": "MDPHP",
+      "name_status": "market-confirmed",
+      "market": "street"
+    },
+    {
+      "tail": "iso-C6",
+      "alpha_pxp": "alpha-PiHP",
+      "md": "MDPiHP",
+      "name_status": "market-confirmed",
+      "market": "rc_era"
+    },
+    {
+      "tail": "C7 heptano",
+      "alpha_pxp": "alpha-PEP / PV-8",
+      "md": "MDPEP",
+      "name_status": "market-confirmed",
+      "market": "rc_era"
+    },
+    {
+      "tail": "C8 octano",
+      "alpha_pxp": "alpha-POP / PV-9",
+      "md": "MDPOP",
+      "name_status": "chemical-established",
+      "market": "uncertain"
+    },
+    {
+      "tail": "C9",
+      "alpha_pxp": "alpha-PNP / PV-10",
+      "md": null,
+      "name_status": "not_confirmed",
+      "market": "literature_only",
+      "note": "No MD-PV10 / MDPNP seizure, EWS, or forum hit found. Do not invent."
+    }
+  ],
+  "aliases_not_extra_molecules": [
+    {
+      "sticker": "Ivory Wave / Vanilla Sky / Mojo / Super Coke / Peevee / NRG-1",
+      "usually": "MDPV",
+      "also": "NRG-1 mixes sometimes contained MDPBP or other cathinones"
+    },
+    {
+      "sticker": "monkey dust",
+      "usually": "MDPHP in UK media; MDPV on PsychonautWiki",
+      "flag": "mislabel"
+    },
+    {
+      "sticker": "tan MDPV",
+      "usually": "rumor; one lab-tested tan powder was MDPBP + caffeine"
+    },
+    {
+      "sticker": "MDPV8 / MDPHpP / MD-PV8",
+      "usually": "MDPEP"
+    },
+    {
+      "sticker": "MDPHiP / MD-PHiP / MDPHPP",
+      "usually": "MDPiHP"
+    }
+  ],
+  "not_confirmed": [
+    "MD-PV10",
+    "MDPNP",
+    "6-DBFPV",
+    "5-DBFPHP",
+    "MD-PCYP"
+  ],
+  "substances": [
+    {
+      "id": "mdpv",
+      "name": "MDPV",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "3,4-methylenedioxypyrovalerone",
+        "MD-alpha-PVP",
+        "Ivory Wave",
+        "Peevee",
+        "Super Coke",
+        "MDPK",
+        "bath salts"
+      ],
+      "iupac": "1-(1,3-benzodioxol-5-yl)-2-(pyrrolidin-1-yl)pentan-1-one",
+      "cas": [
+        "687603-66-3",
+        "24622-62-6"
+      ],
+      "formula": "C16H21NO3",
+      "alpha_pxp_pair": "alpha-PVP",
+      "tail": "C5 valero",
+      "name_status": "market-confirmed",
+      "research_status": "well_documented",
+      "market": "street",
+      "ews_first_notification": 2008,
+      "flags": [
+        "redose",
+        "paranoia",
+        "freakout",
+        "mislabel",
+        "vape_fav"
+      ],
+      "feel": {
+        "headline": "Ivory Wave. The bath-salt monster.",
+        "rush": {
+          "score": 100,
+          "confidence": "A",
+          "note": "The bath-salt rush. Reddit ladder puts this first: everything else is wannabe MDPV.",
+          "x": 100
+        },
+        "euphoria": {
+          "score": 100,
+          "confidence": "A",
+          "note": "Old heads really did like it. Magic, not a hug.",
+          "x": 100
+        },
+        "enjoyment": {
+          "score": 9,
+          "confidence": "B",
+          "note": "Love letters and never-again letters. Do not average the crash into the peak.",
+          "x": 9
+        },
+        "compulsiveness": {
+          "score": 115,
+          "confidence": "A",
+          "note": "The monster. Highest MD-pyro compulsiveness.",
+          "x": 115
+        },
+        "reinforcement": {
+          "score": 94,
+          "confidence": "A",
+          "note": "Gannon 2018: ~10x potency and ~3x effectiveness vs cocaine in rats. DAT/SERT ~750."
+        },
+        "rush_x": 100,
+        "euphoria_x": 100,
+        "enjoyment_x": 9,
+        "compulsive_x": 115
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 90,
+          "confidence": "A",
+          "note": "STRIDA agitation 67%, hallucinations 16%, delirium 15%."
+        },
+        "aftereffects": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Crash is the other half of the brand."
+        },
+        "psychosis_concern": {
+          "score": 92,
+          "confidence": "A",
+          "note": "Zombie-news chemical. Real toxidrome plus media inflation."
+        },
+        "cardiovascular": {
+          "score": 86,
+          "confidence": "A",
+          "note": "Tachycardia, hypertension, hyperthermia, rhabdo in confirmed series."
+        },
+        "sleep": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Days."
+        }
+      },
+      "route_myth": "Everything worked and that was the problem. Foil/vape talk is loud. Slam exists in chemsex and old-head lore — flag, not a SOP. Oral and nasal were common in the legal-high years. Finland/Poland seized blotters.",
+      "npc_line": "Ivory Wave. The one that made the news.",
+      "sources": [
+        {
+          "title": "EMCDDA–Europol Joint Report on MDPV",
+          "url": "https://www.euda.europa.eu/publications/joint-report/MDPV",
+          "type": "agency",
+          "year": 2014
+        },
+        {
+          "title": "EMCDDA risk assessment of MDPV",
+          "url": "https://www.euda.europa.eu/publications/risk-assessment/MDPV_en",
+          "type": "agency",
+          "year": 2014
+        },
+        {
+          "title": "STRIDA MDPV 2010–2014",
+          "url": "https://doi.org/10.3109/15563650.2015.1089576",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Baumann et al. Powerful cocaine-like actions of MDPV",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22998730/",
+          "type": "paper",
+          "year": 2013
+        },
+        {
+          "title": "Gannon et al. DAT selectivity and self-administration",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6180085/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "PsychonautWiki MDPV",
+          "url": "https://psychonautwiki.org/wiki/MDPV",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Monkey-dust name also printed on MDPHP.",
+        "Ivory Wave / NRG-1 packets were not always MDPV."
+      ]
+    },
+    {
+      "id": "mdphp",
+      "name": "MDPHP",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "3,4-MD-alpha-PHP",
+        "3,4-methylenedioxy-alpha-pyrrolidinohexanophenone",
+        "monkey dust"
+      ],
+      "iupac": "1-(1,3-benzodioxol-5-yl)-2-(pyrrolidin-1-yl)hexan-1-one",
+      "cas": [
+        "776994-64-0",
+        "24622-61-5"
+      ],
+      "cas_note": "Wikipedia/PubChem 776994-64-0; CFSRE 2018 monograph 24622-61-5. Do not invent a merge.",
+      "formula": "C17H23NO3",
+      "alpha_pxp_pair": "alpha-PHP",
+      "tail": "C6 hexano",
+      "name_status": "market-confirmed",
+      "research_status": "well_documented",
+      "market": "street",
+      "ews_first_notification": 2014,
+      "flags": [
+        "redose",
+        "paranoia",
+        "vape_fav",
+        "mislabel"
+      ],
+      "feel": {
+        "headline": "Current MD workhorse. Still a pyro, not a roll.",
+        "rush": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Same crime, longer cousin. UK foil/freebase myth.",
+          "x": 50
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Good. Not Ivory Wave legend. Not empty.",
+          "x": 40
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "B",
+          "note": "People keep buying it. That is the workhorse definition.",
+          "x": 18
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "A",
+          "note": "Below MDPV. Still a redose machine. Chemsex + ED series.",
+          "x": 70
+        },
+        "reinforcement": {
+          "score": 84,
+          "confidence": "B",
+          "note": "DAT in the MDPV neighborhood. EU seizure mass 149 kg (2021), 180 kg (2022) per JAT cite of EUDA."
+        },
+        "rush_x": 50,
+        "euphoria_x": 40,
+        "enjoyment_x": 18,
+        "compulsive_x": 70
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 82,
+          "confidence": "A",
+          "note": "Agitation, aggression, hallucinations in ED/PCC."
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Hard crash in talk pages."
+        },
+        "psychosis_concern": {
+          "score": 80,
+          "confidence": "A",
+          "note": "Same toxidrome family as MDPV."
+        },
+        "cardiovascular": {
+          "score": 84,
+          "confidence": "A",
+          "note": "Italian fatalities including an MDPHP-only claim (Di Candia 2022) and high-level PM distribution (Croce 2025 JAT)."
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Pyro night."
+        }
+      },
+      "route_myth": "UK foil / freebase dust. HCl snorted. Slam in chemsex obituaries. Sold as MDPV/PV. Flag only — no SOP.",
+      "npc_line": "MDPV's longer cousin. Same crime.",
+      "sources": [
+        {
+          "title": "CFSRE MDPHP monograph",
+          "url": "https://www.cfsre.org/images/monographs/34-Methylenedioxy-alpha-PHP_090418_ToxicologyAnalyticalReport.pdf",
+          "type": "forensic",
+          "year": 2018
+        },
+        {
+          "title": "Croce et al. Postmortem distribution of MDPHP",
+          "url": "https://doi.org/10.1093/jat/bkae092",
+          "type": "paper",
+          "year": 2025
+        },
+        {
+          "title": "Vincenti et al. Polydrug fatal intoxication involving MDPHP",
+          "url": "https://doi.org/10.1093/jat/bkaf048",
+          "type": "paper",
+          "year": 2025
+        },
+        {
+          "title": "Beck et al. STRIDA pyrovalerone copycats",
+          "url": "https://doi.org/10.1080/15563650.2017.1370097",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Bassi et al. MDPHP vs MDPV mice + Pavia PCC",
+          "url": "https://doi.org/10.1016/j.neuro.2024.06.014",
+          "type": "paper",
+          "year": 2024
+        },
+        {
+          "title": "Kolaczynska / Liechti second-generation pyrovalerones",
+          "url": "https://doi.org/10.3390/ijms22158277",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "Di Candia et al. MDPHP-only fatality",
+          "url": "https://doi.org/10.1007/s00414-022-02799-w",
+          "type": "paper",
+          "year": 2022
+        }
+      ],
+      "gaps": [
+        "Milder/less compulsive than MDPV is talk-page consensus, not a trial.",
+        "Some MDPHP case counts may be MDPiHP if isomers were not split.",
+        "CAS collision 776994-64-0 vs 24622-61-5."
+      ]
+    },
+    {
+      "id": "mdppp",
+      "name": "MDPPP",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "3,4-MD-alpha-PPP",
+        "3,4-methylenedioxy-alpha-pyrrolidinopropiophenone"
+      ],
+      "iupac": "1-(1,3-benzodioxol-5-yl)-2-(pyrrolidin-1-yl)propan-1-one",
+      "cas": [
+        "783241-66-7"
+      ],
+      "formula": "C14H17NO3",
+      "alpha_pxp_pair": "alpha-PPP",
+      "tail": "C3 propion",
+      "name_status": "market-confirmed",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "ews_first_notification": 2009,
+      "flags": [],
+      "feel": {
+        "headline": "Short MD. Old heads sometimes liked it more than MDPV.",
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Short chain. Functional lift, not the poem."
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Background, coke-shaped. Shows up after you stop expecting MDPV."
+        },
+        "enjoyment": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Useful > monstrous. The old-head take."
+        },
+        "compulsiveness": {
+          "score": 44,
+          "confidence": "B",
+          "note": "Bluelight 2011: no redose urge, unlike MDPV. Pleasure and fiend split here."
+        },
+        "reinforcement": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Gannon 2018: weakest DAT of the MD run; DAT/SERT ~40; rat PR not significantly above cocaine."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Hints only after pushing past the useful zone."
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Softer comeup/down than MDPV in the 2011 post."
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Not the headline chemical. JAT: no dedicated MDPPP death found."
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Class stim. No MDPPP-specific fatality found."
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "B",
+          "note": "That one report slept. Not a rule."
+        }
+      },
+      "route_myth": "Not slam-only. House slam_only? flag is unsupported. The like-it-more-than-MDPV post was insufflated. IV is a listed route, not the identity.",
+      "npc_line": "Weaker. Some freaks still ask.",
+      "sources": [
+        {
+          "title": "Bluelight MDPPP — nice stim way more useful than MDPV",
+          "url": "https://www.bluelight.org/community/threads/mdppp-58mg-total-insufflated-nice-stim-way-more-useful-than-mdpv.550967/",
+          "type": "forum",
+          "year": 2011
+        },
+        {
+          "title": "Gannon et al. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6180085/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Kolaczynska / Liechti 2021",
+          "url": "https://doi.org/10.3390/ijms22158277",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "Vincenti et al. 2025 (MDPPP as impurity; no dedicated death)",
+          "url": "https://doi.org/10.1093/jat/bkaf048",
+          "type": "paper",
+          "year": 2025
+        },
+        {
+          "title": "Wikipedia MDPPP",
+          "url": "https://en.wikipedia.org/wiki/3%27,4%27-Methylenedioxy-%CE%B1-pyrrolidinopropiophenone",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Feel card rests on a small old-forum sample plus rodent DAT.",
+        "Do not ship slam_only."
+      ]
+    },
+    {
+      "id": "mdpbp",
+      "name": "MDPBP",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "3,4-MD-alpha-PBP",
+        "3,4-methylenedioxy-alpha-pyrrolidinobutyrophenone"
+      ],
+      "iupac": "1-(1,3-benzodioxol-5-yl)-2-(pyrrolidin-1-yl)butan-1-one",
+      "cas": [
+        "784985-33-7"
+      ],
+      "formula": "C15H19NO3",
+      "alpha_pxp_pair": "alpha-PBP",
+      "tail": "C4 butyro",
+      "name_status": "market-confirmed",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "ews_first_notification": 2010,
+      "flags": [
+        "redose",
+        "mislabel"
+      ],
+      "feel": {
+        "headline": "Middle MD. Maybe the tan. Nobody wrote a second poem.",
+        "rush": {
+          "score": 62,
+          "confidence": "C",
+          "note": "One lab-tested tan night was really really strong."
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Tan-MDPV rumor: more euphoria / better sex than white MDPV. Rumor plus one GC/MS hit."
+        },
+        "enjoyment": {
+          "score": 56,
+          "confidence": "C",
+          "note": "That night ended in vomit and paranoia. Never a headliner."
+        },
+        "compulsiveness": {
+          "score": 64,
+          "confidence": "C",
+          "note": "Redosed. Hours later still up. Not MDPV's reputation."
+        },
+        "reinforcement": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Gannon: DAT between MDPPP and MDPV; DAT/SERT ~280; rat reinforcer."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "C",
+          "note": "Tan-bag anecdote plus class risk."
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "C",
+          "note": "Vomit, shakes, palpitations in that one report."
+        },
+        "psychosis_concern": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Three fatalities 2011–2015 in JAT review; polydrug likely."
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "C",
+          "note": "Insane insomnia in the tan report."
+        }
+      },
+      "route_myth": "The one confirmed feel-report was oral (pinch sold as amphetamine). Do not invent a slam identity. Also appeared in NRG-1 mixes.",
+      "npc_line": "Catalog cousin. The tan rumor.",
+      "sources": [
+        {
+          "title": "Bluelight — Have I found the legendary Tan MDPV? (MDPBP)",
+          "url": "https://www.bluelight.org/community/threads/have-i-found-the-legendary-tan-mdpv-mdpbp.706060/",
+          "type": "forum",
+          "year": 2014
+        },
+        {
+          "title": "Gannon et al. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6180085/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Vincenti et al. 2025 (MDPBP fatalities 2011–2015 cited)",
+          "url": "https://doi.org/10.1093/jat/bkaf048",
+          "type": "paper",
+          "year": 2025
+        },
+        {
+          "title": "Wikipedia MDPBP",
+          "url": "https://en.wikipedia.org/wiki/3%27,4%27-Methylenedioxy-%CE%B1-pyrrolidinobutiophenone",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Almost no first-person reports besides the tan-amp anecdote.",
+        "Tan MDPV = MDPBP is one bag, not a law."
+      ]
+    },
+    {
+      "id": "mdpihp",
+      "name": "MDPiHP",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "MDPHiP",
+        "MD-PHiP",
+        "MDPHPP",
+        "3,4-MD-alpha-PiHP",
+        "3,4-methylenedioxy-alpha-pyrrolidinoisohexanophenone"
+      ],
+      "iupac": "1-(1,3-benzodioxol-5-yl)-4-methyl-2-(pyrrolidin-1-yl)pentan-1-one",
+      "cas": [
+        "749145-17-3"
+      ],
+      "formula": "C17H23NO3",
+      "alpha_pxp_pair": "alpha-PiHP",
+      "tail": "iso-C6",
+      "name_status": "market-confirmed",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "ews_note": "Sweden first detection Aug 2020 per Krotowicz-style reviews; EMCDDA 2022 aliases in Swedish dossier.",
+      "flags": [
+        "redose",
+        "paranoia",
+        "freakout",
+        "mislabel",
+        "vape_fav"
+      ],
+      "feel": {
+        "headline": "Iso twin of MDPHP. Separate SKU or the lab lies.",
+        "rush": {
+          "score": 78,
+          "confidence": "C",
+          "note": "One eve&rave smoked report called it crack."
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Drive, not a hug."
+        },
+        "enjoyment": {
+          "score": 38,
+          "confidence": "C",
+          "note": "That writer finished wrecked. High compulsiveness is not high enjoyment."
+        },
+        "compulsiveness": {
+          "score": 86,
+          "confidence": "C",
+          "note": "Gram gone, three nights. Do not average never-again into low fiend."
+        },
+        "reinforcement": {
+          "score": 80,
+          "confidence": "C",
+          "note": "RTI 2025: among highest DAT potencies with MDPEP and MDPV. Human poems missing."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 88,
+          "confidence": "C",
+          "note": "Sirens, cops, neighbors in the smoked binge writeup."
+        },
+        "aftereffects": {
+          "score": 85,
+          "confidence": "C",
+          "note": "Empty, depressed, memory holes."
+        },
+        "psychosis_concern": {
+          "score": 86,
+          "confidence": "C",
+          "note": "Psychosis + porn + river-water binge. Two wrecks, not a series."
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "C",
+          "note": "Palpitations / heat in wreck reports. CFSRE 2026: MDPiHP alone in femoral blood."
+        },
+        "sleep": {
+          "score": 90,
+          "confidence": "C",
+          "note": "Three nights."
+        }
+      },
+      "route_myth": "Smoked = crack (one thread). IV panic/fever (one Reddit thread). Forensics do not give the route. Must be split from MDPHP on the column or the lab lies.",
+      "npc_line": "Separate SKU or the lab lies.",
+      "sources": [
+        {
+          "title": "Gomonit et al. CFSRE/FSI 2026 MDPHP vs MDPiHP isomer series",
+          "url": "https://www.cfsre.org/resources/publications/case-series-involving-the-synthetic-cathinones-alpha-php-alpha-pihp-mdphp-and-mdpihp-in-forensic-investigations",
+          "type": "paper",
+          "year": 2026
+        },
+        {
+          "title": "Swedish prosecutor MDPiHP dossier",
+          "url": "https://www.aklagare.se/globalassets/dokument/narkotikapreparat/m/mdpihp.pdf",
+          "type": "agency",
+          "year": 2022
+        },
+        {
+          "title": "eve&rave MDPiHP + 4F-MPH",
+          "url": "https://forum.eve-rave.ch/viewtopic.php?t=79264",
+          "type": "forum",
+          "year": 2024
+        },
+        {
+          "title": "RTI comprehensive stimulant DAT panel (MDPiHP among most potent)",
+          "url": "https://www.rti.org/publication/comprehensive-in-vitro-profiling-of-traditional-and-emerging-stim",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Feel rests on two wrecks.",
+        "Historical MDPHP counts may hide MDPiHP."
+      ]
+    },
+    {
+      "id": "mdpep",
+      "name": "MDPEP",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "MD-PV8",
+        "Methylenedioxy-PV8",
+        "MDPHpP",
+        "MDPV8",
+        "3,4-MD-alpha-PEP"
+      ],
+      "iupac": "1-(1,3-benzodioxol-5-yl)-2-(pyrrolidin-1-yl)heptan-1-one",
+      "cas": [
+        "24646-39-7",
+        "746541-09-3"
+      ],
+      "cas_note": "CFSRE 24646-39-7; Swedish dossier 746541-09-3.",
+      "formula": "C18H25NO3",
+      "alpha_pxp_pair": "alpha-PEP / PV-8",
+      "tail": "C7 heptano",
+      "name_status": "market-confirmed",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "ews_first_notification": 2019,
+      "flags": [
+        "redose",
+        "mislabel"
+      ],
+      "feel": {
+        "headline": "They added carbons instead of fun.",
+        "rush": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Bluelight: at least 10x less active than C5/C6. Sides as loud as the high."
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Pretty shitty and worthless. PV-8 with an MD sticker."
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "B",
+          "note": "Not worth your trouble."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Weak high, still daily-use in one 18–20 day post. Sticky is not good."
+        },
+        "reinforcement": {
+          "score": 70,
+          "confidence": "C",
+          "note": "RTI 2025 DAT among the most potent — fights the street. Score the cage separately."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Thin reports."
+        },
+        "aftereffects": {
+          "score": 45,
+          "confidence": "C",
+          "note": "Sides as loud as the high."
+        },
+        "psychosis_concern": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "C",
+          "note": "One Reddit DVT claim after weeks of daily use. Single voice, not a paper."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": "Not enough."
+        }
+      },
+      "route_myth": "Vape a little bite stronger than nasal. Oral almost inactive in the one comparison. No slam identity found.",
+      "npc_line": "MD-PV8 crate. They added carbons instead of fun.",
+      "sources": [
+        {
+          "title": "CFSRE Methylenedioxy-PV8 monograph",
+          "url": "https://www.cfsre.org/images/monographs/Methylenedioxy-PV8_042321_CFSRE_Toxicology_Report.pdf",
+          "type": "forensic",
+          "year": 2021
+        },
+        {
+          "title": "Swedish prosecutor MDPEP dossier",
+          "url": "https://www.aklagare.se/globalassets/dokument/narkotikapreparat/m/mdpep.pdf",
+          "type": "agency",
+          "year": 2024
+        },
+        {
+          "title": "Bluelight MDPEP and 4-MPD",
+          "url": "https://www.bluelight.org/community/threads/mdpep-and-4-mpd-any-info-or-advice.885996/",
+          "type": "forum",
+          "year": 2020
+        },
+        {
+          "title": "Reddit MDPEP question",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/craz7x/mdpep_question/",
+          "type": "forum",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "Elite in-vitro DAT vs dead street fun. Unresolved.",
+        "CAS collision."
+      ]
+    },
+    {
+      "id": "mdpop",
+      "name": "MDPOP",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "MD-PV9",
+        "3,4-Methylenedioxy-PV9",
+        "3,4-MD-alpha-POP",
+        "MD-alphaP-OP"
+      ],
+      "iupac": "1-(1,3-benzodioxol-5-yl)-2-(pyrrolidin-1-yl)octan-1-one",
+      "cas": [
+        "24646-40-0"
+      ],
+      "cas_note": "Hydrochloride Cayman 16359.",
+      "formula": "C19H27NO3",
+      "alpha_pxp_pair": "alpha-POP / PV-9",
+      "tail": "C8 octano",
+      "name_status": "chemical-established",
+      "research_status": "chemical_literature_only",
+      "market": "uncertain",
+      "flags": [],
+      "feel": {
+        "headline": "C8 MD. A Cayman bottle and a rumor it would suck.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "No human report found."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Cayman: physiological and toxicological properties not known."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Dusty.",
+      "sources": [
+        {
+          "title": "Cayman 3,4-Methylenedioxy PV9 HCl 16359",
+          "url": "https://www.caymanchem.com/product/16359/3-4-methylenedioxy-pv9-hydrochloride",
+          "type": "reference_standard",
+          "year": null
+        },
+        {
+          "title": "isomerdesign MD-alphaP-OP cites Project RESPONSE 1716-16",
+          "url": "https://isomerdesign.com/pihkal/explore/899",
+          "type": "catalog",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "RESPONSE 1716-16 not independently read. Market stays uncertain, not vendor-confirmed flood.",
+        "2019 Reddit user predicted MDPOP would appear and suck — prediction is not a bag."
+      ]
+    },
+    {
+      "id": "5_dbfpv",
+      "name": "5-DBFPV",
+      "family": "synthetic_cathinone",
+      "subclass": "dihydrobenzofuran_pyrrolidine_cathinone",
+      "aliases": [
+        "3-desoxy-MDPV",
+        "3-desoxy-3,4-MDPV",
+        "5-dihydrobenzofuranpyrovalerone",
+        "5-BFPV"
+      ],
+      "iupac": "1-(2,3-dihydrobenzofuran-5-yl)-2-(pyrrolidin-1-yl)pentan-1-one",
+      "cas": [
+        "2117405-32-8",
+        "2117405-33-9"
+      ],
+      "formula": "C17H23NO2",
+      "alpha_pxp_pair": null,
+      "tail": "C5 valero (almost-MD, dihydrobenzofuran not methylenedioxy)",
+      "name_status": "market-confirmed",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "flags": [
+        "redose",
+        "vape_fav"
+      ],
+      "feel": {
+        "headline": "2014 almost-MD. MDPV-shaped. Headache comedown.",
+        "rush": {
+          "score": 70,
+          "confidence": "B",
+          "note": "MDPV-shaped. Vape talk louder than nasal."
+        },
+        "euphoria": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Quite euphoric. Split: some said less than MDPV, still nice."
+        },
+        "enjoyment": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Impressive for a 2014 replacement. Headache bills it."
+        },
+        "compulsiveness": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Very moreish. Not Ivory Wave scale."
+        },
+        "reinforcement": {
+          "score": 68,
+          "confidence": "C",
+          "note": "No cage paper found. Street moreishness only."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Mild–moderate anxiety on the comedown."
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "B",
+          "note": "The headache is the brand."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Thin. Class risk."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "Not characterized. Cayman: properties unknown."
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "C",
+          "note": "A few hours then headache, not a three-day siren."
+        }
+      },
+      "route_myth": "Nasal works. Vape better in the euphoric sense (one 2014 post). Later threads curious about other routes — flag only.",
+      "npc_line": "2014 cope after the ban.",
+      "sources": [
+        {
+          "title": "Bluelight 5-DBFPV thread",
+          "url": "https://www.bluelight.org/community/threads/5-dbfpv-benzofuran-analogue-of-%CE%B1-pvp.728965/",
+          "type": "forum",
+          "year": 2014
+        },
+        {
+          "title": "Project RESPONSE 5-DBFPV 1251-15",
+          "url": "https://www.policija.si/apps/nfl_response_web/0_Analytical_Reports_final/5-DBFPV-ID-1251-15HCL-report_final.pdf",
+          "type": "forensic",
+          "year": 2015
+        },
+        {
+          "title": "Kaizaki-Mitsumoto et al. 5-DBFPV in pre-market products",
+          "url": "https://doi.org/10.1007/s11419-015-0293-6",
+          "type": "paper",
+          "year": 2016
+        },
+        {
+          "title": "Cayman 3-desoxy-MDPV / 5-DBFPV",
+          "url": "https://www.caymanchem.com/product/16437/3-desoxy-3-4-methylenedioxy-pyrovalerone-hydrochloride",
+          "type": "reference_standard",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "No published DAT/NET/SERT table in sources pulled.",
+        "Do not steal 5-APB benzofuran transporter numbers."
+      ]
+    },
+    {
+      "id": "2_3_mdpv",
+      "name": "2,3-MDPV",
+      "family": "synthetic_cathinone",
+      "subclass": "methylenedioxy_pyrrolidine_cathinone",
+      "aliases": [
+        "2,3-methylenedioxypyrovalerone"
+      ],
+      "iupac": "1-(1,3-benzodioxol-4-yl)-2-(pyrrolidin-1-yl)pentan-1-one",
+      "cas": [],
+      "formula": "C16H21NO3",
+      "alpha_pxp_pair": null,
+      "tail": "C5 valero (2,3 ring isomer)",
+      "name_status": "literature-only",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "flags": [],
+      "feel": {
+        "headline": "Isomer bait. The bag was 3,4.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "No human product reports."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Barely a product.",
+      "sources": [
+        {
+          "title": "Kavanagh et al. First synthesis of 2,3-MDPV; seized samples were 3,4",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21907509/",
+          "type": "paper",
+          "year": 2012
+        }
+      ],
+      "gaps": [
+        "No confirmed 2,3-isomer street seizure found.",
+        "Current web-shop listings are not a 2010 market."
+      ]
+    }
+  ],
+  "coverage": {
+    "scored": [
+      "MDPV",
+      "MDPHP",
+      "MDPPP",
+      "MDPBP",
+      "MDPiHP",
+      "MDPEP",
+      "5-DBFPV"
+    ],
+    "null_feel": [
+      "MDPOP",
+      "2,3-MDPV"
+    ],
+    "required_citations_present": [
+      "CFSRE MDPHP monograph",
+      "CFSRE MDPEP/MD-PV8 monograph",
+      "CFSRE/FSI 2026 MDPHP/MDPiHP isomer series",
+      "JAT MDPHP fatality / PM distribution",
+      "STRIDA MDPV + copycats",
+      "Bluelight 5-DBFPV 728965",
+      "EUDA/EMCDDA MDPV joint report + risk assessment"
+    ],
+    "strength": "MDPV and MDPHP triangulate paper + seizure + tox + forum. Homolog pairing is chemical fact. 5-DBFPV has a real 2014 thread and forensic ID.",
+    "weakness": "MDPiHP feel is two wrecks. MDPBP feel is one tan bag. MDPEP street and DAT papers disagree. MDPOP has no human voice. 2,3-MDPV never was a product."
+  }
+}

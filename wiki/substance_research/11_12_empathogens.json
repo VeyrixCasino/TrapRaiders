@@ -1,0 +1,3756 @@
+{
+  "assignment": "11_12",
+  "title": "Empathogens — MD-amphetamines + benzofuran / benzodioxane / aminoindane",
+  "disclaimer": "Game catalog. Not a cook book. No recipes, precursors, yields, or doses-as-how-to. Scores unitless 0-100. Unknown is null, never 0. No opioids. Methylone is comparison-only.",
+  "class_override": {
+    "lead": [
+      "enjoyment",
+      "euphoria",
+      "emotional_openness",
+      "empathy",
+      "sociability"
+    ],
+    "also": [
+      "rush",
+      "compulsiveness",
+      "reinforcement",
+      "music",
+      "tactile"
+    ],
+    "negatives": [
+      "aftereffects",
+      "cardiovascular",
+      "hyperthermia",
+      "heart_scare"
+    ]
+  },
+  "v1_headliners": [
+    "mdma",
+    "5-mapb",
+    "6-apb"
+  ],
+  "substances": [
+    {
+      "id": "mdma",
+      "name": "MDMA",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "Molly",
+        "Mandy",
+        "ecstasy",
+        "3,4-MDMA"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "rush": {
+          "score": 23,
+          "confidence": "A",
+          "note": "Come-up then plateau. Not a pyro snap.",
+          "x": 0.9
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "A",
+          "note": "",
+          "x": 2.2
+        },
+        "enjoyment": {
+          "score": 45,
+          "confidence": "A",
+          "note": "",
+          "x": 2.5
+        },
+        "compulsiveness": {
+          "score": 13,
+          "confidence": "B",
+          "note": "",
+          "x": 0.45
+        },
+        "reinforcement": {
+          "score": 42,
+          "confidence": "A",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 96,
+          "confidence": "A",
+          "note": ""
+        },
+        "empathy": {
+          "score": 95,
+          "confidence": "A",
+          "note": ""
+        },
+        "sociability": {
+          "score": 94,
+          "confidence": "A",
+          "note": ""
+        },
+        "music": {
+          "score": 90,
+          "confidence": "A",
+          "note": ""
+        },
+        "tactile": {
+          "score": 88,
+          "confidence": "A",
+          "note": ""
+        },
+        "rush_x": 0.9,
+        "euphoria_x": 2.2,
+        "enjoyment_x": 2.5,
+        "compulsive_x": 0.45
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "A",
+          "note": "Suicide Tuesday / Curran midweek low."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 72,
+          "confidence": "A",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The roll. Kitchen brick.",
+      "flags": [
+        "oral_ok",
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "mda",
+      "name": "MDA",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "sass",
+        "sally",
+        "tenamfetamine"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "rush": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 34,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        },
+        "empathy": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "sociability": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "music": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "tactile": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "A",
+          "note": "2025 RCT more fear / visual / bad-drug than MDMA."
+        },
+        "aftereffects": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 68,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Molly's older cousin who stares.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "mdea",
+      "name": "MDEA",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "MDE",
+        "Eve"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "rush": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 62,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "empathy": {
+          "score": 48,
+          "confidence": "A",
+          "note": "Only a minority in controlled nights called it entactogenic."
+        },
+        "sociability": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "music": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        },
+        "tactile": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Forgotten.",
+      "flags": [
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "mbdb",
+      "name": "MBDB",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "Eden",
+        "Methyl-J"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "rush": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "empathy": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "sociability": {
+          "score": 62,
+          "confidence": "B",
+          "note": ""
+        },
+        "music": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "tactile": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 32,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Eden. They wanted Molly.",
+      "flags": [
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "bdb",
+      "name": "BDB",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "1,3-benzodioxolylbutanamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "That's the leftover name.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "No clean human night. Metabolite of MBDB."
+      ]
+    },
+    {
+      "id": "mmda",
+      "name": "MMDA",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "3-methoxy-4,5-methylenedioxyamphetamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "literature_only",
+      "feel": {
+        "rush": {
+          "score": 25,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 18,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Museum shelf. Not the roll.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "edma",
+      "name": "EDMA",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "3,4-ethylenedioxymethamphetamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They stretched the bridge. Nobody wrote a song.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "2-3-mdma",
+      "name": "2,3-MDMA",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The lab's isomer. Not a night.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "5-mapb",
+      "name": "5-MAPB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [
+        "N-methyl-5-APB"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 58,
+          "confidence": "B",
+          "note": "MDMA-shaped come-up then sofa."
+        },
+        "euphoria": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 88,
+          "confidence": "B",
+          "note": ""
+        },
+        "empathy": {
+          "score": 86,
+          "confidence": "B",
+          "note": ""
+        },
+        "sociability": {
+          "score": 84,
+          "confidence": "B",
+          "note": ""
+        },
+        "music": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "tactile": {
+          "score": 82,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Hofer 2017 confirmed oral tox."
+        },
+        "sleep": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Metabolite is 5-APB."
+        }
+      },
+      "route_myth": "",
+      "npc_line": "This is the one they meant.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "No MDMA-vs-5-MAPB RCT."
+      ]
+    },
+    {
+      "id": "6-apb",
+      "name": "6-APB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [
+        "Benzo Fury"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Slow uneasy wash, not a snap."
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "empathy": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sociability": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "music": {
+          "score": 85,
+          "confidence": "B",
+          "note": ""
+        },
+        "tactile": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "B",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 75,
+          "confidence": "A",
+          "note": "5-HT2B full agonist / ACMD valve warning."
+        }
+      },
+      "route_myth": "",
+      "npc_line": "All-night. The name on the pellet.",
+      "flags": [
+        "oral_ok",
+        "mislabel",
+        "OD"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "Benzo Fury bags were a lottery."
+      ]
+    },
+    {
+      "id": "5-apb",
+      "name": "5-APB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 44,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        },
+        "empathy": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "sociability": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "music": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "tactile": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 38,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 65,
+          "confidence": "C",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 82,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same shelf. Ask about the heart before the hug.",
+      "flags": [
+        "oral_ok",
+        "OD",
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "6-mapb",
+      "name": "6-MAPB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": 52,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 72,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 38,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 74,
+          "confidence": "D",
+          "note": ""
+        },
+        "empathy": {
+          "score": 75,
+          "confidence": "D",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 68,
+          "confidence": "D",
+          "note": "Class inference only."
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They talked like it was better. The envelope never came.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "Almost no confirmed human file. Ranked close on SAR, not on nights."
+      ]
+    },
+    {
+      "id": "5-eapb",
+      "name": "5-EAPB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "empathy": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "sociability": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "music": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "tactile": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 58,
+          "confidence": "D",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They added an ethyl. They did not add a night.",
+      "flags": [
+        "mislabel",
+        "OD"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "6-eapb",
+      "name": "6-EAPB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same mesh. Empty reviews.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "Near-zero verified reports."
+      ]
+    },
+    {
+      "id": "5-apdb",
+      "name": "5-APDB",
+      "family": "dihydrobenzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [
+        "5-APDI"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 20,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        },
+        "empathy": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "sociability": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "music": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "tactile": {
+          "score": 42,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They took the double bond off. They took the night off.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "6-apdb",
+      "name": "6-APDB",
+      "family": "dihydrobenzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [
+        "6-APDI"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 24,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 54,
+          "confidence": "C",
+          "note": ""
+        },
+        "empathy": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        },
+        "sociability": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "music": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        },
+        "tactile": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 45,
+          "confidence": "D",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 58,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same mesh. Shorter poem.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "mdai",
+      "name": "MDAI",
+      "family": "aminoindane",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [
+        "sparkle",
+        "Mindy"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 28,
+          "confidence": "B",
+          "note": "No HR/temp bump in Angerer n=6."
+        },
+        "euphoria": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Split: lab scales vs street candy."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        },
+        "empathy": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sociability": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "music": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "tactile": {
+          "score": 48,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 22,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 22,
+          "confidence": "B",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Session candy. Unless you were in the lab.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "Street vs lab unresolved. Do not write non-toxic MDMA."
+      ]
+    },
+    {
+      "id": "5-it",
+      "name": "5-IT",
+      "family": "aminoindole",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [
+        "5-API"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "empathy": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        },
+        "sociability": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": 78,
+          "confidence": "B",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Wrong ring. Wrong funeral.",
+      "flags": [
+        "OD"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "Do not rank as a closest-copy."
+      ]
+    },
+    {
+      "id": "4-apb",
+      "name": "4-APB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The isomer in the 6-APB bag.",
+      "flags": [
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "Subjective file null. By-product."
+      ]
+    },
+    {
+      "id": "7-apb",
+      "name": "7-APB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Wrong oxygen. More speed, less hug.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "5-mapdb",
+      "name": "5-MAPDB",
+      "family": "dihydrobenzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 38,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Selective SERT, weak party.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "5-iai",
+      "name": "5-IAI",
+      "family": "aminoindane",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 25,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": 58,
+          "confidence": "D",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "MDAI with iodine. Mild roll, thin market.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "mmai",
+      "name": "MMAI",
+      "family": "aminoindane",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Lab entactogen. No bag on a table.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "2-ai",
+      "name": "2-AI",
+      "family": "aminoindane",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "rush": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": 15,
+          "confidence": "C",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Parent aminoindane. Stim, not a hug.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "6-it",
+      "name": "6-IT",
+      "family": "aminoindole",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Named. Almost no human file.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "ebdb",
+      "name": "EBDB",
+      "family": "md_amphetamine",
+      "subclass": "",
+      "assignment": 11,
+      "aliases": [
+        "Ethyl-J"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Not a proven brick.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "5-mabb",
+      "name": "5-MABB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "2024-25 rat releaser. Not a Port Rook SKU.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "6-mabb",
+      "name": "6-MABB",
+      "family": "benzofuran",
+      "subclass": "",
+      "assignment": 12,
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "emotional_openness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "empathy": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "music": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "tactile": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "hyperthermia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "heart_scare": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "2024-25 rat releaser. Not a Port Rook SKU.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Rickli 2015 benzofuran panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4500375/",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Oeri 2021 Beyond ecstasy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8155739/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "product_families.md Kit O/P",
+          "url": "",
+          "type": "house",
+          "year": 2026
+        }
+      ],
+      "gaps": []
+    }
+  ],
+  "comparison_only": [
+    {
+      "id": "methylone",
+      "name": "methylone",
+      "assignment": 3,
+      "profiled_here": false,
+      "aliases": [
+        "bk-MDMA",
+        "MDMC"
+      ],
+      "npc_line": "Tuesday night Molly.",
+      "note": "Kit F owns the card. Do not steal the SKU."
+    }
+  ],
+  "closest_to_mdma_ranking": [
+    {
+      "rank": 1,
+      "id": "5-mapb",
+      "confidence": "B",
+      "why": "Forum majority after the drought. MDMA-shaped come-up and night length. Still not the first-time Molly poem."
+    },
+    {
+      "rank": 2,
+      "id": "6-mapb",
+      "confidence": "D",
+      "why": "Same scaffold, rare bags. SAR close. Human file is a joke — do not print a second legend."
+    },
+    {
+      "rank": 3,
+      "id": "mdai",
+      "confidence": "B",
+      "why": "Split: n=6 lab night looked like 125 mg MDMA on openness scales; street is session candy."
+    },
+    {
+      "rank": 4,
+      "id": "mdea",
+      "confidence": "A/B",
+      "why": "Same stack, quieter. Controlled nights: only a minority called it entactogenic."
+    },
+    {
+      "rank": 5,
+      "id": "mbdb",
+      "confidence": "B",
+      "why": "Nichols Eden. Substitutes for MDMA in rats. Less spark."
+    },
+    {
+      "rank": 6,
+      "id": "5-apb",
+      "confidence": "B",
+      "why": "Hug family, mongier body. Heart-scare is the card."
+    },
+    {
+      "rank": 7,
+      "id": "6-apb",
+      "confidence": "B",
+      "why": "All-night Benzo Fury. Wrong duration and MDA-edge to be a Molly clone."
+    },
+    {
+      "rank": 8,
+      "id": "mda",
+      "confidence": "A",
+      "why": "Not a copy — 2025 RCT vs MDMA: longer, more stim, more visual, more fear."
+    },
+    {
+      "rank": 9,
+      "id": "6-apdb",
+      "confidence": "C",
+      "why": "Dihydro 6-APB. MDMA substitution in rats. Street: slightly shittier 6-APB."
+    },
+    {
+      "rank": 10,
+      "id": "5-eapb",
+      "confidence": "C",
+      "why": "Pharma looks MDMA-ish. Forum: skip."
+    },
+    {
+      "rank": 11,
+      "id": "5-apdb",
+      "confidence": "C",
+      "why": "Very SERT-selective. Soft, meh."
+    },
+    {
+      "rank": 12,
+      "id": "5-iai",
+      "confidence": "D",
+      "why": "Thin bags. Some hug rumor."
+    }
+  ],
+  "punchiest_one_liners": [
+    {
+      "id": "mdma",
+      "line": "The roll. Kitchen brick."
+    },
+    {
+      "id": "5-mapb",
+      "line": "This is the one they meant."
+    },
+    {
+      "id": "6-apb",
+      "line": "All-night Benzo Fury."
+    },
+    {
+      "id": "mda",
+      "line": "Molly's older cousin who stares."
+    },
+    {
+      "id": "mdai",
+      "line": "Session candy. Unless you were in the lab."
+    },
+    {
+      "id": "5-apb",
+      "line": "Same shelf. Ask about the heart before the hug."
+    },
+    {
+      "id": "mdea",
+      "line": "Forgotten."
+    },
+    {
+      "id": "mbdb",
+      "line": "Eden. They wanted Molly."
+    },
+    {
+      "id": "5-it",
+      "line": "Wrong ring. Wrong funeral."
+    },
+    {
+      "id": "6-mapb",
+      "line": "They talked like it was better. The envelope never came."
+    },
+    {
+      "id": "methylone",
+      "line": "Tuesday night Molly."
+    }
+  ],
+  "coverage": {
+    "named_count": 29,
+    "full_scored_count": 18,
+    "thin_or_null_count": 10,
+    "assignment_11_count": 9,
+    "assignment_12_count": 19,
+    "id_list": [
+      "mdma",
+      "mda",
+      "mdea",
+      "mbdb",
+      "bdb",
+      "mmda",
+      "edma",
+      "2-3-mdma",
+      "5-mapb",
+      "6-apb",
+      "5-apb",
+      "6-mapb",
+      "5-eapb",
+      "6-eapb",
+      "5-apdb",
+      "6-apdb",
+      "mdai",
+      "5-it",
+      "4-apb",
+      "7-apb",
+      "5-mapdb",
+      "5-iai",
+      "mmai",
+      "2-ai",
+      "6-it",
+      "ebdb",
+      "5-mabb",
+      "6-mabb"
+    ],
+    "aliases_resolved": {
+      "MDE": "mdea",
+      "Eve": "mdea",
+      "Sass": "mda",
+      "Sally": "mda",
+      "Benzo Fury": "brand, often 6-apb, often a lie",
+      "Sparkle": "mdai",
+      "Mindy": "mdai",
+      "5-API": "5-it",
+      "Methyl-J": "mbdb",
+      "Eden": "mbdb",
+      "5-APDI": "5-apdb"
+    }
+  },
+  "gaps": [
+    "6-MAPB and 6-EAPB human nights are rumors.",
+    "5-HT2B valve disease in actual APB users is a class warning, not a body count.",
+    "MDAI street vs lab until a blinded MDMA-controlled trial.",
+    "Benzo Fury bags poison 2011-2013 anecdotes.",
+    "No 5-MAPB vs MDMA RCT.",
+    "Do not port Kit F methylone scores here."
+  ]
+}

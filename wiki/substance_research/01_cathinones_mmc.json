@@ -1,0 +1,4487 @@
+[
+  {
+    "id": "4-mmc",
+    "name": "4-MMC",
+    "aliases": [
+      "mephedrone",
+      "4-methylmethcathinone",
+      "meow",
+      "meow meow",
+      "MCAT (ambiguous)",
+      "drone"
+    ],
+    "family": "cathinone",
+    "subclass": "mmc",
+    "status": "market_confirmed",
+    "one_liner": "The one. Everything after this is a cover band.",
+    "positives_writeup": "Rush: snorted, the hit old UK threads treated like scripture — coke-shaped, immediate, Erowid's 'pleasurable rushing.' Oral is slower and still a lift. Euphoria: the legend. Empathy, music, talk, MDMA-plus-speed without the visuals. Pre-ban batches are the ghost every analog chases. Compulsiveness: extreme and independent of how much they loved it — bags evaporate chasing the first rush. Enjoyment: highest in the family when the stamp is real.",
+    "negatives_writeup": "Jaw, sweat, palpitations, insomnia, memory holes. Comedown scales with how hard they chased. Insufflation wrecks the nose. Not dope-sick. Psychologically greedy.",
+    "route_myth": "redose oral_ok",
+    "scores": {
+      "rush": {
+        "score": 13,
+        "confidence": "A",
+        "range": [
+          78,
+          94
+        ],
+        "rationale": "Erowid 'pleasurable rushing'; forum primacy vs all copies",
+        "x": 13
+      },
+      "euphoria": {
+        "score": 23,
+        "confidence": "A",
+        "range": [
+          85,
+          97
+        ],
+        "rationale": "Consensus #1 empathogen-stim of the legal-high era",
+        "x": 23
+      },
+      "compulsiveness": {
+        "score": 21,
+        "confidence": "A",
+        "range": [
+          85,
+          97
+        ],
+        "rationale": "Erowid first negative is redose craving; binge excerpts",
+        "x": 21
+      },
+      "enjoyment": {
+        "score": 24,
+        "confidence": "A",
+        "range": [
+          82,
+          96
+        ],
+        "rationale": "The reference night",
+        "x": 24
+      },
+      "sociability": {
+        "score": 88,
+        "confidence": "A",
+        "range": [
+          80,
+          94
+        ],
+        "rationale": "Talk, empathy, openness"
+      },
+      "rush_x": 13,
+      "euphoria_x": 23,
+      "enjoyment_x": 24,
+      "compulsive_x": 21
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 42,
+        "confidence": "B",
+        "range": [
+          30,
+          55
+        ],
+        "rationale": "End-of-binge, not the headline"
+      },
+      "aftereffects": {
+        "score": 72,
+        "confidence": "A",
+        "range": [
+          60,
+          85
+        ],
+        "rationale": "Hangover scales with redose"
+      },
+      "cardiovascular": {
+        "score": 68,
+        "confidence": "B",
+        "range": [
+          55,
+          80
+        ],
+        "rationale": "Tachycardia / palpitations widely reported"
+      },
+      "sleep": {
+        "score": 82,
+        "confidence": "A",
+        "range": [
+          70,
+          92
+        ],
+        "rationale": "Insomnia default after a session"
+      }
+    },
+    "sources": [
+      {
+        "title": "Erowid 4-Methylmethcathinone Vault: Effects",
+        "url": "https://www.erowid.org/chemicals/4_methylmethcathinone/4_methylmethcathinone_effects.shtml",
+        "type": "erowid"
+      },
+      {
+        "title": "Erowid 4-Methylmethcathinone Vault",
+        "url": "https://www.erowid.org/chemicals/4_methylmethcathinone/4_methylmethcathinone.shtml",
+        "type": "erowid"
+      },
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "EU Drug Market: NPS — Synthetic cathinones",
+        "url": "https://www.euda.europa.eu/publications/eu-drug-markets/new-psychoactive-substances/distribution-and-supply/synthetic-cathinones_en",
+        "type": "euda"
+      }
+    ]
+  },
+  {
+    "id": "3-mmc",
+    "name": "3-MMC",
+    "aliases": [
+      "3-methylmethcathinone",
+      "metaphedrone"
+    ],
+    "family": "cathinone",
+    "subclass": "mmc",
+    "status": "market_confirmed",
+    "one_liner": "Diet 4-MMC. Fine until the bag is NEP.",
+    "positives_writeup": "Rush: real. Some crystal batches fooled old 4-MMC heads; most later bags are more speed, less velvet. Euphoria: the stand-in that actually worked — less hug, more grind and talk. Chemsex favorite. Compulsiveness: high even when they call it meh. Finished the bag anyway. Enjoyment: best of the copies when genuine.",
+    "negatives_writeup": "Batch lottery. Tachycardia. Chemsex harm cluster. After 2022 control the name stayed on bags that were 2-MMC or colder long stims. If it lasts till noon it was not 3-MMC.",
+    "route_myth": "redose mislabel oral_ok",
+    "scores": {
+      "rush": {
+        "score": 11,
+        "confidence": "B",
+        "range": [
+          58,
+          86
+        ],
+        "rationale": "Split: some = 4-MMC, most thinner",
+        "x": 11
+      },
+      "euphoria": {
+        "score": 14,
+        "confidence": "B",
+        "range": [
+          55,
+          88
+        ],
+        "rationale": "More DA, less lovey; batch-dependent",
+        "x": 14
+      },
+      "compulsiveness": {
+        "score": 19,
+        "confidence": "A",
+        "range": [
+          78,
+          93
+        ],
+        "rationale": "Redose + chemsex + finished-it-anyway reviews",
+        "x": 19
+      },
+      "enjoyment": {
+        "score": 16,
+        "confidence": "B",
+        "range": [
+          62,
+          86
+        ],
+        "rationale": "Best analog; still a cover band",
+        "x": 16
+      },
+      "sociability": {
+        "score": 82,
+        "confidence": "B",
+        "range": [
+          70,
+          90
+        ],
+        "rationale": "Talk engine, less roll"
+      },
+      "rush_x": 11,
+      "euphoria_x": 14,
+      "enjoyment_x": 16,
+      "compulsive_x": 19
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "B",
+        "range": [
+          35,
+          65
+        ],
+        "rationale": "Builds on long nights"
+      },
+      "aftereffects": {
+        "score": 62,
+        "confidence": "B",
+        "range": [
+          45,
+          78
+        ],
+        "rationale": "Often gentler than 4-MMC if they stop"
+      },
+      "cardiovascular": {
+        "score": 70,
+        "confidence": "B",
+        "range": [
+          55,
+          82
+        ],
+        "rationale": "WHO/EMCDDA intoxication profile"
+      },
+      "sleep": {
+        "score": 78,
+        "confidence": "B",
+        "range": [
+          65,
+          88
+        ],
+        "rationale": "Short duration invites more redose"
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA/EUDA risk assessment of 3-MMC",
+        "url": "https://www.euda.europa.eu/publications/risk-assessments/3-mmc_en",
+        "type": "euda",
+        "date": "2022"
+      },
+      {
+        "title": "WHO ECDD — 3-MMC",
+        "url": "https://ecddrepository.org/en/3-mmc",
+        "type": "who"
+      },
+      {
+        "title": "WHO 45th ECDD critical review — 3-MMC",
+        "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/45th-ecdd/3-mmc_draft.pdf",
+        "type": "who"
+      },
+      {
+        "title": "3-MMC vs 4-MMC How do they measure up?",
+        "url": "https://www.bluelight.org/community/threads/3-mmc-vs-4-mmc-how-do-they-measure-up.903769/",
+        "type": "bluelight"
+      },
+      {
+        "title": "3mmc or 4mmc, what are the differences",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/1e05gb4/3mmc_or_4mmc_what_are_the_differences_in_feeling/",
+        "type": "reddit",
+        "date": "2024"
+      },
+      {
+        "title": "Synthetic stimulants — European Drug Report 2026",
+        "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/synthetic-stimulants_en",
+        "type": "euda",
+        "date": "2026"
+      }
+    ]
+  },
+  {
+    "id": "2-mmc",
+    "name": "2-MMC",
+    "aliases": [
+      "2-methylmethcathinone",
+      "orthedrone"
+    ],
+    "family": "cathinone",
+    "subclass": "mmc",
+    "status": "market_confirmed",
+    "one_liner": "Tastes like the label lied.",
+    "positives_writeup": "Rush: short, thin, amp-shaped — not the meow freight train. Euphoria: low-to-mid, little hug. The 2024 EU import monster next to NEP. Compulsiveness: medium; short duration invites redose. Enjoyment: kinda nice but real short. The bag you finish because it is there.",
+    "negatives_writeup": "Mislabel capital of Europe. Drug-checking: 3-MMC name, 2-MMC powder. Clean feel data is noisy because nobody knew what they had.",
+    "route_myth": "mislabel",
+    "scores": {
+      "rush": {
+        "score": 55,
+        "confidence": "C",
+        "range": [
+          40,
+          68
+        ],
+        "rationale": "Thin first-person set; short amp"
+      },
+      "euphoria": {
+        "score": 48,
+        "confidence": "C",
+        "range": [
+          35,
+          62
+        ],
+        "rationale": "Consistently less recreational than 3/4"
+      },
+      "compulsiveness": {
+        "score": 62,
+        "confidence": "C",
+        "range": [
+          48,
+          75
+        ],
+        "rationale": "Short duration; less poetry"
+      },
+      "enjoyment": {
+        "score": 50,
+        "confidence": "C",
+        "range": [
+          38,
+          64
+        ],
+        "rationale": "Functional, not a night"
+      },
+      "sociability": {
+        "score": 55,
+        "confidence": "C",
+        "range": [
+          40,
+          68
+        ],
+        "rationale": "Talky-stim, not roll"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Mislabel noise; no clean 2-MMC paranoia corpus"
+      },
+      "aftereffects": {
+        "score": 40,
+        "confidence": "C",
+        "range": [
+          25,
+          55
+        ],
+        "rationale": "Some say little next-day vs 3-MMC"
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Official stim class only"
+      },
+      "sleep": {
+        "score": 60,
+        "confidence": "D",
+        "range": [
+          45,
+          75
+        ],
+        "rationale": "Short stim; inferred"
+      }
+    },
+    "sources": [
+      {
+        "title": "EU Drug Market: NPS — Synthetic cathinones",
+        "url": "https://www.euda.europa.eu/publications/eu-drug-markets/new-psychoactive-substances/distribution-and-supply/synthetic-cathinones_en",
+        "type": "euda"
+      },
+      {
+        "title": "Synthetic stimulants — European Drug Report 2026",
+        "url": "https://www.euda.europa.eu/publications/european-drug-report/2026/synthetic-stimulants_en",
+        "type": "euda",
+        "date": "2026"
+      },
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-cmc",
+    "name": "4-CMC",
+    "aliases": [
+      "clephedrone",
+      "4-chloromethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cmc",
+    "status": "market_confirmed",
+    "one_liner": "Same night, worse morning.",
+    "positives_writeup": "Rush: weaker onset than 3-MMC in 2014 Bluelight binges; still a night. Euphoria: serotonin-leaning cheap meow — concentration, confidence, sociability on the WHO card. Compulsiveness: high. Redosed until the jaw tried to leave. Enjoyment: fun until the chlorine tax.",
+    "negatives_writeup": "Nose burn. Ugly comedowns. Agitation, psychosis/hallucination cluster, sleeplessness, intoxications (usually polydrug). Neurotoxin rumor did not stop the seizure table.",
+    "route_myth": "redose",
+    "scores": {
+      "rush": {
+        "score": 68,
+        "confidence": "B",
+        "range": [
+          55,
+          80
+        ],
+        "rationale": "Weaker than 3-MMC onset in BL; still present"
+      },
+      "euphoria": {
+        "score": 64,
+        "confidence": "B",
+        "range": [
+          50,
+          78
+        ],
+        "rationale": "Empathogen-stim, less than 4-MMC"
+      },
+      "compulsiveness": {
+        "score": 82,
+        "confidence": "B",
+        "range": [
+          70,
+          90
+        ],
+        "rationale": "Binge reports + persistence on market"
+      },
+      "enjoyment": {
+        "score": 60,
+        "confidence": "B",
+        "range": [
+          45,
+          74
+        ],
+        "rationale": "Curious cross; mornings cost"
+      },
+      "sociability": {
+        "score": 70,
+        "confidence": "B",
+        "range": [
+          55,
+          82
+        ],
+        "rationale": "WHO + forum talk/sex lift"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 58,
+        "confidence": "B",
+        "range": [
+          40,
+          75
+        ],
+        "rationale": "Agitation / psychosis in official ADRs"
+      },
+      "aftereffects": {
+        "score": 78,
+        "confidence": "B",
+        "range": [
+          65,
+          90
+        ],
+        "rationale": "Worse morning consensus"
+      },
+      "cardiovascular": {
+        "score": 72,
+        "confidence": "B",
+        "range": [
+          58,
+          85
+        ],
+        "rationale": "Hypertension, chest pain, tachycardia (WHO)"
+      },
+      "sleep": {
+        "score": 80,
+        "confidence": "B",
+        "range": [
+          68,
+          90
+        ],
+        "rationale": "Sleeplessness listed"
+      }
+    },
+    "sources": [
+      {
+        "title": "WHO ECDD — 4-Chloromethcathinone",
+        "url": "https://ecddrepository.org/en/4-chloromethcathinone",
+        "type": "who"
+      },
+      {
+        "title": "WHO critical review — 4-CMC",
+        "url": "https://ecddrepository.org/sites/default/files/2023-04/final_4-cmc.pdf",
+        "type": "who",
+        "date": "2019"
+      },
+      {
+        "title": "RCs — 4-CMC Clephedrone",
+        "url": "https://www.bluelight.org/community/threads/4-cmc-clephedrone.722014/",
+        "type": "bluelight"
+      },
+      {
+        "title": "Oral fluid concentrations and pharmacological effects of clephedrone and methylone",
+        "url": "https://www.mdpi.com/1422-0067/27/1/89",
+        "type": "paper"
+      },
+      {
+        "title": "EU Drug Market: NPS — Distribution and supply in Europe",
+        "url": "https://www.euda.europa.eu/publications/eu-drug-markets/new-psychoactive-substances/distribution-and-supply_en",
+        "type": "euda"
+      }
+    ]
+  },
+  {
+    "id": "3-cmc",
+    "name": "3-CMC",
+    "aliases": [
+      "clophedrone",
+      "3-chloromethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cmc",
+    "status": "market_confirmed",
+    "one_liner": "It's what they pour when meow is gone.",
+    "positives_writeup": "Rush: later EU threads call it bigger than 3-MMC — especially in slam talk. 19.4 t in 2022. Euphoria: more DA, less hug. Not the roll. The flood. Compulsiveness: more fiendish 3-MMC. Enjoyment: split — rush and libido vs 'this feels toxic.'",
+    "negatives_writeup": "Ugly comedowns. Stim tox cluster. Formal EU risk assessment then control. Replacement logic: 4-CMC scheduled → 3-CMC boom → 2-MMC next.",
+    "route_myth": "redose slam_only",
+    "scores": {
+      "rush": {
+        "score": 78,
+        "confidence": "B",
+        "range": [
+          65,
+          88
+        ],
+        "rationale": "Forum bigger-rush-than-3-MMC; slam_talk"
+      },
+      "euphoria": {
+        "score": 62,
+        "confidence": "B",
+        "range": [
+          48,
+          75
+        ],
+        "rationale": "Less hug, more grind"
+      },
+      "compulsiveness": {
+        "score": 88,
+        "confidence": "B",
+        "range": [
+          78,
+          94
+        ],
+        "rationale": "Fiend + chemsex + tonne market"
+      },
+      "enjoyment": {
+        "score": 58,
+        "confidence": "B",
+        "range": [
+          40,
+          72
+        ],
+        "rationale": "Polarized"
+      },
+      "sociability": {
+        "score": 65,
+        "confidence": "C",
+        "range": [
+          50,
+          78
+        ],
+        "rationale": "Talk/libido, thinner empathy"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 60,
+        "confidence": "C",
+        "range": [
+          45,
+          78
+        ],
+        "rationale": "Stim tox + binge"
+      },
+      "aftereffects": {
+        "score": 80,
+        "confidence": "B",
+        "range": [
+          68,
+          90
+        ],
+        "rationale": "Ugly after long nights"
+      },
+      "cardiovascular": {
+        "score": 74,
+        "confidence": "B",
+        "range": [
+          60,
+          86
+        ],
+        "rationale": "RA intoxication profile"
+      },
+      "sleep": {
+        "score": 82,
+        "confidence": "B",
+        "range": [
+          70,
+          92
+        ],
+        "rationale": "Stim class"
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA risk assessment of 3-CMC",
+        "url": "https://www.euda.europa.eu/system/files/publications/14509/Report%20on%20the%20risk%20assessment%20of%203-CMC.pdf",
+        "type": "euda",
+        "date": "2022"
+      },
+      {
+        "title": "EU Drug Market: NPS — Synthetic cathinones",
+        "url": "https://www.euda.europa.eu/publications/eu-drug-markets/new-psychoactive-substances/distribution-and-supply/synthetic-cathinones_en",
+        "type": "euda"
+      },
+      {
+        "title": "Interpretative problems due to chloromethcathinone isomers in postmortem cases",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714900/",
+        "type": "forensic",
+        "date": "2023"
+      }
+    ]
+  },
+  {
+    "id": "2-cmc",
+    "name": "2-CMC",
+    "aliases": [
+      "2-chloromethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cmc",
+    "status": "limited_evidence",
+    "one_liner": "The chlorine isomer Europe forgot to notify.",
+    "positives_writeup": "No usable first-person corpus under a confirmed 2-CMC stamp. Presence is forensic: small 2016 seizures never formally notified; later UNODC ICE and a Spanish seized-sample paper. Do not steal 3-/4-CMC nights.",
+    "negatives_writeup": "Unknown as a distinct night. CFSRE 2024 NYC 'chloromethcathinone' used a 2-CMC drawing — isomer not confirmed.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Interpretative problems due to chloromethcathinone isomers in postmortem cases",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10714900/",
+        "type": "forensic",
+        "date": "2023"
+      },
+      {
+        "title": "EMCDDA risk assessment of 3-CMC",
+        "url": "https://www.euda.europa.eu/system/files/publications/14509/Report%20on%20the%20risk%20assessment%20of%203-CMC.pdf",
+        "type": "euda",
+        "date": "2022"
+      }
+    ]
+  },
+  {
+    "id": "4-fmc",
+    "name": "4-FMC",
+    "aliases": [
+      "flephedrone",
+      "4-fluoromethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "fmc",
+    "status": "market_confirmed",
+    "one_liner": "First-wave leftover. Weak.",
+    "positives_writeup": "Rush: diet stamp next to 2008–10 mephedrone. Euphoria: NDRA-leaning — speed, not hug. Compulsiveness: present, unremarkable. Enjoyment: dusty jar. 3-MMC users dismissed it in one line.",
+    "negatives_writeup": "Stim class. Thin modern reports. Not the 2020s flood.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": 42,
+        "confidence": "C",
+        "range": [
+          30,
+          55
+        ],
+        "rationale": "Early-wave weak vs meow"
+      },
+      "euphoria": {
+        "score": 38,
+        "confidence": "C",
+        "range": [
+          25,
+          50
+        ],
+        "rationale": "NDRA-leaning; little roll"
+      },
+      "compulsiveness": {
+        "score": 48,
+        "confidence": "C",
+        "range": [
+          35,
+          60
+        ],
+        "rationale": "Cathinone, not a legend"
+      },
+      "enjoyment": {
+        "score": 40,
+        "confidence": "C",
+        "range": [
+          28,
+          52
+        ],
+        "rationale": "Leftover"
+      },
+      "sociability": {
+        "score": 42,
+        "confidence": "D",
+        "range": [
+          30,
+          55
+        ],
+        "rationale": "Thin"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "A snapshot on NPS in Italy 2013-2015",
+        "url": "https://publires.unicatt.it/it/publications/a-snapshot-on-nps-in-italy-distribution-of-drugs-in-seized-materi-8/",
+        "type": "forensic"
+      },
+      {
+        "title": "3-MMC vs 4-MMC How do they measure up?",
+        "url": "https://www.bluelight.org/community/threads/3-mmc-vs-4-mmc-how-do-they-measure-up.903769/",
+        "type": "bluelight"
+      }
+    ]
+  },
+  {
+    "id": "3-fmc",
+    "name": "3-FMC",
+    "aliases": [
+      "3-fluoromethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "fmc",
+    "status": "moderately_documented",
+    "one_liner": "Notified 2008. Almost no night stories.",
+    "positives_writeup": "Formal notification before 4-MMC's fame peaked. Italian seizures 2013–15. Pharmacology exists. Street voice: nearly silent. Do not clone flephedrone onto the 3-position.",
+    "negatives_writeup": "No distinct ADR corpus under a confirmed 3-FMC stamp.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Presence in EWS/Italy ≠ feel data"
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Presence in EWS/Italy ≠ feel data"
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Presence in EWS/Italy ≠ feel data"
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Presence in EWS/Italy ≠ feel data"
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Presence in EWS/Italy ≠ feel data"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "A snapshot on NPS in Italy 2013-2015",
+        "url": "https://publires.unicatt.it/it/publications/a-snapshot-on-nps-in-italy-distribution-of-drugs-in-seized-materi-8/",
+        "type": "forensic"
+      }
+    ]
+  },
+  {
+    "id": "2-fmc",
+    "name": "2-FMC",
+    "aliases": [
+      "2-fluoromethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "fmc",
+    "status": "moderately_documented",
+    "one_liner": "Ortho-fluoro. Labs have it. Users don't.",
+    "positives_writeup": "Notified 2013. Italian seizures. In-vitro release data. No clean trip-report stack.",
+    "negatives_writeup": "Unknown as a night.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "A snapshot on NPS in Italy 2013-2015",
+        "url": "https://publires.unicatt.it/it/publications/a-snapshot-on-nps-in-italy-distribution-of-drugs-in-seized-materi-8/",
+        "type": "forensic"
+      }
+    ]
+  },
+  {
+    "id": "4-bmc",
+    "name": "4-BMC",
+    "aliases": [
+      "brephedrone",
+      "4-bromomethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "bmc",
+    "status": "market_confirmed",
+    "one_liner": "Vendor dust, then a tonne from India.",
+    "positives_writeup": "Rush: first-wave leftover; Bluelight called 4-CMC sharper than 4-BMC. Euphoria: very serotonergic on paper; street memory is 'rare/nasty' more than meow-2. 2024: 1.04 t mostly via NL from India. Compulsiveness: unknown at second-wave scale — do not invent a binge culture from a customs number. Enjoyment: thin.",
+    "negatives_writeup": "Second-wave user reviews have not caught up to the tonne. First-wave case counts were small grams, not folklore.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": 48,
+        "confidence": "D",
+        "range": [
+          35,
+          62
+        ],
+        "rationale": "One BL comparison: less sharp than 4-CMC"
+      },
+      "euphoria": {
+        "score": 50,
+        "confidence": "D",
+        "range": [
+          35,
+          65
+        ],
+        "rationale": "Serotonergic in vitro; thin human"
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No binge corpus"
+      },
+      "enjoyment": {
+        "score": 42,
+        "confidence": "D",
+        "range": [
+          28,
+          58
+        ],
+        "rationale": "Rare/nasty leftover vibe"
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EUDA initial report on 4-BMC",
+        "url": "https://www.euda.europa.eu/publications/initial-reports/initial-report-4-bmc_en",
+        "type": "euda",
+        "date": "2025"
+      },
+      {
+        "title": "EUDA initial report on 4-BMC (PDF)",
+        "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-4-bmc.pdf",
+        "type": "euda",
+        "date": "2025"
+      },
+      {
+        "title": "RCs — 4-CMC Clephedrone",
+        "url": "https://www.bluelight.org/community/threads/4-cmc-clephedrone.722014/",
+        "type": "bluelight"
+      }
+    ]
+  },
+  {
+    "id": "3-bmc",
+    "name": "3-BMC",
+    "aliases": [
+      "3-bromomethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "bmc",
+    "status": "moderately_documented",
+    "one_liner": "Notified 2017. A lab name, not a club name.",
+    "positives_writeup": "EDND 17.10.2017. In-vitro SNDRA. No forum stack under a confirmed 3-BMC stamp.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "2-bmc",
+    "name": "2-BMC",
+    "aliases": [
+      "2-bromomethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "bmc",
+    "status": "chemical_literature_only",
+    "one_liner": "Cayman sells the standard. Europe never named a bag.",
+    "positives_writeup": "Not in the EMCDDA 170-name tables (2023 accession). Reference standard + release-profile tables. Not an alias of 4-BMC.",
+    "negatives_writeup": "No street night.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "2-Bromomethcathinone (hydrochloride) — Cayman Chemical",
+        "url": "https://www.caymanchem.com/product/17743/2-bromomethcathinone-hydrochloride",
+        "type": "forensic"
+      },
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "4-mec",
+    "name": "4-MEC",
+    "aliases": [
+      "4-methylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "mec",
+    "status": "market_confirmed",
+    "one_liner": "You can go to work. You will hate work.",
+    "positives_writeup": "Rush: short. Some threads: fifteen minutes then a hole. Euphoria: diet meow — less intense than 4-MMC (WHO). A minority called it the chem of love. Compulsiveness: conflicting on purpose; short duration is still a redose machine. Enjoyment: mid. The 2010–14 shop SKU. Italy: 33 seizures, #2 after 3-MMC.",
+    "negatives_writeup": "Sweat, nausea, jaw, palpitations, migraine. Comedown can punch above the high. Not 4-EMC.",
+    "route_myth": "redose",
+    "scores": {
+      "rush": {
+        "score": 8,
+        "confidence": "B",
+        "range": [
+          40,
+          70
+        ],
+        "rationale": "Short; some love, most shrug",
+        "x": 8
+      },
+      "euphoria": {
+        "score": 4,
+        "confidence": "B",
+        "range": [
+          42,
+          75
+        ],
+        "rationale": "Less than 4-MMC; occasional rave review",
+        "x": 4
+      },
+      "compulsiveness": {
+        "score": 12,
+        "confidence": "B",
+        "range": [
+          50,
+          82
+        ],
+        "rationale": "WHO: conflicting redose data — score the binge reports",
+        "x": 12
+      },
+      "enjoyment": {
+        "score": 5,
+        "confidence": "B",
+        "range": [
+          38,
+          68
+        ],
+        "rationale": "Functional diet",
+        "x": 5
+      },
+      "sociability": {
+        "score": 62,
+        "confidence": "C",
+        "range": [
+          48,
+          75
+        ],
+        "rationale": "Talk/dance in a subset"
+      },
+      "rush_x": 8,
+      "euphoria_x": 4,
+      "enjoyment_x": 5,
+      "compulsive_x": 12
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "range": [
+          25,
+          55
+        ],
+        "rationale": "Thin"
+      },
+      "aftereffects": {
+        "score": 65,
+        "confidence": "B",
+        "range": [
+          50,
+          80
+        ],
+        "rationale": "Horrible comedown vs lack of comedown — split"
+      },
+      "cardiovascular": {
+        "score": 58,
+        "confidence": "C",
+        "range": [
+          45,
+          72
+        ],
+        "rationale": "Palpitations in WHO list"
+      },
+      "sleep": {
+        "score": 70,
+        "confidence": "C",
+        "range": [
+          55,
+          85
+        ],
+        "rationale": "Stim"
+      }
+    },
+    "sources": [
+      {
+        "title": "WHO ECDD critical review — 4-MEC",
+        "url": "https://ecddrepository.org/sites/default/files/4.3_4-mec_critreview.pdf",
+        "type": "who",
+        "date": "2016"
+      },
+      {
+        "title": "A snapshot on NPS in Italy 2013-2015",
+        "url": "https://publires.unicatt.it/it/publications/a-snapshot-on-nps-in-italy-distribution-of-drugs-in-seized-materi-8/",
+        "type": "forensic"
+      },
+      {
+        "title": "The effects and toxicity of cathinones from the users' perspectives",
+        "url": "https://doi.org/10.1002/hup.2610",
+        "type": "paper"
+      },
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "3-mec",
+    "name": "3-MEC",
+    "aliases": [
+      "3-methylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "mec",
+    "status": "moderately_documented",
+    "one_liner": "The meta stamp of 4-MEC. Notified, barely reviewed.",
+    "positives_writeup": "EDND 09.07.2014. Positional isomer of 4-MEC, not an alias. No stable feel corpus.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "2-mec",
+    "name": "2-MEC",
+    "aliases": [
+      "2-methylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "mec",
+    "status": "limited_evidence",
+    "one_liner": "Ortho-MEC. A notification date and a CAS.",
+    "positives_writeup": "EDND 22.10.2015. No user stack.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-eec",
+    "name": "4-EEC",
+    "aliases": [
+      "4-ethylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "eec",
+    "status": "limited_evidence",
+    "one_liner": "Both carbons grew. Reviews did not.",
+    "positives_writeup": "Notified 11.05.2015. Not 4-MEC, not 4-EMC. No independent first-person set this pass.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": "mislabel",
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "3-eec",
+    "name": "3-EEC",
+    "aliases": [
+      "3-ethylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "eec",
+    "status": "chemical_literature_only",
+    "one_liner": "Wikipedia/CAS isomer. No EWS row.",
+    "positives_writeup": "Named on the substituted-cathinone isomer grid. Not in EMCDDA Group A/B tables (2023). Not a circulated SKU on current evidence.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "2-eec",
+    "name": "2-EEC",
+    "aliases": [
+      "2-ethylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "eec",
+    "status": "chemical_literature_only",
+    "one_liner": "Ortho-EEC. Grid name only.",
+    "positives_writeup": "CAS/wiki isomer. No EWS row.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "4-cec",
+    "name": "4-CEC",
+    "aliases": [
+      "4-chloroethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cec",
+    "status": "moderately_documented",
+    "one_liner": "Chlorine plus N-ethyl. Rats shrugged. People barely wrote.",
+    "positives_writeup": "Rush/euphoria: rat telemetry weaker than 4-CMC or mephedrone; SERT substrate, weak DAT. Human stack is thin thinner-copy energy, not a scene. Compulsiveness unknown — do not inherit 4-CMC's fiend score.",
+    "negatives_writeup": "No distinct human ADR pile.",
+    "route_myth": "mislabel",
+    "scores": {
+      "rush": {
+        "score": 38,
+        "confidence": "D",
+        "range": [
+          25,
+          50
+        ],
+        "rationale": "Weaker than 4-CMC in animals; thin human"
+      },
+      "euphoria": {
+        "score": 40,
+        "confidence": "D",
+        "range": [
+          25,
+          55
+        ],
+        "rationale": "SERT-leaning, low DAT"
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": 35,
+        "confidence": "D",
+        "range": [
+          20,
+          50
+        ],
+        "rationale": "Thinner copy"
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "Neurochemical and cardiovascular effects of 4-chloro ring-substituted synthetic cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10201577/",
+        "type": "paper",
+        "date": "2023"
+      }
+    ]
+  },
+  {
+    "id": "3-cec",
+    "name": "3-CEC",
+    "aliases": [
+      "3-chloroethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cec",
+    "status": "limited_evidence",
+    "one_liner": "Notified 04.03.2016. That's the review.",
+    "positives_writeup": "EWS row only. One PAL assay listed 3-CEC inactive at usual transporters — do not turn that into a street 'does nothing' card.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "2-cec",
+    "name": "2-CEC",
+    "aliases": [
+      "2-chloroethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cec",
+    "status": "chemical_literature_only",
+    "one_liner": "Grid name. No notification.",
+    "positives_writeup": "Isomer-table name only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "4-emc",
+    "name": "4-EMC",
+    "aliases": [
+      "4-ethylmethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "emc",
+    "status": "moderately_documented",
+    "one_liner": "Closer to 3-MMC than 4-MEC — then the comedown shows up early.",
+    "positives_writeup": "Rush: Bluelight 'best since 4-MMC' ranked it with 3-MMC (7/10 vs meow 10). Early rush, then it drops. Euphoria: more in the beginning than 3-MMC in that writeup. Compulsiveness: needs redose. Enjoyment: one of the few post-ban stamps old heads did not spit on. Single-thread confidence.",
+    "negatives_writeup": "Earlier comedown. Thin modern market. Not 4-MEC.",
+    "route_myth": "redose",
+    "scores": {
+      "rush": {
+        "score": 70,
+        "confidence": "C",
+        "range": [
+          55,
+          82
+        ],
+        "rationale": "Single strong BL comparison + vendor-era presence"
+      },
+      "euphoria": {
+        "score": 72,
+        "confidence": "C",
+        "range": [
+          55,
+          84
+        ],
+        "rationale": "Close to 3-MMC in that thread"
+      },
+      "compulsiveness": {
+        "score": 74,
+        "confidence": "C",
+        "range": [
+          60,
+          85
+        ],
+        "rationale": "Explicit redose"
+      },
+      "enjoyment": {
+        "score": 70,
+        "confidence": "C",
+        "range": [
+          55,
+          82
+        ],
+        "rationale": "7/10 vs 4-MMC 10"
+      },
+      "sociability": {
+        "score": 68,
+        "confidence": "D",
+        "range": [
+          50,
+          80
+        ],
+        "rationale": "Talky family; inferred"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": 60,
+        "confidence": "C",
+        "range": [
+          45,
+          75
+        ],
+        "rationale": "Earlier comedown"
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "Best RC's since 4-mmc",
+        "url": "https://www.bluelight.org/community/threads/best-rcs-since-4-mmc.811048/",
+        "type": "bluelight"
+      }
+    ]
+  },
+  {
+    "id": "3-emc",
+    "name": "3-EMC",
+    "aliases": [
+      "3-ethylmethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "emc",
+    "status": "limited_evidence",
+    "one_liner": "Bought next to 3-MMC in 2015. Never got its own myth.",
+    "positives_writeup": "Name-drop on a Bluelight shopping list. Not in the EMCDDA 2023 Group A table. Not an alias of 4-EMC. No profile.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Name-drop ≠ profile"
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Name-drop ≠ profile"
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Name-drop ≠ profile"
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Name-drop ≠ profile"
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Name-drop ≠ profile"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Best RC's since 4-mmc",
+        "url": "https://www.bluelight.org/community/threads/best-rcs-since-4-mmc.811048/",
+        "type": "bluelight"
+      },
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "2-emc",
+    "name": "2-EMC",
+    "aliases": [
+      "2-ethylmethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "emc",
+    "status": "chemical_literature_only",
+    "one_liner": "Ortho-ethyl. Paper name.",
+    "positives_writeup": "Grid name only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "methedrone",
+    "name": "Methedrone",
+    "aliases": [
+      "4-methoxymethcathinone",
+      "bk-PMMA",
+      "PMMC",
+      "4-MeOMC"
+    ],
+    "family": "cathinone",
+    "subclass": "methoxy",
+    "status": "market_confirmed",
+    "one_liner": "One letter from mephedrone. The letter that did the heat-stroke rumor.",
+    "positives_writeup": "Rush: legal-high era, flatter than meow. Euphoria: mid, serotonergic on paper. Not mexedrone, not methylone, not mephedrone. Compulsiveness secondary to the scare. Enjoyment: festival-poison flag — score the thin similar-to-meph reports, do not sell it as 4-MMC.",
+    "negatives_writeup": "PMMA-adjacent hyperthermia lore. Name confusion kills people who thought they bought meow.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": 50,
+        "confidence": "C",
+        "range": [
+          35,
+          65
+        ],
+        "rationale": "Early legal-high; not the meow rush"
+      },
+      "euphoria": {
+        "score": 55,
+        "confidence": "C",
+        "range": [
+          40,
+          70
+        ],
+        "rationale": "Serotonergic; flatter stories"
+      },
+      "compulsiveness": {
+        "score": 48,
+        "confidence": "D",
+        "range": [
+          30,
+          65
+        ],
+        "rationale": "Thin"
+      },
+      "enjoyment": {
+        "score": 42,
+        "confidence": "C",
+        "range": [
+          25,
+          58
+        ],
+        "rationale": "Scare dominates memory"
+      },
+      "sociability": {
+        "score": 50,
+        "confidence": "D",
+        "range": [
+          35,
+          65
+        ],
+        "rationale": "Thin"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": 70,
+        "confidence": "C",
+        "range": [
+          55,
+          85
+        ],
+        "rationale": "Hangover / heat narrative"
+      },
+      "cardiovascular": {
+        "score": 75,
+        "confidence": "C",
+        "range": [
+          60,
+          88
+        ],
+        "rationale": "PMMA-adjacent official worry"
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "Mephedrone, methedrone, methadrone and methylone — DrugWise",
+        "url": "https://www.drugwise.org.uk/mephedrone-methedrone-methadrone-and-methylone/",
+        "type": "harm_reduction"
+      },
+      {
+        "title": "A snapshot on NPS in Italy 2013-2015",
+        "url": "https://publires.unicatt.it/it/publications/a-snapshot-on-nps-in-italy-distribution-of-drugs-in-seized-materi-8/",
+        "type": "forensic"
+      }
+    ]
+  },
+  {
+    "id": "3-meomc",
+    "name": "3-MeOMC",
+    "aliases": [
+      "3-methoxymethcathinone",
+      "3-MOMC"
+    ],
+    "family": "cathinone",
+    "subclass": "methoxy",
+    "status": "limited_evidence",
+    "one_liner": "Meta-methoxy. Notified 2014. Not mexedrone.",
+    "positives_writeup": "Different molecule from mexedrone (mexedrone is 4-methyl + 3-methoxy on the chain). No feel stack.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "2-meomc",
+    "name": "2-MeOMC",
+    "aliases": [
+      "2-methoxymethcathinone",
+      "2-MOMC",
+      "2-MeO-MC"
+    ],
+    "family": "cathinone",
+    "subclass": "methoxy",
+    "status": "chemical_literature_only",
+    "one_liner": "Ortho-methoxy in a release table.",
+    "positives_writeup": "No EWS row. In-vitro NDRA numbers only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "mexedrone",
+    "name": "Mexedrone",
+    "aliases": [
+      "4-MMC-MeO",
+      "3-methoxy-2-(methylamino)-1-(4-methylphenyl)propan-1-one"
+    ],
+    "family": "cathinone",
+    "subclass": "methoxy",
+    "status": "market_confirmed",
+    "one_liner": "They advertised it like meow. It wasn't.",
+    "positives_writeup": "Rush: mostly none. NOT EVEN CLOSE. A later writeup: weak, short, serotonin-only, ~15× wet-noodle vs mephedrone. A few people got a calm twenty-minute smile. Euphoria: tiny when it shows. Marketing did the heavy lifting. Compulsiveness: shovel-from-hype then bin — advertising, not 4-MMC fiend. Enjoyment: the famous flop.",
+    "negatives_writeup": "Disappointment. Mild tachycardia in the careful report. Early 2015 lots may have been a different N-methoxy isomer — identity_uncertain for hype bags, later labelled material matches the chain-methoxy structure. Not the heat-stroke name (that's methedrone).",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": 12,
+        "confidence": "B",
+        "range": [
+          5,
+          25
+        ],
+        "rationale": "Near-zero stim rush across BL"
+      },
+      "euphoria": {
+        "score": 22,
+        "confidence": "B",
+        "range": [
+          10,
+          40
+        ],
+        "rationale": "Weak short 5-HT smile in a minority"
+      },
+      "compulsiveness": {
+        "score": 28,
+        "confidence": "B",
+        "range": [
+          15,
+          45
+        ],
+        "rationale": "Shovel-from-hype then trash; not 4-MMC fiend"
+      },
+      "enjoyment": {
+        "score": 14,
+        "confidence": "B",
+        "range": [
+          5,
+          28
+        ],
+        "rationale": "0–1/10 in the comparison thread"
+      },
+      "sociability": {
+        "score": 18,
+        "confidence": "C",
+        "range": [
+          8,
+          35
+        ],
+        "rationale": "No talkiness vs a little"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 10,
+        "confidence": "C",
+        "range": [
+          0,
+          25
+        ],
+        "rationale": "Not the problem"
+      },
+      "aftereffects": {
+        "score": 15,
+        "confidence": "C",
+        "range": [
+          5,
+          30
+        ],
+        "rationale": "Mild / none in careful report"
+      },
+      "cardiovascular": {
+        "score": 25,
+        "confidence": "C",
+        "range": [
+          15,
+          40
+        ],
+        "rationale": "Mild tachycardia"
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "Mexedrone — Bluelight",
+        "url": "https://www.bluelight.org/community/threads/mexedrone.764088/",
+        "type": "bluelight"
+      },
+      {
+        "title": "Best RC's since 4-mmc",
+        "url": "https://www.bluelight.org/community/threads/best-rcs-since-4-mmc.811048/",
+        "type": "bluelight"
+      }
+    ]
+  },
+  {
+    "id": "34-dmmc",
+    "name": "3,4-DMMC",
+    "aliases": [
+      "3,4-dimethylmethcathinone",
+      "DMMC (usual bag meaning)"
+    ],
+    "family": "cathinone",
+    "subclass": "dmmc",
+    "status": "market_confirmed",
+    "one_liner": "Old headshop. Meh.",
+    "positives_writeup": "Rush: leftover, not a rival to meow. Australian Customs 2012 characterization; EWS 2010; Italian seizures. Euphoria: flat vs 4-MMC. Compulsiveness: unremarkable. Enjoyment: filler crystal. DMMC on an NRG bag almost always means this, not N,N-dimethylcathinone.",
+    "negatives_writeup": "Thin modern presence. Isomer labs must separate 2,4.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": 40,
+        "confidence": "C",
+        "range": [
+          28,
+          55
+        ],
+        "rationale": "Leftover / meh consensus"
+      },
+      "euphoria": {
+        "score": 42,
+        "confidence": "C",
+        "range": [
+          30,
+          55
+        ],
+        "rationale": "Flat vs 4-MMC"
+      },
+      "compulsiveness": {
+        "score": 45,
+        "confidence": "D",
+        "range": [
+          30,
+          60
+        ],
+        "rationale": "Unremarkable; thin"
+      },
+      "enjoyment": {
+        "score": 38,
+        "confidence": "C",
+        "range": [
+          25,
+          52
+        ],
+        "rationale": "Filler"
+      },
+      "sociability": {
+        "score": 40,
+        "confidence": "D",
+        "range": [
+          25,
+          55
+        ],
+        "rationale": "Thin"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "The characterization of 3,4-DMMC",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1556-4029.2012.02142.x",
+        "type": "forensic",
+        "date": "2012"
+      },
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "A snapshot on NPS in Italy 2013-2015",
+        "url": "https://publires.unicatt.it/it/publications/a-snapshot-on-nps-in-italy-distribution-of-drugs-in-seized-materi-8/",
+        "type": "forensic"
+      }
+    ]
+  },
+  {
+    "id": "24-dmmc",
+    "name": "2,4-DMMC",
+    "aliases": [
+      "2,4-dimethylmethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "dmmc",
+    "status": "limited_evidence",
+    "one_liner": "Poland found it in a bag. NMR had to tell 2,4 from 3,4.",
+    "positives_writeup": "First reported to EWS by NMI Poland. EI looks like 3,4-DMMC; retention time does not. Not an alias.",
+    "negatives_writeup": "Unknown as a night.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Identification of 2,4-DMMC and related cathinones in Poland",
+        "url": "https://link.springer.com/article/10.1007/s11419-018-00463-w",
+        "type": "forensic",
+        "date": "2019"
+      },
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "23-dmmc",
+    "name": "2,3-DMMC",
+    "aliases": [
+      "2,3-dimethylmethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "dmmc",
+    "status": "chemical_literature_only",
+    "one_liner": "Grid isomer. No EWS row in the 2023 tables.",
+    "positives_writeup": "Named on isomer grids only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "245-tmmc",
+    "name": "2,4,5-TMMC",
+    "aliases": [
+      "2,4,5-trimethylmethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "dmmc",
+    "status": "limited_evidence",
+    "one_liner": "Three methyls. Notified 08.05.2012. No poems.",
+    "positives_writeup": "EWS row. No feel stack.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "34-dmec",
+    "name": "3,4-DMEC",
+    "aliases": [
+      "3,4-dimethylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "dmmc",
+    "status": "limited_evidence",
+    "one_liner": "N-ethyl 3,4-DMMC. Forensic, not folklore.",
+    "positives_writeup": "Notified 25.02.2014.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "24-dmec",
+    "name": "2,4-DMEC",
+    "aliases": [
+      "2,4-dimethylethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "dmmc",
+    "status": "limited_evidence",
+    "one_liner": "Poland's N-ethyl 2,4. Same paper as 2,4-DMMC.",
+    "positives_writeup": "Notified 21.09.2015 with 2,4-DMMC.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "Identification of 2,4-DMMC and related cathinones in Poland",
+        "url": "https://link.springer.com/article/10.1007/s11419-018-00463-w",
+        "type": "forensic",
+        "date": "2019"
+      }
+    ]
+  },
+  {
+    "id": "methcathinone",
+    "name": "Methcathinone",
+    "aliases": [
+      "ephedrone",
+      "jeff",
+      "cat",
+      "MCAT (ambiguous)"
+    ],
+    "family": "cathinone",
+    "subclass": "parent",
+    "status": "market_confirmed",
+    "one_liner": "The Soviet bathroom legend. Parent stamp, not the meow hug.",
+    "positives_writeup": "Rush: old jeff stories — dirty, strong, catecholamine-heavy. Euphoria: speed, not roll. The thing 4-MMC dressed up. Compulsiveness: classic stimulant greedy, different culture than 2009 meow. Enjoyment: historical, not the party SKU.",
+    "negatives_writeup": "UN Schedule I parent. Manganese-tremor folklore belongs to a method we are not writing. Ambiguous street word MCAT also means mephedrone.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": 70,
+        "confidence": "C",
+        "range": [
+          55,
+          82
+        ],
+        "rationale": "Historical jeff/ephedrone stim rush"
+      },
+      "euphoria": {
+        "score": 58,
+        "confidence": "C",
+        "range": [
+          45,
+          70
+        ],
+        "rationale": "Speed, not roll"
+      },
+      "compulsiveness": {
+        "score": 75,
+        "confidence": "C",
+        "range": [
+          60,
+          88
+        ],
+        "rationale": "Classic stimulant greedy"
+      },
+      "enjoyment": {
+        "score": 55,
+        "confidence": "C",
+        "range": [
+          40,
+          68
+        ],
+        "rationale": "Historical"
+      },
+      "sociability": {
+        "score": 50,
+        "confidence": "C",
+        "range": [
+          35,
+          65
+        ],
+        "rationale": "Stim talk, not empathogen"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 55,
+        "confidence": "C",
+        "range": [
+          40,
+          70
+        ],
+        "rationale": "Stim class / old street lore"
+      },
+      "aftereffects": {
+        "score": 65,
+        "confidence": "C",
+        "range": [
+          50,
+          80
+        ],
+        "rationale": "Stim hangover"
+      },
+      "cardiovascular": {
+        "score": 68,
+        "confidence": "C",
+        "range": [
+          55,
+          82
+        ],
+        "rationale": "Catecholamine-heavy parent"
+      },
+      "sleep": {
+        "score": 75,
+        "confidence": "C",
+        "range": [
+          60,
+          88
+        ],
+        "rationale": "Stim"
+      }
+    },
+    "sources": [
+      {
+        "title": "UNODC Recommended methods for identification of synthetic cathinones",
+        "url": "https://www.unodc.org/documents/scientific/STNAR49_Synthetic_Cathinones_E.pdf",
+        "type": "forensic"
+      },
+      {
+        "title": "Substituted cathinone — Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinones",
+        "type": "encyclopedia"
+      }
+    ]
+  },
+  {
+    "id": "ethcathinone",
+    "name": "Ethcathinone",
+    "aliases": [
+      "ethylcathinone",
+      "EC",
+      "N-ethylcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "mec",
+    "status": "moderately_documented",
+    "one_liner": "The bare N-ethyl parent. Notified the same day as mephedrone.",
+    "positives_writeup": "Qualitative user study listed it as a mild euphoric. Not a headliner. Parent of the MEC wall.",
+    "negatives_writeup": "Thin.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": 45,
+        "confidence": "D",
+        "range": [
+          30,
+          60
+        ],
+        "rationale": "Mild vs mephedrone in one qualitative paper"
+      },
+      "euphoria": {
+        "score": 42,
+        "confidence": "C",
+        "range": [
+          30,
+          55
+        ],
+        "rationale": "HUP: mild euphoric agent"
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": 40,
+        "confidence": "D",
+        "range": [
+          25,
+          55
+        ],
+        "rationale": "Not a headliner"
+      },
+      "sociability": {
+        "score": 45,
+        "confidence": "D",
+        "range": [
+          30,
+          60
+        ],
+        "rationale": "Thin"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      },
+      {
+        "title": "The effects and toxicity of cathinones from the users' perspectives",
+        "url": "https://doi.org/10.1002/hup.2610",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "nor-mephedrone",
+    "name": "Nor-mephedrone",
+    "aliases": [
+      "4-methylcathinone",
+      "4-MC"
+    ],
+    "family": "cathinone",
+    "subclass": "mmc",
+    "status": "limited_evidence",
+    "one_liner": "4-MMC that lost the N-methyl. Also a metabolite. Also a 2015 notification.",
+    "positives_writeup": "Do not assume a 4-MMC bag is this. Do not assume a metabolite paper is a product.",
+    "negatives_writeup": "Identity overlap with 4-MMC metabolism.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Metabolite vs product not separable in feel data"
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Metabolite vs product not separable in feel data"
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Metabolite vs product not separable in feel data"
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Metabolite vs product not separable in feel data"
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "Metabolite vs product not separable in feel data"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-fec",
+    "name": "4-FEC",
+    "aliases": [
+      "4-fluoroethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cec",
+    "status": "limited_evidence",
+    "one_liner": "Fluoro + N-ethyl. Notification, not a night.",
+    "positives_writeup": "EDND 03.02.2015.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-bec",
+    "name": "4-BEC",
+    "aliases": [
+      "4-bromoethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cec",
+    "status": "limited_evidence",
+    "one_liner": "Bromo + N-ethyl. Notified 10.02.2014.",
+    "positives_writeup": "EWS row only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-cic",
+    "name": "4-CIC",
+    "aliases": [
+      "4-chloro-N-isopropylcathinone",
+      "4-CiPC"
+    ],
+    "family": "cathinone",
+    "subclass": "cec",
+    "status": "limited_evidence",
+    "one_liner": "CEC's isopropyl cousin. Notified 03.03.2016.",
+    "positives_writeup": "Sat on the chloro-N-swap wall. Not MEC/EEC.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-me-dmc",
+    "name": "4-Me-DMC",
+    "aliases": [
+      "4-methyl-N,N-dimethylcathinone",
+      "N,N-DMMC"
+    ],
+    "family": "cathinone",
+    "subclass": "dmmc",
+    "status": "limited_evidence",
+    "one_liner": "The other DMMC. N,N-dimethyl, not 3,4-dimethyl.",
+    "positives_writeup": "Notified 18.09.2014. Alias_duplicate risk with 3,4-DMMC.",
+    "negatives_writeup": "Acronym collision.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-me-dec",
+    "name": "4-Me-DEC",
+    "aliases": [
+      "4-methyl-N,N-diethylcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "mec",
+    "status": "limited_evidence",
+    "one_liner": "Notified 20.10.2014. One more N-stamp.",
+    "positives_writeup": "EWS row only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-cl-dmc",
+    "name": "4-Cl-DMC",
+    "aliases": [
+      "4-chloro-N,N-dimethylcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cmc",
+    "status": "limited_evidence",
+    "one_liner": "Chloro + N,N-dimethyl. 30.09.2015.",
+    "positives_writeup": "EWS row only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-fluorocathinone",
+    "name": "4-Fluorocathinone",
+    "aliases": [
+      "4-FC",
+      "4-F-cathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "fmc",
+    "status": "limited_evidence",
+    "one_liner": "Nor-fluoro. Primary amine. Not flephedrone.",
+    "positives_writeup": "Notified 10.01.2013. Not an alias of 4-FMC.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "3-chlorocathinone",
+    "name": "3-Chlorocathinone",
+    "aliases": [
+      "3-CC",
+      "3-Cl-cathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cmc",
+    "status": "limited_evidence",
+    "one_liner": "Nor-chloro. Notified 13.11.2020. Not 3-CMC.",
+    "positives_writeup": "Primary amine. Different SKU from clophedrone.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4f-3-mmc",
+    "name": "3-Methylflephedrone",
+    "aliases": [
+      "4F-3-MMC",
+      "4-fluoro-3-methylmethcathinone",
+      "MFMC"
+    ],
+    "family": "cathinone",
+    "subclass": "hybrid",
+    "status": "limited_evidence",
+    "one_liner": "Two stamps on one ring. Notified 28.04.2017.",
+    "positives_writeup": "Not an alias of 4-FMC or 3-MMC.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "4-cl-3-mmc",
+    "name": "4-Cl-3-MMC",
+    "aliases": [
+      "4-chloro-3-methylmethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "hybrid",
+    "status": "limited_evidence",
+    "one_liner": "The 2021 hybrid stamp. Chloro + methyl on the same ring.",
+    "positives_writeup": "Notified 29.11.2021. Late EWS, no feel stack.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "34-dcec",
+    "name": "3,4-DCEC",
+    "aliases": [
+      "3,4-dichloroethcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "cec",
+    "status": "limited_evidence",
+    "one_liner": "Two chlorines, N-ethyl. 17.11.2017.",
+    "positives_writeup": "EWS row only.",
+    "negatives_writeup": "Unknown.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  },
+  {
+    "id": "metamfepramone",
+    "name": "Metamfepramone",
+    "aliases": [
+      "dimethylcathinone",
+      "DMC",
+      "N,N-dimethylcathinone"
+    ],
+    "family": "cathinone",
+    "subclass": "parent",
+    "status": "moderately_documented",
+    "one_liner": "Old medicine name. Not 3,4-DMMC.",
+    "positives_writeup": "Notified 12.11.2009. Historical / analytical more than party. Third occupant of the DMC/DMMC acronym pile.",
+    "negatives_writeup": "Acronym collision with 3,4-DMMC and 4-Me-DMC.",
+    "route_myth": null,
+    "scores": {
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No recreational feel corpus located"
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No recreational feel corpus located"
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No recreational feel corpus located"
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No recreational feel corpus located"
+      },
+      "sociability": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No recreational feel corpus located"
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "range": null,
+        "rationale": "No first-person corpus under a confirmed stamp."
+      }
+    },
+    "sources": [
+      {
+        "title": "EMCDDA framework and practical guidance for naming cathinones",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+        "type": "paper",
+        "date": "2024"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3817 @@
+{
+  "assignment_id": "07_08",
+  "slug": "amphetamines_phenidates",
+  "title": "Amphetamine / meth derivatives + phenidates",
+  "kits": [
+    "V",
+    "T"
+  ],
+  "disclaimer": "Fictional game catalog research. Unitless 0-100 inferences from public reports. Not a manual. No recipes. No how-to-take. No milligram instructions. Unknown scores are null, never 0. Pleasure and compulsiveness are independent.",
+  "scoring": {
+    "scale": "0-100 or null",
+    "pleasure_vs_compulsiveness": "independent",
+    "priority_axes": [
+      "rush",
+      "euphoria",
+      "compulsiveness",
+      "enjoyment"
+    ],
+    "confidence": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "U"
+    ]
+  },
+  "coverage": {
+    "full_cards": 28,
+    "thin_or_null": 17,
+    "note_only_other_desk": 11,
+    "invented_names": 0,
+    "headliners": [
+      "amphetamine",
+      "methamphetamine",
+      "2-fma",
+      "4-fa",
+      "4-fma",
+      "methylphenidate",
+      "ethylphenidate",
+      "4f-mph"
+    ]
+  },
+  "rush_vs_grind": {
+    "have_a_rush": [
+      "methamphetamine",
+      "ethylphenidate",
+      "4f-eph",
+      "amphetamine",
+      "3-fa",
+      "4-fma",
+      "4-fa",
+      "3,4-ctmp"
+    ],
+    "grind_only": [
+      "2-fma",
+      "4f-mph",
+      "isopropylphenidate",
+      "methylphenidate",
+      "lisdexamfetamine",
+      "4-me-tmp",
+      "phentermine",
+      "methiopropamine"
+    ],
+    "love_without_rush": [
+      "4-fa",
+      "2-fma",
+      "4f-mph"
+    ],
+    "hated_binge_still_euphoric": [
+      "methamphetamine",
+      "ethylphenidate"
+    ],
+    "stimulates_but_not_fun": [
+      "3,4-ctmp",
+      "pma",
+      "pmma"
+    ]
+  },
+  "scope": {
+    "include_07": "amphetamine, methamphetamine, fluoroamps, stim methoxyamps (PMA/PMMA scare), 4-MA/4-MTA, MPA, documented stim analogues",
+    "include_08": "methylphenidate and documented phenidate NPS; transporter evidence vs feel",
+    "exclude": [
+      "DOx psychedelic amps (note only)",
+      "MDMA/MDA/APB",
+      "cathinones",
+      "pyros",
+      "3-FPM / phenmetrazines",
+      "opioids",
+      "invented isomers"
+    ]
+  },
+  "compounds": [
+    {
+      "id": "amphetamine",
+      "name": "Amphetamine",
+      "family": "amphetamine_stim",
+      "subclass": "amphetamine",
+      "aliases": [
+        "speed",
+        "amph",
+        "benzedrine",
+        "Adderall mix"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "sku_role": "headliner",
+      "kit": "kitchen",
+      "feel": {
+        "headline": "Everything else is a remix.",
+        "rush": {
+          "score": 8,
+          "confidence": "B",
+          "note": "Oral is a climb. Insufflated street speed has a snap that is still not meth. Route-gated; no SOP.",
+          "x": 8
+        },
+        "euphoria": {
+          "score": 12,
+          "confidence": "A",
+          "note": "Talky, confident, grind-okay. Racemic paste dirtier than pharma dex.",
+          "x": 12
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "A",
+          "note": "The baseline night. Work or weekend.",
+          "x": 16
+        },
+        "compulsiveness": {
+          "score": 12,
+          "confidence": "A",
+          "note": "Redose because it fades, not pyro vacuum.",
+          "x": 12
+        },
+        "reinforcement": {
+          "score": 66,
+          "confidence": "A",
+          "note": "The parent analog wall is chasing this plus meth."
+        },
+        "rush_x": 8,
+        "euphoria_x": 12,
+        "enjoyment_x": 16,
+        "compulsive_x": 12
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 42,
+          "confidence": "B",
+          "note": "If you live there."
+        },
+        "aftereffects": {
+          "score": 58,
+          "confidence": "A",
+          "note": "Gray comedown, jaw, appetite gone."
+        },
+        "psychosis_concern": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Lower than meth on ordinary nights."
+        },
+        "cardiovascular": {
+          "score": 56,
+          "confidence": "A",
+          "note": "Ordinary stimulant tax."
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "A",
+          "note": "Wake."
+        }
+      },
+      "route_myth": "oral_ok; insufflated snap is real and still not meth",
+      "npc_line": "Everything else is a remix.",
+      "flags": [
+        "redose",
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "Erowid amphetamine vault",
+          "url": "https://www.erowid.org/chemicals/amphetamines/",
+          "type": "vault",
+          "year": null
+        },
+        {
+          "title": "NIDA stimulant class facts",
+          "url": "",
+          "type": "agency",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "enantiomer feel is pharma lore more than street SKU talk"
+      ]
+    },
+    {
+      "id": "dextroamphetamine",
+      "name": "Dextroamphetamine",
+      "family": "amphetamine_stim",
+      "subclass": "amphetamine",
+      "aliases": [
+        "Dexedrine",
+        "dex"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "sku_role": "pharma_divert",
+      "kit": "kitchen",
+      "feel": {
+        "headline": "Speed with a doctor voice.",
+        "rush": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Cleaner climb than racemic. Still not a flash."
+        },
+        "euphoria": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Focus plus mood."
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Preferred when they can get it."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Lower than street paste; still a redose drug."
+        },
+        "reinforcement": {
+          "score": 62,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Same stim bill, less jitter in rumor."
+        },
+        "psychosis_concern": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 52,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Speed with a doctor voice.",
+      "flags": [
+        "oral_ok",
+        "work"
+      ],
+      "sources": [
+        {
+          "title": "Erowid dextroamphetamine",
+          "url": "https://www.erowid.org/chemicals/amphetamines/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "street vs IR tablet is the same molecule"
+      ]
+    },
+    {
+      "id": "levoamphetamine",
+      "name": "Levoamphetamine",
+      "family": "amphetamine_stim",
+      "subclass": "amphetamine",
+      "aliases": [
+        "l-amp",
+        "Adderall other half"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "sku_role": "not_a_separate_sku",
+      "kit": null,
+      "feel": {
+        "headline": "The jitter isomer. Not a bottle of its own.",
+        "rush": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Peripheral more than magic."
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "C",
+          "note": "Less central glow than dex."
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "C",
+          "note": "People do not hunt this as a SKU."
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Not why Adderall gets emptied."
+        },
+        "reinforcement": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 44,
+          "confidence": "C",
+          "note": "More body, more BP rumor."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "C",
+          "note": "More peripheral."
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The half you feel in your chest, not your night.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Amphetamine enantiomer reviews",
+          "url": "",
+          "type": "paper",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "almost no dedicated recreational reports"
+      ]
+    },
+    {
+      "id": "methamphetamine",
+      "name": "Methamphetamine",
+      "family": "amphetamine_stim",
+      "subclass": "methamphetamine",
+      "aliases": [
+        "ice",
+        "crystal",
+        "shards",
+        "Tina",
+        "yaba",
+        "Desoxyn",
+        "glass"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "sku_role": "headliner",
+      "kit": "kitchen",
+      "feel": {
+        "headline": "The one every analog is chasing and none of them catch.",
+        "rush": {
+          "score": 28,
+          "confidence": "A",
+          "note": "Fast-route flash is the poem. Oral/snorted is a long high, not the same flash (NIDA). Score the SKU for the myth. No SOP.",
+          "x": 28
+        },
+        "euphoria": {
+          "score": 21,
+          "confidence": "A",
+          "note": "The analog wall exists because this mood is the target.",
+          "x": 21
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "A",
+          "note": "People who hate what it did still talk like they miss it.",
+          "x": 20
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "A",
+          "note": "Runs. Redose before the blood even falls.",
+          "x": 30
+        },
+        "reinforcement": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Highest on this file."
+        },
+        "rush_x": 28,
+        "euphoria_x": 21,
+        "enjoyment_x": 20,
+        "compulsive_x": 30
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Shadow people if you live there."
+        },
+        "aftereffects": {
+          "score": 82,
+          "confidence": "A",
+          "note": "Cliff crash."
+        },
+        "psychosis_concern": {
+          "score": 74,
+          "confidence": "A",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "A",
+          "note": "Heart, heat, stroke rumor."
+        },
+        "sleep": {
+          "score": 92,
+          "confidence": "A",
+          "note": "Days."
+        }
+      },
+      "route_myth": "smoke_fav / slam_myth = rush; oral_ok = long high not the same flash; yaba is the same molecule in a pill stamp",
+      "npc_line": "The one every analog is chasing and none of them catch.",
+      "flags": [
+        "redose",
+        "paranoia"
+      ],
+      "sources": [
+        {
+          "title": "NIDA How is methamphetamine misused",
+          "url": "https://nida.nih.gov/publications/research-reports/methamphetamine/how-methamphetamine-misused",
+          "type": "agency",
+          "year": null
+        },
+        {
+          "title": "DEA methamphetamine fact sheet",
+          "url": "https://www.dea.gov/sites/default/files/2020-06/Methamphetamine-2020_0.pdf",
+          "type": "agency",
+          "year": 2020
+        },
+        {
+          "title": "Kirkpatrick et al. IN meth vs d-amp",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3475187/",
+          "type": "paper",
+          "year": 2012
+        }
+      ],
+      "gaps": [
+        "ice vs dirty is purity/route, not two drugs"
+      ]
+    },
+    {
+      "id": "lisdexamfetamine",
+      "name": "Lisdexamfetamine",
+      "family": "amphetamine_stim",
+      "subclass": "amphetamine_prodrug",
+      "aliases": [
+        "Vyvanse"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "sku_role": "pharma_divert",
+      "kit": null,
+      "feel": {
+        "headline": "Homework in a capsule.",
+        "rush": {
+          "score": 18,
+          "confidence": "A",
+          "note": "Prodrug on purpose."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Soft dex glow if it converts."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Loved as a work day."
+        },
+        "compulsiveness": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Harder to fiend."
+        },
+        "reinforcement": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 46,
+          "confidence": "B",
+          "note": "Stretched amph comedown."
+        },
+        "psychosis_concern": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Late insomnia."
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Homework in a capsule.",
+      "flags": [
+        "oral_ok",
+        "work"
+      ],
+      "sources": [
+        {
+          "title": "Lisdexamfetamine diversion literature",
+          "url": "",
+          "type": "paper",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "conversion variability is clinical, not street poetry"
+      ]
+    },
+    {
+      "id": "phentermine",
+      "name": "Phentermine",
+      "family": "amphetamine_stim",
+      "subclass": "amphetamine",
+      "aliases": [
+        "Ionamin"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "sku_role": "museum",
+      "kit": null,
+      "feel": {
+        "headline": "Coffee with a criminal record.",
+        "rush": {
+          "score": 15,
+          "confidence": "B",
+          "note": "None worth naming."
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Dry stim. Appetite story."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "C",
+          "note": "Pharmacy leftover."
+        },
+        "compulsiveness": {
+          "score": 20,
+          "confidence": "C",
+          "note": "Does not call you back."
+        },
+        "reinforcement": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 18,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Dry, useless for fun."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Old anorectic heart tax."
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "The doctor called it appetite. The body called it coffee with a record.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "Old anorectic literature / Erowid phentermine",
+          "url": "",
+          "type": "mixed",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "thin recreational chorus"
+      ]
+    },
+    {
+      "id": "n_ethylamphetamine",
+      "name": "N-Ethylamphetamine",
+      "family": "amphetamine_stim",
+      "subclass": "amphetamine",
+      "aliases": [
+        "etilamfetamine",
+        "Apetinil"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "filler",
+      "kit": null,
+      "feel": {
+        "headline": "Amphetamine that stayed an extra carbon and lost the plot.",
+        "rush": {
+          "score": 38,
+          "confidence": "C",
+          "note": "Amph-shaped, thinner."
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Some mood, less love than amp."
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "C",
+          "note": "Not a headliner."
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Ordinary stim redose."
+        },
+        "reinforcement": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 48,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Amphetamine that stayed an extra carbon and lost the plot.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "UNODC phenethylamine notes / old analog lists",
+          "url": "",
+          "type": "agency",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "few modern trip reports"
+      ]
+    },
+    {
+      "id": "fenethylline",
+      "name": "Fenethylline",
+      "family": "amphetamine_stim",
+      "subclass": "amphetamine_prodrug",
+      "aliases": [
+        "Captagon"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "sku_role": "regional_headliner",
+      "kit": null,
+      "feel": {
+        "headline": "The stamp on the war footage.",
+        "rush": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Wired, not a crystal flash. Logo pills often not fenethylline."
+        },
+        "euphoria": {
+          "score": 64,
+          "confidence": "C",
+          "note": "Stamina, focus, well-being in Levant/Gulf myth."
+        },
+        "enjoyment": {
+          "score": 62,
+          "confidence": "C",
+          "note": "Regional. Rare unless you import the rumor."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Long nights."
+        },
+        "reinforcement": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 46,
+          "confidence": "C",
+          "note": "Psychosis rumor on withdrawn medicine."
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 48,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "C",
+          "note": "Long."
+        }
+      },
+      "route_myth": "oral_ok; stamp is not the molecule",
+      "npc_line": "The stamp on the war footage.",
+      "flags": [
+        "oral_ok",
+        "long",
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Captagon narrative review PMC10977473",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10977473/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "lab-confirmed fenethylline vs logo-pill is the whole market"
+      ]
+    },
+    {
+      "id": "2-fa",
+      "name": "2-FA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "2-fluoroamphetamine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "kit_v",
+      "kit": "V",
+      "feel": {
+        "headline": "2-FMA's impatient little brother.",
+        "rush": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Some onset. More rec than 2-FMA, still not a night out."
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "B",
+          "note": "Mood tick. Enjoyed and cursed."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Fine functional / light rec."
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Short enough that people stack the evening."
+        },
+        "reinforcement": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Headache, dry, no sleep."
+        },
+        "psychosis_concern": {
+          "score": 20,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Heart skip on a long redose night (Erowid 116606)."
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "2-FMA's impatient little brother.",
+      "flags": [
+        "oral_ok",
+        "work",
+        "redose"
+      ],
+      "sources": [
+        {
+          "title": "Erowid exp 116606 2-FA",
+          "url": "https://www.erowid.org/experiences/exp.php?ID=116606",
+          "type": "report",
+          "year": 2022
+        },
+        {
+          "title": "r/researchchemicals fluoroamp comparisons",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8dwhqq/comparison_between_florinated_amphetamines/",
+          "type": "forum",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "less paper than 4-FA"
+      ]
+    },
+    {
+      "id": "2-fma",
+      "name": "2-FMA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "2-fluoromethamphetamine"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "sku_role": "headliner",
+      "kit": "V",
+      "feel": {
+        "headline": "Work. Files the report. Does not throw the party.",
+        "rush": {
+          "score": 22,
+          "confidence": "A",
+          "note": "Almost none. That is the point."
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "A",
+          "note": "Soft. Enjoyment of function, not a roll."
+        },
+        "enjoyment": {
+          "score": 64,
+          "confidence": "A",
+          "note": "The fluoroamp people actually finished a shift on."
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Stay-on-it-because-work, then lose the weekend. Not pyro."
+        },
+        "reinforcement": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Reordered as a tool."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 24,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "A",
+          "note": "Flatness after a work binge."
+        },
+        "psychosis_concern": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Heart-rate tax if you live there."
+        },
+        "sleep": {
+          "score": 74,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; work crate; fluoride-tox forum panic is rumor",
+      "npc_line": "Files the report. Does not throw the party.",
+      "flags": [
+        "oral_ok",
+        "work",
+        "focus"
+      ],
+      "sources": [
+        {
+          "title": "Fluorinated Amphetamine Love Story",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/1yixyy/fluorinated_amphetamine_love_story/",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "r/researchchemicals fluoroamp comparison 2018",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8dwhqq/comparison_between_florinated_amphetamines/",
+          "type": "forum",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "human lab data thin vs 4-FA"
+      ]
+    },
+    {
+      "id": "3-fa",
+      "name": "3-FA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "3-fluoroamphetamine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "kit_v",
+      "kit": "V",
+      "feel": {
+        "headline": "The fun fluoro that still lets you type.",
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "More snap than 2- or 4-. Rare bag."
+        },
+        "euphoria": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Dopamine-heavy, slight serotonin tinge. Forum love-letter vs meth — not potency math."
+        },
+        "enjoyment": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Favorite-by-miles when found."
+        },
+        "compulsiveness": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Recreational enough to redose. Not EPH."
+        },
+        "reinforcement": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Longer stim, ordinary heart/jaw."
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "The fun fluoro that still lets you type.",
+      "flags": [
+        "oral_ok",
+        "redose"
+      ],
+      "sources": [
+        {
+          "title": "r/researchchemicals fluoroamp comparison 2018",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8dwhqq/comparison_between_florinated_amphetamines/",
+          "type": "forum",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "scarce product = people disagree on the 3-position"
+      ]
+    },
+    {
+      "id": "3-fma",
+      "name": "3-FMA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "3-fluoromethamphetamine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "filler",
+      "kit": "V",
+      "feel": {
+        "headline": "A little taste of both. Optimal for neither.",
+        "rush": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Mid."
+        },
+        "euphoria": {
+          "score": 56,
+          "confidence": "C",
+          "note": "Dirtier body than 3-FA."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Mid-pack leftover."
+        },
+        "compulsiveness": {
+          "score": 44,
+          "confidence": "C",
+          "note": "Ordinary."
+        },
+        "reinforcement": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 34,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 54,
+          "confidence": "C",
+          "note": "Body load, less clear."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 54,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 68,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "A little taste of both. Optimal for neither.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "r/researchchemicals fluoroamp comparison 2018",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8dwhqq/comparison_between_florinated_amphetamines/",
+          "type": "forum",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "fewer reports than 2-FMA / 4-FA / 4-FMA"
+      ]
+    },
+    {
+      "id": "4-fa",
+      "name": "4-FA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "4-fluoroamphetamine",
+        "Flux",
+        "4-FMP",
+        "PAL-303"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "sku_role": "headliner",
+      "kit": "V",
+      "feel": {
+        "headline": "MDMA for people who have a shift.",
+        "rush": {
+          "score": 44,
+          "confidence": "A",
+          "note": "Come-up tingle then roll then amph grind. Not a coke snap. Most event on the fluoro wall."
+        },
+        "euphoria": {
+          "score": 68,
+          "confidence": "A",
+          "note": "The friendly one. Empathy without full Molly kidnapping. Dutch darling."
+        },
+        "enjoyment": {
+          "score": 76,
+          "confidence": "A",
+          "note": "Highest enjoyment on this fluoro shelf. Reordered as a night."
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "A",
+          "note": "Roll satiates; stim tail still begs a bump. Not a pyro."
+        },
+        "reinforcement": {
+          "score": 66,
+          "confidence": "A",
+          "note": "People came back until the stroke story."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 58,
+          "confidence": "A",
+          "note": "Serotonin-depletion rumor on 4-subs."
+        },
+        "psychosis_concern": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Headache is the tell. Dutch hemorrhage / Takotsubo / deaths after ecstasy-light hype."
+        },
+        "sleep": {
+          "score": 66,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; two-stage roll then grind",
+      "npc_line": "MDMA for people who have a shift.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "4-FA prospective cohort fatalities / hemorrhage",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28969928/",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Lancet 4-FA warning 2017",
+          "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2817%2930281-7/fulltext",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Haemorrhagic stroke after 4-FA",
+          "url": "https://doi.org/10.1007/s00415-018-8888-6",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "RIVM 4-FA risk assessment",
+          "url": "https://www.rivm.nl/sites/default/files/2018-11/risicobeoordelingsrapport%204-FA%2020161201%20GB%20tg%20beveiligd.pdf",
+          "type": "agency",
+          "year": 2016
+        }
+      ],
+      "gaps": [
+        "4-FA vs 4-FMA mislabel after NL ban"
+      ]
+    },
+    {
+      "id": "4-fma",
+      "name": "4-FMA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "4-fluoromethamphetamine",
+        "PFMA"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "headliner",
+      "kit": "V",
+      "feel": {
+        "headline": "4-FA's heavier sibling who stayed too long.",
+        "rush": {
+          "score": 42,
+          "confidence": "B",
+          "note": "Similar come-up, thicker."
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Meth if meth were heavier on serotonin — forum letter."
+        },
+        "enjoyment": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Less friendly than 4-FA."
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Heavier tail. Sold as 4-FA after the ban."
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Worse next day."
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": "More headache/heart talk than 4-FA."
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Longer."
+        }
+      },
+      "route_myth": "mislabel as 4-FA after NL ban",
+      "npc_line": "4-FA's heavier sibling who stayed too long.",
+      "flags": [
+        "mislabel",
+        "redose"
+      ],
+      "sources": [
+        {
+          "title": "r/researchchemicals fluoroamp comparison 2018",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8dwhqq/comparison_between_florinated_amphetamines/",
+          "type": "forum",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "less clinical literature than 4-FA"
+      ]
+    },
+    {
+      "id": "2-fea",
+      "name": "2-FEA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "2-fluoroethamphetamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "thin",
+      "kit": "V",
+      "feel": {
+        "headline": "Months on the market. Thin.",
+        "rush": {
+          "score": 30,
+          "confidence": "D",
+          "note": "Shorter, more sedating-in-rumor."
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Serotonergic claims doubted by the comparison thread."
+        },
+        "enjoyment": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 32,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "What they poured when the methyl ones dried.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "r/researchchemicals fluoroamp comparison 2018",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8dwhqq/comparison_between_florinated_amphetamines/",
+          "type": "forum",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "very thin trail; low-confidence scores"
+      ]
+    },
+    {
+      "id": "3-fea",
+      "name": "3-FEA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "3-fluoroethamphetamine",
+        "3F-ethamphetamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "thin",
+      "kit": "V",
+      "feel": {
+        "headline": "The roll-leaning ethyl.",
+        "rush": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 66,
+          "confidence": "C",
+          "note": "Forum people put it nearer a hug than 3-FA."
+        },
+        "enjoyment": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 58,
+          "confidence": "D",
+          "note": "Ethylamps more sedating in rumor."
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "The roll-leaning ethyl.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia list of designer drugs (3-FEA named)",
+          "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+          "type": "wiki",
+          "year": null
+        },
+        {
+          "title": "r/researchchemicals fluoroamp comparison 2018",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8dwhqq/comparison_between_florinated_amphetamines/",
+          "type": "forum",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "thinner than 3-FA"
+      ]
+    },
+    {
+      "id": "4-fea",
+      "name": "4-FEA",
+      "family": "amphetamine_stim",
+      "subclass": "fluoroamphetamine",
+      "aliases": [
+        "4-fluoroethamphetamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "thin",
+      "kit": "V",
+      "feel": {
+        "headline": "What they poured when 4-FA dried.",
+        "rush": {
+          "score": 32,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 60,
+          "confidence": "D",
+          "note": "More entactogen, less spark."
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "D",
+          "note": "Assume 4-sub tax until proven otherwise."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel",
+      "npc_line": "What they poured when 4-FA dried.",
+      "flags": [
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Amph seizure notes / fluoro comparison",
+          "url": "",
+          "type": "forum",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "thin compared with 4-FA"
+      ]
+    },
+    {
+      "id": "pma",
+      "name": "PMA",
+      "family": "amphetamine_stim",
+      "subclass": "methoxyamphetamine_scare",
+      "aliases": [
+        "4-methoxyamphetamine",
+        "4-MeOA",
+        "Death"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "sku_role": "scare",
+      "kit": null,
+      "feel": {
+        "headline": "The fake Molly that cooks you.",
+        "rush": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Slow. Late. People think the pill is weak."
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Not a reliable euphoriant vs MDMA."
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "A",
+          "note": "Nobody reorders this on purpose."
+        },
+        "compulsiveness": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Deadly redose is it-didn't-hit. Not love."
+        },
+        "reinforcement": {
+          "score": 16,
+          "confidence": "B",
+          "note": "Scare crate."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Heatstroke. Festival poison."
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel as ecstasy",
+      "npc_line": "The fake Molly that cooks you.",
+      "flags": [
+        "heatstroke",
+        "OD",
+        "mislabel",
+        "serotonin_tox"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia PMA",
+          "url": "https://en.wikipedia.org/wiki/Para-Methoxyamphetamine",
+          "type": "wiki",
+          "year": null
+        },
+        {
+          "title": "EMCDDA / forensic ecstasy-adulterant literature",
+          "url": "",
+          "type": "agency",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "do not profile 2-MeO/3-MeO amps as street SKUs"
+      ]
+    },
+    {
+      "id": "pmma",
+      "name": "PMMA",
+      "family": "amphetamine_stim",
+      "subclass": "methoxyamphetamine_scare",
+      "aliases": [
+        "4-methoxymethamphetamine",
+        "4-MeOMA"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "sku_role": "scare",
+      "kit": null,
+      "feel": {
+        "headline": "PMA that stayed an extra carbon. Still an oven.",
+        "rush": {
+          "score": 30,
+          "confidence": "B",
+          "note": "Same slow scam."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "B",
+          "note": "A bit more ecstasy-like than PMA in anecdote. Still not Molly."
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "A",
+          "note": "Scare SKU."
+        },
+        "compulsiveness": {
+          "score": 24,
+          "confidence": "B",
+          "note": "Same didn't-hit redose."
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 86,
+          "confidence": "A",
+          "note": "Same oven. EMCDDA risk-assessed."
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel as ecstasy; often mixed with PMA",
+      "npc_line": "PMA that stayed an extra carbon. Still an oven.",
+      "flags": [
+        "heatstroke",
+        "OD",
+        "mislabel",
+        "serotonin_tox"
+      ],
+      "sources": [
+        {
+          "title": "EMCDDA PMMA risk assessment",
+          "url": "https://www.drugsandalcohol.ie/11641/1/EMCDDA_Risk_assessment_PMMA.pdf",
+          "type": "agency",
+          "year": 2003
+        }
+      ],
+      "gaps": [
+        "street bags often PMA+PMMA mixes"
+      ]
+    },
+    {
+      "id": "pmea",
+      "name": "PMEA",
+      "family": "amphetamine_stim",
+      "subclass": "methoxyamphetamine_scare",
+      "aliases": [
+        "4-methoxy-N-ethylamphetamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "sku_role": "scare_thin",
+      "kit": null,
+      "feel": {
+        "headline": "The third methoxy stamp. Same scare family.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Named as a PMA analog that was sold. Almost no feel chorus."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "Treat as PMA-adjacent scare."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel",
+      "npc_line": "Another methoxy they put in a press.",
+      "flags": [
+        "mislabel",
+        "heatstroke"
+      ],
+      "sources": [
+        {
+          "title": "PMA analog lists (PMEA reported sold)",
+          "url": "https://en.wikipedia.org/wiki/Para-Methoxyamphetamine",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "no reliable review trail"
+      ]
+    },
+    {
+      "id": "4-ma",
+      "name": "4-MA",
+      "family": "amphetamine_stim",
+      "subclass": "methylamphetamine_adulterant",
+      "aliases": [
+        "4-methylamphetamine",
+        "PAL-313"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "sku_role": "adulterant",
+      "kit": null,
+      "feel": {
+        "headline": "Speed that wasn't. The cut that ended nights.",
+        "rush": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Speed-shaped."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Serotonin-heavy vs ordinary amph."
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "C",
+          "note": "EU speed adulterant, not a requested name."
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 32,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Deaths in 2010s European cuts. MAOI/serotonin talk."
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "sold as speed",
+      "npc_line": "Speed that wasn't. The cut that ended nights.",
+      "flags": [
+        "adulterant",
+        "OD",
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "EMCDDA / EU early-warning 4-MA",
+          "url": "",
+          "type": "agency",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "few people bought it as 4-MA"
+      ]
+    },
+    {
+      "id": "4-mma",
+      "name": "4-MMA",
+      "family": "amphetamine_stim",
+      "subclass": "methylamphetamine_adulterant",
+      "aliases": [
+        "4-methylmethamphetamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "thin",
+      "kit": null,
+      "feel": {
+        "headline": "4-MA's N-methyl twin. Thin.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Documented name, almost no dedicated feel file."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Vendor methyl stamp.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Analog tables / sparse vendor-era mentions",
+          "url": "",
+          "type": "mixed",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "do not invent scores"
+      ]
+    },
+    {
+      "id": "4-mta",
+      "name": "4-MTA",
+      "family": "amphetamine_stim",
+      "subclass": "methoxyamphetamine_scare",
+      "aliases": [
+        "4-methylthioamphetamine",
+        "Flatliner"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "sku_role": "scare",
+      "kit": null,
+      "feel": {
+        "headline": "They called it Flatliner. Believe the name.",
+        "rush": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Slow. Empathogen more than spark."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Serotonin without the party people wanted."
+        },
+        "enjoyment": {
+          "score": 30,
+          "confidence": "B",
+          "note": "1990s tablet scare."
+        },
+        "compulsiveness": {
+          "score": 18,
+          "confidence": "B",
+          "note": "Dangerous because it is late, not because it is fiendish."
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 24,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 84,
+          "confidence": "A",
+          "note": "EMCDDA deaths, respiratory collapse, serotonin-syndrome picture."
+        },
+        "sleep": {
+          "score": 36,
+          "confidence": "C",
+          "note": "Long."
+        }
+      },
+      "route_myth": "sold as ecstasy",
+      "npc_line": "They called it Flatliner. Believe the name.",
+      "flags": [
+        "serotonin_tox",
+        "OD",
+        "long"
+      ],
+      "sources": [
+        {
+          "title": "EMCDDA 4-MTA risk assessment",
+          "url": "https://www.drugsandalcohol.ie/11638/1/EMCDDA_Risk_assessment_4MTA.pdf",
+          "type": "agency",
+          "year": 1999
+        }
+      ],
+      "gaps": [
+        "almost no modern RC revival"
+      ]
+    },
+    {
+      "id": "mpa",
+      "name": "Methiopropamine",
+      "family": "amphetamine_stim",
+      "subclass": "thiophene_amphetamine",
+      "aliases": [
+        "MPA",
+        "Blow",
+        "Slush Eric",
+        "methedrene"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "legal_high_workhorse",
+      "kit": null,
+      "feel": {
+        "headline": "Meth's sulfur cousin. Coffee with a seizure rumor.",
+        "rush": {
+          "score": 44,
+          "confidence": "B",
+          "note": "Amph-like, colder."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Focus, energy, talk. Not ice."
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "B",
+          "note": "UK legal-high workhorse ~2011-16."
+        },
+        "compulsiveness": {
+          "score": 55,
+          "confidence": "B",
+          "note": "Fiendish enough. Insomnia is the brand."
+        },
+        "reinforcement": {
+          "score": 54,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Hallucinations in a multi-day report."
+        },
+        "aftereffects": {
+          "score": 56,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 38,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Chest pain, tachycardia. Confirmed acute tox."
+        },
+        "sleep": {
+          "score": 86,
+          "confidence": "A",
+          "note": "Insomnia through sleeping pills in reports."
+        }
+      },
+      "route_myth": "insufflated in most reports (flag only); Synthacaine = MPA + 2-AI, do not merge scaffolds",
+      "npc_line": "Meth's sulfur cousin. Coffee with a seizure rumor.",
+      "flags": [
+        "redose",
+        "work"
+      ],
+      "sources": [
+        {
+          "title": "WHO ECDD MPA critical review",
+          "url": "https://ecddrepository.org/sites/default/files/4.8_mpa_critreview.pdf",
+          "type": "agency",
+          "year": null
+        },
+        {
+          "title": "Lee et al. confirmed MPA toxicity",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4141929/",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "5-MMPA / thiopropamine are thinner cousins"
+      ]
+    },
+    {
+      "id": "thiopropamine",
+      "name": "Thiopropamine",
+      "family": "amphetamine_stim",
+      "subclass": "thiophene_amphetamine",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "thin",
+      "kit": null,
+      "feel": {
+        "headline": "MPA leftover stamp.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Named. Almost no review file."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Dusty sulfur crate.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Wikipedia designer drugs — thiophenes",
+          "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "do not clone MPA scores"
+      ]
+    },
+    {
+      "id": "5-mmpa",
+      "name": "5-MMPA",
+      "family": "amphetamine_stim",
+      "subclass": "thiophene_amphetamine",
+      "aliases": [
+        "mephedrene",
+        "5-methylmethiopropamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "thin",
+      "kit": null,
+      "feel": {
+        "headline": "MPA leftover stamp.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Dusty sulfur crate.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Wikipedia designer drugs — thiophenes",
+          "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "do not clone MPA scores"
+      ]
+    },
+    {
+      "id": "methoxyphenamine",
+      "name": "Methoxyphenamine",
+      "family": "amphetamine_stim",
+      "subclass": "methoxyamphetamine_pharma",
+      "aliases": [
+        "Orthoxine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "literature_only",
+      "sku_role": "museum",
+      "kit": null,
+      "feel": {
+        "headline": "Old bronchodilator. Not a Flask brick.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "2-methoxyamphetamine as 1940s-60s medicine. Not the PMA story."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Museum inhaler.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Old Orthoxine pharma",
+          "url": "",
+          "type": "paper",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "no RC market"
+      ]
+    },
+    {
+      "id": "methylphenidate",
+      "name": "Methylphenidate",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "Ritalin",
+        "Concerta",
+        "MPH"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "sku_role": "headliner",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker, not releaser",
+        "note": "Luethi 2017: DAT Ki ~0.070 uM, NET Ki ~0.50 uM, SERT weak. Cocaine-shaped mechanism."
+      },
+      "feel": {
+        "headline": "The prescription they already know.",
+        "rush": {
+          "score": 38,
+          "confidence": "A",
+          "note": "Oral XR none. IR snorted: small coke-shaped rumor. Not EPH."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "A",
+          "note": "Dry focus, some mood, anxiety tax."
+        },
+        "enjoyment": {
+          "score": 60,
+          "confidence": "A",
+          "note": "The parent. Recreational ceiling modest."
+        },
+        "compulsiveness": {
+          "score": 46,
+          "confidence": "A",
+          "note": "Redose the IR. Concerta fights you."
+        },
+        "reinforcement": {
+          "score": 55,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Anxiety more than shadows."
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "A",
+          "note": "Crash."
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 56,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 68,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; IR snorted has a small coke rumor; no vape_fav (phenidates crack)",
+      "npc_line": "The prescription they already know.",
+      "flags": [
+        "oral_ok",
+        "focus",
+        "work"
+      ],
+      "sources": [
+        {
+          "title": "Luethi 2017 phenidate pharmacology",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Erowid methylphenidate",
+          "url": "https://www.erowid.org/chemicals/methylphenidate/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "IR vs XR is formulation, not a second analog"
+      ]
+    },
+    {
+      "id": "dexmethylphenidate",
+      "name": "Dexmethylphenidate",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "Focalin"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "sku_role": "pharma_divert",
+      "kit": "T",
+      "feel": {
+        "headline": "Ritalin minus the dead weight.",
+        "rush": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Same wall."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Cleaner MPH in rumor."
+        },
+        "enjoyment": {
+          "score": 62,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 52,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 24,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 52,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 64,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Ritalin minus the dead weight.",
+      "flags": [
+        "oral_ok",
+        "focus"
+      ],
+      "sources": [
+        {
+          "title": "Pharma / diversion chatter",
+          "url": "",
+          "type": "mixed",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "thin dedicated RC comparison"
+      ]
+    },
+    {
+      "id": "ethylphenidate",
+      "name": "Ethylphenidate",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "EPH"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "sku_role": "headliner",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker",
+        "note": "Luethi: DAT still hot (Ki ~0.081), NET weaker than MPH (Ki ~4.9). Not a releaser."
+      },
+      "feel": {
+        "headline": "Short, fiendish, burns the nose, empties the bag.",
+        "rush": {
+          "score": 26,
+          "confidence": "A",
+          "note": "The recreational phenidate. Insufflated lore is the rush. Oral calmer, still greedy. No SOP. Scottish injection harms = vein_wreck flag only.",
+          "x": 26
+        },
+        "euphoria": {
+          "score": 14,
+          "confidence": "A",
+          "note": "Real. Coke-adjacent, social, short.",
+          "x": 14
+        },
+        "enjoyment": {
+          "score": 12,
+          "confidence": "A",
+          "note": "Loved the first hour, hated the bag. Hated binge is not low euphoria.",
+          "x": 12
+        },
+        "compulsiveness": {
+          "score": 34,
+          "confidence": "A",
+          "note": "Highest phenidate fiend. UK 2011-15 star.",
+          "x": 34
+        },
+        "reinforcement": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "rush_x": 26,
+        "euphoria_x": 14,
+        "enjoyment_x": 12,
+        "compulsive_x": 34
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 52,
+          "confidence": "B",
+          "note": "On a binge."
+        },
+        "aftereffects": {
+          "score": 64,
+          "confidence": "A",
+          "note": "Crash plus a wrecked nose."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 68,
+          "confidence": "A",
+          "note": "Palpitations. UK fatalities, not always the sole cause."
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "insuff_fav for the rush; oral calmer; caustic; vein_wreck in Scottish papers — no SOP; no vape_fav",
+      "npc_line": "Short, fiendish, burns the nose, empties the bag.",
+      "flags": [
+        "redose",
+        "caustic",
+        "vein_wreck"
+      ],
+      "sources": [
+        {
+          "title": "Bailey et al. Nopaine no gain",
+          "url": "",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Ho et al. Ethylphenidate availability and acute effects",
+          "url": "https://link.springer.com/article/10.1007/s00228-015-1906-z",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "r/researchchemicals IPH vs PPH vs EPH vs 3,4-CTMP",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/3tge2g/study_drug_iph_vs_pph_vs_eph_vs_34ctmp/",
+          "type": "forum",
+          "year": 2015
+        },
+        {
+          "title": "Luethi 2017",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "oral vs insufflated feel is well rumored; do not quantify"
+      ]
+    },
+    {
+      "id": "isopropylphenidate",
+      "name": "Isopropylphenidate",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "IPPH",
+        "IPH",
+        "IPPD"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "kit_t",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker",
+        "note": "Luethi: DAT Ki ~0.097, NET weaker (~4.2). Longer/smoother in rumor than EPH."
+      },
+      "feel": {
+        "headline": "The phenidate you can finish a sentence on.",
+        "rush": {
+          "score": 32,
+          "confidence": "B",
+          "note": "Almost none. Smooth."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "B",
+          "note": "Mild. Majority = study drug."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Forum study-drug winner vs EPH/PPH/CTMP."
+        },
+        "compulsiveness": {
+          "score": 34,
+          "confidence": "B",
+          "note": "Some redose for mood. Not EPH."
+        },
+        "reinforcement": {
+          "score": 44,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Least ugly in 2015 threads."
+        },
+        "aftereffects": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Late irritation if you stack."
+        },
+        "psychosis_concern": {
+          "score": 16,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Quieter heart than EPH/CTMP."
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; work",
+      "npc_line": "The one you can finish a sentence on.",
+      "flags": [
+        "oral_ok",
+        "work",
+        "focus"
+      ],
+      "sources": [
+        {
+          "title": "r/researchchemicals study drug IPH vs EPH vs CTMP",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/3tge2g/study_drug_iph_vs_pph_vs_eph_vs_34ctmp/",
+          "type": "forum",
+          "year": 2015
+        },
+        {
+          "title": "What are the best phenidates 2021",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/m11su9/what_are_the_best_phenidates/",
+          "type": "forum",
+          "year": 2021
+        },
+        {
+          "title": "Luethi 2017",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "human lab data thin"
+      ]
+    },
+    {
+      "id": "propylphenidate",
+      "name": "Propylphenidate",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "PPH"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "filler",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker",
+        "note": "Luethi: weaker DAT (Ki ~0.33) as the chain grows."
+      },
+      "feel": {
+        "headline": "Same wall, quieter.",
+        "rush": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 46,
+          "confidence": "D",
+          "note": "Thinner reviews."
+        },
+        "compulsiveness": {
+          "score": 32,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Same wall, quieter.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "Luethi 2017 / Klare 2017",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "few trip reports"
+      ]
+    },
+    {
+      "id": "4f-mph",
+      "name": "4F-MPH",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "4-fluoromethylphenidate",
+        "4-FMPH"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "sku_role": "headliner",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker",
+        "note": "Luethi/McLaughlin: MPH-class or a bit stronger. Clean DAT/NET, no SERT. Threo active; erythro bags disappoint."
+      },
+      "feel": {
+        "headline": "Ritalin that files taxes.",
+        "rush": {
+          "score": 44,
+          "confidence": "A",
+          "note": "A push, not a flash. Jittery caffeine-loud energy."
+        },
+        "euphoria": {
+          "score": 60,
+          "confidence": "A",
+          "note": "More mood than MPH for a lot of people. Still a tool."
+        },
+        "enjoyment": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Focus monster. If you need focus: 4F-MPH. Motivation is 2-FMA."
+        },
+        "compulsiveness": {
+          "score": 52,
+          "confidence": "A",
+          "note": "Functional greed. Comedown irritation begs another round. Not EPH-fiend."
+        },
+        "reinforcement": {
+          "score": 70,
+          "confidence": "A",
+          "note": "The phenidate people actually reordered after EPH died."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Anxiety if you get greedy."
+        },
+        "aftereffects": {
+          "score": 54,
+          "confidence": "A",
+          "note": "Irritated comedown."
+        },
+        "psychosis_concern": {
+          "score": 26,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Forced stim at the top. A fatal-intoxication case exists."
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; threo vs erythro batch lottery; no vape_fav",
+      "npc_line": "Ritalin that files taxes.",
+      "flags": [
+        "oral_ok",
+        "focus",
+        "work",
+        "redose"
+      ],
+      "sources": [
+        {
+          "title": "McLaughlin et al. 4F-MPH threo vs erythro",
+          "url": "https://doi.org/10.1002/dta.2167",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Luethi 2017",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Choosing a study aid 2022",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/tqvv8i/choosing_a_study_aid/",
+          "type": "forum",
+          "year": 2022
+        }
+      ],
+      "gaps": [
+        "batch / isomer lottery"
+      ]
+    },
+    {
+      "id": "4f-eph",
+      "name": "4F-EPH",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "4-fluoroethylphenidate",
+        "4-FEPH"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "filler",
+      "kit": "T",
+      "feel": {
+        "headline": "EPH with a fluorine and a shorter fuse.",
+        "rush": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Recreational lean."
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Mixed better/worse than EPH."
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "C",
+          "note": "A death case exists."
+        },
+        "compulsiveness": {
+          "score": 64,
+          "confidence": "C",
+          "note": "EPH-shaped greed."
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 44,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 64,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "caustic; recreational lean",
+      "npc_line": "EPH with a fluorine and a shorter fuse.",
+      "flags": [
+        "redose",
+        "caustic"
+      ],
+      "sources": [
+        {
+          "title": "Wikipedia phenidate list / 2021 best-phenidates mentions",
+          "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "thinner than EPH / 4F-MPH"
+      ]
+    },
+    {
+      "id": "3,4-ctmp",
+      "name": "3,4-CTMP",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "3,4-dichloromethylphenidate"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "scare_functional",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker",
+        "note": "Luethi: most potent DAT/NET on the shelf (Ki ~0.006). Far above MPH. Still not a releaser."
+      },
+      "feel": {
+        "headline": "Too much. Nobody finishes the bag happy.",
+        "rush": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Physical slam of stimulation. Not a friendly rush."
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Low. Unpleasant vasoconstriction."
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": "A",
+          "note": "Kit T line is correct. Skip."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Potent enough that people poke it. Then they stop buying."
+        },
+        "reinforcement": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Does not earn a reorder."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Anxious, long."
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Vasoconstriction. 5-HT2B / valve / pulmonary rumor is inference, not a trial."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Long."
+        }
+      },
+      "route_myth": "too_much; caustic; no vape_fav",
+      "npc_line": "Skip. The bag wins.",
+      "flags": [
+        "too_much",
+        "pulmonary",
+        "paranoia",
+        "long"
+      ],
+      "sources": [
+        {
+          "title": "Luethi 2017",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Deutsch 1996 MPH analog SAR",
+          "url": "",
+          "type": "paper",
+          "year": 1996
+        },
+        {
+          "title": "r/researchchemicals 2015 CTMP pile-on",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/3tge2g/study_drug_iph_vs_pph_vs_eph_vs_34ctmp/",
+          "type": "forum",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "5-HT2B human outcome is rumor strength"
+      ]
+    },
+    {
+      "id": "3,4-dcep",
+      "name": "3,4-DCEP",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "3,4-dichloroethylphenidate"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "seizure_only",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker",
+        "note": "Luethi still a monster on paper (DAT Ki ~0.0065). Almost no trip-report trail."
+      },
+      "feel": {
+        "headline": "CTMP's ethyl twin. Seizure sticker.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not clone CTMP scores."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "Assume too_much until someone writes the night."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Seizure sticker.",
+      "flags": [
+        "too_much"
+      ],
+      "sources": [
+        {
+          "title": "Klare 2017 / Luethi 2017",
+          "url": "",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "no street mythology"
+      ]
+    },
+    {
+      "id": "4-me-tmp",
+      "name": "4-Me-TMP",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "4-methylmethylphenidate",
+        "4-MMPH"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "sku_role": "kit_t",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET blocker",
+        "note": "Luethi: MPH-like DAT/NET (DAT Ki ~0.033)."
+      },
+      "feel": {
+        "headline": "Diet Ritalin with a methyl stamp.",
+        "rush": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Functional, seized + sold."
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 28,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; focus",
+      "npc_line": "Diet Ritalin with a methyl stamp.",
+      "flags": [
+        "oral_ok",
+        "focus"
+      ],
+      "sources": [
+        {
+          "title": "Luethi 2017 / Klare 2017 / Kit T",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "quieter than 4F-MPH"
+      ]
+    },
+    {
+      "id": "hdmp-28",
+      "name": "HDMP-28",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "methylnaphthidate"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "kit_t",
+      "kit": "T",
+      "feel": {
+        "headline": "Ritalin that wandered into a different room.",
+        "rush": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Some coke-like talk."
+        },
+        "euphoria": {
+          "score": 54,
+          "confidence": "C",
+          "note": "Not a typical dry stim. Mood rumor. Do not swap IDs with HDEP-28 (the SERT one in Luethi)."
+        },
+        "enjoyment": {
+          "score": 56,
+          "confidence": "C",
+          "note": "Mixed: interesting or pointless."
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Coke-like energy depletion in one 2021 comment."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "sleep": {
+          "score": 54,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; often mixed up with HDEP-28",
+      "npc_line": "Ritalin that wandered into a different room.",
+      "flags": [
+        "oral_ok"
+      ],
+      "sources": [
+        {
+          "title": "2021 best phenidates thread / UNODC phenidate group / Kit T",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/m11su9/what_are_the_best_phenidates/",
+          "type": "forum",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "HDMP-28 vs HDEP-28 mixups"
+      ]
+    },
+    {
+      "id": "hdep-28",
+      "name": "HDEP-28",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "ethylnaphthidate"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "sku_role": "crate",
+      "kit": "T",
+      "transporter": {
+        "mechanism": "DAT/NET/SERT blocker",
+        "note": "Luethi: the SERT-having phenidate (SERT Ki ~0.58, DAT/SERT ~5)."
+      },
+      "feel": {
+        "headline": "Crate bottle. Often unpleasant, often long.",
+        "rush": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Less like Ritalin, more like a confused night."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 38,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 34,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 32,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Long in rumor."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 60,
+          "confidence": "D",
+          "note": "Long."
+        }
+      },
+      "route_myth": "long",
+      "npc_line": "Crate bottle.",
+      "flags": [
+        "long"
+      ],
+      "sources": [
+        {
+          "title": "Luethi 2017 / Klare 2017 / UK test-purchase notes",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "conflicting, thin"
+      ]
+    },
+    {
+      "id": "n_benzylethylphenidate",
+      "name": "N-Benzylethylphenidate",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [
+        "N-benzyl-EPH"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "sku_role": "paper",
+      "kit": null,
+      "transporter": {
+        "mechanism": "weak DAT/NET blocker",
+        "note": "Luethi: steric N-benzyl drop in potency."
+      },
+      "feel": {
+        "headline": "Lab bag. Nobody wrote a poem.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Seized (Klare). No street mythology."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Paper SKU.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Luethi 2017 / Klare 2017",
+          "url": "",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "no street feel"
+      ]
+    },
+    {
+      "id": "methylmorphenate",
+      "name": "Methylmorphenate",
+      "family": "phenidate",
+      "subclass": "phenidate",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "sku_role": "paper",
+      "kit": null,
+      "transporter": {
+        "mechanism": "weak blocker",
+        "note": "Luethi: morpholine N-swap, weak DAT/NET."
+      },
+      "feel": {
+        "headline": "Paper SKU.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Paper SKU.",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Luethi 2017",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.08.020",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "no street feel"
+      ]
+    }
+  ],
+  "neighbors_not_this_wall": [
+    {
+      "id": "2-dpmp",
+      "name": "2-DPMP",
+      "note": "Desoxypipradrol / Ivory Wave. Days-long DAT stim. Pipradrol cousin, not a phenidate. Do not file under Kit T."
+    },
+    {
+      "id": "d2pm",
+      "name": "D2PM",
+      "note": "Diphenylprolinol. Weaker, still too long."
+    },
+    {
+      "id": "pipradrol",
+      "name": "Pipradrol",
+      "note": "1950s Meratran. Museum parent."
+    }
+  ],
+  "note_only_other_desk": [
+    "DOM",
+    "DOB",
+    "DOI",
+    "DOC",
+    "DOET",
+    "TMA",
+    "TMA-2",
+    "Bromo-DragonFLY",
+    "MDMA",
+    "MDA",
+    "APB",
+    "3-FPM"
+  ]
+}

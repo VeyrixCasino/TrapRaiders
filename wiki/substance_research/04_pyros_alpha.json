@@ -1,0 +1,1515 @@
+{
+  "assignment": "04",
+  "family": "pyrovalerone",
+  "subclass": "unsubstituted_alpha_pxp",
+  "kit": "I",
+  "scope_note": "Phenyl + pyrrolidine only. No MD-pyros, no ring-F/Cl/Me stamps, no opioids, no recipes or doses. Pleasure and compulsiveness scored independently. Chain length does not predict reward.",
+  "naming_collision": {
+    "alpha_pcyp": "Market/forensic α-PCYP is the cyclohexyl analog (CFSRE 2019). product_families.md currently mislabels it as cyclopentyl. Cyclopentyl analog is alpha_pcpep (literature)."
+  },
+  "substances": [
+    {
+      "id": "alpha_ppp",
+      "name": "α-PPP",
+      "aliases": [
+        "alpha-PPP",
+        "a-PPP",
+        "α-pyrrolidinopropiophenone",
+        "alpha-pyrrolidinopropiophenone"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "market_old",
+      "one_liner": "Snorted: nothing. Slammed: the rush old threads wrote poems about.",
+      "positives_writeup": "Snorted: nothing. Slammed: the rush old threads wrote poems about. Metallic taste, ears bowing, a half-hour of lying down breathing and mumbling while the room got brighter. Old heads put it next to a heavy meth shot and a fat coke shot and meant it. One of them mailed the rest of the bag three hundred miles so he would not keep doing it, then spent the shift smiling at work and wondering how to get it back. Shortest chain on the wall. Weakest DAT number in the Baumann set. Still a lever monster in the Gannon rats, and still the IV poem.",
+      "negatives_writeup": "The same posts that wrote the poem later quit on head-pressure and a heart that would not sit down. Not a work stim. Eat it or snort it and you tidy the room with no glow. After months of weekly slamming the rush shrank and the panic grew. Next-day hangover was often called light, which is why they came back.",
+      "route_myth": "slam_only",
+      "scores": {
+        "rush": {
+          "score": 28,
+          "confidence": 78,
+          "range": [
+            15,
+            96
+          ],
+          "rationale": "Slam reports are the family poem. Nasal/oral reports are blank. The range is the route lock, not noise.",
+          "x": 28
+        },
+        "euphoria": {
+          "score": 20,
+          "confidence": 70,
+          "range": [
+            10,
+            88
+          ],
+          "rationale": "Slam: way more glow than MDPV in the classic writeup. Nasal: tidy, no sensation of having taken anything.",
+          "x": 20
+        },
+        "compulsiveness": {
+          "score": 24,
+          "confidence": 72,
+          "range": [
+            40,
+            90
+          ],
+          "rationale": "Immediate better-take-more. Four or five repeats in an evening. Mailbox story. Independent of the nasal nothing.",
+          "x": 24
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": 68,
+          "range": [
+            10,
+            90
+          ],
+          "rationale": "IV crowd called it the one. Non-IV crowd called it nothing. The slam number is the lore.",
+          "x": 18
+        },
+        "sociability": {
+          "score": 48,
+          "confidence": 45,
+          "range": [
+            20,
+            65
+          ],
+          "rationale": "One work-shift report: talkative, intuitive. Not a party SKU."
+        },
+        "rush_x": 28,
+        "euphoria_x": 20,
+        "enjoyment_x": 18,
+        "compulsive_x": 24
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 35,
+          "confidence": 55,
+          "range": [
+            15,
+            55
+          ],
+          "rationale": "Lower than PVP in the old comparison posts. Some amph users switched toward PPP for that reason."
+        },
+        "psychosis": {
+          "score": 25,
+          "confidence": 40,
+          "range": [
+            10,
+            50
+          ],
+          "rationale": "Not the headline. Sparse solo reports."
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": 55,
+          "range": [
+            20,
+            70
+          ],
+          "rationale": "Famous writeup called the next day surprisingly painless; later chronic use got uglier."
+        },
+        "cardiovascular": {
+          "score": 78,
+          "confidence": 70,
+          "range": [
+            50,
+            90
+          ],
+          "rationale": "The reason people quit a legendary rush. Tachycardia and head-pressure dominate the quit posts."
+        },
+        "sleep": {
+          "score": 45,
+          "confidence": 50,
+          "range": [
+            25,
+            70
+          ],
+          "rationale": "Some slept after; not the all-week PVP wake."
+        }
+      },
+      "sources": [
+        {
+          "title": "Bluelight: Alpha-PPP? Alpha-pyrrolidinopropiophenone",
+          "url": "https://www.bluelight.org/community/threads/alpha-ppp-alpha-pyrrolidinopropiophenone.381044/",
+          "type": "forum"
+        },
+        {
+          "title": "Bluelight: (Alpha PPP) Varying compulsive doses",
+          "url": "https://www.bluelight.org/community/threads/alpha-ppp-100-mg-iv-varying-compulsive-doses.552138/",
+          "type": "forum"
+        },
+        {
+          "title": "Bluelight: 4'-methyl-alpha-pyrrolidinopropiophenone (contains classic α-PPP slam testimony)",
+          "url": "https://www.bluelight.org/community/threads/4-methyl-alpha-pyrrolidinopropiophenone.372855/",
+          "type": "forum"
+        },
+        {
+          "title": "Baumann: Neuropharmacology of Synthetic Cathinones (DAT table)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7257813/",
+          "type": "paper"
+        },
+        {
+          "title": "Gannon 2018: abuse-related effects vs DAT potency/selectivity",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6180085/",
+          "type": "paper"
+        },
+        {
+          "title": "STRIDA panorama of pyrovalerone intoxications",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2017.1370097",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pbp",
+      "name": "α-PBP",
+      "aliases": [
+        "alpha-PBP",
+        "a-PBP",
+        "α-pyrrolidinobutiophenone",
+        "alpha-pyrrolidinobutiophenone"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "market",
+      "one_liner": "Some kept it over flakka. Less sirens. Same family grin.",
+      "positives_writeup": "Some kept it over flakka. Less sirens. Same family grin. Dedbeet came off ugly PVP and watched the sun and moon rotate. A one-gram retrospective called it a new favorite: highly euphoric, compulsive but less than MDPV or PVP, clean, smooth, talkative. The people who wanted a PVP replacement and did not get the rush still admitted the stimulation was enjoyable and the paranoia stayed in its cage. STRIDA found it in more Swedish blood than any other new pyro — the bag was common even when the name was not.",
+      "negatives_writeup": "The other half of the thread: no rush, a hard ceiling, Pine-Sol vapor, almost no sex, and a comedown that can outlast a 45-minute glow by a day. Toz: if you hated PVP you will hate this, minus the euphoria. Hospital picture is still a pyro — agitation, tachycardia, a third in ICU — they just never said the name at the desk.",
+      "route_myth": null,
+      "scores": {
+        "rush": {
+          "score": 11,
+          "confidence": 60,
+          "range": [
+            10,
+            70
+          ],
+          "rationale": "Vape hunters looking for the PVP hit mostly missed it. A few nasal reports claim lift-off.",
+          "x": 11
+        },
+        "euphoria": {
+          "score": 7,
+          "confidence": 55,
+          "range": [
+            15,
+            80
+          ],
+          "rationale": "New-favorite writeups vs no-euphoria writeups. Wide because the reports disagree.",
+          "x": 7
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": 62,
+          "range": [
+            25,
+            70
+          ],
+          "rationale": "Ceiling cuts the staircase. Still binge-able. Lower than PVP/PHP/PiHP.",
+          "x": 8
+        },
+        "enjoyment": {
+          "score": 9,
+          "confidence": 58,
+          "range": [
+            20,
+            82
+          ],
+          "rationale": "The I-prefer-this-to-PVP pile is about less fear, not a bigger glow. Real preference, documented.",
+          "x": 9
+        },
+        "sociability": {
+          "score": 60,
+          "confidence": 50,
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Talkative comes up more than on PVP."
+        },
+        "rush_x": 11,
+        "euphoria_x": 7,
+        "enjoyment_x": 9,
+        "compulsive_x": 8
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 42,
+          "confidence": 65,
+          "range": [
+            20,
+            65
+          ],
+          "rationale": "The preference reason versus PVP. Still a pyro."
+        },
+        "psychosis": {
+          "score": 35,
+          "confidence": 45,
+          "range": [
+            15,
+            60
+          ],
+          "rationale": "STRIDA delirium/hallucinations exist; nearly all poly-drug."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": 55,
+          "range": [
+            25,
+            80
+          ],
+          "rationale": "Gentle single-dose comedowns in some posts; chase-the-ceiling nights get nasty."
+        },
+        "cardiovascular": {
+          "score": 62,
+          "confidence": 70,
+          "range": [
+            40,
+            80
+          ],
+          "rationale": "STRIDA tachycardia and hypertension in the 43-case series."
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": 60,
+          "range": [
+            40,
+            90
+          ],
+          "rationale": "Functional afternoon, then no sleep, then a wreck at work."
+        }
+      },
+      "sources": [
+        {
+          "title": "Bluelight: a-PBP (alpha-Pyrrolidinobutiophenone)",
+          "url": "https://www.bluelight.org/community/threads/a-pbp-alpha-pyrrolidinobutiophenone.618682/",
+          "type": "forum"
+        },
+        {
+          "title": "Bluelight: a-pBp first-time retrospective",
+          "url": "https://www.bluelight.org/community/threads/a-pbp-first-time-retrospective.657504/",
+          "type": "forum"
+        },
+        {
+          "title": "STRIDA: Acute intoxications involving α-PBP",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6242792/",
+          "type": "paper"
+        },
+        {
+          "title": "STRIDA panorama of pyrovalerone intoxications",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2017.1370097",
+          "type": "paper"
+        },
+        {
+          "title": "Marusich/Baumann 2014: MDPV congeners PVP/PBP/PPP",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4152390/",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pvp",
+      "name": "α-PVP",
+      "aliases": [
+        "alpha-PVP",
+        "a-PVP",
+        "flakka",
+        "gravel",
+        "flak",
+        "O-2387",
+        "prolintanone",
+        "α-pyrrolidinovalerophenone",
+        "α-pyrrolidinopentiophenone",
+        "grind",
+        "crystal love",
+        "Pure NRG",
+        "Snow Blow",
+        "vanilla sky"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "market_headliner",
+      "one_liner": "You will text everyone. Then hide from them.",
+      "positives_writeup": "You will text everyone. Then hide from them. First the texting: a day's work in three hours, happy, talkative, smart, porn is great, tan rocks on foil with a body-rush the later pyros keep chasing. Polish forums rang with confidence and sociability before the window-creeper arrived. Gannon's rats worked harder for this than for MDPV or cocaine. The media called it a zombie. The bag called it a weekend. The weekend called it a week.",
+      "negatives_writeup": "The devil-in-crystal writeup is the other dial: never addicted to anything, promised every night to sell the gram, flushed it on day twenty with holes in his tongue and shadows on the wall, and woke up every morning with no comprehension of an addiction. STRIDA PVP-only series: heart racing, agitation, hallucinations, delirium, two deaths in forty-two. I-TREND: someone behind the window, eavesdropping. The news over-attributed cannibal headlines (one was NBOMe). The paranoia did not need the news.",
+      "route_myth": null,
+      "scores": {
+        "rush": {
+          "score": 120,
+          "confidence": 82,
+          "range": [
+            60,
+            98
+          ],
+          "rationale": "Reddit commoner: meth/crack are toys; crack is a cigarette. Family reference rush. Nasal slower, still a hit.",
+          "x": 120
+        },
+        "euphoria": {
+          "score": 120,
+          "confidence": 75,
+          "range": [
+            40,
+            90
+          ],
+          "rationale": "Godly first minutes on r/Stims and r/RC. 20-min glow then tweak for others. Still a glow chemical.",
+          "x": 120
+        },
+        "compulsiveness": {
+          "score": 120,
+          "confidence": 90,
+          "range": [
+            80,
+            99
+          ],
+          "rationale": "Definition of the family. Erowid, I-TREND, rats, every roundup. Independent of whether they still liked it.",
+          "x": 120
+        },
+        "enjoyment": {
+          "score": 7,
+          "confidence": 70,
+          "range": [
+            25,
+            90
+          ],
+          "rationale": "First weekend is why the family exists. Later weekends are the warnings. Catalog number is the initial rush.",
+          "x": 7
+        },
+        "sociability": {
+          "score": 44,
+          "confidence": 70,
+          "range": [
+            15,
+            80
+          ],
+          "rationale": "Starts as text-everyone. Ends as hide-from-them. Time-dependent, not a mid score."
+        },
+        "rush_x": 120,
+        "euphoria_x": 120,
+        "enjoyment_x": 7,
+        "compulsive_x": 120
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 90,
+          "confidence": 88,
+          "range": [
+            60,
+            98
+          ],
+          "rationale": "The siren. The reason some people left for PBP or PHP."
+        },
+        "psychosis": {
+          "score": 82,
+          "confidence": 80,
+          "range": [
+            50,
+            95
+          ],
+          "rationale": "Hallucinations, delirium, media plus STRIDA plus Erowid shadows."
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": 75,
+          "range": [
+            55,
+            92
+          ],
+          "rationale": "Heart and mood stay after the smile leaves."
+        },
+        "cardiovascular": {
+          "score": 85,
+          "confidence": 85,
+          "range": [
+            65,
+            95
+          ],
+          "rationale": "STRIDA plus EU risk-assessment deaths (mostly poly; toxidrome is this)."
+        },
+        "sleep": {
+          "score": 88,
+          "confidence": 80,
+          "range": [
+            70,
+            98
+          ],
+          "rationale": "The night is not yours."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA: Report on the risk assessment of α-PVP",
+          "url": "https://www.euda.europa.eu/publications/risk-assessments/alpha-pvp_en",
+          "type": "agency"
+        },
+        {
+          "title": "EMCDDA α-PVP risk assessment PDF",
+          "url": "https://www.euda.europa.eu/system/files/publications/2934/TDAK16001ENN.pdf",
+          "type": "agency"
+        },
+        {
+          "title": "EMCDDA–Europol Joint Report on α-PVP",
+          "url": "https://www.euda.europa.eu/publications/joint-reports/alpha-pvp",
+          "type": "agency"
+        },
+        {
+          "title": "STRIDA: Toxicity evaluation of α-PVP",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2016.1190979",
+          "type": "paper"
+        },
+        {
+          "title": "Gannon 2018: reinforcing effectiveness (PVP Emax highest)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6180085/",
+          "type": "paper"
+        },
+        {
+          "title": "I-TREND Substance briefing: alpha-PVP",
+          "url": "https://www.ofdt.fr/BDD/publications/docs/I-TREND/I-TREND_WS5_NTF-SWPS_alphaPVP.pdf",
+          "type": "agency"
+        },
+        {
+          "title": "Erowid alpha-PVP vault",
+          "url": "https://www.erowid.org/chemicals/a-pvp/a-pvp.shtml",
+          "type": "vault"
+        },
+        {
+          "title": "Erowid: The Devil in Crystal Form",
+          "url": "https://erowid.org/experiences/exp.php?ID=104449",
+          "type": "vault"
+        },
+        {
+          "title": "Erowid: Great High Couple Too Many Side Effects",
+          "url": "https://erowid.org/experiences/exp.php?ID=103367",
+          "type": "vault"
+        },
+        {
+          "title": "Erowid Extracts #30 (flakka media note)",
+          "url": "https://www.erowid.org/general/newsletter/erowid_newsletter30.pdf",
+          "type": "vault"
+        },
+        {
+          "title": "PsychonautWiki A-PVP",
+          "url": "https://psychonautwiki.org/wiki/A-PVP",
+          "type": "wiki"
+        }
+      ]
+    },
+    {
+      "id": "alpha_php",
+      "name": "α-PHP",
+      "aliases": [
+        "alpha-PHP",
+        "a-PHP",
+        "PV-7",
+        "PV7",
+        "α-pyrrolidinohexiophenone",
+        "alpha-pyrrolidinohexiophenone",
+        "bloom"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "market_headliner",
+      "one_liner": "First hit wrote the poem. The bag was gone by morning.",
+      "positives_writeup": "First hit wrote the poem. The bag was gone by morning. Impeccable opening rush, more fun and weird than PVP, a happy twitch and a goofy grin, VERY TALKATIVE to the point of stuttering. Flashback called it MDPV without the negatives. Coke-shaped for people who never had PVP. Cleaner and less mean than flakka for people who had. Baumann said the DAT number might beat PVP. The vape lists kept it next to PVP and hexen for years. This is the post-ban favorite because the first hit is actually favorite-shaped.",
+      "negatives_writeup": "Live in the pipe and the fiend turns miserable and useless. Stack the night and the visuals get real. Daily use and psychosis becomes the primary effect. WHO stack: agitation, seizures, cardiac arrest, rhabdo, death. Harsh if you burn it. Kinder comedown than PVP unless you do exactly what the rush asks.",
+      "route_myth": "vape_fav",
+      "scores": {
+        "rush": {
+          "score": 65,
+          "confidence": 80,
+          "range": [
+            55,
+            95
+          ],
+          "rationale": "Impeccable first-hit, but Reddit head-to-heads put it under PVP. Weaker snap, less tweaked.",
+          "x": 65
+        },
+        "euphoria": {
+          "score": 45,
+          "confidence": 76,
+          "range": [
+            50,
+            88
+          ],
+          "rationale": "Coke-shaped for the PVP-naive. A hair less magic than tan PVP for veterans. Still a smile.",
+          "x": 45
+        },
+        "compulsiveness": {
+          "score": 100,
+          "confidence": 82,
+          "range": [
+            60,
+            95
+          ],
+          "rationale": "Vape-era means redose-era. Easier to shelf than PVP is relative.",
+          "x": 100
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": 78,
+          "range": [
+            45,
+            92
+          ],
+          "rationale": "The post-ban favorite is the favorite for a reason.",
+          "x": 22
+        },
+        "sociability": {
+          "score": 72,
+          "confidence": 68,
+          "range": [
+            50,
+            85
+          ],
+          "rationale": "Stutter-talkative is a repeated PHP tell."
+        },
+        "rush_x": 65,
+        "euphoria_x": 45,
+        "enjoyment_x": 22,
+        "compulsive_x": 100
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 62,
+          "confidence": 70,
+          "range": [
+            35,
+            85
+          ],
+          "rationale": "Lower than PVP in head-to-heads. Not low."
+        },
+        "psychosis": {
+          "score": 70,
+          "confidence": 70,
+          "range": [
+            40,
+            90
+          ],
+          "rationale": "Daily or stacked-IV reports go full visual."
+        },
+        "aftereffects": {
+          "score": 58,
+          "confidence": 65,
+          "range": [
+            30,
+            85
+          ],
+          "rationale": "Kinder-comedown claim is real for single sessions."
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": 75,
+          "range": [
+            55,
+            92
+          ],
+          "rationale": "WHO critical review plus hospital series."
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": 70,
+          "range": [
+            55,
+            92
+          ],
+          "rationale": "Residual stim is the hangover."
+        }
+      },
+      "sources": [
+        {
+          "title": "Bluelight: alpha-PHP megathread",
+          "url": "https://www.bluelight.org/community/threads/alpha-php-a-php-has-anyone-got-any-information.718984/",
+          "type": "forum"
+        },
+        {
+          "title": "Erowid: Have Been Using This Chem for a While",
+          "url": "https://erowid.org/experiences/exp.php?ID=104851",
+          "type": "vault"
+        },
+        {
+          "title": "Erowid alpha-PHP experience index",
+          "url": "https://erowid.org/experiences/subs/exp_alphaPHP.shtml",
+          "type": "vault"
+        },
+        {
+          "title": "PsychonautWiki A-PHP",
+          "url": "https://psychonautwiki.org/wiki/A-PHP",
+          "type": "wiki"
+        },
+        {
+          "title": "WHO ECDD critical review: alpha-PHP",
+          "url": "https://ecddrepository.org/sites/default/files/2023-04/final_alphaphp.pdf",
+          "type": "agency"
+        },
+        {
+          "title": "Baumann 2020 DAT table (PHP 11.4 nM)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7257813/",
+          "type": "paper"
+        },
+        {
+          "title": "Dinis 2024: α-PHP and α-PiHP review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11051472/",
+          "type": "paper"
+        },
+        {
+          "title": "STRIDA panorama (PHP named by patients)",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2017.1370097",
+          "type": "paper"
+        },
+        {
+          "title": "r/researchchemicals: lethality/feel A-PVP vs A-PHP",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/1q1e1qv/the_lethality_of_apvp_vs_aphp/",
+          "type": "forum"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pihp",
+      "name": "α-PiHP",
+      "aliases": [
+        "alpha-PiHP",
+        "a-PiHP",
+        "α-PHiP",
+        "alpha-PHiP",
+        "α-pyrrolidinoisohexanophenone",
+        "alpha-pyrrolidinoisohexanophenone"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "market_current_king",
+      "one_liner": "Hated it. Finished the gram. Smashed the lockbox.",
+      "positives_writeup": "Hated it. Finished the gram. Smashed the lockbox. The other post: two or three of the best hours of the last four years. More rush than crack, gone faster, then again, then again, until the shadow people give a standing ovation. Not PHP plus a carbon — the iso twin, and the one EU customs weighed by the hundred kilos. Some 2023 vape rankings put it on top of the late board. The glow is short and, when it lands, it lands.",
+      "negatives_writeup": "The trash-stimulant post is the point: worst stim he ever tried, still could not stop, binged the gram, flushed the last because he was scared. Three time-lock boxes, all broken with a hammer. Residual stim for the rest of the day. Finland post-mortems, case-report deaths. Pleasure and hook are not the same number.",
+      "route_myth": "vape_fav",
+      "scores": {
+        "rush": {
+          "score": 70,
+          "confidence": 72,
+          "range": [
+            50,
+            96
+          ],
+          "rationale": "Diet PVP. Great rush, missing a little something. Not the more-than-crack catalog number.",
+          "x": 70
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": 58,
+          "range": [
+            20,
+            88
+          ],
+          "rationale": "PHP positives to a lesser degree. Strongest-rush-was-PVP, PiHP was more fiendish without the glow.",
+          "x": 38
+        },
+        "compulsiveness": {
+          "score": 110,
+          "confidence": 85,
+          "range": [
+            85,
+            99
+          ],
+          "rationale": "Lockboxes, hammer, do-not-keep-it-in-the-house. Same greed as PVP. Holds even when they hated it.",
+          "x": 110
+        },
+        "enjoyment": {
+          "score": 6,
+          "confidence": 55,
+          "range": [
+            15,
+            90
+          ],
+          "rationale": "Best pos/neg ratio for some, flush-the-bag for others. Independent of compulsiveness.",
+          "x": 6
+        },
+        "sociability": {
+          "score": 28,
+          "confidence": 55,
+          "range": [
+            10,
+            50
+          ],
+          "rationale": "Porn, closet, shadow people. Not a talker."
+        },
+        "rush_x": 70,
+        "euphoria_x": 38,
+        "enjoyment_x": 6,
+        "compulsive_x": 110
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 78,
+          "confidence": 65,
+          "range": [
+            45,
+            92
+          ],
+          "rationale": "Shadow-people punchline is this SKU's late lore."
+        },
+        "psychosis": {
+          "score": 75,
+          "confidence": 60,
+          "range": [
+            40,
+            90
+          ],
+          "rationale": "Same family. Fewer hospital series than PVP."
+        },
+        "aftereffects": {
+          "score": 82,
+          "confidence": 65,
+          "range": [
+            55,
+            95
+          ],
+          "rationale": "The four worst hours. 24-48 h crash talk."
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": 70,
+          "range": [
+            55,
+            92
+          ],
+          "rationale": "User damage claims plus forensic fatalities."
+        },
+        "sleep": {
+          "score": 86,
+          "confidence": 70,
+          "range": [
+            65,
+            96
+          ],
+          "rationale": "Residual after the short glow."
+        }
+      },
+      "sources": [
+        {
+          "title": "WHO ECDD critical review: α-PiHP",
+          "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/45th-ecdd/a-pihp-eh_sb_edit-1.pdf",
+          "type": "agency"
+        },
+        {
+          "title": "Dinis 2024: α-PHP and α-PiHP review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11051472/",
+          "type": "paper"
+        },
+        {
+          "title": "PHP vs PiHP forensic plasma concentrations",
+          "url": "https://doi.org/10.1093/jat/bkae011",
+          "type": "paper"
+        },
+        {
+          "title": "α-PiHP vs α-PVP in mice (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40381809/",
+          "type": "paper"
+        },
+        {
+          "title": "r/researchchemicals: tried a-PiHP (lockbox / best hours)",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/11mynzs/any_fellow_crackheads_here_who_tried_apihp/",
+          "type": "forum"
+        },
+        {
+          "title": "r/researchchemicals: is A-PVP worth trying? (hated PiHP, finished the gram)",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/17ziphb/is_apvp_worth_trying/",
+          "type": "forum"
+        },
+        {
+          "title": "r/researchchemicals: ranking pyros",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/15igmdd/ranking_the_following_pyros_roa_ob/",
+          "type": "forum"
+        },
+        {
+          "title": "EUDA 2023 NPS seizure quantities",
+          "url": "https://www.euda.europa.eu/media-library/seizures-new-psychoactive-substances-european-union-percentage-total-quantity-seized-substance-2023-last-updated-june-2025_en",
+          "type": "agency"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pep",
+      "name": "α-PEP",
+      "aliases": [
+        "PV-8",
+        "PV8",
+        "α-PHpP",
+        "alpha-PHpP",
+        "α-PHPP",
+        "α-pyrrolidinoheptanophenone",
+        "alpha-pyrrolidinoheptanophenone",
+        "α-pyrrolidinoenanthophenone"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "market_thin",
+      "one_liner": "They added carbons. The rush did not RSVP.",
+      "positives_writeup": "They added carbons. The rush did not RSVP — except when it did. One foil review called the lift hexen-shaped and gave it eight out of ten as a get-shit-done stim. Another careful writeup: 6.5/10, would buy again if PHP was gone, decent vape rush, euphoria more pronounced than expected. 3dempty, on a good day, called crystalline PV-8 the best legal smoke left. Japan 2013, STRIDA blood, real bags. Not a blank.",
+      "negatives_writeup": "The rest of the thread: watered-down PHP, pretty boring, three grams in one night and you never arrive, IV provides no rush, harsh salt vapor, insomnia that will not die, a delusional mess if you stay in it. Two Polish fatalities on the books (poly). Do not fill the scores from chain length. Fill them from a split that never resolved.",
+      "route_myth": null,
+      "scores": {
+        "rush": {
+          "score": 42,
+          "confidence": 48,
+          "range": [
+            5,
+            75
+          ],
+          "rationale": "Foil decent-rush vs IV no-rush. Wide on purpose. Not inferred from C7."
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": 45,
+          "range": [
+            10,
+            70
+          ],
+          "rationale": "6.5/10 and boring are both posted."
+        },
+        "compulsiveness": {
+          "score": 55,
+          "confidence": 50,
+          "range": [
+            25,
+            80
+          ],
+          "rationale": "Not really fiendish and 3 g in one night in the same era."
+        },
+        "enjoyment": {
+          "score": 38,
+          "confidence": 48,
+          "range": [
+            10,
+            70
+          ],
+          "rationale": "Below PHP in almost every comparison. Not zero."
+        },
+        "sociability": {
+          "score": 35,
+          "confidence": 30,
+          "range": [
+            15,
+            55
+          ],
+          "rationale": "Thin data."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": 40,
+          "range": [
+            20,
+            75
+          ],
+          "rationale": "Mentioned at repeats. Thin."
+        },
+        "psychosis": {
+          "score": 45,
+          "confidence": 35,
+          "range": [
+            15,
+            70
+          ],
+          "rationale": "Delusional-mess claim; small n."
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": 45,
+          "range": [
+            30,
+            80
+          ],
+          "rationale": "Sleep is the complaint."
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": 45,
+          "range": [
+            25,
+            80
+          ],
+          "rationale": "Family default plus two poly fatalities. Few solo series."
+        },
+        "sleep": {
+          "score": 75,
+          "confidence": 55,
+          "range": [
+            45,
+            90
+          ],
+          "rationale": "The consistent negative."
+        }
+      },
+      "sources": [
+        {
+          "title": "Bluelight: pv8 - alpha-php?",
+          "url": "https://www.bluelight.org/community/threads/pv8-alpha-php.679871/",
+          "type": "forum"
+        },
+        {
+          "title": "r/researchchemicals: Anyone tried PV8 aka PHpP?",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/3khfbu/anyone_tried_pv8_aka_phpp/",
+          "type": "forum"
+        },
+        {
+          "title": "r/researchchemicals: Review for a-PHpP (PV8)",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/5q9c6z/review_for_aphpp_pv8_4fapep/",
+          "type": "forum"
+        },
+        {
+          "title": "Drugs-Forum: α-PHpP (PV8) Drug Info",
+          "url": "https://drugs-forum.com/threads/a-phpp-pv8-drug-info.219457/",
+          "type": "forum"
+        },
+        {
+          "title": "STRIDA panorama (PV8 n=8)",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/15563650.2017.1370097",
+          "type": "paper"
+        },
+        {
+          "title": "Pieprzyca 2018: two fatal cases involving PV8",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1344622317303462",
+          "type": "paper"
+        },
+        {
+          "title": "EMCDDA–Europol Joint Report (lists α-PEP/PV8 as monitored homologue)",
+          "url": "https://www.euda.europa.eu/system/files/publications/1814/TDAS15001ENN.pdf",
+          "type": "agency"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pop",
+      "name": "α-POP",
+      "aliases": [
+        "PV-9",
+        "PV9",
+        "α-pyrrolidinooctanophenone",
+        "alpha-pyrrolidinooctanophenone"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "vendor_rare",
+      "one_liner": "Vendor swore it slapped. The thread said prove it.",
+      "positives_writeup": "Vendor swore it slapped. The thread said prove it. One voice: best of the PVs besides α-PHP, then later, it's decent, it's α-POP. That is the entire pleasure file. A real EMCDDA-monitored name. A Japan grave that also held two methoxy cousins and diphenidine, which is not a review.",
+      "negatives_writeup": "cousinskeeter: if someone says PV-9 is the bomb, it is probably not PV-9. No clean solo English report a chemist would sign. Cannot load a comedown from a four-drug death. Scores stay near-null on purpose.",
+      "route_myth": null,
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": 15,
+          "range": null,
+          "rationale": "No clean source."
+        },
+        "euphoria": {
+          "score": 35,
+          "confidence": 20,
+          "range": [
+            10,
+            70
+          ],
+          "rationale": "One decent / best-besides-PHP witness. Possible mislabel."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": 15,
+          "range": null,
+          "rationale": "Unknown."
+        },
+        "enjoyment": {
+          "score": 35,
+          "confidence": 20,
+          "range": [
+            10,
+            70
+          ],
+          "rationale": "Same single witness. Not inferred from chain length."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "None."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No solo series."
+        },
+        "psychosis": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No solo series."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No solo series."
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": 25,
+          "range": [
+            10,
+            70
+          ],
+          "rationale": "Family default plus one poly fatality. Soft."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "None."
+        }
+      },
+      "sources": [
+        {
+          "title": "Bluelight: 4F-PV8, PV9, PV10 crate thread",
+          "url": "https://www.bluelight.org/community/threads/4f-pv8-4meo-pv8-pv9-4-meo-pv9-pv10-4f-pentedrone.745712/",
+          "type": "forum"
+        },
+        {
+          "title": "Kudo 2015: fatal case related to PV9 and methoxy analogues",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1344622315000887",
+          "type": "paper"
+        },
+        {
+          "title": "EMCDDA–Europol Joint Report (lists α-POP/PV9)",
+          "url": "https://www.euda.europa.eu/system/files/publications/1814/TDAS15001ENN.pdf",
+          "type": "agency"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pnp",
+      "name": "α-PNP",
+      "aliases": [
+        "PV-10",
+        "PV10",
+        "α-pyrrolidinononanophenone",
+        "alpha-pyrrolidinononanophenone",
+        "α-pyrrolidinononaphenone"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "vendor_dust",
+      "one_liner": "Melted in the bag. Burned the nose. Did nothing.",
+      "positives_writeup": "Melted in the bag. Burned the nose. Did nothing. EMCDDA wrote the name on a homologue list. A vendor put it in a crate next to PV-9. Nobody wrote a poem. The bible said skip the board. Catalogued because the assignment said no cap, not because a dealer stocks it.",
+      "negatives_writeup": "The only human effect on record is a nose that hated the burn. No DAT number in the Baumann/Kolanos tables used here. One chemist guessed C8–C10 would be basically inactive. That is a guess. The bag report is a blank. Stop.",
+      "route_myth": null,
+      "scores": {
+        "rush": {
+          "score": 5,
+          "confidence": 25,
+          "range": [
+            0,
+            20
+          ],
+          "rationale": "One post: no effects smoked."
+        },
+        "euphoria": {
+          "score": 5,
+          "confidence": 25,
+          "range": [
+            0,
+            20
+          ],
+          "rationale": "Same post."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": 15,
+          "range": null,
+          "rationale": "Cannot score a hook on a blank. Unknown if a real active batch would hook."
+        },
+        "enjoyment": {
+          "score": 4,
+          "confidence": 25,
+          "range": [
+            0,
+            15
+          ],
+          "rationale": "One bag, one no. Not inferred from C9."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "None."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "psychosis": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        }
+      },
+      "sources": [
+        {
+          "title": "Bluelight: PV10 arrival (no effects, melts, burns)",
+          "url": "https://www.bluelight.org/community/threads/4f-pv8-4meo-pv8-pv9-4-meo-pv9-pv10-4f-pentedrone.745712/",
+          "type": "forum"
+        },
+        {
+          "title": "EMCDDA–Europol Joint Report (lists α-PNP)",
+          "url": "https://www.euda.europa.eu/system/files/publications/1814/TDAS15001ENN.pdf",
+          "type": "agency"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pcyp",
+      "name": "α-PCYP",
+      "aliases": [
+        "alpha-PCYP",
+        "a-PCYP",
+        "α-PCyP",
+        "alpha-PCyP",
+        "α-pyrrolidinocyclohexanophenone",
+        "alpha-pyrrolidinocyclohexylphenone",
+        "2-cyclohexyl-1-phenyl-2-(pyrrolidin-1-yl)ethanone"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "vendor_late",
+      "one_liner": "DAT said stronger than flakka. The pipe said homework stim.",
+      "positives_writeup": "DAT said stronger than flakka. The pipe said homework stim. Oral reports: six-hour mood lift, strong focus, low redose urge, minor comedown, potential favorite functional stimulant. Confidence, music, a little disinhibition. The object lesson of the set — Kolanos 8.3 nM, twice PVP on paper, and the writeups are methylphenidate with a grin, not a slam poem. Seized 2019. CFSRE named the cyclohexyl structure. That is the bag.",
+      "negatives_writeup": "Erowid titled it Hits You and Quits You: fleeting glow, then an uncomfortable crash. Nasal is sinus punishment. Vape is technique-gated and sometimes caustic. Ranking comment: alright, long, no rush per se. Not a psychosis headline in the small n. product_families.md currently calls this a cyclopentyl tail. It is not.",
+      "route_myth": "oral_ok",
+      "scores": {
+        "rush": {
+          "score": 22,
+          "confidence": 60,
+          "range": [
+            5,
+            40
+          ],
+          "rationale": "Explicit no rush. Highest DAT in the set does not get a vote."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": 58,
+          "range": [
+            25,
+            65
+          ],
+          "rationale": "Real mood-lift. Not a pyro poem."
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": 62,
+          "range": [
+            15,
+            50
+          ],
+          "rationale": "Oral reports boast about low urge. Still a DAT blocker."
+        },
+        "enjoyment": {
+          "score": 56,
+          "confidence": 55,
+          "range": [
+            25,
+            75
+          ],
+          "rationale": "Functional-crowd favorite. Rec-crowd shrug."
+        },
+        "sociability": {
+          "score": 58,
+          "confidence": 50,
+          "range": [
+            40,
+            70
+          ],
+          "rationale": "Confidence and disinhibition in the oral reports."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": 40,
+          "range": [
+            10,
+            55
+          ],
+          "rationale": "Not the theme of the small report set."
+        },
+        "psychosis": {
+          "score": 20,
+          "confidence": 30,
+          "range": [
+            5,
+            45
+          ],
+          "rationale": "No series."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": 55,
+          "range": [
+            30,
+            75
+          ],
+          "rationale": "The quit in the Erowid title."
+        },
+        "cardiovascular": {
+          "score": 45,
+          "confidence": 35,
+          "range": [
+            20,
+            70
+          ],
+          "rationale": "Family default. No STRIDA pile."
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": 50,
+          "range": [
+            20,
+            65
+          ],
+          "rationale": "Oral is long; vape people slept the same night."
+        }
+      },
+      "sources": [
+        {
+          "title": "CFSRE/NMS Labs: alpha-PCYP monograph (cyclohexyl, seized 2019)",
+          "url": "https://www.cfsre.org/images/monographs/alpha-PCYP_052720_NMSLabs_Report.pdf",
+          "type": "forensic"
+        },
+        {
+          "title": "Slovenian NFL analytical report: alpha-PCYP",
+          "url": "https://www.policija.si/apps/nfl_response_web/0_Analytical_Reports_final/alpha-PCYP-ID-2136-19_report.pdf",
+          "type": "forensic"
+        },
+        {
+          "title": "Kolanos 2015: DAT potency (cyclohexyl 8.3 nM)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5349767/",
+          "type": "paper"
+        },
+        {
+          "title": "Bluelight: a-PCYP revisited: a functional stimulant",
+          "url": "https://www.bluelight.org/community/threads/a-pcyp-revisited-a-functional-stimulant.887375/",
+          "type": "forum"
+        },
+        {
+          "title": "Erowid: Hits You and Quits You",
+          "url": "https://erowid.org/experiences/exp.php?ID=114194",
+          "type": "vault"
+        },
+        {
+          "title": "r/researchchemicals: a-PCYP 35-day retrospective",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/foabx4/apcyp_%CE%B1pcyp_retrospective_35_days_of_experimenting/",
+          "type": "forum"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pcpep",
+      "name": "cyclopentyl α-PXP analog",
+      "aliases": [
+        "Kolanos 13",
+        "α-cyclopentyl-2-(pyrrolidin-1-yl)acetophenone",
+        "2-cyclopentyl-1-phenyl-2-(pyrrolidin-1-yl)ethanone",
+        "cyclopentyl-PCYP (literature name, not the seized bag)"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "literature",
+      "one_liner": "DAT twin of flakka. No bag with a clean name.",
+      "positives_writeup": "DAT twin of flakka. No bag with a clean name. Kolanos put a cyclopentyl tail on the unsubstituted pyro and got 17.1 nM, dead even with α-PVP. That is a paper. The seized bottle labelled α-PCYP was the cyclohexyl cousin. If a crate ever says cyclopentyl, this is the SKU — and there is still nothing to taste.",
+      "negatives_writeup": "No human feel file. Do not borrow PVP's sirens or PCYP's homework vibe. Null until a named report exists.",
+      "route_myth": null,
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "Literature only. DAT ≈ PVP is not a rush score."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports. Chain/bulk does not predict reward."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "psychosis": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        }
+      },
+      "sources": [
+        {
+          "title": "Kolanos 2015: cyclopentyl analog DAT 17.1 nM",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5349767/",
+          "type": "paper"
+        },
+        {
+          "title": "Glennon SAR review (same table)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5818155/",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "alpha_pipp",
+      "name": "isopropyl α-PXP analog",
+      "aliases": [
+        "Kolanos 11",
+        "α-PiPP (informal)",
+        "α-pyrrolidinoisobutyrophenone (informal)"
+      ],
+      "family": "pyrovalerone",
+      "subclass": "unsubstituted_alpha_pxp",
+      "status": "literature",
+      "one_liner": "Branched C3 on a DAT graph. Never a named bag.",
+      "positives_writeup": "Branched C3 on a DAT graph. Never a named bag. Kolanos isopropyl analog sits at 92 nM, between PBP and PPP. Branching was tolerated in the assay. Nobody opened a thread under this name.",
+      "negatives_writeup": "No human file. Null.",
+      "route_myth": null,
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "Literature only."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No user reports."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "psychosis": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": 10,
+          "range": null,
+          "rationale": "No data."
+        }
+      },
+      "sources": [
+        {
+          "title": "Kolanos 2015: isopropyl analog DAT 92.3 nM",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5349767/",
+          "type": "paper"
+        }
+      ]
+    }
+  ]
+}

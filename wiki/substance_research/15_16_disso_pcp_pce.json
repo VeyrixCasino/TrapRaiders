@@ -1,0 +1,4495 @@
+{
+  "meta": {
+    "id": "15_16_disso_pcp_pce",
+    "assignments": [
+      15,
+      16
+    ],
+    "title": "PCP-type + PCE / PCPr / PCMo / other ACH",
+    "family": "arylcyclohexylamine_non_oxo",
+    "kits": [
+      "M",
+      "N"
+    ],
+    "no_cap": true,
+    "disclaimer": "Game catalog. No recipes. No doses-as-how-to. Scores 0-100 or null. Mania is not euphoria. Warmth is body-cozy, not a mu assay. Dissociation depth is walk-around vs hole, not enjoyment.",
+    "excluded_2oxo": [
+      "ketamine",
+      "DCK",
+      "2F-DCK",
+      "2F-NENDCK",
+      "FXE",
+      "HXE",
+      "NENK",
+      "2-MeO-ketamine",
+      "2-BDCK",
+      "tiletamine",
+      "MXE",
+      "DMXE",
+      "MXPr",
+      "MXiPr",
+      "MXM",
+      "O-PCE"
+    ],
+    "excluded_other": [
+      "diphenidine",
+      "ephenidine",
+      "MXP",
+      "PCC",
+      "PCA"
+    ],
+    "scoring": {
+      "scale": "0-100 or null",
+      "unknown": "null never 0",
+      "lead": [
+        "enjoyment",
+        "euphoria",
+        "rush",
+        "compulsiveness"
+      ],
+      "extras": [
+        "mania",
+        "dissociation_depth",
+        "warmth"
+      ],
+      "negatives": [
+        "judgment",
+        "psychosis_concern",
+        "motor",
+        "aftereffects"
+      ],
+      "independent": "mania is not euphoria; warmth is not opioid activity; dissociation_depth is not enjoyment"
+    },
+    "nervewing_caveat": "Nervewing-style comparison threads are one loud expert voice, not gospel. Cite as subjective evidence with YMMV. Warmth HO-vs-MeO construct is split."
+  },
+  "compounds": [
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania",
+        "freakout"
+      ],
+      "sources": [
+        {
+          "title": "Morris & Wallach From PCP to MXE",
+          "url": "https://doi.org/10.1002/dta.1620",
+          "type": "paper",
+          "year": 2014
+        },
+        {
+          "title": "product_families.md Kit M",
+          "url": "",
+          "type": "in_world",
+          "year": 2026
+        }
+      ],
+      "gaps": [
+        "modern hedonic texture thinner than the police blotter"
+      ],
+      "id": "pcp",
+      "name": "PCP",
+      "subclass": "pcp_piperidine",
+      "aliases": [
+        "phencyclidine",
+        "Sernyl",
+        "angel dust"
+      ],
+      "assignment": 15,
+      "research_status": "well_documented",
+      "market": "street",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 66,
+          "confidence": "B",
+          "note": "cult, not consensus"
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "B",
+          "note": "plot more than hug"
+        },
+        "rush": {
+          "score": 50,
+          "confidence": "C",
+          "note": "smoked-myth punch"
+        },
+        "compulsiveness": {
+          "score": 60,
+          "confidence": "B",
+          "note": "hours-long stay, not pyro bump"
+        },
+        "reinforcement": {
+          "score": 60,
+          "confidence": "B",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 92,
+          "confidence": "A",
+          "note": "brand"
+        },
+        "dissociation_depth": {
+          "score": 60,
+          "confidence": "B",
+          "note": "walk-around until it is not"
+        },
+        "warmth": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 95,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 94,
+          "confidence": "A",
+          "note": ""
+        },
+        "motor": {
+          "score": 68,
+          "confidence": "B",
+          "note": "good enough to walk into traffic"
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "dipped cig / dust; movie super-strength is media fanfic",
+      "npc_line": "The movie one."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania",
+        "freakout",
+        "redose"
+      ],
+      "sources": [
+        {
+          "title": "Nervewing ACH comparison",
+          "url": "https://www.reddit.com/r/dissociatives/comments/nvm5fs/comparing_arylcyclohexylamines/",
+          "type": "forum",
+          "year": 2021
+        },
+        {
+          "title": "Roth et al NMDA ligands",
+          "url": "",
+          "type": "paper",
+          "year": 2013
+        },
+        {
+          "title": "3-MeO-PCP psychotic disorder PET",
+          "url": "https://www.mdpi.com/1424-8247/17/4/452",
+          "type": "paper",
+          "year": 2024
+        },
+        {
+          "title": "Morris & Wallach 2014",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "some people bounce off the stimulation; pleasure still subjective"
+      ],
+      "id": "3-meo-pcp",
+      "name": "3-MeO-PCP",
+      "subclass": "pcp_piperidine",
+      "aliases": [
+        "3-methoxyphencyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 82,
+          "confidence": "A",
+          "note": "forum favorite"
+        },
+        "euphoria": {
+          "score": 64,
+          "confidence": "B",
+          "note": "glow exists; mania is the product"
+        },
+        "rush": {
+          "score": 40,
+          "confidence": "B",
+          "note": "climb not slam"
+        },
+        "compulsiveness": {
+          "score": 86,
+          "confidence": "A",
+          "note": "function is the trap"
+        },
+        "reinforcement": {
+          "score": 84,
+          "confidence": "A",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 96,
+          "confidence": "A",
+          "note": "NOT euphoria. god-mode."
+        },
+        "dissociation_depth": {
+          "score": 52,
+          "confidence": "B",
+          "note": "walk-around; hole only if you insist"
+        },
+        "warmth": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Nervewing stim-warm; not the HO cozy"
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 92,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 90,
+          "confidence": "A",
+          "note": "case reports + PET"
+        },
+        "motor": {
+          "score": 48,
+          "confidence": "B",
+          "note": "dangerously intact"
+        },
+        "aftereffects": {
+          "score": 86,
+          "confidence": "A",
+          "note": "days-long tail"
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "lucid walk-around; emails like a prophet",
+      "npc_line": "3-MeO-PCP god-mode mania."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania"
+      ],
+      "sources": [
+        {
+          "title": "Nervewing ACH comparison",
+          "url": "https://www.reddit.com/r/dissociatives/comments/nvm5fs/comparing_arylcyclohexylamines/",
+          "type": "forum",
+          "year": 2021
+        },
+        {
+          "title": "r/rc HO/MeO four-way",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/8x63d2/comparisons_3hopcp_3hopce_3meopce_3meopcp/",
+          "type": "forum",
+          "year": 2018
+        },
+        {
+          "title": "Morris & Wallach 3-HO section",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "depth split unresolved (batch vs brains)",
+        "early fake-batch rumor"
+      ],
+      "id": "3-ho-pcp",
+      "name": "3-HO-PCP",
+      "subclass": "pcp_piperidine",
+      "aliases": [
+        "3-hydroxyphencyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "mode": "mixed",
+      "feel": {
+        "enjoyment": {
+          "score": 80,
+          "confidence": "B",
+          "note": "heated-blanket body"
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "B",
+          "note": "body euphoria > 3-MeO"
+        },
+        "rush": {
+          "score": 34,
+          "confidence": "B",
+          "note": "late climb"
+        },
+        "compulsiveness": {
+          "score": 66,
+          "confidence": "B",
+          "note": "lower than 3-MeO; bag still dies"
+        },
+        "reinforcement": {
+          "score": 66,
+          "confidence": "B",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 48,
+          "confidence": "B",
+          "note": "not god-mode; can still show"
+        },
+        "dissociation_depth": {
+          "score": 78,
+          "confidence": "C",
+          "note": "Nervewing beast-hole vs Hexagon Sun casual. SPLIT."
+        },
+        "warmth": {
+          "score": 90,
+          "confidence": "B",
+          "note": "cozy-numb consensus; MOR rumor is the one that is not stupid"
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "motor": {
+          "score": 72,
+          "confidence": "B",
+          "note": "numb"
+        },
+        "aftereffects": {
+          "score": 82,
+          "confidence": "B",
+          "note": "long"
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "opioid-ish myth — still a disso; 3-HO actually has mu affinity in papers",
+      "npc_line": "3-HO-PCP the cozy PCP."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Nervewing on 3-Me vs 3-MeO pattern",
+          "url": "",
+          "type": "forum",
+          "year": 2021
+        },
+        {
+          "title": "r/dissociatives 2023 quick comparison",
+          "url": "https://www.reddit.com/r/dissociatives/comments/17eof1j/quick_comparsion_of_most_currently_available/",
+          "type": "forum",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "thin papers"
+      ],
+      "id": "3-me-pcp",
+      "name": "3-Me-PCP",
+      "subclass": "pcp_piperidine",
+      "aliases": [
+        "3-methylphencyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 82,
+          "confidence": "A",
+          "note": "people who bounced off god-mode"
+        },
+        "euphoria": {
+          "score": 74,
+          "confidence": "B",
+          "note": "cleaner than PCP"
+        },
+        "rush": {
+          "score": 40,
+          "confidence": "B",
+          "note": "polite"
+        },
+        "compulsiveness": {
+          "score": 56,
+          "confidence": "B",
+          "note": "lowest of the famous 3-stamps"
+        },
+        "reinforcement": {
+          "score": 56,
+          "confidence": "B",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 50,
+          "confidence": "B",
+          "note": "exists, not the headline"
+        },
+        "dissociation_depth": {
+          "score": 42,
+          "confidence": "B",
+          "note": "shallower"
+        },
+        "warmth": {
+          "score": 68,
+          "confidence": "B",
+          "note": "mid cozy / mid stim-warm"
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 44,
+          "confidence": "A",
+          "note": "the point of the stamp"
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "motor": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "functional walk-around",
+      "npc_line": "3-Me-PCP you can finish a sentence."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Nervewing Bluelight 3-MeO-PCP alternative",
+          "url": "https://www.bluelight.org/community/threads/3-meo-pcp-alternative-now-that-is-banned.911456/",
+          "type": "forum",
+          "year": 2021
+        },
+        {
+          "title": "Berquist et al novel ACX",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11192579/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "small human chorus"
+      ],
+      "id": "3-cl-pcp",
+      "name": "3-Cl-PCP",
+      "subclass": "pcp_piperidine",
+      "aliases": [
+        "3-chlorophencyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "hole-leaning",
+      "feel": {
+        "enjoyment": {
+          "score": 72,
+          "confidence": "C",
+          "note": "niche couch/color"
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "C",
+          "note": "muted"
+        },
+        "rush": {
+          "score": 28,
+          "confidence": "B",
+          "note": "late, burns"
+        },
+        "compulsiveness": {
+          "score": 38,
+          "confidence": "B",
+          "note": "you are on the couch"
+        },
+        "reinforcement": {
+          "score": 38,
+          "confidence": "B",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 28,
+          "confidence": "B",
+          "note": "absence is the fame"
+        },
+        "dissociation_depth": {
+          "score": 76,
+          "confidence": "B",
+          "note": "ephenidine-shaped hole"
+        },
+        "warmth": {
+          "score": 38,
+          "confidence": "C",
+          "note": "not the cozy one"
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 42,
+          "confidence": "C",
+          "note": "rodent rule-breaking still PCP-like"
+        },
+        "motor": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "burns; slow; couch",
+      "npc_line": "Couch PCP that borrowed ephenidine's colors."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Bluelight Small & Handy 3-Fluoro-PCP",
+          "url": "https://www.bluelight.org/community/threads/the-small-handy-3-fluoro-pcp-thread.887608/page-2",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "Nervewing Bluelight alternative post",
+          "url": "",
+          "type": "forum",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "thin thread; do not invent a cult"
+      ],
+      "id": "3-f-pcp",
+      "name": "3-F-PCP",
+      "subclass": "pcp_piperidine",
+      "aliases": [
+        "3-fluorophencyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "hole-leaning",
+      "feel": {
+        "enjoyment": {
+          "score": 42,
+          "confidence": "C",
+          "note": "kinda boring — Nervewing"
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "rush": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 30,
+          "confidence": "C",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 70,
+          "confidence": "C",
+          "note": "heavier hole, not a 3-MeO clone"
+        },
+        "warmth": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "motor": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "vendor fluoro stamp; not god-mode",
+      "npc_line": "3-F-PCP hole-y and boring."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mislabel"
+      ],
+      "sources": [
+        {
+          "title": "Morris & Wallach 4-MeO-PCP origin",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        },
+        {
+          "title": "EMCDDA 2011 Finland ping",
+          "url": "",
+          "type": "agency",
+          "year": 2011
+        }
+      ],
+      "gaps": [
+        "Beagle vs street potency mismatch; batch dirt"
+      ],
+      "id": "4-meo-pcp",
+      "name": "4-MeO-PCP",
+      "subclass": "pcp_piperidine",
+      "aliases": [
+        "methoxydine",
+        "4-methoxyphencyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "mode": "hole-leaning",
+      "feel": {
+        "enjoyment": {
+          "score": 48,
+          "confidence": "B",
+          "note": "nostalgia / threshold"
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "rush": {
+          "score": 20,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "B",
+          "note": "another because nothing happened"
+        },
+        "reinforcement": {
+          "score": 36,
+          "confidence": "B",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "warmth": {
+          "score": 38,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "motor": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 58,
+          "confidence": "B",
+          "note": "long anyway"
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "first RC PCP 2008; dirty PCC batches",
+      "npc_line": "First RC PCP. Weaker."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania",
+        "freakout"
+      ],
+      "sources": [
+        {
+          "title": "Morris & Wallach PCPy street history",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "almost no modern comparison-thread texture",
+        "barbiturate note is 1970s color"
+      ],
+      "id": "pcpy",
+      "name": "PCPy",
+      "subclass": "pcpy_pyrrolidine",
+      "aliases": [
+        "rolicyclidine",
+        "PHP"
+      ],
+      "assignment": 15,
+      "research_status": "moderately_documented",
+      "market": "street",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 58,
+          "confidence": "C",
+          "note": "period-piece"
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "rush": {
+          "score": 50,
+          "confidence": "C",
+          "note": "smoked-myth like PCP"
+        },
+        "compulsiveness": {
+          "score": 52,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 52,
+          "confidence": "D",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 70,
+          "confidence": "C",
+          "note": "inherited"
+        },
+        "dissociation_depth": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        },
+        "warmth": {
+          "score": 44,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 78,
+          "confidence": "B",
+          "note": "PHP psychosis case notes"
+        },
+        "motor": {
+          "score": 64,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "1970s leaf/powder; some said barbiturate-sedating on a disso",
+      "npc_line": "PHP. Same dust, smaller ring."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania"
+      ],
+      "sources": [
+        {
+          "title": "Morris & Wallach BRC 3-MeO-PCPy",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        },
+        {
+          "title": "Nervewing: 3-MeO-PCPy not around for years",
+          "url": "",
+          "type": "forum",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "one season of 2011 reports"
+      ],
+      "id": "3-meo-pcpy",
+      "name": "3-MeO-PCPy",
+      "subclass": "pcpy_pyrrolidine",
+      "aliases": [
+        "3-methoxyrolicyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 72,
+          "confidence": "D",
+          "note": "early positive, tiny n"
+        },
+        "euphoria": {
+          "score": 62,
+          "confidence": "D",
+          "note": ""
+        },
+        "rush": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 60,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 60,
+          "confidence": "D",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 68,
+          "confidence": "D",
+          "note": "do not clone 3-MeO-PCP"
+        },
+        "dissociation_depth": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "warmth": {
+          "score": 58,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 70,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 60,
+          "confidence": "D",
+          "note": ""
+        },
+        "motor": {
+          "score": 44,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "MXE-era invite-only; vanished",
+      "npc_line": "Same wall, different N, then it vanished."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "redose",
+        "mania"
+      ],
+      "sources": [
+        {
+          "title": "Nervewing 3-Me-PCPy Fast and Casual",
+          "url": "https://www.bluelight.org/community/threads/3-me-pcpy-semi-experienced-20-mg-intranasal-fast-and-casual.906020/",
+          "type": "forum",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "sample size is not 3-MeO-PCP",
+        "TRI explanation unproven in humans"
+      ],
+      "id": "3-me-pcpy",
+      "name": "3-Me-PCPy",
+      "subclass": "pcpy_pyrrolidine",
+      "aliases": [
+        "3-methylrolicyclidine"
+      ],
+      "assignment": 15,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "shallow-stim",
+      "feel": {
+        "enjoyment": {
+          "score": 76,
+          "confidence": "B",
+          "note": "party / casual"
+        },
+        "euphoria": {
+          "score": 66,
+          "confidence": "B",
+          "note": "simple hedonism"
+        },
+        "rush": {
+          "score": 52,
+          "confidence": "B",
+          "note": "best rush on the wall — one masterpiece report"
+        },
+        "compulsiveness": {
+          "score": 78,
+          "confidence": "B",
+          "note": "redose engine"
+        },
+        "reinforcement": {
+          "score": 78,
+          "confidence": "B",
+          "note": "reinforcement high; TRI rumor is a maybe"
+        },
+        "mania": {
+          "score": 56,
+          "confidence": "C",
+          "note": "stacks with repeats"
+        },
+        "dissociation_depth": {
+          "score": 28,
+          "confidence": "B",
+          "note": "shallow on purpose"
+        },
+        "warmth": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 38,
+          "confidence": "C",
+          "note": "binge path to stimulated psychosis"
+        },
+        "motor": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 32,
+          "confidence": "B",
+          "note": "short — why the bag dies"
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "caustic; party; not a journey",
+      "npc_line": "Dissociative cocaine."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "adder: totally inactive"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "4-me-pcp",
+      "name": "4-Me-PCP",
+      "aliases": [
+        "4-methylphencyclidine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "npc_line": "Disappointing. Basically inactive.",
+      "route_myth": "Canada 1989",
+      "subclass": "pcp_piperidine",
+      "assignment": 15
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "one Virginia sample 1981"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "4p-me-pcp",
+      "name": "4'-Me-PCP",
+      "aliases": [
+        "4-methyl-1-(1-phenylcyclohexyl)piperidine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "npc_line": "Parsley leftover. Weak.",
+      "route_myth": "piperidine methyl",
+      "subclass": "pcp_piperidine",
+      "assignment": 15
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "binding exists, street does not"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "2-meo-pcp",
+      "name": "2-MeO-PCP",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "npc_line": "Ortho isomer. Almost never a bag.",
+      "subclass": "pcp_piperidine",
+      "assignment": 15
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "no chorus"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "3-ho-pcpy",
+      "name": "3-HO-PCPy",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "uncertain",
+      "npc_line": "Chart name. Whisper reports.",
+      "subclass": "pcp_piperidine",
+      "assignment": 15
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "house kit listed it; no poems"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "3-4-md-pcp",
+      "name": "3,4-MD-PCP",
+      "aliases": [
+        "3,4-methylenedioxy-PCP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "npc_line": "Museum shelf.",
+      "subclass": "pcp_piperidine",
+      "assignment": 15
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "4-f-pcp",
+      "name": "4-F-PCP",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "npc_line": "Para-fluoro. Not a thread regular.",
+      "subclass": "pcp_piperidine",
+      "assignment": 15
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "Canada leftover"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "bncp",
+      "name": "BnCP",
+      "aliases": [
+        "PECP",
+        "1-(1-benzylcyclohexyl)piperidine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "npc_line": "Benzyl leftover. Weak.",
+      "subclass": "pcp_piperidine",
+      "assignment": 15
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania",
+        "freakout"
+      ],
+      "sources": [
+        {
+          "title": "Morris & Wallach PCE",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        },
+        {
+          "title": "Shulgin & MacLean 1976 history",
+          "url": "",
+          "type": "paper",
+          "year": 1976
+        }
+      ],
+      "gaps": [
+        "almost no 2020s hedonic essays"
+      ],
+      "id": "pce",
+      "name": "PCE",
+      "subclass": "pce_nethyl",
+      "aliases": [
+        "eticyclidine",
+        "cyclohexamine",
+        "CI-400"
+      ],
+      "assignment": 16,
+      "research_status": "moderately_documented",
+      "market": "street",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 64,
+          "confidence": "C",
+          "note": "old-head"
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "rush": {
+          "score": 62,
+          "confidence": "C",
+          "note": "rocket fuel nickname"
+        },
+        "compulsiveness": {
+          "score": 58,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "D",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 84,
+          "confidence": "B",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 58,
+          "confidence": "C",
+          "note": ""
+        },
+        "warmth": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 88,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 82,
+          "confidence": "B",
+          "note": ""
+        },
+        "motor": {
+          "score": 64,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 74,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "powder/tablets more than dipped cig; malodorous freebase story",
+      "npc_line": "Rocket fuel. The stimulating parent."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania",
+        "redose"
+      ],
+      "sources": [
+        {
+          "title": "Nervewing ACH comparison",
+          "url": "https://www.reddit.com/r/dissociatives/comments/nvm5fs/comparing_arylcyclohexylamines/",
+          "type": "forum",
+          "year": 2021
+        },
+        {
+          "title": "r/dissociatives 2023 comparison",
+          "url": "",
+          "type": "forum",
+          "year": 2023
+        },
+        {
+          "title": "Roth et al 2013",
+          "url": "",
+          "type": "paper",
+          "year": 2013
+        },
+        {
+          "title": "Morris & Wallach 3-MeO-PCE",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "warmth construct split"
+      ],
+      "id": "3-meo-pce",
+      "name": "3-MeO-PCE",
+      "subclass": "pce_nethyl",
+      "aliases": [
+        "methoxieticyclidine"
+      ],
+      "assignment": 16,
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "mode": "mixed",
+      "feel": {
+        "enjoyment": {
+          "score": 78,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "B",
+          "note": "hug + plot; often outruns 3-MeO-PCP"
+        },
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "faster climb than PCP stamps"
+        },
+        "compulsiveness": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 72,
+          "confidence": "B",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 78,
+          "confidence": "A",
+          "note": "high, not the 96"
+        },
+        "dissociation_depth": {
+          "score": 58,
+          "confidence": "B",
+          "note": "chaos-high opens"
+        },
+        "warmth": {
+          "score": 86,
+          "confidence": "C",
+          "note": "Nervewing #1 stim-warm; HO-first threads disagree"
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "motor": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "B",
+          "note": "long"
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "BRC invite-only 2010 because they were scared",
+      "npc_line": "3-MeO-PCP's twitchier cousin."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "r/dissociatives 2023 comparison",
+          "url": "",
+          "type": "forum",
+          "year": 2023
+        },
+        {
+          "title": "Morris & Wallach fake-batch note",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "do not buff to sell a crate"
+      ],
+      "id": "3-ho-pce",
+      "name": "3-HO-PCE",
+      "subclass": "pce_nethyl",
+      "aliases": [
+        "3-hydroxyeticyclidine"
+      ],
+      "assignment": 16,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "bland",
+      "feel": {
+        "enjoyment": {
+          "score": 36,
+          "confidence": "B",
+          "note": "works, no poems"
+        },
+        "euphoria": {
+          "score": 16,
+          "confidence": "A",
+          "note": "2023 comparison: no euphoria"
+        },
+        "rush": {
+          "score": 20,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 24,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 24,
+          "confidence": "B",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 22,
+          "confidence": "B",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 54,
+          "confidence": "B",
+          "note": "mid joyless"
+        },
+        "warmth": {
+          "score": 48,
+          "confidence": "C",
+          "note": "HO stamp without the cozy myth landing"
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 26,
+          "confidence": "C",
+          "note": ""
+        },
+        "motor": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "early bags accused of being fake",
+      "npc_line": "It works. Nobody writes poems."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "redose"
+      ],
+      "sources": [
+        {
+          "title": "Nervewing 3-Me-PCE",
+          "url": "https://nervewing.blogspot.com/2021/11/3-me-pce.html",
+          "type": "blog",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "one dense report + landing chatter"
+      ],
+      "id": "3-me-pce",
+      "name": "3-Me-PCE",
+      "subclass": "pce_nethyl",
+      "aliases": [
+        "3-methyleticyclidine"
+      ],
+      "assignment": 16,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "shallow-stim",
+      "feel": {
+        "enjoyment": {
+          "score": 80,
+          "confidence": "B",
+          "note": "motion / party"
+        },
+        "euphoria": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Nervewing: understated; night still slaps"
+        },
+        "rush": {
+          "score": 74,
+          "confidence": "B",
+          "note": "fiery electric"
+        },
+        "compulsiveness": {
+          "score": 68,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 68,
+          "confidence": "C",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 58,
+          "confidence": "B",
+          "note": "less than PCP stamps / 3-MeO-PCE"
+        },
+        "dissociation_depth": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "warmth": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "motor": {
+          "score": 32,
+          "confidence": "B",
+          "note": "stays online"
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "too restless for the couch; caustic",
+      "npc_line": "Fiery short PCE. Finish the night, not always the sentence."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach PCPr",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "do not clone 3-MeO-PCPr"
+      ],
+      "id": "pcpr",
+      "name": "PCPr",
+      "subclass": "pcpr_npropyl",
+      "aliases": [
+        "NPPCA",
+        "N-propyl-1-phenylcyclohexylamine"
+      ],
+      "assignment": 16,
+      "research_status": "limited_evidence",
+      "market": "street",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "D",
+          "note": ""
+        },
+        "rush": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 40,
+          "confidence": "D",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 46,
+          "confidence": "D",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "warmth": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "motor": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "D",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "1970s-90s analog; Germany with alkoxyamines",
+      "npc_line": "N-propyl. The quiet parent."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach BRC 3-MeO-PCPr",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "a month of 2011 posts"
+      ],
+      "id": "3-meo-pcpr",
+      "name": "3-MeO-PCPr",
+      "subclass": "pcpr_npropyl",
+      "aliases": [],
+      "assignment": 16,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "walk-around",
+      "feel": {
+        "enjoyment": {
+          "score": 68,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "D",
+          "note": ""
+        },
+        "rush": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 48,
+          "confidence": "D",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 44,
+          "confidence": "D",
+          "note": "less manic in rumor"
+        },
+        "dissociation_depth": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "warmth": {
+          "score": 56,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 52,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 42,
+          "confidence": "D",
+          "note": ""
+        },
+        "motor": {
+          "score": 42,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "BRC invite-only 2011 with 3-MeO-PCPy",
+      "npc_line": "Less manic in rumor. Rare."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach PCMo",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "PCM abbreviation collides; use PCMo"
+      ],
+      "id": "pcmo",
+      "name": "PCMo",
+      "subclass": "pcmo_morpholine",
+      "aliases": [
+        "morpholicyclidine",
+        "PCM"
+      ],
+      "assignment": 16,
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "mode": "weak",
+      "feel": {
+        "enjoyment": {
+          "score": 22,
+          "confidence": "B",
+          "note": "weak in animals and Hive"
+        },
+        "euphoria": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        },
+        "rush": {
+          "score": 14,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 16,
+          "confidence": "C",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 12,
+          "confidence": "C",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 24,
+          "confidence": "B",
+          "note": ""
+        },
+        "warmth": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "motor": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "1977 CA lab; not confirmed street; Hive weaker/shorter",
+      "npc_line": "Almost a cough-syrup joke."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Colestock / Brandt 3-MeO-PCMo characterization",
+          "url": "",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "pleasure reports are shrugs"
+      ],
+      "id": "3-meo-pcmo",
+      "name": "3-MeO-PCMo",
+      "subclass": "pcmo_morpholine",
+      "aliases": [
+        "4-[1-(3-methoxyphenyl)cyclohexyl]morpholine"
+      ],
+      "assignment": 16,
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "mode": "weak",
+      "feel": {
+        "enjoyment": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "rush": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "C",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 18,
+          "confidence": "C",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 30,
+          "confidence": "B",
+          "note": "NMDA real, much weaker than 3-MeO-PCP"
+        },
+        "warmth": {
+          "score": 26,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "motor": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "the morpholine they actually sold",
+      "npc_line": "They put 3-MeO on a weak ring and it stayed weak."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [
+        "mania",
+        "freakout"
+      ],
+      "sources": [
+        {
+          "title": "Morris & Wallach TCP",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "more hallucinogenic is a handful of posts"
+      ],
+      "id": "tcp",
+      "name": "TCP",
+      "subclass": "thiophene",
+      "aliases": [
+        "tenocyclidine",
+        "CI-421"
+      ],
+      "assignment": 16,
+      "research_status": "moderately_documented",
+      "market": "street",
+      "mode": "hole-leaning",
+      "feel": {
+        "enjoyment": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "rush": {
+          "score": 46,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 50,
+          "confidence": "D",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": 72,
+          "confidence": "C",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": 64,
+          "confidence": "C",
+          "note": "slightly more potent / longer rumor"
+        },
+        "warmth": {
+          "score": 42,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": 78,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 74,
+          "confidence": "C",
+          "note": ""
+        },
+        "motor": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "first Schedule I ACH 1975; dust and deception",
+      "npc_line": "Thiophene leftover. Longer, stranger."
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "pcip",
+      "name": "PCiP",
+      "aliases": [
+        "NIPPCA",
+        "N-isopropyl-1-phenylcyclohexylamine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "npc_line": "DEA said recently abused. One old note.",
+      "subclass": "pcpr_npropyl",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "tcpy",
+      "name": "TCPy",
+      "aliases": [
+        "thiophene-PCPy"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "uncertain",
+      "npc_line": "Schedule I 1989. Details missing.",
+      "subclass": "thiophene",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "tcpr",
+      "name": "TCPr",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "npc_line": "Hive-era thiophene N-propyl.",
+      "subclass": "thiophene",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "pcde",
+      "name": "PCDE",
+      "aliases": [
+        "dieticyclidine",
+        "CI-482"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "npc_line": "Parke-Davis leftover. Hive bioeval.",
+      "subclass": "pce_nethyl",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "pcme",
+      "name": "PCMe",
+      "aliases": [
+        "PCM",
+        "N-methyl-1-phenylcyclohexylamine"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "npc_line": "Open-chain N-methyl. Not PCMo.",
+      "subclass": "pce_nethyl",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "pcmea",
+      "name": "PCMEA",
+      "aliases": [
+        "N-(2-methoxyethyl)-1-phenylcyclohexan-1-amine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "npc_line": "German 1990s alkoxyamine.",
+      "subclass": "alkoxyamine",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "pcmpa",
+      "name": "PCMPA",
+      "aliases": [
+        "N-(3-methoxypropyl)-1-phenylcyclohexan-1-amine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "npc_line": "German 1990s alkoxyamine.",
+      "subclass": "alkoxyamine",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "pceea",
+      "name": "PCEEA",
+      "aliases": [
+        "N-(2-ethoxyethyl)-1-phenylcyclohexan-1-amine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "street",
+      "npc_line": "The rare novel first-gen analog.",
+      "subclass": "alkoxyamine",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "pchoea",
+      "name": "PCHOEA",
+      "aliases": [
+        "2-[(1-phenylcyclohexyl)amino]ethan-1-ol"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "npc_line": "Allen: clandestine sources.",
+      "subclass": "alkoxyamine",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "3-cl-pce",
+      "name": "3-Cl-PCE",
+      "aliases": [],
+      "research_status": "unverified_claim",
+      "market": "uncertain",
+      "npc_line": "Chart / wished-for. No chorus.",
+      "subclass": "pce_nethyl",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "3-ho-pcpr",
+      "name": "3-HO-PCPr",
+      "aliases": [],
+      "research_status": "unverified_claim",
+      "market": "uncertain",
+      "npc_line": "Wished-for stamp.",
+      "subclass": "pcpr_npropyl",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "3-4-md-pcpr",
+      "name": "3,4-MD-PCPr",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "npc_line": "Chart name.",
+      "subclass": "pcpr_npropyl",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "btcp",
+      "name": "BTCP",
+      "aliases": [
+        "benocyclidine"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "npc_line": "The DAT one that forgot to be a hole.",
+      "subclass": "atypical",
+      "assignment": 16
+    },
+    {
+      "family": "arylcyclohexylamine",
+      "flags": [],
+      "sources": [
+        {
+          "title": "Morris & Wallach / analog tables",
+          "url": "",
+          "type": "paper",
+          "year": 2014
+        }
+      ],
+      "gaps": [
+        "null feel until a chorus exists"
+      ],
+      "mode": "unscored",
+      "feel": {
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "tracks compulsiveness unless split"
+        },
+        "mania": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "dissociation_depth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "warmth": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "judgment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "motor": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "id": "gacyclidine",
+      "name": "gacyclidine",
+      "aliases": [
+        "GK-11"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "npc_line": "Neuroprotectant candidate. Not Flask.",
+      "subclass": "atypical",
+      "assignment": 16
+    }
+  ],
+  "coverage": {
+    "named_count": 40,
+    "full_scored": 19,
+    "thin_null": 21,
+    "assignment_15": 17,
+    "assignment_16": 23,
+    "walk_around_vs_hole": {
+      "walk-around": [
+        "pcp",
+        "3-meo-pcp",
+        "3-me-pcp",
+        "pcpy",
+        "3-meo-pcpy",
+        "pce",
+        "pcpr",
+        "3-meo-pcpr"
+      ],
+      "shallow-stim": [
+        "3-me-pcpy",
+        "3-me-pce"
+      ],
+      "mixed": [
+        "3-ho-pcp",
+        "3-meo-pce"
+      ],
+      "hole-leaning": [
+        "3-cl-pcp",
+        "3-f-pcp",
+        "4-meo-pcp",
+        "tcp"
+      ],
+      "bland": [
+        "3-ho-pce"
+      ],
+      "weak": [
+        "pcmo",
+        "3-meo-pcmo"
+      ],
+      "unscored_museum": [
+        "4-me-pcp",
+        "4p-me-pcp",
+        "2-meo-pcp",
+        "3-ho-pcpy",
+        "3-4-md-pcp",
+        "4-f-pcp",
+        "bncp",
+        "pcip",
+        "tcpy",
+        "tcpr",
+        "pcde",
+        "pcme",
+        "pcmea",
+        "pcmpa",
+        "pceea",
+        "pchoea",
+        "3-cl-pce",
+        "3-ho-pcpr",
+        "3-4-md-pcpr",
+        "btcp",
+        "gacyclidine"
+      ]
+    },
+    "punchiest": [
+      "3-MeO-PCP god-mode mania.",
+      "3-HO-PCP the cozy PCP.",
+      "3-Me-PCP you can finish a sentence.",
+      "Dissociative cocaine.",
+      "3-MeO-PCP's twitchier cousin.",
+      "It works. Nobody writes poems."
+    ],
+    "gaps": [
+      "No head-to-head human study of the 3-stamps vs 3-MeO-PCE",
+      "Warmth construct split (Nervewing stim-warm vs HO cozy)",
+      "3-HO-PCP depth split",
+      "3-Cl-PCE / 3-HO-PCPr / 3-HO-PCPy / 4-MeO-PCE wished-for",
+      "PCE / PCPy / TCP thin modern hedonic texture",
+      "3-Me-PCPy leans on one report"
+    ]
+  }
+}

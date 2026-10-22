@@ -1,0 +1,841 @@
+{
+  "assignment_id": 14,
+  "slug": "disso_mxe",
+  "title": "MXE / oxo-PCE-type dissociatives",
+  "family": "dissociatives",
+  "subfamily": "mxe_oxo_pce_type",
+  "priority_family": "disso",
+  "disclaimer": "Fictional game catalog research. Unitless 0-100 inferences from public reports. Not a manual. No recipes. No how-to-take. No milligram instructions. Pleasure and compulsiveness are independent axes.",
+  "scoring": {
+    "scale": "0-100 or null",
+    "pleasure_vs_compulsiveness": "independent",
+    "priority_axes": [
+      "enjoyment",
+      "euphoria",
+      "rush",
+      "compulsiveness"
+    ],
+    "extra_axes": [
+      "dissociation_depth",
+      "warmth",
+      "mania"
+    ],
+    "supporting_axes": [
+      "stimulation",
+      "sedation",
+      "disinhibition"
+    ]
+  },
+  "scope": {
+    "include_full": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxipr",
+      "o_pce"
+    ],
+    "include_relatives": [
+      "mxm",
+      "hxe"
+    ],
+    "include_thin": [
+      "oxo_pcpr",
+      "4meo_oxo_pce"
+    ],
+    "exclude_ket_likes": [
+      "ketamine",
+      "dck",
+      "2f_dck",
+      "2f_nendck",
+      "nenk",
+      "2meo_ketamine",
+      "2bdck",
+      "tiletamine",
+      "fxe"
+    ],
+    "exclude_pcp_pce_non_oxo": [
+      "pcp",
+      "3meo_pcp",
+      "3ho_pcp",
+      "3me_pcp",
+      "3cl_pcp",
+      "3f_pcp",
+      "4meo_pcp",
+      "pce",
+      "3meo_pce",
+      "3ho_pce",
+      "3me_pce",
+      "pcpy",
+      "pcmo",
+      "tcp"
+    ],
+    "exclude_diarylethylamines": [
+      "mxp",
+      "diphenidine",
+      "ephenidine",
+      "fluorolintane"
+    ]
+  },
+  "alias_validations": [
+    {
+      "label": "3DMXE",
+      "also_seen_as": [
+        "3D-MXE",
+        "3D-Mxe",
+        "3d-mxe"
+      ],
+      "resolves_to": "dmxe",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "PubChem lists 3D-Mxe as a synonym of deoxymethoxetamine. PsychonautWiki redirects 3D-MXE to DMXE. Vendor copy sells 3D-MXE pellets as DMXE HCl. Reddit consensus: fancy name to sell more DMXE. Color/price differences are batch plus marketing. At least one 2025 vendor printed 3-Cl-PCP systematic name under a 3D-MXE sticker — mislabel, not a new molecule."
+    }
+  ],
+  "slider_board": {
+    "enjoyment_high_to_low": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxm",
+      "hxe",
+      "o_pce",
+      "mxipr"
+    ],
+    "euphoria_high_to_low": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxm",
+      "mxipr",
+      "hxe",
+      "o_pce"
+    ],
+    "rush_high_to_low": [
+      "o_pce",
+      "mxipr",
+      "mxe",
+      "mxpr",
+      "dmxe",
+      "mxm",
+      "hxe"
+    ],
+    "compulsiveness_high_to_low": [
+      "o_pce",
+      "mxe",
+      "dmxe",
+      "mxm",
+      "mxpr",
+      "mxipr",
+      "hxe"
+    ],
+    "dissociation_depth_high_to_low": [
+      "mxe",
+      "o_pce",
+      "mxipr",
+      "mxm",
+      "dmxe",
+      "mxpr",
+      "hxe"
+    ],
+    "warmth_high_to_low": [
+      "dmxe",
+      "hxe",
+      "mxe",
+      "mxm",
+      "mxpr",
+      "mxipr",
+      "o_pce"
+    ],
+    "mania_high_to_low": [
+      "o_pce",
+      "mxe",
+      "mxipr",
+      "dmxe",
+      "mxpr",
+      "mxm",
+      "hxe"
+    ],
+    "stimulation_high_to_low": [
+      "o_pce",
+      "mxpr",
+      "mxe",
+      "dmxe",
+      "mxipr",
+      "mxm",
+      "hxe"
+    ],
+    "sedation_high_to_low": [
+      "hxe",
+      "mxm",
+      "dmxe",
+      "mxipr",
+      "mxpr",
+      "mxe",
+      "o_pce"
+    ],
+    "disinhibition_high_to_low": [
+      "mxe",
+      "o_pce",
+      "dmxe",
+      "mxpr",
+      "mxm",
+      "mxipr",
+      "hxe"
+    ],
+    "notes": [
+      "Stimulation, sedation, warmth, and disinhibition are separate sliders.",
+      "Majority forum: DMXE more sedating/body-warm than MXE. Nervewing 2021 ranked DMXE more stimulating than MXE. Catalog follows majority and records the split.",
+      "O-PCE is the pleasure/compulsiveness split: low hug, highest fiend."
+    ]
+  },
+  "agents": [
+    {
+      "id": "mxe",
+      "name": "MXE",
+      "full_name": "methoxetamine",
+      "substitutive": "3-MeO-2-oxo-PCE",
+      "systematic": "2-(3-methoxyphenyl)-2-(ethylamino)cyclohexanone",
+      "aliases": [
+        "Mexxy",
+        "Special M",
+        "m-ket",
+        "3-MeO-2'-oxo-PCE"
+      ],
+      "kit": "L",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "scores": {
+        "enjoyment": 94,
+        "euphoria": 78,
+        "rush": 56,
+        "compulsiveness": 80,
+        "dissociation_depth": 86,
+        "warmth": 82,
+        "mania": 42,
+        "stimulation": 54,
+        "sedation": 46,
+        "disinhibition": 74
+      },
+      "confidence": 0.9,
+      "one_liner": "Best disso that ever got banned.",
+      "feel": "The legend. Warm plus psychedelic plus functional. Music gets expensive. M-hole is a real room. Old heads will not shut up. Opioid-warm rumor is a myth; SERT plus NMDA is the plot.",
+      "stim_vs_sedation": "middle: walk-around at the low end, hole at the high end, not a couch-only or a manic PCP",
+      "flags": [
+        "redose",
+        "bladder"
+      ],
+      "flag_notes": {
+        "bladder": "Marketed as bladder-friendly ket alternative; never proven safer. Class risk remains."
+      },
+      "sources": [
+        "erowid_mxe_effects",
+        "erowid_exp_97506",
+        "kjellgren_2013",
+        "corazza_2013",
+        "morris_wallach_2014",
+        "hays_dea_mxe",
+        "pw_mxe"
+      ]
+    },
+    {
+      "id": "dmxe",
+      "name": "DMXE",
+      "full_name": "deoxymethoxetamine",
+      "substitutive": "3-Me-2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-(3-methylphenyl)cyclohexan-1-one",
+      "aliases": [
+        "3DMXE",
+        "3D-MXE",
+        "3D-Mxe",
+        "3-Me-2'-oxo-PCE"
+      ],
+      "kit": "L",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "scores": {
+        "enjoyment": 78,
+        "euphoria": 74,
+        "rush": 48,
+        "compulsiveness": 68,
+        "dissociation_depth": 62,
+        "warmth": 88,
+        "mania": 36,
+        "stimulation": 42,
+        "sedation": 70,
+        "disinhibition": 70
+      },
+      "confidence": 0.72,
+      "one_liner": "MXE's little brother who hugs harder and thinks less.",
+      "feel": "Body-warm, colorful, shallow headspace, more side effects, less legend. Closest current shape to MXE. Not the magic. 3DMXE is this, with a sticker.",
+      "stim_vs_sedation": "majority: sedating body-glow; minority/Nervewing: more stim than MXE",
+      "flags": [
+        "redose",
+        "mislabel"
+      ],
+      "flag_notes": {
+        "mislabel": "3DMXE branding. Rare bags printed with 3-Cl-PCP systematic name."
+      },
+      "sources": [
+        "reddit_17eof1j",
+        "reddit_lgfpdq",
+        "reddit_kwe0kr",
+        "reddit_1ix4dsr",
+        "reddit_1me5jxt",
+        "pubchem_dmxe",
+        "pw_talk_dmxe"
+      ]
+    },
+    {
+      "id": "mxpr",
+      "name": "MXPr",
+      "full_name": "methoxpropamine",
+      "substitutive": "3-MeO-2-oxo-PCPr",
+      "systematic": "2-(propylamino)-2-(3-methoxyphenyl)cyclohexanone",
+      "aliases": [
+        "methoxpropamine",
+        "3-MeO-2'-oxo-PCPr"
+      ],
+      "kit": "L",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "scores": {
+        "enjoyment": 70,
+        "euphoria": 72,
+        "rush": 54,
+        "compulsiveness": 55,
+        "dissociation_depth": 58,
+        "warmth": 64,
+        "mania": 34,
+        "stimulation": 58,
+        "sedation": 50,
+        "disinhibition": 66
+      },
+      "confidence": 0.58,
+      "one_liner": "Bed disso. Shiny. Music first, brain second.",
+      "feel": "First hour full-body massage and a holy playlist. Then bland, cold, or electric dysphoria. Energetic and sedating at once. Polarizing.",
+      "stim_vs_sedation": "mixed: lighter, want to move, still a bed chemical",
+      "flags": [
+        "redose"
+      ],
+      "sources": [
+        "reddit_17eof1j",
+        "reddit_jel6qs",
+        "reddit_i6haq5",
+        "reddit_p9ndil",
+        "reddit_j7uoum",
+        "reddit_nvm5fs"
+      ]
+    },
+    {
+      "id": "mxipr",
+      "name": "MXiPr",
+      "full_name": "methoxisopropamine",
+      "substitutive": "3-MeO-2-oxo-PCiPr",
+      "systematic": "2-(isopropylamino)-2-(3-methoxyphenyl)cyclohexanone",
+      "aliases": [
+        "methoxisopropamine",
+        "methoxipropamine",
+        "3-MeO-2'-oxo-PCiPr"
+      ],
+      "kit": "L",
+      "sku_role": "vendor_cousin",
+      "card_weight": "full",
+      "scores": {
+        "enjoyment": 58,
+        "euphoria": 60,
+        "rush": 64,
+        "compulsiveness": 48,
+        "dissociation_depth": 70,
+        "warmth": 55,
+        "mania": 40,
+        "stimulation": 40,
+        "sedation": 68,
+        "disinhibition": 48
+      },
+      "confidence": 0.5,
+      "one_liner": "Nitrous kiss, then amnesia. Oddly euphoric chaos.",
+      "feel": "Sedative, chaotic, blackout-prone. Hole you can still walk through — psychosis energy without the mercy of the floor. Some get childlike wonder. Many never repurchase.",
+      "stim_vs_sedation": "mainly sedative with a short nitrous-like rush",
+      "flags": [
+        "freakout",
+        "redose"
+      ],
+      "flag_notes": {
+        "freakout": "Walkable chaotic hole, amnesia, dirty visuals. Seizure/rhabdo whispers are uncited rumor."
+      },
+      "sources": [
+        "reddit_17eof1j",
+        "pw_mxipr",
+        "reddit_jel6qs",
+        "reddit_j7uoum",
+        "reddit_nvm5fs"
+      ]
+    },
+    {
+      "id": "o_pce",
+      "name": "O-PCE",
+      "full_name": "eticyclidone",
+      "substitutive": "2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-phenylcyclohexan-1-one",
+      "aliases": [
+        "2'-oxo-PCE",
+        "deschloro-N-ethyl-ketamine",
+        "2-oxo-PCE"
+      ],
+      "kit": "N",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "scores": {
+        "enjoyment": 64,
+        "euphoria": 38,
+        "rush": 74,
+        "compulsiveness": 86,
+        "dissociation_depth": 80,
+        "warmth": 12,
+        "mania": 78,
+        "stimulation": 86,
+        "sedation": 18,
+        "disinhibition": 72
+      },
+      "confidence": 0.82,
+      "one_liner": "Not a hug. A scalpel. Air left the room.",
+      "feel": "Clean, surgical, stimulating, fiendish. MXE without the body warmth. Little euphoria. Functional at the low end, vacuum at the high end. People chase it who do not even like it. Slow vs fast batch myth is envelope chatter.",
+      "stim_vs_sedation": "stimulating disso: stim front half, hole back half",
+      "flags": [
+        "redose",
+        "mania",
+        "bladder",
+        "mislabel"
+      ],
+      "flag_notes": {
+        "mislabel": "Sold as street ketamine in Hong Kong 2017 cluster. Immunoassay can miss it.",
+        "bladder": "Class analogy plus heavy-use anecdotes. Not a ket-scale clinical series."
+      },
+      "sources": [
+        "reddit_17eof1j",
+        "reddit_lgfpdq",
+        "pw_opce",
+        "tang_2018",
+        "hkmj_oxo_pce",
+        "reddit_nvm5fs"
+      ]
+    },
+    {
+      "id": "mxm",
+      "name": "MXM",
+      "full_name": "methoxmetamine",
+      "substitutive": "3-MeO-2-oxo-PCM",
+      "systematic": "2-(3-methoxyphenyl)-2-(methylamino)cyclohexanone",
+      "aliases": [
+        "methoxymetamine",
+        "3-MeO-2'-oxo-PCM",
+        "MMXE"
+      ],
+      "kit": "L",
+      "sku_role": "vendor_filler",
+      "card_weight": "relative",
+      "scores": {
+        "enjoyment": 66,
+        "euphoria": 62,
+        "rush": 40,
+        "compulsiveness": 60,
+        "dissociation_depth": 70,
+        "warmth": 70,
+        "mania": 30,
+        "stimulation": 28,
+        "sedation": 76,
+        "disinhibition": 50
+      },
+      "confidence": 0.38,
+      "one_liner": "MXE's N-methyl cousin: slower, heavier, less giddy.",
+      "feel": "Short 2014-16 window. Sedating, sensory delay, adventure without MXE lightness. Not a replacement.",
+      "stim_vs_sedation": "sedating / heavier",
+      "flags": [],
+      "sources": [
+        "erowid_exp_107738",
+        "reddit_2qj4uj",
+        "reddit_42a7rs"
+      ]
+    },
+    {
+      "id": "hxe",
+      "name": "HXE",
+      "full_name": "hydroxetamine",
+      "substitutive": "3-HO-2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-(3-hydroxyphenyl)cyclohexan-1-one",
+      "aliases": [
+        "3-HO-2'-oxo-PCE",
+        "O-desmethyl-MXE"
+      ],
+      "kit": "K",
+      "also_listed_in": [
+        "kit_K_ket_likes"
+      ],
+      "sku_role": "relative_hydroxy",
+      "card_weight": "relative",
+      "scores": {
+        "enjoyment": 60,
+        "euphoria": 55,
+        "rush": 24,
+        "compulsiveness": 40,
+        "dissociation_depth": 50,
+        "warmth": 86,
+        "mania": 20,
+        "stimulation": 24,
+        "sedation": 80,
+        "disinhibition": 46
+      },
+      "confidence": 0.45,
+      "one_liner": "MXE with the methoxy stripped. Warm, weak, couch.",
+      "feel": "MXE hydroxy / O-desmethyl metabolite. Lucid, warm, less colorful, less magic. Kit K owns the street bottle. This card exists so the 3-HO stamp on the MXE molecule is not missing.",
+      "stim_vs_sedation": "sedating / lucid couch",
+      "flags": [],
+      "sources": [
+        "reddit_mfowg6",
+        "reddit_jzolvd",
+        "reddit_pcn99t",
+        "reddit_n49wu6"
+      ]
+    },
+    {
+      "id": "oxo_pcpr",
+      "name": "2-oxo-PCPr",
+      "full_name": "2-oxo-PCPr",
+      "substitutive": "2-oxo-PCPr",
+      "systematic": "2-(propylamino)-2-phenylcyclohexan-1-one",
+      "aliases": [],
+      "kit": null,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.1,
+      "one_liner": "A Cayman bottle. Nobody wrote a poem.",
+      "feel": "Forensic / reference-standard existence only. Do not invent a vibe.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": []
+    },
+    {
+      "id": "4meo_oxo_pce",
+      "name": "4-MeO-2-oxo-PCE",
+      "full_name": "4-methoxetamine-isomer",
+      "substitutive": "4-MeO-2-oxo-PCE",
+      "systematic": "2-(4-methoxyphenyl)-2-(ethylamino)cyclohexanone",
+      "aliases": [],
+      "kit": null,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.08,
+      "one_liner": "Para-methoxy on a chart. No street feel.",
+      "feel": "Scheduling / analog charts mention it. Trip-report volume is basically zero.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": []
+    }
+  ],
+  "rankings": {
+    "by_evidence": [
+      "mxe",
+      "o_pce",
+      "dmxe",
+      "mxpr",
+      "mxipr",
+      "hxe",
+      "mxm",
+      "oxo_pcpr",
+      "4meo_oxo_pce"
+    ],
+    "by_enjoyment": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxm",
+      "hxe",
+      "o_pce",
+      "mxipr"
+    ],
+    "by_euphoria": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxm",
+      "mxipr",
+      "hxe",
+      "o_pce"
+    ],
+    "by_rush": [
+      "o_pce",
+      "mxipr",
+      "mxe",
+      "mxpr",
+      "dmxe",
+      "mxm",
+      "hxe"
+    ],
+    "by_compulsiveness": [
+      "o_pce",
+      "mxe",
+      "dmxe",
+      "mxm",
+      "mxpr",
+      "mxipr",
+      "hxe"
+    ],
+    "note": "Evidence ranking is not a fun ranking. O-PCE is the fiend, not the legend."
+  },
+  "counts": {
+    "full_cards": 5,
+    "relative_cards": 2,
+    "thin_null_cards": 2,
+    "scored_agents": 7,
+    "named_agents": 9,
+    "alias_only": 1,
+    "alias_only_ids": [
+      "3DMXE->dmxe"
+    ]
+  },
+  "coverage": {
+    "searched": [
+      "r/dissociatives comparison threads (lgfpdq, 17eof1j, nvm5fs)",
+      "r/researchchemicals MXE-vs-DMXE, MXPr/MXiPr, 3DMXE branding, HXE",
+      "Erowid MXE effects vault, Exp 97506, MXM Exp 107738",
+      "PsychonautWiki Methoxetamine, O-PCE, MXiPr, Talk:DMXE",
+      "PMC/PubMed: Corazza 2013, Kjellgren 2013, Tang 2018, HKMJ 2-oxo-PCE, Hays DEA MXE, Morris & Wallach 2014",
+      "PubChem CID 157010705 DMXE synonyms",
+      "wiki/product_families.md Kit L / Kit N feel cards"
+    ],
+    "strength": "MXE and O-PCE triangulate paper plus forum plus clinical-tox. DMXE/MXPr/MXiPr share a stable comparison language (warmth, chaos, surgical, hug).",
+    "weakness": "Cousin pharmacology is SAR gossip. HXE/MXM samples are small. DMXE stim/sedate split unresolved. Bladder risk is class inference except ketamine."
+  },
+  "gaps": [
+    "No head-to-head human study of MXE vs DMXE vs O-PCE.",
+    "DMXE stimulation vs sedation (Nervewing vs majority) unresolved.",
+    "MXE mu-opioid rumor still contaminates NPC talk; binding data say no.",
+    "MXiPr seizure/rhabdo claims lack citations.",
+    "3DMXE bags have been printed with wrong IUPAC (3-Cl-PCP). Need a mislabel roll, not a new SKU.",
+    "3-Me-2-oxo-PCPr, 3-MeO-2-oxo-PCMo, 2-oxo-PCiPr: not enough street text to score.",
+    "HXE dual-owned with Kit K — one mesh, two stickers.",
+    "Long-term urotoxicity for O-PCE/DMXE is anecdote plus class analogy.",
+    "Stereo-pure MXE batches rumored; no catalog split unless a crate says S- or R-."
+  ],
+  "one_liners": {
+    "mxe": "Best disso that ever got banned.",
+    "dmxe": "MXE's little brother who hugs harder and thinks less.",
+    "3dmxe": "Fancy sticker on the same 3-Me powder.",
+    "mxpr": "Bed disso. Shiny.",
+    "mxipr": "Nitrous kiss, then you forget you bought it.",
+    "o_pce": "Not a hug. A scalpel. Air left the room.",
+    "mxm": "They shortened the N. They shortened the joy.",
+    "hxe": "Warm, weak, couch. The metabolite trying to be the parent."
+  },
+  "sources": [
+    {
+      "id": "erowid_mxe_effects",
+      "kind": "vault",
+      "title": "Erowid Methoxetamine Vault: Effects",
+      "url": "https://www.erowid.org/chemicals/methoxetamine/methoxetamine_effects.shtml"
+    },
+    {
+      "id": "erowid_exp_97506",
+      "kind": "experience",
+      "title": "MXE and Me: A Tale of Addiction",
+      "url": "https://erowid.org/experiences/exp.php?ID=97506"
+    },
+    {
+      "id": "erowid_exp_107738",
+      "kind": "experience",
+      "title": "Methoxmetamine — Like I Am Being Pulled Out to Sea",
+      "url": "https://erowid.org/experiences/exp.php?ID=107738"
+    },
+    {
+      "id": "kjellgren_2013",
+      "kind": "paper",
+      "title": "Methoxetamine (MXE) — A Phenomenological Study",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3756617/"
+    },
+    {
+      "id": "corazza_2013",
+      "kind": "paper",
+      "title": "From Special K to Special M",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493581/"
+    },
+    {
+      "id": "morris_wallach_2014",
+      "kind": "paper",
+      "title": "From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs",
+      "cite": "Drug Test Anal. 2014;6(7-8):614-632"
+    },
+    {
+      "id": "hays_dea_mxe",
+      "kind": "paper",
+      "title": "DEA characterization of methoxetamine",
+      "url": "https://erowid.org/chemicals/methoxetamine/methoxetamine_chemistry1.pdf"
+    },
+    {
+      "id": "tang_2018",
+      "kind": "paper",
+      "title": "Cluster of acute poisonings associated with 2-oxo-PCE",
+      "cite": "Forensic Sci Int. 2018"
+    },
+    {
+      "id": "hkmj_oxo_pce",
+      "kind": "paper",
+      "title": "2-oxo-PCE: ketamine analogue on the streets",
+      "url": "https://www.hkmj.org/abstracts/v23n6/665.htm"
+    },
+    {
+      "id": "pw_mxe",
+      "kind": "wiki",
+      "title": "PsychonautWiki Methoxetamine",
+      "url": "https://en.psychonautwiki.org/wiki/Methoxetamine"
+    },
+    {
+      "id": "pw_opce",
+      "kind": "wiki",
+      "title": "PsychonautWiki O-PCE",
+      "url": "https://en.psychonautwiki.org/wiki/O-PCE"
+    },
+    {
+      "id": "pw_mxipr",
+      "kind": "wiki",
+      "title": "PsychonautWiki MXiPr",
+      "url": "https://psychonautwiki.org/wiki/MXiPr"
+    },
+    {
+      "id": "pw_talk_dmxe",
+      "kind": "wiki",
+      "title": "PsychonautWiki Talk:DMXE",
+      "url": "https://en.psychonautwiki.org/wiki/Talk:DMXE"
+    },
+    {
+      "id": "pubchem_dmxe",
+      "kind": "database",
+      "title": "PubChem Deoxymethoxetamine CID 157010705 (synonym 3D-Mxe)",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/157010705"
+    },
+    {
+      "id": "reddit_lgfpdq",
+      "kind": "thread",
+      "title": "Most similar RC to MXE?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/lgfpdq/most_similiar_rc_to_mxe/"
+    },
+    {
+      "id": "reddit_17eof1j",
+      "kind": "thread",
+      "title": "Quick comparison of most currently available dissociatives",
+      "url": "https://www.reddit.com/r/dissociatives/comments/17eof1j/quick_comparsion_of_most_currently_available/"
+    },
+    {
+      "id": "reddit_nvm5fs",
+      "kind": "thread",
+      "title": "Comparing arylcyclohexylamines (Nervewing table)",
+      "url": "https://www.reddit.com/r/dissociatives/comments/nvm5fs/comparing_arylcyclohexylamines/"
+    },
+    {
+      "id": "reddit_1ix4dsr",
+      "kind": "thread",
+      "title": "DMXE VS 3D-MXE is really same?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/1ix4dsr/dmxe_vs_3dmxe_is_really_same/"
+    },
+    {
+      "id": "reddit_1me5jxt",
+      "kind": "thread",
+      "title": "Presumably 3D-MXE not being 3D-MXE?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/1me5jxt/presumably_3dmxe_not_being_3dmxe/"
+    },
+    {
+      "id": "reddit_kwe0kr",
+      "kind": "thread",
+      "title": "DMXE first try from a MXE fanboy",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/kwe0kr/dmxe_first_try_from_a_mxe_fanboy/"
+    },
+    {
+      "id": "reddit_jel6qs",
+      "kind": "thread",
+      "title": "1st trial with MXPr and MXiPr",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/jel6qs/trip_reports_1st_trial_with_mxpr_and_mxipr/"
+    },
+    {
+      "id": "reddit_i6haq5",
+      "kind": "thread",
+      "title": "MXiPR and MXPR experience report",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/i6haq5/mxipr_mxpr_experience_report/"
+    },
+    {
+      "id": "reddit_p9ndil",
+      "kind": "thread",
+      "title": "MXPr/MXiPr warm start then cold buzzing confusion",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/p9ndil/30mg_mxipr_30mg_mxpr_warm_and_happy_start_turned/"
+    },
+    {
+      "id": "reddit_j7uoum",
+      "kind": "thread",
+      "title": "How does an MXPr / MXiPr hole compare to a k-hole?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/j7uoum/how_does_an_mxpr_mxipr_hole_compare_to_a_khole/"
+    },
+    {
+      "id": "reddit_2qj4uj",
+      "kind": "thread",
+      "title": "So, let's talk MXM",
+      "url": "https://www.reddit.com/r/Drugs/comments/2qj4uj/so_lets_talk_mxm/"
+    },
+    {
+      "id": "reddit_42a7rs",
+      "kind": "thread",
+      "title": "Methoxmethamine (MXM) anyone have info?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/42a7rs/methoxmethamine_mxm_anyone_have_info/"
+    },
+    {
+      "id": "reddit_mfowg6",
+      "kind": "thread",
+      "title": "Some insight on effects and duration of HXE",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/mfowg6/some_insight_on_effects_and_duration_of_hxe/"
+    },
+    {
+      "id": "reddit_jzolvd",
+      "kind": "thread",
+      "title": "Hydroxetamine aka HXE aka 3-HO-2-oxo-PCE",
+      "url": "https://www.reddit.com/r/dissociatives/comments/jzolvd/hydroxetamine_aka_hxe_aka_3ho2oxopce/"
+    },
+    {
+      "id": "reddit_pcn99t",
+      "kind": "thread",
+      "title": "HXE report",
+      "url": "https://www.reddit.com/r/dissociatives/comments/pcn99t/hxe_report/"
+    },
+    {
+      "id": "reddit_n49wu6",
+      "kind": "thread",
+      "title": "More DMXE in the future or HXE?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/n49wu6/more_dmxe_in_the_future_or_hxe_is_hxe_even_worth/"
+    },
+    {
+      "id": "product_families",
+      "kind": "house",
+      "title": "wiki/product_families.md Kit L / Kit N / disso feel cards",
+      "path": "wiki/product_families.md"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$comment": "Bellhaven substance research record. Unknown scores MUST be null, never 0. Do not copy this example as a finished profile.",
+  "id": "example_compound",
+  "name": "Example",
+  "family": "synthetic_cathinone",
+  "subclass": "pyrrolidine_cathinone",
+  "aliases": [],
+  "research_status": "limited_evidence",
+  "market": "uncertain",
+  "feel": {
+    "headline": "one-line NPC inference",
+    "rush_x": null,
+    "euphoria_x": null,
+    "enjoyment_x": null,
+    "compulsive_x": null,
+    "rush": { "score": null, "x": null, "confidence": "U", "note": "STIM/CATH/PYRO only: x is uncapped with coke=10. Other classes do not use this ruler." },
+    "euphoria": { "score": null, "x": null, "confidence": "U", "note": "" },
+    "enjoyment": { "score": null, "x": null, "confidence": "U", "note": "" },
+    "compulsiveness": { "score": null, "x": null, "confidence": "U", "note": "" },
+    "reinforcement": { "score": null, "confidence": "U", "note": "" }
+  },
+  "negatives": {
+    "paranoia": { "score": null, "confidence": "U", "note": "" },
+    "aftereffects": { "score": null, "confidence": "U", "note": "" },
+    "psychosis_concern": { "score": null, "confidence": "U", "note": "" },
+    "cardiovascular": { "score": null, "confidence": "U", "note": "" },
+    "sleep": { "score": null, "confidence": "U", "note": "" }
+  },
+  "route_myth": "",
+  "npc_line": "",
+  "sources": [
+    {
+      "title": "",
+      "url": "",
+      "type": "forum",
+      "year": null
+    }
+  ],
+  "gaps": []
+}

@@ -1,0 +1,789 @@
+{
+  "assignment": 13,
+  "id": "disso_ketamine",
+  "title": "Ketamine-type dissociatives",
+  "kit": "K",
+  "family": "2-oxo arylcyclohexylamine (ket-like)",
+  "rules": [
+    "no_recipes",
+    "no_doses",
+    "independent_scores",
+    "exclude_mxe_o_pce_pcp_families"
+  ],
+  "score_axes": [
+    "enjoyment",
+    "rush",
+    "euphoria",
+    "compulsiveness",
+    "negatives",
+    "dissociation_depth",
+    "warmth",
+    "mania"
+  ],
+  "score_range": "0-100 or null",
+  "lead_axes": [
+    "enjoyment",
+    "rush",
+    "euphoria",
+    "compulsiveness"
+  ],
+  "nomenclature_merges": [
+    {
+      "id": "ketamine",
+      "same": [
+        "ket",
+        "K",
+        "special K",
+        "esketamine",
+        "arketamine"
+      ],
+      "not": [
+        "tusi"
+      ]
+    },
+    {
+      "id": "DCK",
+      "same": [
+        "deschloroketamine",
+        "DXE",
+        "2'-oxo-PCM",
+        "O-PCM"
+      ],
+      "not": [
+        "MXE"
+      ]
+    },
+    {
+      "id": "2F-DCK",
+      "same": [
+        "2-FDCK",
+        "2-fluorodeschloroketamine",
+        "2-FK",
+        "fluoroketamine"
+      ],
+      "not": [
+        "2-FXE",
+        "CanKet"
+      ]
+    },
+    {
+      "id": "NENK",
+      "same": [
+        "ethketamine",
+        "N-ethylnorketamine",
+        "2-Cl-2'-oxo-PCE"
+      ],
+      "not": [
+        "O-PCE",
+        "2F-NENDCK"
+      ]
+    },
+    {
+      "id": "2F-NENDCK",
+      "same": [
+        "CanKet",
+        "2-FXE",
+        "2F-2oxo-PCE",
+        "2-FDCNEK",
+        "2F-NENK",
+        "2-fluoro-deschloro-N-ethylketamine"
+      ],
+      "not": [
+        "FXE",
+        "3-FXE"
+      ]
+    },
+    {
+      "id": "FXE",
+      "same": [
+        "fluorexetamine",
+        "3-FXE",
+        "3'-fluoro-2-oxo-PCE"
+      ],
+      "not": [
+        "2-FXE",
+        "CanKet"
+      ],
+      "street_usually": "2F-NENDCK"
+    },
+    {
+      "id": "HXE",
+      "same": [
+        "hydroxetamine",
+        "3-HO-2'-oxo-PCE"
+      ],
+      "not": [
+        "hydroxynorketamine"
+      ]
+    },
+    {
+      "id": "2-MeO-ketamine",
+      "same": [
+        "methoxyketamine",
+        "2-MeO-DCK",
+        "2-MDCK"
+      ],
+      "not": [
+        "MXE"
+      ]
+    },
+    {
+      "id": "2-BDCK",
+      "same": [
+        "2-Br-DCK",
+        "bromoketamine",
+        "2B-DCK"
+      ],
+      "not": [
+        "DCK",
+        "2F-DCK"
+      ]
+    },
+    {
+      "id": "tiletamine",
+      "same": [
+        "polar bear ket"
+      ],
+      "not": [
+        "Telazol",
+        "Zoletil"
+      ]
+    }
+  ],
+  "identity_uncertain_names": [
+    "street FXE",
+    "CanKet sold as ketamine",
+    "2-FK / fluoroketamine",
+    "DXE",
+    "ethketamine / N-ethylketamine",
+    "polar bear ket",
+    "Telazol as tiletamine",
+    "warm vs cold FXE batches"
+  ],
+  "excluded_other_assignments": [
+    "MXE",
+    "DMXE",
+    "MXPr",
+    "MXiPr",
+    "O-PCE",
+    "3-MeO-PCE",
+    "3-HO-PCE",
+    "3-Me-PCE",
+    "O-PCPr",
+    "PCP",
+    "3-MeO-PCP",
+    "3-HO-PCP",
+    "3-Me-PCP",
+    "3-Cl-PCP",
+    "3-F-PCP",
+    "4-MeO-PCP",
+    "3-MeO-PCPy",
+    "3-Me-PCPy",
+    "diphenidine",
+    "ephenidine",
+    "MXP",
+    "fluorolintane",
+    "DXM",
+    "nitrous"
+  ],
+  "not_distinct_skus": [
+    "esketamine",
+    "arketamine",
+    "norketamine",
+    "hydroxynorketamine",
+    "iso-ketamine",
+    "meta-ketamine",
+    "oMDCK",
+    "tusi",
+    "Telazol"
+  ],
+  "count": 15,
+  "full_cards": 10,
+  "thin_cards": 5,
+  "punchiest_one_liners": [
+    "2F-DCK batch lottery.",
+    "DCK is ket that stays for dinner.",
+    "They said it was MXE. Labs said CanKet.",
+    "Kitchen-door hole. Bump until the floor wins.",
+    "Bromo ket. Empty squares, burning nose."
+  ],
+  "gaps": [
+    "Confirmed 3-FXE bags are scarce; most FXE lore is CanKet.",
+    "2-TFMDCK, NPNK, 2-MeO-NEK, 2-FXPr, tilmetamine have almost no subjective file.",
+    "2F-DCK isomer-batch talk is almost certainly impurities.",
+    "HXE warmth is split between PW (cooler) and users (cozier).",
+    "Tiletamine reports are contaminated by Telazol (zolazepam).",
+    "Bladder/kidney ranking across ket / 2F-DCK / CanKet is anecdote.",
+    "Later N-propyl / 2-halo stamps will keep arriving; do not auto-clone scores."
+  ],
+  "street_rack": [
+    "ketamine",
+    "DCK",
+    "2F-DCK",
+    "2F-NENDCK",
+    "FXE",
+    "HXE"
+  ],
+  "dusty_shelf": [
+    "NENK",
+    "2-MeO-ketamine",
+    "2-BDCK",
+    "tiletamine"
+  ],
+  "substances": [
+    {
+      "id": "ketamine",
+      "names": [
+        "ketamine",
+        "ket",
+        "K",
+        "special K"
+      ],
+      "aliases_same_compound": [
+        "esketamine",
+        "arketamine"
+      ],
+      "identity_confidence": "certain",
+      "card": "full",
+      "one_liner": "Kitchen-door hole. Bump until the floor wins.",
+      "scores": {
+        "enjoyment": 84,
+        "rush": 42,
+        "euphoria": 74,
+        "compulsiveness": 86,
+        "negatives": 62,
+        "dissociation_depth": 90,
+        "warmth": 54,
+        "mania": 16
+      },
+      "feel": "The hole. Short. Party / clinic / kitchen floor. Mid is giggles, music, couch-love. Then another key until speech is soup. Rush is a warm whoosh, not a stim snap. Euphoria is float and dumb joy, not MDMA.",
+      "positives": [
+        "hole",
+        "music",
+        "afterglow",
+        "party utility"
+      ],
+      "negatives_notes": [
+        "bladder career",
+        "K-cramps",
+        "falls",
+        "amnesia",
+        "next-day fog"
+      ],
+      "flags": [
+        "hole_fiend",
+        "bladder"
+      ],
+      "npc_line": "Kitchen-door disso.",
+      "notes": "Enantiomers are the same street bottle. Norketamine is a metabolite, not a SKU."
+    },
+    {
+      "id": "DCK",
+      "names": [
+        "DCK",
+        "deschloroketamine",
+        "DXE",
+        "2'-oxo-PCM",
+        "O-PCM"
+      ],
+      "aliases_same_compound": [],
+      "identity_confidence": "certain",
+      "card": "full",
+      "one_liner": "DCK is ket that stays for dinner.",
+      "scores": {
+        "enjoyment": 78,
+        "rush": 24,
+        "euphoria": 72,
+        "compulsiveness": 70,
+        "negatives": 52,
+        "dissociation_depth": 72,
+        "warmth": 60,
+        "mania": 20
+      },
+      "feel": "Longer, cleaner ket. Functional at low (movie, pilates, a sentence). Hole exists, often shallower, then overstays. Rush is late and polite. Weekend binge more than bump-loop.",
+      "positives": [
+        "functional low",
+        "physical euphoria",
+        "long plateau"
+      ],
+      "negatives_notes": [
+        "long afterglow",
+        "bladder still present",
+        "immune rumor is folklore"
+      ],
+      "flags": [
+        "long"
+      ],
+      "npc_line": "Ket that stays for dinner.",
+      "notes": "DXE sticker has been confused with MXE. Not MXE."
+    },
+    {
+      "id": "2F-DCK",
+      "names": [
+        "2F-DCK",
+        "2-FDCK",
+        "2-fluorodeschloroketamine"
+      ],
+      "aliases_same_compound": [
+        "2-FK",
+        "fluoroketamine"
+      ],
+      "identity_confidence": "certain_molecule_uncertain_bag",
+      "card": "full",
+      "one_liner": "2F-DCK batch lottery.",
+      "scores": {
+        "enjoyment": 58,
+        "rush": 32,
+        "euphoria": 56,
+        "compulsiveness": 76,
+        "negatives": 58,
+        "dissociation_depth": 70,
+        "warmth": 42,
+        "mania": 14
+      },
+      "feel": "Ket clone when the envelope is kind: fail a blind test, hole a little less deep, linger longer, darker visuals. Bad batches: sulfur, glass, nothing, cringe. Enjoyment is the average of shine and trash.",
+      "positives": [
+        "ket-shaped",
+        "available after ket dried"
+      ],
+      "negatives_notes": [
+        "batch lottery",
+        "something missing",
+        "bladder",
+        "contaminants"
+      ],
+      "flags": [
+        "batch_lottery",
+        "mislabel",
+        "bladder"
+      ],
+      "npc_line": "Depends which envelope.",
+      "notes": "Forum R/S isomer talk is almost always impurity, not boutique chirality."
+    },
+    {
+      "id": "NENK",
+      "names": [
+        "NENK",
+        "ethketamine",
+        "N-ethylnorketamine"
+      ],
+      "aliases_same_compound": [
+        "2-Cl-2'-oxo-PCE"
+      ],
+      "identity_confidence": "certain",
+      "card": "full",
+      "one_liner": "First-wave leftover. Can't hole, can disappoint.",
+      "scores": {
+        "enjoyment": 38,
+        "rush": 16,
+        "euphoria": 44,
+        "compulsiveness": 48,
+        "negatives": 50,
+        "dissociation_depth": 32,
+        "warmth": 48,
+        "mania": 12
+      },
+      "feel": "Mild, short, warm-ish, ceiling. Ket-heads disappointed; ket-naive sometimes fine. Redose does less than hoped. IN wrecks the nose.",
+      "positives": [
+        "mild float",
+        "less mind-wreck than ket"
+      ],
+      "negatives_notes": [
+        "no hole",
+        "nosebleeds",
+        "meh vs ket"
+      ],
+      "flags": [],
+      "npc_line": "First-wave leftover.",
+      "notes": "Not O-PCE. Not 2F-NENDCK."
+    },
+    {
+      "id": "2F-NENDCK",
+      "names": [
+        "2F-NENDCK",
+        "CanKet",
+        "2-FXE",
+        "2F-2oxo-PCE",
+        "2-FDCNEK"
+      ],
+      "aliases_same_compound": [
+        "2F-NENK",
+        "2-fluoro-deschloro-N-ethylketamine"
+      ],
+      "identity_confidence": "certain_molecule_uncertain_label",
+      "card": "full",
+      "one_liner": "Ket's longer cousin who drank a coffee and forgot the hug.",
+      "scores": {
+        "enjoyment": 66,
+        "rush": 36,
+        "euphoria": 52,
+        "compulsiveness": 72,
+        "negatives": 64,
+        "dissociation_depth": 66,
+        "warmth": 38,
+        "mania": 30
+      },
+      "feel": "Split file: more recreational than 2F-DCK for some (stim, visuals, functional, body buzz); harm-redox pile says mild-to-no euphoria, more disorient, hangover, longer than ket. Current ket-shaped powder.",
+      "positives": [
+        "longer than ket",
+        "visual",
+        "sometimes more fun than 2F-DCK"
+      ],
+      "negatives_notes": [
+        "hangover",
+        "bladder/kidney scare",
+        "body-horror visuals in some threads",
+        "stim-anxiety edge"
+      ],
+      "flags": [
+        "mislabel",
+        "bladder",
+        "stim_edge"
+      ],
+      "npc_line": "Late Flask sticker.",
+      "notes": "Named at CanTEST. DrugsData refiled old FXE hits as this. Sold as ket, FXE, MXE, 2F-DCK."
+    },
+    {
+      "id": "FXE",
+      "names": [
+        "FXE",
+        "fluorexetamine",
+        "3-FXE"
+      ],
+      "aliases_same_compound": [
+        "3'-fluoro-2-oxo-PCE"
+      ],
+      "identity_confidence": "low_on_street",
+      "card": "full",
+      "one_liner": "They said it was MXE. Labs said CanKet.",
+      "scores": {
+        "enjoyment": 61,
+        "rush": 30,
+        "euphoria": 60,
+        "compulsiveness": 55,
+        "negatives": 48,
+        "dissociation_depth": 62,
+        "warmth": 58,
+        "mania": 28
+      },
+      "feel": "True 3-FXE sits between ket and MXE: a bit stimmer, visuals, mixed warmth. Most bags stamped FXE after ~2022 are 2-FXE/CanKet. Warm-vs-cold batch myth is largely that identity crash.",
+      "positives": [
+        "ket-MXE middle if the molecule is real"
+      ],
+      "negatives_notes": [
+        "identity crisis",
+        "do not trust the sticker"
+      ],
+      "flags": [
+        "mislabel",
+        "identity_uncertain"
+      ],
+      "npc_line": "They said it was MXE. It wasn't.",
+      "notes": "DrugsData: all pre-2023 FXE samples were 2-FXE. Score the molecule mid; treat NPC FXE as probably CanKet."
+    },
+    {
+      "id": "HXE",
+      "names": [
+        "HXE",
+        "hydroxetamine"
+      ],
+      "aliases_same_compound": [
+        "3-HO-2'-oxo-PCE"
+      ],
+      "identity_confidence": "certain",
+      "card": "full",
+      "one_liner": "Couch, not a hole. Warm weak dinner guest.",
+      "scores": {
+        "enjoyment": 67,
+        "rush": 14,
+        "euphoria": 60,
+        "compulsiveness": 42,
+        "negatives": 36,
+        "dissociation_depth": 40,
+        "warmth": 74,
+        "mania": 18
+      },
+      "feel": "Dreamy, introspective, light-body, music. Comforting when it hits. Hole power missing. PW cooler (less warmth than MXE, empty/rough); users cozier. Rush is a shrug.",
+      "positives": [
+        "warmth",
+        "functional",
+        "mixer"
+      ],
+      "negatives_notes": [
+        "weak hole",
+        "empty/rough body on some reports"
+      ],
+      "flags": [],
+      "npc_line": "Couch, not a hole.",
+      "notes": "Chemically MXE-adjacent (3-HO, N-ethyl, 2-oxo). Kit K still owns it."
+    },
+    {
+      "id": "2-MeO-ketamine",
+      "names": [
+        "2-MeO-ketamine",
+        "methoxyketamine",
+        "2-MDCK"
+      ],
+      "aliases_same_compound": [
+        "2-MeO-DCK"
+      ],
+      "identity_confidence": "certain",
+      "card": "full",
+      "one_liner": "Ket's methoxy cousin who never showed up.",
+      "scores": {
+        "enjoyment": 28,
+        "rush": 10,
+        "euphoria": 26,
+        "compulsiveness": 22,
+        "negatives": 34,
+        "dissociation_depth": 30,
+        "warmth": 28,
+        "mania": 10
+      },
+      "feel": "Ragged, less interesting, less euphoric. Needs a pile and still does not go anywhere. A few used it as a mixer or 'cleaner than an MXE binge.' Most walked away.",
+      "positives": [
+        "cleaner hangover than MXE in one old binge report"
+      ],
+      "negatives_notes": [
+        "empty",
+        "weak",
+        "jumbled speech at high"
+      ],
+      "flags": [],
+      "npc_line": "Skip unless the crate is a joke.",
+      "notes": "Not MXE. Ortho-MeO N-methyl."
+    },
+    {
+      "id": "2-BDCK",
+      "names": [
+        "2-BDCK",
+        "2-Br-DCK",
+        "bromoketamine",
+        "2B-DCK"
+      ],
+      "aliases_same_compound": [],
+      "identity_confidence": "certain",
+      "card": "full",
+      "one_liner": "Bromo ket. Empty squares, burning nose.",
+      "scores": {
+        "enjoyment": 34,
+        "rush": 28,
+        "euphoria": 40,
+        "compulsiveness": 30,
+        "negatives": 46,
+        "dissociation_depth": 28,
+        "warmth": 50,
+        "mania": 8
+      },
+      "feel": "Fast in, short stay, a bit of warmth and float, then empty geometry. Weakest 2-halo ket in threads that finished a gram. IN famously awful. Hole is a rumor.",
+      "positives": [
+        "mild float",
+        "hint of warmth"
+      ],
+      "negatives_notes": [
+        "painful IN",
+        "weak",
+        "short",
+        "empty"
+      ],
+      "flags": [],
+      "npc_line": "Periodic-table gag SKU.",
+      "notes": "Halogen bulk story: F ≥ Cl >> Br for this series."
+    },
+    {
+      "id": "tiletamine",
+      "names": [
+        "tiletamine"
+      ],
+      "aliases_same_compound": [],
+      "identity_confidence": "certain_molecule_uncertain_product",
+      "card": "full",
+      "one_liner": "Polar-bear ket. Vet shelf that overstays.",
+      "scores": {
+        "enjoyment": 48,
+        "rush": 40,
+        "euphoria": 58,
+        "compulsiveness": 44,
+        "negatives": 72,
+        "dissociation_depth": 78,
+        "warmth": 32,
+        "mania": 26
+      },
+      "feel": "Vet 2-thienyl ket. Pure reports: heavy numb bliss, dreamy, long, lagging walk. Telazol/Zoletil adds zolazepam — lights-out then sudden awake. Sold as ket ('polar bear'). Enjoyment split.",
+      "positives": [
+        "body-numb bliss",
+        "long hole potential"
+      ],
+      "negatives_notes": [
+        "duration",
+        "motor wreck",
+        "Telazol benzo confound",
+        "published abuse/fatality cases",
+        "freakout"
+      ],
+      "flags": [
+        "freakout",
+        "vet",
+        "mislabel"
+      ],
+      "npc_line": "Skip unless the crate is a joke.",
+      "notes": "Telazol/Zoletil is not pure tiletamine."
+    },
+    {
+      "id": "2-TFMDCK",
+      "names": [
+        "2-TFMDCK",
+        "TFM-K",
+        "2-TFM-DCK"
+      ],
+      "aliases_same_compound": [
+        "trifluoromethyldeschloroketamine"
+      ],
+      "identity_confidence": "rare",
+      "card": "thin",
+      "one_liner": "Sold since ~2016. Genuine bags look rare.",
+      "scores": {
+        "enjoyment": null,
+        "rush": null,
+        "euphoria": null,
+        "compulsiveness": null,
+        "negatives": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "feel": "Presumed ket-like. No usable report pile.",
+      "positives": [],
+      "negatives_notes": [
+        "almost no confirmed bags"
+      ],
+      "flags": [
+        "thin"
+      ],
+      "npc_line": "Dusty label.",
+      "notes": "Wallach/Brandt: genuine samples appear rare."
+    },
+    {
+      "id": "NPNK",
+      "names": [
+        "NPNK",
+        "propylketamine",
+        "N-propylnorketamine"
+      ],
+      "aliases_same_compound": [],
+      "identity_confidence": "watch_list",
+      "card": "thin",
+      "one_liner": "Propylketamine. INCB line, no chorus.",
+      "scores": {
+        "enjoyment": null,
+        "rush": null,
+        "euphoria": null,
+        "compulsiveness": null,
+        "negatives": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "feel": null,
+      "positives": [],
+      "negatives_notes": [
+        "no forum body"
+      ],
+      "flags": [
+        "thin"
+      ],
+      "npc_line": "Watch-list analog.",
+      "notes": "Do not clone NENK scores onto this."
+    },
+    {
+      "id": "2-FXPr",
+      "names": [
+        "2-FXPr",
+        "2F-2oxo-PCPr",
+        "2-fluoro-2-oxo-PCPr"
+      ],
+      "aliases_same_compound": [
+        "2-fluoro-N-propylnordeschloroketamine"
+      ],
+      "identity_confidence": "emerging",
+      "card": "thin",
+      "one_liner": "New sticker. N-propyl CanKet.",
+      "scores": {
+        "enjoyment": null,
+        "rush": null,
+        "euphoria": null,
+        "compulsiveness": null,
+        "negatives": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "feel": "Presumed ket-shaped. Forensic IDs mid-2020s. Zero honest reviews.",
+      "positives": [],
+      "negatives_notes": [],
+      "flags": [
+        "thin",
+        "later_wave"
+      ],
+      "npc_line": "Third fluoro if the wall needs one.",
+      "notes": "Not 2-FXE (ethyl)."
+    },
+    {
+      "id": "2-MeO-NEK",
+      "names": [
+        "2-MeO-NEK",
+        "2-methoxy-N-ethylketamine"
+      ],
+      "aliases_same_compound": [],
+      "identity_confidence": "table_only",
+      "card": "thin",
+      "one_liner": "Ortho-MeO N-ethyl. Not MXPr.",
+      "scores": {
+        "enjoyment": null,
+        "rush": null,
+        "euphoria": null,
+        "compulsiveness": null,
+        "negatives": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "feel": null,
+      "positives": [],
+      "negatives_notes": [],
+      "flags": [
+        "thin"
+      ],
+      "npc_line": "Easy to misfile as MXE-kit.",
+      "notes": "MXPr is 3-MeO N-propyl."
+    },
+    {
+      "id": "tilmetamine",
+      "names": [
+        "tilmetamine"
+      ],
+      "aliases_same_compound": [],
+      "identity_confidence": "table_only",
+      "card": "thin",
+      "one_liner": "Tiletamine with a shorter N.",
+      "scores": {
+        "enjoyment": null,
+        "rush": null,
+        "euphoria": null,
+        "compulsiveness": null,
+        "negatives": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "feel": null,
+      "positives": [],
+      "negatives_notes": [],
+      "flags": [
+        "thin"
+      ],
+      "npc_line": "Wiki cousin.",
+      "notes": "tilprotamine (N-propyl) is name-check only, not a row."
+    }
+  ]
+}

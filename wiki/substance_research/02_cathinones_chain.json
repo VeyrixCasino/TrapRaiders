@@ -1,0 +1,3066 @@
+{
+  "assignment": "02_cathinones_chain",
+  "family": "cathinone",
+  "scope": "extended-chain and N-substituted cathinones; no pyros; no MMC/CMC tutorial wall; no bk-MDMA; no opioids; no recipes/doses",
+  "score_legend": "0-100 or null. Pleasure and compulsiveness scored independently. Confidence A (strongest) to U (name-only).",
+  "count": 28,
+  "substances": [
+    {
+      "id": "nep",
+      "name": "N-ethylnorpentedrone",
+      "aliases": [
+        "NEP",
+        "NEPD",
+        "N-ethylpentedrone",
+        "ethyl-pentedrone",
+        "N-ethylnorpentedrone",
+        "alpha-EAPP"
+      ],
+      "family": "cathinone",
+      "subclass": "pentedrone_chain",
+      "status": "current_flood",
+      "one_liner": "If it lasts till noon, it wasn’t 3-MMC.",
+      "positives_writeup": "RUSH: mid, not hexen’s punch — observational onset inside 20 min, gone 3–4 h; forum split between ‘almost no rush’ and ‘too rushy when greedy.’ EUPHORIA: coke-plus-a-little-body-glow, ‘clean’ in the Goldilocks zone, not a 4-MMC hug; observational liking beat hexen. COMPULSIVENESS: the real score. People who hate it still stay up 36 hours; vape talk makes it worse; sold as 3-MMC so the bag outlives the night. ENJOYMENT: brilliant coke alternative to some, anxiety-then-keep-going to others.",
+      "negatives_writeup": "Psychotic wiggle and paranoia after the session overstays. ‘No comedown’ reports sit next to binge wreckage. Heart rate and blood pressure jump in the only human observational; palpitations in Erowid. Sleep is the product you didn’t ask for.",
+      "route_myth": [
+        "insufflation_common",
+        "redose",
+        "mislabel",
+        "vape_talk",
+        "oral_ok"
+      ],
+      "scores": {
+        "rush": {
+          "score": 6,
+          "confidence": "B",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Faster on/off than hexen in Núñez-Montero 2025; forum rush weaker than hexen.",
+          "x": 6
+        },
+        "euphoria": {
+          "score": 8,
+          "confidence": "B",
+          "range": [
+            50,
+            80
+          ],
+          "rationale": "Observational VAS liking +72 mm; Erowid coke/MDMA-body; Bluelight glow then Goldilocks-or-psychosis.",
+          "x": 8
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "B",
+          "range": [
+            70,
+            95
+          ],
+          "rationale": "Hated-it-but-36-hours reports; EUDA + fora binge/redose; independent of pleasure.",
+          "x": 30
+        },
+        "enjoyment": {
+          "score": 10,
+          "confidence": "C",
+          "range": [
+            35,
+            80
+          ],
+          "rationale": "Split: ‘brilliant’ vs ‘anxiety first.’ Observational bad-effects +40 mm.",
+          "x": 10
+        },
+        "sociability": {
+          "score": 70,
+          "confidence": "C",
+          "range": [
+            40,
+            85
+          ],
+          "rationale": "Top observational VAS were open/close/want-people; Erowid conversations; also hermit-mode forums."
+        },
+        "rush_x": 6,
+        "euphoria_x": 8,
+        "enjoyment_x": 10,
+        "compulsive_x": 30
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "C",
+          "range": [
+            50,
+            88
+          ],
+          "rationale": "Bluelight psychotic wiggle / forgetfulness past the Goldilocks zone."
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "C",
+          "range": [
+            25,
+            85
+          ],
+          "rationale": "Some ‘non-existent comedown’; binge reports are a wreck."
+        },
+        "cardiovascular": {
+          "score": 78,
+          "confidence": "B",
+          "range": [
+            60,
+            90
+          ],
+          "rationale": "Observational SBP +21 / HR +22; Erowid palpitations; 63 EU deaths with exposure."
+        },
+        "sleep": {
+          "score": 85,
+          "confidence": "B",
+          "range": [
+            70,
+            95
+          ],
+          "rationale": "All-nighter chemistry; 36-hour sessions in forum record."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA initial report on NEP",
+          "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-nep.pdf",
+          "type": "official"
+        },
+        {
+          "title": "EUDA POD injection of synthetic cathinones",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "ACMD synthetic cathinones harms assessment",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        },
+        {
+          "title": "Núñez-Montero et al. 2025 NEH/NEP observational",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12115307/",
+          "type": "paper"
+        },
+        {
+          "title": "EU 2025/2062 NEP control",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202502062",
+          "type": "official"
+        },
+        {
+          "title": "Bluelight NEP thread",
+          "url": "https://www.bluelight.org/community/threads/n-ethylpentedrone-nep-or-nepd.807193/",
+          "type": "forum"
+        },
+        {
+          "title": "Erowid NEP 113219",
+          "url": "https://www.erowid.org/experiences/exp.php?ID=113219",
+          "type": "erowid"
+        },
+        {
+          "title": "Erowid NEP 115507",
+          "url": "https://www.erowid.org/experiences/exp.php?ID=115507",
+          "type": "erowid"
+        }
+      ]
+    },
+    {
+      "id": "n_ethylhexedrone",
+      "name": "N-ethylhexedrone",
+      "aliases": [
+        "hexen",
+        "Hex-En",
+        "NEH",
+        "N-ethyl-hex",
+        "ethyl-hexedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "hexedrone_homologue",
+      "status": "market_confirmed",
+      "one_liner": "Coke’s ugly twin who still steals the night.",
+      "positives_writeup": "RUSH: the coke comparison. First bump can ring; observational onset inside 20 min, a hair slower than NEP at peak but forum rush sits higher. EUPHORIA: ‘perfect euphoric stimulant if you have perfect discipline’; redoses go cold and jittery. COMPULSIVENESS: rat-in-a-box. Stronger fiend than NEP in the old head-to-head. ENJOYMENT: high on bump one, collapses if the night continues. Loved-it / crushed-me is not a contradiction.",
+      "negatives_writeup": "Best-dope-worst-comedown is the Erowid title that stuck. Paranoia and psychosis after a binge. SBP/HR jump in observational; fatal and non-fatal case pile. Sleep is gone. Nose-damage folklore is not a recipe.",
+      "route_myth": [
+        "insufflation_common",
+        "redose",
+        "vape_talk",
+        "slam_flag"
+      ],
+      "scores": {
+        "rush": {
+          "score": 6,
+          "confidence": "B",
+          "range": [
+            60,
+            90
+          ],
+          "rationale": "Bluelight coke-rush consensus; slam talk exists as flag only.",
+          "x": 6
+        },
+        "euphoria": {
+          "score": 6,
+          "confidence": "B",
+          "range": [
+            50,
+            85
+          ],
+          "rationale": "First-dose love; observational liking lower than NEP; redoses flatten.",
+          "x": 6
+        },
+        "compulsiveness": {
+          "score": 21,
+          "confidence": "B",
+          "range": [
+            80,
+            98
+          ],
+          "rationale": "Explicit ‘I know I don’t need it and I still bump’ reports; stronger than NEP.",
+          "x": 21
+        },
+        "enjoyment": {
+          "score": 8,
+          "confidence": "C",
+          "range": [
+            25,
+            85
+          ],
+          "rationale": "High then collapse. Erowid 111572.",
+          "x": 8
+        },
+        "sociability": {
+          "score": 58,
+          "confidence": "D",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Functional then messy; observational empathy softer than NEP."
+        },
+        "rush_x": 6,
+        "euphoria_x": 6,
+        "enjoyment_x": 8,
+        "compulsive_x": 21
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 80,
+          "confidence": "C",
+          "range": [
+            60,
+            92
+          ],
+          "rationale": "Binge psychosis / case reports."
+        },
+        "aftereffects": {
+          "score": 88,
+          "confidence": "B",
+          "range": [
+            70,
+            96
+          ],
+          "rationale": "Famous brutal comedown."
+        },
+        "cardiovascular": {
+          "score": 82,
+          "confidence": "B",
+          "range": [
+            65,
+            92
+          ],
+          "rationale": "Observational +22/+21; intoxications."
+        },
+        "sleep": {
+          "score": 88,
+          "confidence": "B",
+          "range": [
+            75,
+            96
+          ],
+          "rationale": "Short legs, long night."
+        }
+      },
+      "sources": [
+        {
+          "title": "Núñez-Montero et al. 2025",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12115307/",
+          "type": "paper"
+        },
+        {
+          "title": "DEA Federal Register 2019 hexen/4-MEAP",
+          "url": "https://www.federalregister.gov/documents/2019/07/18/2019-15184/schedules-of-controlled-substances-temporary-placement-of-n-ethylhexedrone--php-4-meap-mphp-pv8-and",
+          "type": "official"
+        },
+        {
+          "title": "ACMD harms assessment",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        },
+        {
+          "title": "Bluelight Hexen thread",
+          "url": "https://www.bluelight.org/community/threads/ethyl-hexedrone-hexen.833490/",
+          "type": "forum"
+        },
+        {
+          "title": "Erowid Hexen 111572",
+          "url": "https://erowid.org/experiences/exp.php?ID=111572",
+          "type": "erowid"
+        }
+      ]
+    },
+    {
+      "id": "pentedrone",
+      "name": "Pentedrone",
+      "aliases": [
+        "alpha-methylaminovalerophenone",
+        "alpha-ethyl-methcathinone",
+        "beta-ethyl-methcathinone"
+      ],
+      "family": "cathinone",
+      "subclass": "pentedrone_chain",
+      "status": "historical_wave",
+      "one_liner": "Coffee with a criminal record.",
+      "positives_writeup": "RUSH: functional, not cinematic; a few old voices liked a flooring music-glow. EUPHORIA: work-stim, no hug. COMPULSIVENESS: redose exists, not hexen. ENJOYMENT: useful, rarely beloved.",
+      "negatives_writeup": "Cold grind. Cardiovascular risk is the forensic story, not the party. Hungarian injector rotation after each ban is a slam_flag, not a how-to.",
+      "route_myth": [
+        "insufflation_common",
+        "oral_ok",
+        "foil_talk",
+        "slam_flag"
+      ],
+      "scores": {
+        "rush": {
+          "score": 4,
+          "confidence": "D",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Functional; some Erowid ‘flooring,’ most later heads say cold.",
+          "x": 4
+        },
+        "euphoria": {
+          "score": 3,
+          "confidence": "D",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "No roll. Work stim.",
+          "x": 3
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": "E",
+          "range": [
+            45,
+            75
+          ],
+          "rationale": "Redose present; below NEP/hexen.",
+          "x": 8
+        },
+        "enjoyment": {
+          "score": 5,
+          "confidence": "E",
+          "range": [
+            20,
+            60
+          ],
+          "rationale": "Useful more than loved.",
+          "x": 5
+        },
+        "sociability": {
+          "score": 38,
+          "confidence": "F",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Low-talk grind."
+        },
+        "rush_x": 4,
+        "euphoria_x": 3,
+        "enjoyment_x": 5,
+        "compulsive_x": 8
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "F",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Class stim, thinner record than NEP."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "E",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Flat crash, not famous."
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "D",
+          "range": [
+            50,
+            85
+          ],
+          "rationale": "Polish tox fatalities; UN scheduled."
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "E",
+          "range": [
+            55,
+            85
+          ],
+          "rationale": "Work-stim overnight."
+        }
+      },
+      "sources": [
+        {
+          "title": "EMCDDA 2010 Annex 2",
+          "url": "https://www.emcdda.europa.eu/attachements.cfm/att_133126_EN_Annex_2_List_NPAS_notified_in_2010.pdf",
+          "type": "official"
+        },
+        {
+          "title": "EUDA POD 2015",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "Adamowicz cathinone intoxications 2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9375235/",
+          "type": "paper"
+        },
+        {
+          "title": "Erowid NEP 113219 (pentedrone compare)",
+          "url": "https://www.erowid.org/experiences/exp.php?ID=113219",
+          "type": "erowid"
+        }
+      ]
+    },
+    {
+      "id": "hexedrone",
+      "name": "Hexedrone",
+      "aliases": [
+        "beta-propyl-methcathinone",
+        "N-methylhexedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "hexedrone_homologue",
+      "status": "market_confirmed",
+      "one_liner": "Hexen’s N-methyl dad. Same clothes, less party.",
+      "positives_writeup": "RUSH: shorter, flatter push than hexen. EUPHORIA: one-dimensional. COMPULSIVENESS: present, not legendary. ENJOYMENT: filler on the wall. Isomer of NEP — labs mix them up.",
+      "negatives_writeup": "Thin forum record. Treat as weaker hexen, not a second review of hexen.",
+      "route_myth": [
+        "insufflation_common"
+      ],
+      "scores": {
+        "rush": {
+          "score": 40,
+          "confidence": "H",
+          "range": [
+            25,
+            55
+          ],
+          "rationale": "Poland 2013 notification; thin feel vs hexen."
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "H",
+          "range": [
+            20,
+            50
+          ],
+          "rationale": "Flatter than hexen in the little that exists."
+        },
+        "compulsiveness": {
+          "score": 55,
+          "confidence": "I",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Class redose, not a fat thread."
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "I",
+          "range": [
+            15,
+            50
+          ],
+          "rationale": "Filler SKU."
+        },
+        "sociability": {
+          "score": 32,
+          "confidence": "J",
+          "range": [
+            15,
+            45
+          ],
+          "rationale": "No talky reputation."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "I",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "Thin."
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "I",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Thin."
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "I",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Class."
+        },
+        "sleep": {
+          "score": 65,
+          "confidence": "J",
+          "range": [
+            45,
+            80
+          ],
+          "rationale": "Class."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA POD hexedrone first Poland Jul 2013",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "EUDA NEP report isomer list",
+          "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-nep.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "n_butylhexedrone",
+      "name": "N-butylhexedrone",
+      "aliases": [
+        "N-butylhexedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "hexedrone_homologue",
+      "status": "forensic_thin",
+      "one_liner": "They kept adding carbons after the fun left.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: no usable feel corpus. UK detections only.",
+      "negatives_writeup": "Forensic tick. Do not invent a review.",
+      "route_myth": [
+        "forensic_only"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "UK ACMD 11 detections; no feel record."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel record."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel record."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel record."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel record."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel record."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel record."
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "O",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Class-default stimulant risk only."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel record."
+        }
+      },
+      "sources": [
+        {
+          "title": "ACMD harms assessment table",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "n_ethylheptedrone",
+      "name": "N-ethylheptedrone",
+      "aliases": [
+        "HEP",
+        "ethyl heptedrone",
+        "N-ethylnorheptedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "hexedrone_homologue",
+      "status": "market_confirmed",
+      "one_liner": "Energy and a skip in the chest. Sold as six other things.",
+      "positives_writeup": "RUSH: energy, not a famous punch. EUPHORIA: confidence bump in the WHO self-report pile, not a hug. COMPULSIVENESS: inferred from class + mislabel binge, not a fat thread. ENJOYMENT: agitation sits next to the energy.",
+      "negatives_writeup": "Irregular heartbeat and agitation in the ECDD review. One post-mortem, medium contribution. Sold as NEP, meth, MDMA, cocaine, benzos, even a hydrocodone stamp.",
+      "route_myth": [
+        "insufflation_common",
+        "oral_ok",
+        "mislabel",
+        "foil_talk"
+      ],
+      "scores": {
+        "rush": {
+          "score": 50,
+          "confidence": "K",
+          "range": [
+            35,
+            65
+          ],
+          "rationale": "WHO: energy; DAT/NET strong on paper, thin lived rush talk."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "K",
+          "range": [
+            25,
+            55
+          ],
+          "rationale": "Confidence, not a roll."
+        },
+        "compulsiveness": {
+          "score": 60,
+          "confidence": "L",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Class + mislabel; no fat thread."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "L",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Agitation in the same self-reports."
+        },
+        "sociability": {
+          "score": 45,
+          "confidence": "L",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "Confidence mention only."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 55,
+          "confidence": "K",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Agitation; under-reported because of mislabel."
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "L",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Thin."
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "K",
+          "range": [
+            55,
+            88
+          ],
+          "rationale": "Irregular heartbeat in WHO self-reports; DAT/NET profile."
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "K",
+          "range": [
+            50,
+            85
+          ],
+          "rationale": "Stim class + energy reports."
+        }
+      },
+      "sources": [
+        {
+          "title": "WHO 47th ECDD N-ethylheptedrone",
+          "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/47th-ecdd/n-ethylheptedrone-47th-ecdd-critical-review-public-version.pdf",
+          "type": "paper"
+        },
+        {
+          "title": "ACMD harms assessment",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "buphedrone",
+      "name": "Buphedrone",
+      "aliases": [
+        "alpha-methylamino-butyrophenone",
+        "MABP"
+      ],
+      "family": "cathinone",
+      "subclass": "buphedrone_analogue",
+      "status": "historical_wave",
+      "one_liner": "2009 net ghost. Mephedrone’s shorter-chain cousin who never got famous.",
+      "positives_writeup": "RUSH: short. EUPHORIA: SOFT says forums claim mephedrone-like and also contradict themselves. COMPULSIVENESS: compulsive redose common in that monograph. ENJOYMENT: conflicting. About two hours in the forum summary — duration flag, not a dose.",
+      "negatives_writeup": "Metabolites overlap NEB and alpha-PBP, so urine stories lie. No published human tox in the SOFT sheet.",
+      "route_myth": [
+        "insufflation_common",
+        "oral_ok",
+        "foil_talk",
+        "redose"
+      ],
+      "scores": {
+        "rush": {
+          "score": 46,
+          "confidence": "G",
+          "range": [
+            30,
+            60
+          ],
+          "rationale": "SOFT forum summary; conflicting intensity."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "G",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Conflict is the point."
+        },
+        "compulsiveness": {
+          "score": 68,
+          "confidence": "F",
+          "range": [
+            50,
+            80
+          ],
+          "rationale": "SOFT: compulsive redose common."
+        },
+        "enjoyment": {
+          "score": 44,
+          "confidence": "G",
+          "range": [
+            20,
+            65
+          ],
+          "rationale": "Conflict."
+        },
+        "sociability": {
+          "score": 48,
+          "confidence": "G",
+          "range": [
+            25,
+            70
+          ],
+          "rationale": "SOFT: conflicting sociability."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "G",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Thin published."
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "G",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Short duration, still a stim."
+        },
+        "cardiovascular": {
+          "score": 62,
+          "confidence": "G",
+          "range": [
+            40,
+            80
+          ],
+          "rationale": "Class + case reports exist (Zuba 2013)."
+        },
+        "sleep": {
+          "score": 60,
+          "confidence": "G",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Class."
+        }
+      },
+      "sources": [
+        {
+          "title": "SOFT buphedrone monograph",
+          "url": "https://www.soft-tox.org/assets/NPSLiterature/Buphedrone.pdf",
+          "type": "forensic"
+        },
+        {
+          "title": "EMCDDA 2010 Annex 2 Finland 5 Jul 2010",
+          "url": "https://www.emcdda.europa.eu/attachements.cfm/att_133126_EN_Annex_2_List_NPAS_notified_in_2010.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "neb",
+      "name": "N-ethylbuphedrone",
+      "aliases": [
+        "NEB",
+        "N-ethylnorbuphedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "buphedrone_analogue",
+      "status": "market_confirmed",
+      "one_liner": "4-MEC’s isomer. Denmark mail, 2011. Never a star.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: thin. Do not steal 4-MEC’s reviews. Isomer of 4-MEC, pentedrone, 3,4-DMMC.",
+      "negatives_writeup": "Polish tox: two cases, modest blood levels. Forensic more than folklore.",
+      "route_myth": [
+        "insufflation_common"
+      ],
+      "scores": {
+        "rush": {
+          "score": 38,
+          "confidence": "J",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Denmark 2011 mail; thin feel."
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "J",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Thin."
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "J",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Class only."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "J",
+          "range": [
+            15,
+            50
+          ],
+          "rationale": "Never a star."
+        },
+        "sociability": {
+          "score": 35,
+          "confidence": "K",
+          "range": [
+            15,
+            50
+          ],
+          "rationale": "Thin."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "J",
+          "range": [
+            25,
+            65
+          ],
+          "rationale": "Thin."
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "J",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Thin."
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "J",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Two Polish cases."
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "J",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Class."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA POD NEB Denmark Jul 2011",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "Adamowicz 2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9375235/",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "4_mec",
+      "name": "4-methylethcathinone",
+      "aliases": [
+        "4-MEC",
+        "4-methylethcathinone",
+        "p-methylethcathinone"
+      ],
+      "family": "cathinone",
+      "subclass": "n_ethyl_cathinone",
+      "status": "historical_wave",
+      "one_liner": "You can go to work. You will hate work.",
+      "positives_writeup": "RUSH: Erowid four-cathinone study — intense almost-panic onset that then leaves almost nothing; other reports a short coke-adjacent kick. EUPHORIA: WHO user-report analysis — less intense and shorter than mephedrone; some ‘rolly,’ some ‘junk.’ COMPULSIVENESS: WHO says conflicting; one Erowid kept lining, the four-cathinone author said boosters did nothing. Score the conflict, don’t flatten it. ENJOYMENT: diet meow. Fun, short, burn.",
+      "negatives_writeup": "Sweating, nausea, jaw, nystagmus, palpitations, migraine in the WHO list. Some claim no comedown. Paris syringe residue 2012 is a slam_flag, not SOP. Branded legal-high constituent.",
+      "route_myth": [
+        "insufflation_common",
+        "oral_ok",
+        "redose",
+        "slam_flag",
+        "branded_legal_high"
+      ],
+      "scores": {
+        "rush": {
+          "score": 8,
+          "confidence": "C",
+          "range": [
+            35,
+            80
+          ],
+          "rationale": "Panic-onset then nothing (Erowid four-cathinones); short kick elsewhere.",
+          "x": 8
+        },
+        "euphoria": {
+          "score": 4,
+          "confidence": "C",
+          "range": [
+            30,
+            75
+          ],
+          "rationale": "WHO: less than mephedrone; split rolly/junk.",
+          "x": 4
+        },
+        "compulsiveness": {
+          "score": 12,
+          "confidence": "D",
+          "range": [
+            30,
+            85
+          ],
+          "rationale": "WHO conflict + Erowid 99725 binge vs dead boosters.",
+          "x": 12
+        },
+        "enjoyment": {
+          "score": 5,
+          "confidence": "C",
+          "range": [
+            25,
+            70
+          ],
+          "rationale": "Won’t-buy-again next to I-liked-this.",
+          "x": 5
+        },
+        "sociability": {
+          "score": 48,
+          "confidence": "D",
+          "range": [
+            25,
+            65
+          ],
+          "rationale": "Mild, not 4-MMC talky."
+        },
+        "rush_x": 8,
+        "euphoria_x": 4,
+        "enjoyment_x": 5,
+        "compulsive_x": 12
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "D",
+          "range": [
+            25,
+            65
+          ],
+          "rationale": "Not the lead complaint."
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "C",
+          "range": [
+            20,
+            75
+          ],
+          "rationale": "WHO ‘lack of comedown’ vs high-oral wreck."
+        },
+        "cardiovascular": {
+          "score": 68,
+          "confidence": "C",
+          "range": [
+            50,
+            82
+          ],
+          "rationale": "Palpitations in WHO user-report list."
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "D",
+          "range": [
+            30,
+            75
+          ],
+          "rationale": "Short duration saves some nights."
+        }
+      },
+      "sources": [
+        {
+          "title": "WHO ECDD 4-MEC critical review 2016",
+          "url": "https://ecddrepository.org/sites/default/files/4.3_4-mec_critreview.pdf",
+          "type": "paper"
+        },
+        {
+          "title": "Erowid four cathinones",
+          "url": "https://www.erowid.org/experiences/exp_info8.shtml",
+          "type": "erowid"
+        },
+        {
+          "title": "Erowid 99725 4-MEC",
+          "url": "https://erowid.org/experiences/exp.php?ID=99725",
+          "type": "erowid"
+        },
+        {
+          "title": "EUDA POD 4-MEC syringes Paris",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "EMCDDA 2010 Annex 2 UK 8 Jul 2010",
+          "url": "https://www.emcdda.europa.eu/attachements.cfm/att_133126_EN_Annex_2_List_NPAS_notified_in_2010.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "3_mec",
+      "name": "3-methylethcathinone",
+      "aliases": [
+        "3-MEC"
+      ],
+      "family": "cathinone",
+      "subclass": "n_ethyl_cathinone",
+      "status": "forensic_thin",
+      "one_liner": "The other MEC. One UK tick. Don’t write it a novel.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: no feel corpus. DEA positional isomer of the pentedrone/4-MEC cluster.",
+      "negatives_writeup": "Forensic only.",
+      "route_myth": [
+        "forensic_only"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "UK ACMD 1 detection."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "sources": [
+        {
+          "title": "ACMD harms assessment",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        },
+        {
+          "title": "DEA orange book isomers",
+          "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/d_cs_drugcode.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "ethcathinone",
+      "name": "Ethcathinone",
+      "aliases": [
+        "N-ethylcathinone",
+        "ethylcathinone",
+        "N-ethylcathinone"
+      ],
+      "family": "cathinone",
+      "subclass": "n_ethyl_cathinone",
+      "status": "historical_wave",
+      "one_liner": "The quiet winner in one Erowid four-way. Nasty if you get greedy.",
+      "positives_writeup": "RUSH: subtle, not a slam. EUPHORIA: the four-cathinone author called modest insufflated amounts the clear winner — energy plus empathogenic clarity. COMPULSIVENESS: easy top-up; ugly when the pile grows. ENJOYMENT: high when small, sketched when large. SOCIABILITY is the actual selling point in that report.",
+      "negatives_writeup": "Bigger oral nights: jaw, hollow gut, couch-lock, surprisingly nasty comedown. Do not overweight a single long Erowid.",
+      "route_myth": [
+        "insufflation_common",
+        "oral_ok"
+      ],
+      "scores": {
+        "rush": {
+          "score": 42,
+          "confidence": "E",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "Subtle in the glowing report."
+        },
+        "euphoria": {
+          "score": 66,
+          "confidence": "E",
+          "range": [
+            40,
+            80
+          ],
+          "rationale": "One long Erowid is glowing; keep the range wide."
+        },
+        "compulsiveness": {
+          "score": 58,
+          "confidence": "F",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Easy top-up, ugly pile."
+        },
+        "enjoyment": {
+          "score": 60,
+          "confidence": "E",
+          "range": [
+            20,
+            80
+          ],
+          "rationale": "Dose-shape, not a dose number."
+        },
+        "sociability": {
+          "score": 72,
+          "confidence": "E",
+          "range": [
+            40,
+            85
+          ],
+          "rationale": "Conversation/lovemaking emphasis in that report."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "E",
+          "range": [
+            20,
+            60
+          ],
+          "rationale": "Sketch more than paranoia."
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "E",
+          "range": [
+            40,
+            88
+          ],
+          "rationale": "High-end comedown is the story."
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "F",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Class + Polish cases."
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "F",
+          "range": [
+            25,
+            70
+          ],
+          "rationale": "Short when small."
+        }
+      },
+      "sources": [
+        {
+          "title": "Erowid four cathinones",
+          "url": "https://www.erowid.org/experiences/exp_info8.shtml",
+          "type": "erowid"
+        },
+        {
+          "title": "ACMD harms assessment",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        },
+        {
+          "title": "Adamowicz 2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9375235/",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "4_emc",
+      "name": "4-ethylmethcathinone",
+      "aliases": [
+        "4-EMC"
+      ],
+      "family": "cathinone",
+      "subclass": "ring_plus_n_alkyl",
+      "status": "market_confirmed",
+      "one_liner": "The closest 4-MMC copy some old heads will still admit to.",
+      "positives_writeup": "RUSH: present, not hexen. EUPHORIA: Bluelight ‘closest thing to 4-MMC I have had’; old reddit ‘rolly, monged, incredibly euphoric depending on your tastes’ and ‘sedating, mushy, rolly — one of my favs.’ COMPULSIVENESS: below meow. ENJOYMENT: actually liked, unlike most of this wall.",
+      "negatives_writeup": "Not a current flood. Sweden May 2011 first hit. Do not pretend it is 4-MMC.",
+      "route_myth": [
+        "insufflation_common",
+        "oral_ok"
+      ],
+      "scores": {
+        "rush": {
+          "score": 55,
+          "confidence": "F",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Forum, not observational."
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "E",
+          "range": [
+            50,
+            82
+          ],
+          "rationale": "Strongest meow-adjacent claim on this wall besides 4-MEC’s hope."
+        },
+        "compulsiveness": {
+          "score": 60,
+          "confidence": "F",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Below 4-MMC abuse stories."
+        },
+        "enjoyment": {
+          "score": 68,
+          "confidence": "E",
+          "range": [
+            45,
+            80
+          ],
+          "rationale": "People called it a favorite."
+        },
+        "sociability": {
+          "score": 62,
+          "confidence": "F",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Rolly / monged talk."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 42,
+          "confidence": "F",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "Not the lead complaint."
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "F",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Milder chatter than hexen."
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "F",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Class."
+        },
+        "sleep": {
+          "score": 58,
+          "confidence": "F",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Rolly nights."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA POD 4-EMC Sweden May 2011",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "Bluelight 4-CEC thread (4-EMC compare)",
+          "url": "https://www.bluelight.org/community/threads/4-cec-4-chloroethcathinone.745806/",
+          "type": "forum"
+        },
+        {
+          "title": "r/researchchemicals compare",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/4gvnl4/pentedrone_hexen_m1_4emc_4mec_compare/",
+          "type": "forum"
+        },
+        {
+          "title": "r/researchchemicals 4-MPD/4-EMC/4-CEC",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/5cmey6/recommend_my_next_rc_4mpd_4emc_4cec/",
+          "type": "forum"
+        }
+      ]
+    },
+    {
+      "id": "4_eec",
+      "name": "4-ethylethcathinone",
+      "aliases": [
+        "4-EEC"
+      ],
+      "family": "cathinone",
+      "subclass": "n_ethyl_cathinone",
+      "status": "forensic_thin",
+      "one_liner": "Same formula as NEP. Different sticker. Almost no reviews.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: Cayman says physiological effects have not been characterized. EUDA monitors it as an NEP isomer.",
+      "negatives_writeup": "Isomer collision risk. Do not score a fantasy.",
+      "route_myth": [
+        "forensic_only",
+        "isomer_collision"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "N",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Class-default only."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No characterized human effects."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA NEP report isomer list",
+          "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-nep.pdf",
+          "type": "official"
+        },
+        {
+          "title": "Cayman 4-EEC",
+          "url": "https://www.caymanchem.com/product/11197/4-ethylethcathinone-hydrochloride",
+          "type": "forensic"
+        }
+      ]
+    },
+    {
+      "id": "4_cec",
+      "name": "4-chloroethcathinone",
+      "aliases": [
+        "4-CEC",
+        "4-chloroethcathinone"
+      ],
+      "family": "cathinone",
+      "subclass": "ring_plus_n_alkyl",
+      "status": "market_confirmed",
+      "one_liner": "Energy Control found five bags. Forums already hated the halogen.",
+      "positives_writeup": "RUSH: weak. EUPHORIA: Bluelight guessed junk before anyone had much; that guess stuck. COMPULSIVENESS: low-mid. ENJOYMENT: thin copies. UK detections later proved it shipped.",
+      "negatives_writeup": "Para-chloro neurotoxin rumor follows the family — rumor, not a lecture. Rat work: milder CV than 4-CMC. Energy Control: 23% of bought cathinone samples were what the buyer asked for.",
+      "route_myth": [
+        "insufflation_common",
+        "mislabel"
+      ],
+      "scores": {
+        "rush": {
+          "score": 35,
+          "confidence": "H",
+          "range": [
+            20,
+            50
+          ],
+          "rationale": "Thin forum + checking, no observational."
+        },
+        "euphoria": {
+          "score": 32,
+          "confidence": "H",
+          "range": [
+            15,
+            50
+          ],
+          "rationale": "Junk guess + no literature in 2017."
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "I",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Not a fiend reputation."
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "H",
+          "range": [
+            10,
+            45
+          ],
+          "rationale": "Worse reviews than 4-MEC."
+        },
+        "sociability": {
+          "score": 30,
+          "confidence": "I",
+          "range": [
+            15,
+            45
+          ],
+          "rationale": "Thin."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "H",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Forum anxiety talk."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "H",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Halogen worry."
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "H",
+          "range": [
+            45,
+            80
+          ],
+          "rationale": "Class + rat/human checking context."
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "H",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Class."
+        }
+      },
+      "sources": [
+        {
+          "title": "Grifell / Energy Control 2017",
+          "url": "https://energycontrol-international.org/wp-content/uploads/2017/08/Patterns-of-use-and-toxicity-of-new-para-halogenated-substituted-cathinones-4-CMC-clephedrone-4-CEC-4-chloroethcatinone-and-4-BMC-brephedrone..pdf",
+          "type": "paper"
+        },
+        {
+          "title": "Bluelight 4-CEC",
+          "url": "https://www.bluelight.org/community/threads/4-cec-4-chloroethcathinone.745806/",
+          "type": "forum"
+        },
+        {
+          "title": "ACMD table 75 detections",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "3_cec",
+      "name": "3-chloroethcathinone",
+      "aliases": [
+        "3-CEC"
+      ],
+      "family": "cathinone",
+      "subclass": "ring_plus_n_alkyl",
+      "status": "forensic_thin",
+      "one_liner": "One UK tick. Empty chair.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: none on record.",
+      "negatives_writeup": "Forensic only.",
+      "route_myth": [
+        "forensic_only"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "UK ACMD 1 detection."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "sources": [
+        {
+          "title": "ACMD harms assessment",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "4_mpd",
+      "name": "4-methylpentedrone",
+      "aliases": [
+        "4-MPD",
+        "4-methyl-alpha-methylamino-valerophenone"
+      ],
+      "family": "cathinone",
+      "subclass": "pentedrone_chain",
+      "status": "vendor_alias_trap",
+      "one_liner": "The name on the bag. Check the other card.",
+      "positives_writeup": "RUSH: dull. EUPHORIA: Cartiser’s forum scrape — ‘worthless as a stim.’ COMPULSIVENESS: chemsex fatality implies redose risk, not love. ENJOYMENT: low. Real molecule (Czech 2014) and also the most lied-about name on this wall.",
+      "negatives_writeup": "Lyon chemsex death with cocaine. Vendor 2013 ‘4-MPD’ was 4-MEAP. Keep identity separate.",
+      "route_myth": [
+        "insufflation_common",
+        "mislabel",
+        "vendor_alias_trap",
+        "chemsex_flag"
+      ],
+      "scores": {
+        "rush": {
+          "score": 36,
+          "confidence": "H",
+          "range": [
+            20,
+            50
+          ],
+          "rationale": "Forum scrape in Cartiser 2021."
+        },
+        "euphoria": {
+          "score": 30,
+          "confidence": "H",
+          "range": [
+            15,
+            45
+          ],
+          "rationale": "Worthless-as-a-stim consensus in that scrape."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "I",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Not hexen; chemsex context."
+        },
+        "enjoyment": {
+          "score": 26,
+          "confidence": "H",
+          "range": [
+            10,
+            40
+          ],
+          "rationale": "Explicitly poor reviews."
+        },
+        "sociability": {
+          "score": 28,
+          "confidence": "I",
+          "range": [
+            10,
+            40
+          ],
+          "rationale": "Thin."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "I",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Thin plus class."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "I",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Vasoconstrictive chatter."
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "G",
+          "range": [
+            60,
+            92
+          ],
+          "rationale": "Fatal case + cocaine combo."
+        },
+        "sleep": {
+          "score": 60,
+          "confidence": "I",
+          "range": [
+            40,
+            75
+          ],
+          "rationale": "Class."
+        }
+      },
+      "sources": [
+        {
+          "title": "Cartiser 2021 4-MPD fatality",
+          "url": "https://hal.science/hal-03493851/document",
+          "type": "paper"
+        },
+        {
+          "title": "Hamby 2015 4-MEAP sold as 4-MPD",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25923458/",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "4_meap",
+      "name": "4-methyl-alpha-ethylaminopentiophenone",
+      "aliases": [
+        "4-MEAP",
+        "4-methyl-N-ethylnorpentedrone",
+        "4-methyl-N-ethylpentedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "pentedrone_chain",
+      "status": "market_confirmed",
+      "one_liner": "The bag said 4-MPD. The crystal said N-ethyl.",
+      "positives_writeup": "RUSH / EUPHORIA: contaminated by the name swap — treat as 4-methyl-NEP, not as 4-MPD. COMPULSIVENESS: N-ethyl C5 pattern plus binge deaths. ENJOYMENT: not a beloved brand; a lab result.",
+      "negatives_writeup": "DEA 2019 Schedule I. Luxembourg Oct 2013 first as 4-methyl-N-ethylnorpentedrone. Polish tox six cases, wide blood range.",
+      "route_myth": [
+        "insufflation_common",
+        "mislabel",
+        "redose"
+      ],
+      "scores": {
+        "rush": {
+          "score": 50,
+          "confidence": "I",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Name-swap contaminates feel; N-ethyl C5 analogue of NEP."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "I",
+          "range": [
+            25,
+            65
+          ],
+          "rationale": "Same contamination."
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "H",
+          "range": [
+            50,
+            85
+          ],
+          "rationale": "N-ethyl C5 + forensic binge pattern."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "I",
+          "range": [
+            20,
+            60
+          ],
+          "rationale": "Not a beloved brand."
+        },
+        "sociability": {
+          "score": 40,
+          "confidence": "J",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Thin."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "H",
+          "range": [
+            40,
+            80
+          ],
+          "rationale": "Class + NEP-like."
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "H",
+          "range": [
+            40,
+            80
+          ],
+          "rationale": "Class."
+        },
+        "cardiovascular": {
+          "score": 78,
+          "confidence": "H",
+          "range": [
+            55,
+            90
+          ],
+          "rationale": "DEA overdoses on the 2019 list; Polish series."
+        },
+        "sleep": {
+          "score": 75,
+          "confidence": "H",
+          "range": [
+            55,
+            88
+          ],
+          "rationale": "N-ethyl C5."
+        }
+      },
+      "sources": [
+        {
+          "title": "Hamby 2015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25923458/",
+          "type": "paper"
+        },
+        {
+          "title": "EUDA POD 4-methyl-N-ethylnorpentedrone LU 2013",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "DEA Federal Register 2019",
+          "url": "https://www.federalregister.gov/documents/2019/07/18/2019-15184/schedules-of-controlled-substances-temporary-placement-of-n-ethylhexedrone--php-4-meap-mphp-pv8-and",
+          "type": "official"
+        },
+        {
+          "title": "Adamowicz 2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9375235/",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "4_fluoropentedrone",
+      "name": "4-fluoropentedrone",
+      "aliases": [
+        "4-fluoropentedrone",
+        "4-FP"
+      ],
+      "family": "cathinone",
+      "subclass": "pentedrone_chain",
+      "status": "forensic_thin",
+      "one_liner": "Two UK bags. No chorus.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: none on record. Alias 4-FP is a lab shorthand, not a street brand confirmed here.",
+      "negatives_writeup": "Forensic tick.",
+      "route_myth": [
+        "forensic_only"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "UK ACMD 2 detections."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "P",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Class-default only."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "P",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "sources": [
+        {
+          "title": "ACMD harms assessment",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "4_methylbuphedrone",
+      "name": "4-methylbuphedrone",
+      "aliases": [
+        "4-MeMABP",
+        "4-MeBP",
+        "4-Me-MABP"
+      ],
+      "family": "cathinone",
+      "subclass": "buphedrone_analogue",
+      "status": "market_confirmed",
+      "one_liner": "Mephedrone’s α-ethyl stamp. 2011 shelf, not a legend.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: thin. Do not invent a meow sequel. Vendors later drew this structure on 4-MPD pages.",
+      "negatives_writeup": "Isomer of 4-MEC / pentedrone / NEB / 3,4-DMMC. Netherlands Sep 2011.",
+      "route_myth": [
+        "insufflation_common",
+        "mislabel"
+      ],
+      "scores": {
+        "rush": {
+          "score": 40,
+          "confidence": "K",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Seizure-confirmed, feel-thin."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "K",
+          "range": [
+            20,
+            60
+          ],
+          "rationale": "Do not steal 4-MMC reviews."
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "K",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Class."
+        },
+        "enjoyment": {
+          "score": 38,
+          "confidence": "K",
+          "range": [
+            15,
+            55
+          ],
+          "rationale": "Not a legend."
+        },
+        "sociability": {
+          "score": 40,
+          "confidence": "K",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Thin."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "K",
+          "range": [
+            25,
+            65
+          ],
+          "rationale": "Thin."
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "K",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Thin."
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "K",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Class."
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "K",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Class."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA POD 4-Me-MABP NL Sep 2011",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "Hamby 2015 vendor structure mixup",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25923458/",
+          "type": "paper"
+        },
+        {
+          "title": "DEA orange book",
+          "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/d_cs_drugcode.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "3_4_dmmc",
+      "name": "3,4-dimethylmethcathinone",
+      "aliases": [
+        "3,4-DMMC"
+      ],
+      "family": "cathinone",
+      "subclass": "branched_chain",
+      "status": "historical_wave",
+      "one_liner": "NRG-era leftover. Third-generation after the first bans.",
+      "positives_writeup": "RUSH: meh. EUPHORIA: headshop leftover, not a modern ask. COMPULSIVENESS: moderate class. ENJOYMENT: low. Ring-dimethyl is the ‘branched’ here, not a chain fork.",
+      "negatives_writeup": "Hungary 13 Oct 2010. Polish tox one very high blood. ACMD third-generation list.",
+      "route_myth": [
+        "insufflation_common",
+        "branded_legal_high"
+      ],
+      "scores": {
+        "rush": {
+          "score": 40,
+          "confidence": "H",
+          "range": [
+            25,
+            55
+          ],
+          "rationale": "2010 notification, thin later feel."
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "H",
+          "range": [
+            20,
+            55
+          ],
+          "rationale": "Meh leftover."
+        },
+        "compulsiveness": {
+          "score": 45,
+          "confidence": "I",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "Class."
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "H",
+          "range": [
+            15,
+            50
+          ],
+          "rationale": "Not a modern ask."
+        },
+        "sociability": {
+          "score": 36,
+          "confidence": "I",
+          "range": [
+            20,
+            50
+          ],
+          "rationale": "Thin."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "H",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Class."
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "H",
+          "range": [
+            30,
+            65
+          ],
+          "rationale": "Class."
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "H",
+          "range": [
+            45,
+            85
+          ],
+          "rationale": "One very high Polish blood."
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "H",
+          "range": [
+            35,
+            70
+          ],
+          "rationale": "Class."
+        }
+      },
+      "sources": [
+        {
+          "title": "EMCDDA 2010 Annex 2 HU 13 Oct 2010",
+          "url": "https://www.emcdda.europa.eu/attachements.cfm/att_133126_EN_Annex_2_List_NPAS_notified_in_2010.pdf",
+          "type": "official"
+        },
+        {
+          "title": "ACMD harms assessment generation note",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        },
+        {
+          "title": "Adamowicz 2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9375235/",
+          "type": "paper"
+        }
+      ]
+    },
+    {
+      "id": "3_4_dmec",
+      "name": "3,4-dimethylethcathinone",
+      "aliases": [
+        "3,4-DMEC"
+      ],
+      "family": "cathinone",
+      "subclass": "n_ethyl_cathinone",
+      "status": "forensic_thin",
+      "one_liner": "DMMC’s N-ethyl twin. On the EUDA board. Almost no stories.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: null. Monitored NEP isomer.",
+      "negatives_writeup": "Isomer collision.",
+      "route_myth": [
+        "forensic_only",
+        "isomer_collision"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "EUDA board, no feel corpus."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA NEP report isomer list",
+          "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-nep.pdf",
+          "type": "official"
+        },
+        {
+          "title": "EUDA POD chemistry tool 3,4-DMEC",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "mexedrone",
+      "name": "Mexedrone",
+      "aliases": [
+        "4-MMC-MeO",
+        "mexedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "branched_chain",
+      "status": "flop",
+      "one_liner": "They advertised it like meow. It wasn’t.",
+      "positives_writeup": "RUSH: basically none. EUPHORIA: a few late posters describe a weak short calm glow; most of the Bluelight thread said inactive or sedating. COMPULSIVENESS: people complained, they did not fiend. ENJOYMENT: flop. α-methoxy mephedrone, not mephedrone.",
+      "negatives_writeup": "Roberts 2017: 11 confirmed polydrug ED cases — agitation, tachycardia, some hallucinations/paranoia, mostly gone in 24 h. UK still seeing bags years later.",
+      "route_myth": [
+        "oral_ok",
+        "insufflation_common",
+        "flop"
+      ],
+      "scores": {
+        "rush": {
+          "score": 12,
+          "confidence": "D",
+          "range": [
+            0,
+            25
+          ],
+          "rationale": "Bluelight flop thread; weak SRA pharmacology."
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "D",
+          "range": [
+            5,
+            45
+          ],
+          "rationale": "Mostly dud; a few weak-glow posts."
+        },
+        "compulsiveness": {
+          "score": 18,
+          "confidence": "E",
+          "range": [
+            5,
+            35
+          ],
+          "rationale": "Complaint, not binge culture."
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "D",
+          "range": [
+            0,
+            40
+          ],
+          "rationale": "Advertised like meow. Wasn’t."
+        },
+        "sociability": {
+          "score": 20,
+          "confidence": "E",
+          "range": [
+            5,
+            40
+          ],
+          "rationale": "No talky reputation."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "D",
+          "range": [
+            20,
+            70
+          ],
+          "rationale": "Some ED hallucinations/paranoia in polydrug cases."
+        },
+        "aftereffects": {
+          "score": 25,
+          "confidence": "E",
+          "range": [
+            10,
+            45
+          ],
+          "rationale": "Mostly gone in 24 h in Roberts."
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "D",
+          "range": [
+            35,
+            75
+          ],
+          "rationale": "Tachycardia in ED series."
+        },
+        "sleep": {
+          "score": 20,
+          "confidence": "E",
+          "range": [
+            5,
+            40
+          ],
+          "rationale": "Not a stim night."
+        }
+      },
+      "sources": [
+        {
+          "title": "Roberts et al. 2017 mexedrone cases",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28075189/",
+          "type": "paper"
+        },
+        {
+          "title": "Bluelight mexedrone",
+          "url": "https://www.bluelight.org/community/threads/mexedrone.764088/",
+          "type": "forum"
+        },
+        {
+          "title": "ACMD table mexedrone 88 detections",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "metamfepramone",
+      "name": "Metamfepramone",
+      "aliases": [
+        "N,N-dimethylcathinone",
+        "dimethylcathinone"
+      ],
+      "family": "cathinone",
+      "subclass": "n_substituted_adjacent",
+      "status": "forensic_thin",
+      "one_liner": "Old medicine-cabinet N,N-dimethyl. Not a party SKU.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: no street-era feel corpus worth scoring. Historical pharmaceutical / anorectic lineage, later NPS monitoring.",
+      "negatives_writeup": "DEA lists N,N-dimethylcathinone as a mephedrone positional isomer. Do not write a rave review.",
+      "route_myth": [
+        "historical_pharma"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "N",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Class-default only."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "N",
+          "range": null,
+          "rationale": "No street feel corpus scored."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA POD chemistry tool metamfepramone",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        },
+        {
+          "title": "DEA orange book",
+          "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/d_cs_drugcode.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "benzedrone",
+      "name": "Benzedrone",
+      "aliases": [
+        "4-MBC",
+        "4-methyl-N-benzylcathinone"
+      ],
+      "family": "cathinone",
+      "subclass": "n_substituted_adjacent",
+      "status": "historical_wave",
+      "one_liner": "N-benzyl, not N-alkyl. Same 2010 headshop week as 4-MEC.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: poor corpus. Included so the wall does not pretend N-ethyl is the only N-swap.",
+      "negatives_writeup": "UK 16 Aug 2010. Three UK detections 2020–23.",
+      "route_myth": [
+        "branded_legal_high"
+      ],
+      "scores": {
+        "rush": {
+          "score": 30,
+          "confidence": "L",
+          "range": [
+            10,
+            45
+          ],
+          "rationale": "2010 headshop, poor feel record."
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "L",
+          "range": [
+            10,
+            45
+          ],
+          "rationale": "Poor record."
+        },
+        "compulsiveness": {
+          "score": 35,
+          "confidence": "L",
+          "range": [
+            15,
+            50
+          ],
+          "rationale": "Poor record."
+        },
+        "enjoyment": {
+          "score": 24,
+          "confidence": "L",
+          "range": [
+            5,
+            40
+          ],
+          "rationale": "Not remembered fondly."
+        },
+        "sociability": {
+          "score": 25,
+          "confidence": "L",
+          "range": [
+            10,
+            40
+          ],
+          "rationale": "Poor record."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 42,
+          "confidence": "L",
+          "range": [
+            20,
+            60
+          ],
+          "rationale": "Thin."
+        },
+        "aftereffects": {
+          "score": 45,
+          "confidence": "L",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "Thin."
+        },
+        "cardiovascular": {
+          "score": 52,
+          "confidence": "L",
+          "range": [
+            30,
+            70
+          ],
+          "rationale": "Class."
+        },
+        "sleep": {
+          "score": 45,
+          "confidence": "L",
+          "range": [
+            25,
+            60
+          ],
+          "rationale": "Thin."
+        }
+      },
+      "sources": [
+        {
+          "title": "EMCDDA 2010 Annex 2 UK 16 Aug 2010",
+          "url": "https://www.emcdda.europa.eu/attachements.cfm/att_133126_EN_Annex_2_List_NPAS_notified_in_2010.pdf",
+          "type": "official"
+        },
+        {
+          "title": "ACMD table benzedrone",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "4_bec",
+      "name": "4-bromoethcathinone",
+      "aliases": [
+        "4-BEC"
+      ],
+      "family": "cathinone",
+      "subclass": "ring_plus_n_alkyl",
+      "status": "forensic_thin",
+      "one_liner": "Bromo-ethyl stamp on the EUDA board. No fan club.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: null.",
+      "negatives_writeup": "Name-board only in this pass.",
+      "route_myth": [
+        "forensic_only"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "EUDA chemistry tool only."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "Q",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA POD chemistry tool 4-BEC",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "iso_ethcathinone",
+      "name": "Iso-ethcathinone",
+      "aliases": [
+        "iso-ethcathinone"
+      ],
+      "family": "cathinone",
+      "subclass": "branched_chain",
+      "status": "forensic_thin",
+      "one_liner": "2010 Irish notification. Cathinone with the ketone walked.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: no feel card. Historical first-year legal-high example.",
+      "negatives_writeup": "Ireland 18 Jun 2010. Keep as forensic history, not a shelf star.",
+      "route_myth": [
+        "forensic_only",
+        "historical_wave"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "Notification only."
+        }
+      },
+      "sources": [
+        {
+          "title": "EMCDDA 2010 Annex 2 IE 18 Jun 2010",
+          "url": "https://www.emcdda.europa.eu/attachements.cfm/att_133126_EN_Annex_2_List_NPAS_notified_in_2010.pdf",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "4_cdmc",
+      "name": "4-chloro-N,N-dimethylcathinone",
+      "aliases": [
+        "4-CDMC"
+      ],
+      "family": "cathinone",
+      "subclass": "n_substituted_adjacent",
+      "status": "forensic_thin",
+      "one_liner": "UK seized it. Nobody reviewed it.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: null. 28 seized samples is a market tick, not a forum.",
+      "negatives_writeup": "Forensic only in this pass.",
+      "route_myth": [
+        "forensic_only"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "UK seized samples, no feel corpus."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "O",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "sources": [
+        {
+          "title": "ACMD harms assessment 4-CDMC",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "4f_n_isopropylnorpentedrone",
+      "name": "4-fluoro-N-isopropylnorpentedrone",
+      "aliases": [
+        "4-fluoro-N-isopropylnorpentedrone"
+      ],
+      "family": "cathinone",
+      "subclass": "branched_chain",
+      "status": "forensic_thin",
+      "one_liner": "Branched N on a pentedrone tail. EUDA listed. Silence after that.",
+      "positives_writeup": "RUSH / EUPHORIA / COMPULSIVENESS / ENJOYMENT: null. Documented name, not a story.",
+      "negatives_writeup": "Branched N-alkyl example. Do not invent homologues around it.",
+      "route_myth": [
+        "forensic_only",
+        "branched_n"
+      ],
+      "scores": {
+        "rush": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "EUDA name-board only."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "R",
+          "range": null,
+          "rationale": "No feel corpus."
+        }
+      },
+      "sources": [
+        {
+          "title": "EUDA POD chemistry tool",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "official"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1072 @@
+{
+  "assignment": 29,
+  "title": "Deliriants / atypical hallucinogens",
+  "disclaimer": "Game catalog. Not a cookbook. Delirium is not pretty psychedelic visuals. Salvia is not a rush.",
+  "rules": [
+    "no_recipes",
+    "no_doses",
+    "no_opioids",
+    "no_pretty_delirium",
+    "salvia_is_a_kidnapping"
+  ],
+  "lead_axes": [
+    "rush",
+    "euphoria",
+    "compulsiveness",
+    "enjoyment"
+  ],
+  "do_not_steal": [
+    "DXM",
+    "diphenidine",
+    "DMT",
+    "5-MeO-DMT",
+    "nitrous",
+    "THC",
+    "spice"
+  ],
+  "nomenclature_merges": [
+    {
+      "id": "dph",
+      "same": [
+        "diphenhydramine",
+        "Benadryl"
+      ],
+      "not": [
+        "diphenidine"
+      ]
+    },
+    {
+      "id": "scopolamine",
+      "same": [
+        "hyoscine",
+        "burundanga"
+      ],
+      "not": [
+        "datura",
+        "atropine"
+      ]
+    },
+    {
+      "id": "salvia",
+      "same": [
+        "salvinorin A",
+        "Salvia divinorum"
+      ],
+      "not": [
+        "garden sage"
+      ]
+    },
+    {
+      "id": "muscimol",
+      "same": [
+        "Amanita muscaria"
+      ],
+      "not": [
+        "psilocybin"
+      ]
+    }
+  ],
+  "names_only": [
+    "doxylamine",
+    "cyclizine",
+    "hydroxyzine",
+    "salvinorin B",
+    "herkinorin",
+    "muscarine",
+    "voacangine"
+  ],
+  "substances": [
+    {
+      "id": "datura",
+      "name": "datura",
+      "family": "deliriant",
+      "subclass": "anticholinergic_tropane_plant",
+      "aliases": [
+        "jimsonweed",
+        "thorn apple",
+        "Datura stramonium"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The plant that invents people. Not a trip.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 6,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 8,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 90,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 98,
+          "confidence": "A",
+          "note": "True delirium, no insight."
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral freakout OD",
+      "npc_line": "You will argue with a hallway. The hallway will win.",
+      "sources": [
+        {
+          "title": "Erowid Datura",
+          "url": "https://www.erowid.org/plants/datura/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Do not score pretty visuals."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "brugmansia",
+      "name": "brugmansia",
+      "family": "deliriant",
+      "subclass": "anticholinergic_tropane_plant",
+      "aliases": [
+        "angel's trumpet"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Datura's hanging-flower cousin. Same crime.",
+        "rush": {
+          "score": null,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 6,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 8,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 6,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 85,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 95,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral freakout",
+      "npc_line": "Pretty flowers. Ugly week.",
+      "sources": [],
+      "gaps": [],
+      "card": "full"
+    },
+    {
+      "id": "scopolamine",
+      "name": "scopolamine",
+      "family": "deliriant",
+      "subclass": "anticholinergic_isolate",
+      "aliases": [
+        "hyoscine",
+        "burundanga"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The incapacitator. Not a recreational rush.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 4,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 4,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 4,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 85,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 95,
+          "confidence": "A",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "freakout crime",
+      "npc_line": "They don't buy this to feel good. That's the whole review.",
+      "sources": [],
+      "gaps": [
+        "Burundanga prevalence is media-heavy."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "atropine",
+      "name": "atropine",
+      "family": "deliriant",
+      "subclass": "anticholinergic_isolate",
+      "aliases": [
+        "dl-hyoscyamine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "uncertain",
+      "feel": {
+        "headline": "The other tropane. Eye-drop dare.",
+        "rush": {
+          "score": null,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 6,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 8,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 6,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 90,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 78,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "freakout",
+      "npc_line": "The dropper that steals the room.",
+      "sources": [],
+      "gaps": [
+        "Thin recreational file."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "dph",
+      "name": "diphenhydramine",
+      "family": "deliriant",
+      "subclass": "otc_anticholinergic",
+      "aliases": [
+        "DPH",
+        "Benadryl"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Corner-store delirium. Shadow people. Compulsive in the worst way.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 12,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 14,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 44,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 35,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 78,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 85,
+          "confidence": "A",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral freakout",
+      "npc_line": "The hat man is not a visual. He's a roommate you invented.",
+      "sources": [
+        {
+          "title": "Erowid DPH",
+          "url": "https://www.erowid.org/pharms/diphenhydramine/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "DPH ≠ diphenidine."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "dimenhydrinate",
+      "name": "dimenhydrinate",
+      "family": "deliriant",
+      "subclass": "otc_anticholinergic",
+      "aliases": [
+        "Dramamine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "DPH plus a little stim. Same shadows.",
+        "rush": {
+          "score": null,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 14,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral freakout",
+      "npc_line": "Motion sickness, then the walls grow an audience.",
+      "sources": [],
+      "gaps": [
+        "Always partly DPH."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "benzydamine",
+      "name": "benzydamine",
+      "family": "deliriant",
+      "subclass": "otc_anticholinergic",
+      "aliases": [
+        "Tantum"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "The mouthwash that lies.",
+        "rush": {
+          "score": null,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 18,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 65,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral freakout",
+      "npc_line": "They drank the rinse. The rinse drank them back.",
+      "sources": [],
+      "gaps": [
+        "Still not acid."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "ditran_bz",
+      "name": "Ditran / BZ",
+      "family": "deliriant",
+      "subclass": "military_anticholinergic",
+      "aliases": [
+        "QNB"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "headline": "Military incapacitants. Not Flask.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A war-file, not a menu.",
+      "sources": [],
+      "gaps": [
+        "Do not build SKUs."
+      ],
+      "card": "thin"
+    },
+    {
+      "id": "salvia",
+      "name": "salvinorin A",
+      "family": "atypical_hallucinogen",
+      "subclass": "kappa_salvinorin",
+      "aliases": [
+        "Salvia divinorum",
+        "salvia"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Not a rush. A kidnapping.",
+        "rush": {
+          "score": 12,
+          "confidence": "A",
+          "note": "Onset slam, not pleasure."
+        },
+        "euphoria": {
+          "score": 18,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 35,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 20,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke freakout",
+      "npc_line": "You don't get high. You get taken.",
+      "sources": [
+        {
+          "title": "Erowid Salvia",
+          "url": "https://www.erowid.org/plants/salvia/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Not pretty visuals. Not anticholinergic."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "muscimol",
+      "name": "muscimol",
+      "family": "atypical_hallucinogen",
+      "subclass": "amanita_gaba",
+      "aliases": [
+        "Amanita muscaria",
+        "fly agaric"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Drunk dream, not a mushroom trip.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 38,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral freakout mislabel",
+      "npc_line": "Santa's mushroom. The hangover is the folklore.",
+      "sources": [
+        {
+          "title": "Erowid Amanita",
+          "url": "https://www.erowid.org/plants/amanitas/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Shop gummies ≠ Siberian story."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "nutmeg",
+      "name": "nutmeg",
+      "family": "atypical_hallucinogen",
+      "subclass": "myristicin_spice",
+      "aliases": [
+        "Myristica fragrans",
+        "myristicin"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Eight hours of waiting. Then never-again.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 16,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 12,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral aftereffects",
+      "npc_line": "The spice rack dare. The rack wins.",
+      "sources": [
+        {
+          "title": "Erowid nutmeg",
+          "url": "https://www.erowid.org/plants/nutmeg/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Not an empathogen."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "ibogaine",
+      "name": "ibogaine",
+      "family": "atypical_hallucinogen",
+      "subclass": "oneirogen_iboga",
+      "aliases": [
+        "Tabernanthe iboga"
+      ],
+      "research_status": "moderately_documented",
+      "market": "uncertain",
+      "feel": {
+        "headline": "A waking dream that lasts a working week. Not an opioid SKU.",
+        "rush": {
+          "score": null,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 6,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 85,
+          "confidence": "A",
+          "note": "QT / arrhythmia."
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral OD cardiac",
+      "npc_line": "They don't buy a ticket. They buy a reckoning.",
+      "sources": [],
+      "gaps": [
+        "No analog wall."
+      ],
+      "card": "full"
+    },
+    {
+      "id": "kanna",
+      "name": "kanna",
+      "family": "shop_ethnogen",
+      "subclass": "sceletium",
+      "aliases": [
+        "Sceletium tortuosum"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Mild plant. Not a deliriant.",
+        "rush": {
+          "score": null,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 12,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A chew. Not a kidnapping.",
+      "sources": [],
+      "gaps": [],
+      "card": "thin"
+    }
+  ],
+  "count": 13,
+  "gaps": [
+    "Do not score delirium on a visuals axis.",
+    "Ibogaine analogs are out."
+  ]
+}

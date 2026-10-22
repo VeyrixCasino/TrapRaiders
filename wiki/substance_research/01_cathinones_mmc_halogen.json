@@ -1,0 +1,3580 @@
+[
+  {
+    "id": "4-mmc",
+    "name": "4-MMC",
+    "family": "synthetic_cathinone",
+    "subclass": "methyl_methcathinone",
+    "aliases": [
+      "mephedrone",
+      "4-methylmethcathinone",
+      "drone",
+      "meow",
+      "meow meow",
+      "M-CAT"
+    ],
+    "research_status": "well_documented",
+    "market": "street",
+    "feel": {
+      "headline": "The one. Talky roll plus stim. Short. Magic the copies chase.",
+      "rush": {
+        "score": 14,
+        "confidence": "A",
+        "note": "Fast body-wide peak. Insufflated nights are a series of peaks; the first one is the poem.",
+        "x": 14
+      },
+      "euphoria": {
+        "score": 24,
+        "confidence": "A",
+        "note": "MDMA hug on a cocaine chassis. Serotonin and dopamine both dump, then leave.",
+        "x": 24
+      },
+      "enjoyment": {
+        "score": 23,
+        "confidence": "A",
+        "note": "Chat, music, libido, forced energy. Later cathinones are cover bands.",
+        "x": 23
+      },
+      "compulsiveness": {
+        "score": 22,
+        "confidence": "A",
+        "note": "Notorious redose. The high is a cigarette long. The bag ends the argument.",
+        "x": 22
+      },
+      "reinforcement": {
+        "score": 22,
+        "confidence": "A",
+        "note": "People still hunt the 2010 night a decade later."
+      },
+      "rush_x": 14,
+      "euphoria_x": 24,
+      "enjoyment_x": 23,
+      "compulsive_x": 22
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "B",
+        "note": "Less bath-salt panic than pyros; binge plus sleep loss still gets ugly."
+      },
+      "aftereffects": {
+        "score": 78,
+        "confidence": "A",
+        "note": "Serotonin-empty Monday. Cat-piss sweat rumor. Bruxism, dehydration, vasoconstriction."
+      },
+      "psychosis_concern": {
+        "score": 45,
+        "confidence": "B",
+        "note": "Agitation and rare festival lock-up; not the MDPV headline."
+      },
+      "cardiovascular": {
+        "score": 65,
+        "confidence": "A",
+        "note": "Tachycardia, blood pressure, cold or blue fingers in the UK survey."
+      },
+      "sleep": {
+        "score": 70,
+        "confidence": "A",
+        "note": "Short session can still sleep. A binge writes the night off."
+      },
+      "mislabel": {
+        "score": 70,
+        "confidence": "A",
+        "note": "Sold as molly. Copies sold as this."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "Meow. Everything after this is a cover band.",
+    "sources": [
+      {
+        "title": "PsychonautWiki Mephedrone",
+        "url": "https://psychonautwiki.org/wiki/Mephedrone",
+        "type": "wiki",
+        "year": null
+      },
+      {
+        "title": "Kehr et al. mephedrone microdialysis",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "type": "paper",
+        "year": 2011
+      },
+      {
+        "title": "Winstock / National Addiction Centre mephedrone survey",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/",
+        "type": "paper",
+        "year": 2011
+      },
+      {
+        "title": "Schifano et al. mephedrone review",
+        "url": "https://doi.org/10.1007/s00213-010-2070-x",
+        "type": "paper",
+        "year": 2011
+      },
+      {
+        "title": "Erowid 4-MMC experience index",
+        "url": "https://erowid.org/experiences/subs/exp_4Methylmethcathinone.shtml",
+        "type": "forum",
+        "year": 2010
+      },
+      {
+        "title": "EMCDDA mephedrone risk assessment era",
+        "url": "https://www.euda.europa.eu/",
+        "type": "agency",
+        "year": 2011
+      }
+    ],
+    "gaps": [
+      "Human PK thinner than the legend.",
+      "Street 4-MMC after 2010 is a lottery."
+    ]
+  },
+  {
+    "id": "3-mmc",
+    "name": "3-MMC",
+    "family": "synthetic_cathinone",
+    "subclass": "methyl_methcathinone",
+    "aliases": [
+      "metaphedrone",
+      "3-methylmethcathinone"
+    ],
+    "research_status": "well_documented",
+    "market": "street",
+    "feel": {
+      "headline": "Diet 4-MMC. Less hug, more grind. Chemsex favorite. If it lasts till noon, it was not this.",
+      "rush": {
+        "score": 13,
+        "confidence": "A",
+        "note": "Sharper, more coke-shaped than 4-MMC. Short.",
+        "x": 13
+      },
+      "euphoria": {
+        "score": 20,
+        "confidence": "A",
+        "note": "Real euphoria. Not the 4-MMC poem. Users still come back.",
+        "x": 20
+      },
+      "enjoyment": {
+        "score": 21,
+        "confidence": "A",
+        "note": "Talk, libido, party utility. The EU stock SKU after the ban.",
+        "x": 21
+      },
+      "compulsiveness": {
+        "score": 22,
+        "confidence": "A",
+        "note": "Same redose engine. Shorter night makes a longer bag.",
+        "x": 22
+      },
+      "reinforcement": {
+        "score": 21,
+        "confidence": "A",
+        "note": "Chemsex and club scenes kept it alive after 4-MMC heat."
+      },
+      "rush_x": 13,
+      "euphoria_x": 20,
+      "enjoyment_x": 21,
+      "compulsive_x": 22
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "B",
+        "note": "Rises with binge, poly, and the NEP-mislabel nights."
+      },
+      "aftereffects": {
+        "score": 62,
+        "confidence": "B",
+        "note": "Some call it gentler than 4-MMC; binge still empties the tank."
+      },
+      "psychosis_concern": {
+        "score": 50,
+        "confidence": "B",
+        "note": "Agitation and hallucinations in poisonings; often poly / chemsex."
+      },
+      "cardiovascular": {
+        "score": 68,
+        "confidence": "A",
+        "note": "EUDA/WHO sympathomimetic toxidrome."
+      },
+      "sleep": {
+        "score": 68,
+        "confidence": "A",
+        "note": "Short high. Sleep possible unless you keep topping."
+      },
+      "mislabel": {
+        "score": 90,
+        "confidence": "A",
+        "note": "Current bags are often 2-MMC or NEP. Noon glow is the tell."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "Fine until you realize the bag is NEP.",
+    "sources": [
+      {
+        "title": "PsychonautWiki 3-MMC",
+        "url": "https://psychonautwiki.org/wiki/3-MMC",
+        "type": "wiki",
+        "year": null
+      },
+      {
+        "title": "EUDA risk assessment of 3-MMC",
+        "url": "https://www.euda.europa.eu/system/files/publications/14507/Report%20on%20the%20risk%20assessment%20of%203-MMC.pdf",
+        "type": "agency",
+        "year": 2022
+      },
+      {
+        "title": "WHO 45th ECDD 3-MMC review",
+        "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/45th-ecdd/3-mmc_draft.pdf",
+        "type": "agency",
+        "year": 2022
+      },
+      {
+        "title": "Sidekicks Berlin 2/3/4-MMC vs NEP",
+        "url": "https://sidekicks.berlin/en/3mmc-4mmc/",
+        "type": "harm_reduction",
+        "year": 2026
+      },
+      {
+        "title": "SaferParty NEP sold as 3-MMC / 4-MMC",
+        "url": "https://en.saferparty.ch/blog/achtung-nep-statt-3-mmc-und-4-mmc",
+        "type": "harm_reduction",
+        "year": 2024
+      }
+    ],
+    "gaps": [
+      "Almost no clean single-substance human lab PK.",
+      "Street 3-MMC feel after ~2022 is contaminated by NEP/2-MMC."
+    ]
+  },
+  {
+    "id": "2-mmc",
+    "name": "2-MMC",
+    "family": "synthetic_cathinone",
+    "subclass": "methyl_methcathinone",
+    "aliases": [
+      "orthomephedrone",
+      "2-methylmethcathinone"
+    ],
+    "research_status": "moderately_documented",
+    "market": "street",
+    "feel": {
+      "headline": "Thin. Functional. Often what is actually in a 3-MMC stamp. Europe imported a mountain anyway.",
+      "rush": {
+        "score": 9,
+        "confidence": "B",
+        "note": "Present, not a poem. One Erowid night called the work-euphoria Adderall-shaped.",
+        "x": 9
+      },
+      "euphoria": {
+        "score": 14,
+        "confidence": "B",
+        "note": "Less hug. More focus. Weaker than 3-MMC in checking notes.",
+        "x": 14
+      },
+      "enjoyment": {
+        "score": 15,
+        "confidence": "B",
+        "note": "Some like the cleaner comedown and less stink. Others feel cheated.",
+        "x": 15
+      },
+      "compulsiveness": {
+        "score": 17,
+        "confidence": "B",
+        "note": "Still a short cathinone. Not 4-MMC gravity.",
+        "x": 17
+      },
+      "reinforcement": {
+        "score": 15,
+        "confidence": "B",
+        "note": "Legal-gap flood, not a beloved brand."
+      },
+      "rush_x": 9,
+      "euphoria_x": 14,
+      "enjoyment_x": 15,
+      "compulsive_x": 17
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 35,
+        "confidence": "C",
+        "note": "Lower talk than 3-MMC; NEP mislabel is the paranoia source."
+      },
+      "aftereffects": {
+        "score": 40,
+        "confidence": "C",
+        "note": "Several users call the crash gentler than 4-MMC."
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": "No independent psychosis series locked to confirmed 2-MMC."
+      },
+      "cardiovascular": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Milder in the one detailed Erowid night; not a clinical series."
+      },
+      "sleep": {
+        "score": 45,
+        "confidence": "C",
+        "note": "That same report slept. Not a PK number."
+      },
+      "mislabel": {
+        "score": 88,
+        "confidence": "A",
+        "note": "Sold as 3-MMC. EUDA: 33.4 tonnes seized in 2024."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "Tastes like the label lied.",
+    "sources": [
+      {
+        "title": "EUDA initial report on 2-MMC",
+        "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-on-2-mmc.pdf",
+        "type": "agency",
+        "year": 2025
+      },
+      {
+        "title": "Erowid exp 109240 What Adderall Aspires to Be",
+        "url": "https://erowid.org/experiences/exp.php?ID=109240",
+        "type": "forum",
+        "year": 2016
+      },
+      {
+        "title": "PsychonautWiki Talk:2-MMC",
+        "url": "https://psychonautwiki.org/wiki/Talk:2-MMC",
+        "type": "wiki",
+        "year": null
+      },
+      {
+        "title": "Sidekicks Berlin",
+        "url": "https://sidekicks.berlin/en/3mmc-4mmc/",
+        "type": "harm_reduction",
+        "year": 2026
+      },
+      {
+        "title": "EU control action 2-MMC / 4-BMC / NEP",
+        "url": "https://www.euda.europa.eu/news/2026/eu-takes-action-control-three-harmful-new-drugs_en",
+        "type": "agency",
+        "year": 2026
+      }
+    ],
+    "gaps": [
+      "Feel corpus small relative to 2024 tonnage.",
+      "Positional-isomer lab mix-ups."
+    ]
+  },
+  {
+    "id": "4-cmc",
+    "name": "4-CMC",
+    "family": "synthetic_cathinone",
+    "subclass": "chloro_methcathinone",
+    "aliases": [
+      "clephedrone",
+      "4-chloromethcathinone"
+    ],
+    "research_status": "well_documented",
+    "market": "street",
+    "feel": {
+      "headline": "Shitty 4-MMC. Same night, worse morning. Cheap. Neurotoxin rumor follows it.",
+      "rush": {
+        "score": 12,
+        "confidence": "B",
+        "note": "Empathogen-stim, MDMA-shaped, shorter.",
+        "x": 12
+      },
+      "euphoria": {
+        "score": 19,
+        "confidence": "B",
+        "note": "Real. Do not average the hangover into this number.",
+        "x": 19
+      },
+      "enjoyment": {
+        "score": 16,
+        "confidence": "B",
+        "note": "The night works. The burn and the next day make people call it shitty.",
+        "x": 16
+      },
+      "compulsiveness": {
+        "score": 20,
+        "confidence": "B",
+        "note": "Users called it addictive. Short 2-4 h loop. Hate does not lower this.",
+        "x": 20
+      },
+      "reinforcement": {
+        "score": 18,
+        "confidence": "B",
+        "note": "Cheap replacement nights. People came back."
+      },
+      "rush_x": 12,
+      "euphoria_x": 19,
+      "enjoyment_x": 16,
+      "compulsive_x": 20
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 50,
+        "confidence": "B",
+        "note": "Anxiety and agitation in WHO/forum scrape."
+      },
+      "aftereffects": {
+        "score": 80,
+        "confidence": "B",
+        "note": "Next-day headache; week-long MDMA hangover in one slammed-gram ER story."
+      },
+      "psychosis_concern": {
+        "score": 55,
+        "confidence": "B",
+        "note": "Hallucinations and psychoses in the ECDD file, often poly."
+      },
+      "cardiovascular": {
+        "score": 70,
+        "confidence": "B",
+        "note": "Tachycardia, chest pain, tremor."
+      },
+      "sleep": {
+        "score": 72,
+        "confidence": "B",
+        "note": "Sleeplessness in the WHO list."
+      },
+      "mislabel": {
+        "score": 75,
+        "confidence": "A",
+        "note": "Sold as MDMA and 3-MMC. Pressed into pills."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "Same night, worse morning.",
+    "sources": [
+      {
+        "title": "WHO ECDD 4-CMC critical review",
+        "url": "https://ecddrepository.org/en/4-chloromethcathinone",
+        "type": "agency",
+        "year": 2019
+      },
+      {
+        "title": "WHO 4-CMC PDF",
+        "url": "https://ecddrepository.org/sites/default/files/2023-04/final_4-cmc.pdf",
+        "type": "agency",
+        "year": 2019
+      },
+      {
+        "title": "Grifell et al. 4-CMC / 4-CEC / 4-BMC",
+        "url": "https://doi.org/10.1002/hup.2621",
+        "type": "paper",
+        "year": 2017
+      },
+      {
+        "title": "Papaseit oral fluid clephedrone and methylone",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12785453/",
+        "type": "paper",
+        "year": 2025
+      }
+    ],
+    "gaps": [
+      "Controlled human effect study is small.",
+      "4-CA neurotoxin analogy is chemistry gossip until measured."
+    ]
+  },
+  {
+    "id": "3-cmc",
+    "name": "3-CMC",
+    "family": "synthetic_cathinone",
+    "subclass": "chloro_methcathinone",
+    "aliases": [
+      "clophedrone",
+      "3-chloromethcathinone"
+    ],
+    "research_status": "well_documented",
+    "market": "street",
+    "feel": {
+      "headline": "More DA, less hug. What they pour when 4-CMC got heat.",
+      "rush": {
+        "score": 11,
+        "confidence": "B",
+        "note": "Stim first. Sidekicks puts it with 3-MMC in the more-coke pile.",
+        "x": 11
+      },
+      "euphoria": {
+        "score": 17,
+        "confidence": "B",
+        "note": "Present, thinner than 4-CMC roll.",
+        "x": 17
+      },
+      "enjoyment": {
+        "score": 15,
+        "confidence": "B",
+        "note": "Current EU flood chemical. People use it because it is there.",
+        "x": 15
+      },
+      "compulsiveness": {
+        "score": 20,
+        "confidence": "B",
+        "note": "Same short-loop redose as the chloro wall.",
+        "x": 20
+      },
+      "reinforcement": {
+        "score": 18,
+        "confidence": "B",
+        "note": "Replacement traffic after 4-CMC UN control."
+      },
+      "rush_x": 11,
+      "euphoria_x": 17,
+      "enjoyment_x": 15,
+      "compulsive_x": 20
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 50,
+        "confidence": "B",
+        "note": "Anxiety listed by EUDA as expected class effect."
+      },
+      "aftereffects": {
+        "score": 65,
+        "confidence": "B",
+        "note": "Expected cathinone crash; less written than 4-CMC hangover legend."
+      },
+      "psychosis_concern": {
+        "score": 55,
+        "confidence": "B",
+        "note": "Possible psychosis in the official expected-effects list."
+      },
+      "cardiovascular": {
+        "score": 70,
+        "confidence": "A",
+        "note": "HR, BP, vasoconstriction in the risk assessment."
+      },
+      "sleep": {
+        "score": 70,
+        "confidence": "A",
+        "note": "Insomnia in the official list."
+      },
+      "mislabel": {
+        "score": 70,
+        "confidence": "B",
+        "note": "2/3/4-CMC labs mix; 2-CMC barely formally reported."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "It is what they pour when meow is gone.",
+    "sources": [
+      {
+        "title": "EUDA risk assessment of 3-CMC",
+        "url": "https://www.euda.europa.eu/system/files/publications/14509/Report%20on%20the%20risk%20assessment%20of%203-CMC.pdf",
+        "type": "agency",
+        "year": 2022
+      },
+      {
+        "title": "Sidekicks Berlin",
+        "url": "https://sidekicks.berlin/en/3mmc-4mmc/",
+        "type": "harm_reduction",
+        "year": 2026
+      }
+    ],
+    "gaps": [
+      "Street feel vs 4-CMC inferred more from checking notes than a fat megathread."
+    ]
+  },
+  {
+    "id": "2-cmc",
+    "name": "2-CMC",
+    "family": "synthetic_cathinone",
+    "subclass": "chloro_methcathinone",
+    "aliases": [
+      "2-chloromethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "The quiet chloro. A 2025 thread said less anxiety, less stim. That is one voice.",
+      "rush": {
+        "score": 7,
+        "confidence": "D",
+        "note": "One reddit claim: stim just is not there.",
+        "x": 7
+      },
+      "euphoria": {
+        "score": 13,
+        "confidence": "D",
+        "note": "Euphoria is good in that same post. Unverified identity.",
+        "x": 13
+      },
+      "enjoyment": {
+        "score": 13,
+        "confidence": "D",
+        "note": "Called most-okay chloro and better than 2-MMC. Single source.",
+        "x": 13
+      },
+      "compulsiveness": {
+        "score": 13,
+        "confidence": "D",
+        "note": "Not established.",
+        "x": 13
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": "No return-rate evidence."
+      },
+      "rush_x": 7,
+      "euphoria_x": 13,
+      "enjoyment_x": 13,
+      "compulsive_x": 13
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 80,
+        "confidence": "B",
+        "note": "EMCDDA: available since 2016 in at least two states, never formally reported as named EWS substance in the 3-CMC assessment."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "If the chloro feels polite, check the number.",
+    "sources": [
+      {
+        "title": "EMCDDA 3-CMC risk assessment (2-CMC note)",
+        "url": "https://www.euda.europa.eu/system/files/publications/14509/Report%20on%20the%20risk%20assessment%20of%203-CMC.pdf",
+        "type": "agency",
+        "year": 2022
+      },
+      {
+        "title": "r/researchchemicals 2-CMC just hit the market",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/19aedjq/2cmc_just_hit_the_market/",
+        "type": "forum",
+        "year": 2025
+      }
+    ],
+    "gaps": [
+      "No WHO file.",
+      "No megathread.",
+      "No confirmed checking series."
+    ]
+  },
+  {
+    "id": "4-fmc",
+    "name": "4-FMC",
+    "family": "synthetic_cathinone",
+    "subclass": "fluoro_methcathinone",
+    "aliases": [
+      "flephedrone",
+      "4-fluoromethcathinone"
+    ],
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "First-wave leftover. Focused, jaw-clenchy, little magic. Charge packets.",
+      "rush": {
+        "score": 7,
+        "confidence": "B",
+        "note": "Gentle buzz for some; high blood pressure and no euphoria for others.",
+        "x": 7
+      },
+      "euphoria": {
+        "score": 10,
+        "confidence": "B",
+        "note": "Majority Bluelight: dull straight stim. A minority swore oral fleph went MDMA-esque.",
+        "x": 10
+      },
+      "enjoyment": {
+        "score": 10,
+        "confidence": "B",
+        "note": "Functional / social. Compared to ethylphenidate. Not meow.",
+        "x": 10
+      },
+      "compulsiveness": {
+        "score": 11,
+        "confidence": "B",
+        "note": "You can nibble a night. Not the redose demon.",
+        "x": 11
+      },
+      "reinforcement": {
+        "score": 10,
+        "confidence": "B",
+        "note": "People who wanted meow asked for refunds."
+      },
+      "rush_x": 7,
+      "euphoria_x": 10,
+      "enjoyment_x": 10,
+      "compulsive_x": 11
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 35,
+        "confidence": "C",
+        "note": "Anxiety shows up; not a psychosis headline."
+      },
+      "aftereffects": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Some no-comedown at modest oral; others unworthy hangover."
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 60,
+        "confidence": "B",
+        "note": "Palpitations, BP, shortness of breath in the megathread."
+      },
+      "sleep": {
+        "score": 35,
+        "confidence": "C",
+        "note": "Low-dose reports of easy sleep; binge is still a stim."
+      },
+      "mislabel": {
+        "score": 75,
+        "confidence": "A",
+        "note": "Sold as 3-FMC. Charge stall labeled 3-MMC."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "First wave leftover.",
+    "sources": [
+      {
+        "title": "Bluelight 3-FMC/4-FMC megathread",
+        "url": "https://www.bluelight.org/community/threads/the-3-fmc-4-fmc-flephedrone-megathread.455261/",
+        "type": "forum",
+        "year": 2009
+      },
+      {
+        "title": "Bluelight 3-FMC vs 4-FMC",
+        "url": "https://www.bluelight.org/community/threads/3-fmc-vs-4-fmc.535328/",
+        "type": "forum",
+        "year": 2010
+      }
+    ],
+    "gaps": [
+      "No modern checking series.",
+      "Early legal-high identity already dirty."
+    ]
+  },
+  {
+    "id": "3-fmc",
+    "name": "3-FMC",
+    "family": "synthetic_cathinone",
+    "subclass": "fluoro_methcathinone",
+    "aliases": [
+      "3-fluoromethcathinone"
+    ],
+    "research_status": "moderately_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Watered-down methylone or a dull stim, depending who held the bag.",
+      "rush": {
+        "score": 6,
+        "confidence": "B",
+        "note": "Non-remarkable straight stim in the 2010 comparison thread.",
+        "x": 6
+      },
+      "euphoria": {
+        "score": 11,
+        "confidence": "B",
+        "note": "Some call it more serotonergic than 4-FMC. Others flip that. Split.",
+        "x": 11
+      },
+      "enjoyment": {
+        "score": 10,
+        "confidence": "B",
+        "note": "Nobody wrote home. Charge-era blend ingredient.",
+        "x": 10
+      },
+      "compulsiveness": {
+        "score": 11,
+        "confidence": "C",
+        "note": "Not a headline fiend.",
+        "x": 11
+      },
+      "reinforcement": {
+        "score": 10,
+        "confidence": "C",
+        "note": "Replacement leftover, not a sought brand."
+      },
+      "rush_x": 6,
+      "euphoria_x": 11,
+      "enjoyment_x": 10,
+      "compulsive_x": 11
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 55,
+        "confidence": "C",
+        "note": "Class effects; less specific writing than 4-FMC."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 80,
+        "confidence": "B",
+        "note": "Vendors shipped 4-FMC in 3-FMC bags."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "The other fleph. Still not meow.",
+    "sources": [
+      {
+        "title": "Bluelight 3-FMC vs 4-FMC",
+        "url": "https://www.bluelight.org/community/threads/3-fmc-vs-4-fmc.535328/",
+        "type": "forum",
+        "year": 2010
+      },
+      {
+        "title": "Bluelight flephedrone megathread",
+        "url": "https://www.bluelight.org/community/threads/the-3-fmc-4-fmc-flephedrone-megathread.455261/",
+        "type": "forum",
+        "year": 2009
+      }
+    ],
+    "gaps": [
+      "Human reports thinner than 4-FMC.",
+      "Identity pollution is the main uncertainty."
+    ]
+  },
+  {
+    "id": "2-fmc",
+    "name": "2-FMC",
+    "family": "synthetic_cathinone",
+    "subclass": "fluoro_methcathinone",
+    "aliases": [
+      "2-fluoromethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Seized, scheduled as an isomer, almost no street poetry.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": "Forensic differentiation only."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 70,
+        "confidence": "B",
+        "note": "If a lab will not do extra work, FMC is a coin flip. 2-FMC also degrades in a hot GC injector."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "The fleph the chromatogram argues about.",
+    "sources": [
+      {
+        "title": "Zaitsu GC-MS methcathinone analogs / 2-FMC degradation",
+        "url": "https://doi.org/10.1002/dta.1437",
+        "type": "forensic",
+        "year": 2013
+      },
+      {
+        "title": "Murakami ERMS FMC isomers",
+        "url": "https://doi.org/10.1002/jms.4316",
+        "type": "forensic",
+        "year": 2019
+      },
+      {
+        "title": "Bonetti multivariate positional isomers",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S2468170918300146",
+        "type": "forensic",
+        "year": 2018
+      }
+    ],
+    "gaps": [
+      "No substantiated human feel corpus."
+    ]
+  },
+  {
+    "id": "4-bmc",
+    "name": "4-BMC",
+    "family": "synthetic_cathinone",
+    "subclass": "bromo_methcathinone",
+    "aliases": [
+      "brephedrone",
+      "4-bromomethcathinone",
+      "4-BMAP"
+    ],
+    "research_status": "moderately_documented",
+    "market": "street",
+    "feel": {
+      "headline": "Rare, then a tonne. MDMA-shaped in the few confirmed voices. Nasty extras in old threads.",
+      "rush": {
+        "score": 9,
+        "confidence": "C",
+        "note": "Energy Control user: MDMA but the effects disappear very quickly.",
+        "x": 9
+      },
+      "euphoria": {
+        "score": 16,
+        "confidence": "C",
+        "note": "Empathy and music in the thin confirmed-sample set.",
+        "x": 16
+      },
+      "enjoyment": {
+        "score": 13,
+        "confidence": "C",
+        "note": "Weaker than 5-MAPB and 3-MMC in the same scrape.",
+        "x": 13
+      },
+      "compulsiveness": {
+        "score": 17,
+        "confidence": "C",
+        "note": "Urge to redose in the Grifell table. Short.",
+        "x": 17
+      },
+      "reinforcement": {
+        "score": 14,
+        "confidence": "C",
+        "note": "2011-16 trickle, then 2024 import spike — supply, not love."
+      },
+      "rush_x": 9,
+      "euphoria_x": 16,
+      "enjoyment_x": 13,
+      "compulsive_x": 17
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "D",
+        "note": "One mixed MDPV story with parasitosis delusion. Do not hang that on 4-BMC alone."
+      },
+      "aftereffects": {
+        "score": 55,
+        "confidence": "C",
+        "note": "Insomnia, headache."
+      },
+      "psychosis_concern": {
+        "score": 50,
+        "confidence": "D",
+        "note": "Class cathinone risk in EUDA; specific 4-BMC nights are thin."
+      },
+      "cardiovascular": {
+        "score": 60,
+        "confidence": "C",
+        "note": "Palpitations, stabbing pain in the high-end forum row."
+      },
+      "sleep": {
+        "score": 60,
+        "confidence": "C",
+        "note": "Insomnia listed."
+      },
+      "mislabel": {
+        "score": 75,
+        "confidence": "B",
+        "note": "2014-16 checking: mostly sold as something else. 2024 tonne may include isomer bleed."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "Vendor dust — until the tonne showed up.",
+    "sources": [
+      {
+        "title": "Grifell et al. 2017",
+        "url": "https://doi.org/10.1002/hup.2621",
+        "type": "paper",
+        "year": 2017
+      },
+      {
+        "title": "EUDA initial report 4-BMC",
+        "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-4-bmc.pdf",
+        "type": "agency",
+        "year": 2025
+      },
+      {
+        "title": "4-BMC first reported fatal case",
+        "url": "https://doi.org/10.3390/metabo16070507",
+        "type": "paper",
+        "year": 2026
+      }
+    ],
+    "gaps": [
+      "2024 flood has almost no new first-person feel writing.",
+      "2-/3-BMC contamination of 4-BMC totals admitted by EUDA."
+    ]
+  },
+  {
+    "id": "3-bmc",
+    "name": "3-BMC",
+    "family": "synthetic_cathinone",
+    "subclass": "bromo_methcathinone",
+    "aliases": [
+      "3-bromomethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "The other bromine. Standards exist. Nights do not.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 85,
+        "confidence": "B",
+        "note": "EUDA: many labs cannot split 2/3/4-BMC on GC-MS."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "If the label says BMC, the lab shrugged.",
+    "sources": [
+      {
+        "title": "EUDA initial report 4-BMC (isomer section)",
+        "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-4-bmc.pdf",
+        "type": "agency",
+        "year": 2025
+      }
+    ],
+    "gaps": [
+      "No independent human reports that survive identity check."
+    ]
+  },
+  {
+    "id": "2-bmc",
+    "name": "2-BMC",
+    "family": "synthetic_cathinone",
+    "subclass": "bromo_methcathinone",
+    "aliases": [
+      "2-bromomethcathinone"
+    ],
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "feel": {
+      "headline": "Reference-standard twin. Not a bag on a table we can name.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "A bottle in the catalog. Not a night.",
+    "sources": [
+      {
+        "title": "EUDA 4-BMC report (LGC 2-BMC standard)",
+        "url": "https://www.euda.europa.eu/system/files/documents/2025-07/initial-report-4-bmc.pdf",
+        "type": "agency",
+        "year": 2025
+      }
+    ],
+    "gaps": [
+      "No seizure series tagged 2-BMC.",
+      "No forum corpus."
+    ]
+  },
+  {
+    "id": "4-mec",
+    "name": "4-MEC",
+    "family": "synthetic_cathinone",
+    "subclass": "methyl_ethcathinone",
+    "aliases": [
+      "4-methylethcathinone"
+    ],
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Diet meow. You can go to work. You will hate work. Short glow, little crash, still greedy.",
+      "rush": {
+        "score": 8,
+        "confidence": "B",
+        "note": "Euphoric but short-lived. Some first-timers felt mostly burn.",
+        "x": 8
+      },
+      "euphoria": {
+        "score": 15,
+        "confidence": "B",
+        "note": "Real serotonin tickle. Not 4-MMC. Sold in 2010 as the replacement.",
+        "x": 15
+      },
+      "enjoyment": {
+        "score": 14,
+        "confidence": "B",
+        "note": "White beads / green balls era. Functional. Mixed worthless vs fine.",
+        "x": 14
+      },
+      "compulsiveness": {
+        "score": 18,
+        "confidence": "B",
+        "note": "Short loop. People redosed. Less vicious crash does not mean lessish.",
+        "x": 18
+      },
+      "reinforcement": {
+        "score": 15,
+        "confidence": "B",
+        "note": "Curiosity and price more than legend."
+      },
+      "rush_x": 8,
+      "euphoria_x": 15,
+      "enjoyment_x": 14,
+      "compulsive_x": 18
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 35,
+        "confidence": "B",
+        "note": "Little comedown is the recurring line."
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 50,
+        "confidence": "B",
+        "note": "Palpitations in trip reports."
+      },
+      "sleep": {
+        "score": 40,
+        "confidence": "B",
+        "note": "Easier than meow for many."
+      },
+      "mislabel": {
+        "score": 50,
+        "confidence": "B",
+        "note": "Later batches were anything."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "You can go to work. You will hate work.",
+    "sources": [
+      {
+        "title": "Van Hout internet study of 4-MEC",
+        "url": "https://doi.org/10.1080/02791072.2014.934979",
+        "type": "paper",
+        "year": 2014
+      },
+      {
+        "title": "WHO ECDD 4-MEC",
+        "url": "https://ecddrepository.org/en/4-methylethcathinone-4-mec",
+        "type": "agency",
+        "year": 2016
+      },
+      {
+        "title": "Bluelight 4-MEC first time",
+        "url": "https://www.bluelight.org/community/threads/4-mec-830-mg-first-time-tried-830mgs-of-4-methylethcathinone-done-over-4-hours.582411/",
+        "type": "forum",
+        "year": 2011
+      },
+      {
+        "title": "Erowid four cathinones essay",
+        "url": "https://www.erowid.org/experiences/exp_info8.shtml",
+        "type": "forum",
+        "year": 2012
+      }
+    ],
+    "gaps": [
+      "Modern street 4-MEC is scarce."
+    ]
+  },
+  {
+    "id": "3-mec",
+    "name": "3-MEC",
+    "family": "synthetic_cathinone",
+    "subclass": "methyl_ethcathinone",
+    "aliases": [
+      "3-methylethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Weaker than 3-CMC. People who wanted 3-MMC used it as a shrug.",
+      "rush": {
+        "score": 6,
+        "confidence": "C",
+        "note": "2024 reddit: not great.",
+        "x": 6
+      },
+      "euphoria": {
+        "score": 8,
+        "confidence": "C",
+        "note": "Weak vs 3-MMC / 4-MMC.",
+        "x": 8
+      },
+      "enjoyment": {
+        "score": 8,
+        "confidence": "C",
+        "note": "Unimpressive.",
+        "x": 8
+      },
+      "compulsiveness": {
+        "score": 11,
+        "confidence": "D",
+        "note": "Not enough writing.",
+        "x": 11
+      },
+      "reinforcement": {
+        "score": 8,
+        "confidence": "D",
+        "note": "No scene."
+      },
+      "rush_x": 6,
+      "euphoria_x": 8,
+      "enjoyment_x": 8,
+      "compulsive_x": 11
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 60,
+        "confidence": "C",
+        "note": "2/3/4-MEC share a formula."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "The ethyl stamp that forgot the point.",
+    "sources": [
+      {
+        "title": "r/researchchemicals 4-MEC thread (3-MEC aside)",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/1csndv4/anybody_have_experiences_with_4mec_is_it_a/",
+        "type": "forum",
+        "year": 2024
+      },
+      {
+        "title": "UAB thesis validation of 2/3/4-MEC",
+        "url": "https://digitalcommons.library.uab.edu/cgi/viewcontent.cgi?article=1779&context=etd-collection",
+        "type": "forensic",
+        "year": 2015
+      }
+    ],
+    "gaps": [
+      "No megathread.",
+      "No agency risk file."
+    ]
+  },
+  {
+    "id": "2-mec",
+    "name": "2-MEC",
+    "family": "synthetic_cathinone",
+    "subclass": "methyl_ethcathinone",
+    "aliases": [
+      "2-methylethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "Named on forums and in a validation thesis. Almost no night we can trust.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": "Discussed on recreational forums per thesis — not a phenomenology."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "The MEC the lawyer asked about.",
+    "sources": [
+      {
+        "title": "UAB thesis validation of 2/3/4-MEC",
+        "url": "https://digitalcommons.library.uab.edu/cgi/viewcontent.cgi?article=1779&context=etd-collection",
+        "type": "forensic",
+        "year": 2015
+      }
+    ],
+    "gaps": [
+      "No substantiated trip corpus."
+    ]
+  },
+  {
+    "id": "4-eec",
+    "name": "4-EEC",
+    "family": "synthetic_cathinone",
+    "subclass": "ethyl_ethcathinone",
+    "aliases": [
+      "4-ethylethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Same wall, worse reviews. Cayman still says the body is uncharacterized.",
+      "rush": {
+        "score": 6,
+        "confidence": "D",
+        "note": "Scattered RC-era mentions; no megathread that survives identity.",
+        "x": 6
+      },
+      "euphoria": {
+        "score": 11,
+        "confidence": "D",
+        "note": "Inferred thinner 4-EMC / 4-MEC cousin. Weak.",
+        "x": 11
+      },
+      "enjoyment": {
+        "score": 10,
+        "confidence": "D",
+        "note": "Filler.",
+        "x": 10
+      },
+      "compulsiveness": {
+        "score": 12,
+        "confidence": "D",
+        "note": "Class guess, low confidence.",
+        "x": 12
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "rush_x": 6,
+      "euphoria_x": 11,
+      "enjoyment_x": 10,
+      "compulsive_x": 12
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 55,
+        "confidence": "D",
+        "note": "Expected among 4-ethyl / 4-methyl bags."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "Same wall, worse reviews.",
+    "sources": [
+      {
+        "title": "Cayman 4-EEC insert",
+        "url": "https://cdn.caymanchem.com/cdn/insert/11197.pdf",
+        "type": "forensic",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "Almost no first-person, analytically confirmed nights."
+    ]
+  },
+  {
+    "id": "3-eec",
+    "name": "3-EEC",
+    "family": "synthetic_cathinone",
+    "subclass": "ethyl_ethcathinone",
+    "aliases": [
+      "3-ethylethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "Shows up in GC-MS panels. Does not show up in stories.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "A peak on the printout.",
+    "sources": [
+      {
+        "title": "GC-MS enantioseparation panels listing 3-EEC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9000803/",
+        "type": "paper",
+        "year": 2022
+      }
+    ],
+    "gaps": [
+      "No human feel.",
+      "No EUDA initial report."
+    ]
+  },
+  {
+    "id": "2-eec",
+    "name": "2-EEC",
+    "family": "synthetic_cathinone",
+    "subclass": "ethyl_ethcathinone",
+    "aliases": [
+      "2-ethylethcathinone"
+    ],
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "feel": {
+      "headline": "A cell in the substitution table. Not a documented bag.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Do not print a SKU for a spreadsheet.",
+    "sources": [
+      {
+        "title": "Substituted cathinone derivative tables",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinone",
+        "type": "wiki",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No seizure dossier, no forum, no agency file found."
+    ]
+  },
+  {
+    "id": "4-cec",
+    "name": "4-CEC",
+    "family": "synthetic_cathinone",
+    "subclass": "chloro_ethcathinone",
+    "aliases": [
+      "4-chloroethcathinone"
+    ],
+    "research_status": "moderately_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Free-sample chloro. Burns, drips bitter, peaks short, loses to 4-CMC.",
+      "rush": {
+        "score": 8,
+        "confidence": "C",
+        "note": "Senses sharpen, then a nasty drip. Grifell: 30-minute peaks.",
+        "x": 8
+      },
+      "euphoria": {
+        "score": 12,
+        "confidence": "C",
+        "note": "Talkative and pleasant in some rows; no notable effects in others.",
+        "x": 12
+      },
+      "enjoyment": {
+        "score": 9,
+        "confidence": "C",
+        "note": "Users prefer 4-CMC. Extreme pain on the nose.",
+        "x": 9
+      },
+      "compulsiveness": {
+        "score": 13,
+        "confidence": "C",
+        "note": "Short enough to redose; not enough magic to become a scene.",
+        "x": 13
+      },
+      "reinforcement": {
+        "score": 10,
+        "confidence": "C",
+        "note": "Free extras, not a repurchase brand."
+      },
+      "rush_x": 8,
+      "euphoria_x": 12,
+      "enjoyment_x": 9,
+      "compulsive_x": 13
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 60,
+        "confidence": "C",
+        "note": "Multi-hour crash. 4-CA neurotoxin anxiety."
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 55,
+        "confidence": "C",
+        "note": "Heat and nystagmus in one injection-era forum row."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 70,
+        "confidence": "B",
+        "note": "Free extras in RC parcels. Checking often found something else."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "They threw it in the envelope. That was the review.",
+    "sources": [
+      {
+        "title": "Erowid exp 108163 Bittersweet Times",
+        "url": "https://erowid.org/experiences/exp.php?ID=108163",
+        "type": "forum",
+        "year": 2016
+      },
+      {
+        "title": "Grifell et al. 2017",
+        "url": "https://doi.org/10.1002/hup.2621",
+        "type": "paper",
+        "year": 2017
+      },
+      {
+        "title": "Bluelight 4-CEC",
+        "url": "https://www.bluelight.org/community/threads/4-cec-4-chloroethcathinone.745806/",
+        "type": "forum",
+        "year": 2016
+      },
+      {
+        "title": "r/researchchemicals 4-CEC",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/8241vd/4cec_4chloroethcathinone/",
+        "type": "forum",
+        "year": 2018
+      }
+    ],
+    "gaps": [
+      "Small n.",
+      "Identity of free samples is a coin flip."
+    ]
+  },
+  {
+    "id": "3-cec",
+    "name": "3-CEC",
+    "family": "synthetic_cathinone",
+    "subclass": "chloro_ethcathinone",
+    "aliases": [
+      "3-chloroethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "A 2023 warning thread about the heart. Not a loved product.",
+      "rush": {
+        "score": 6,
+        "confidence": "D",
+        "note": "Thin.",
+        "x": 6
+      },
+      "euphoria": {
+        "score": 9,
+        "confidence": "D",
+        "note": "Not the reason people posted.",
+        "x": 9
+      },
+      "enjoyment": {
+        "score": 6,
+        "confidence": "D",
+        "note": "The memorable post is a scare.",
+        "x": 6
+      },
+      "compulsiveness": {
+        "score": 12,
+        "confidence": "D",
+        "note": "Unknown; short chloro-ethyl loop is a class guess.",
+        "x": 12
+      },
+      "reinforcement": {
+        "score": 8,
+        "confidence": "D",
+        "note": "No scene."
+      },
+      "rush_x": 6,
+      "euphoria_x": 9,
+      "enjoyment_x": 6,
+      "compulsive_x": 12
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 75,
+        "confidence": "D",
+        "note": "One reddit pre-heart-attack write-up after a small trial plus coffee. Single source, loud."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 50,
+        "confidence": "D",
+        "note": "Possible vs 4-CEC / 3-CMC."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "The chloro that made the warning post, not the playlist.",
+    "sources": [
+      {
+        "title": "r/researchchemicals 3-CEC warning",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/109ldja/3cec_trip_report_and_warning/",
+        "type": "forum",
+        "year": 2023
+      }
+    ],
+    "gaps": [
+      "One scary anecdote is not a tox curve."
+    ]
+  },
+  {
+    "id": "4-emc",
+    "name": "4-EMC",
+    "family": "synthetic_cathinone",
+    "subclass": "ethyl_methcathinone",
+    "aliases": [
+      "4-ethylmethcathinone"
+    ],
+    "research_status": "moderately_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Snorted: often nothing. When it hits, old threads wrote serotonin poems. Not 4-MEC.",
+      "rush": {
+        "score": 11,
+        "confidence": "C",
+        "note": "Route split. Nasal/oral often dead. Slam report is MDA-nystagmus WHAMMO. Hyperreal oral also huge.",
+        "x": 11
+      },
+      "euphoria": {
+        "score": 20,
+        "confidence": "C",
+        "note": "When present: serotonergic, velveteen, erotic. Do not average the dead-nasal nights into a 30.",
+        "x": 20
+      },
+      "enjoyment": {
+        "score": 17,
+        "confidence": "C",
+        "note": "Loved by people who found the door. Everyone else shrugged.",
+        "x": 17
+      },
+      "compulsiveness": {
+        "score": 17,
+        "confidence": "C",
+        "note": "Three-hour waves then the usual tightening. Not NEP-long.",
+        "x": 17
+      },
+      "reinforcement": {
+        "score": 17,
+        "confidence": "C",
+        "note": "The people who hit it wanted it again."
+      },
+      "rush_x": 11,
+      "euphoria_x": 20,
+      "enjoyment_x": 17,
+      "compulsive_x": 17
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 40,
+        "confidence": "C",
+        "note": "Vaya: fade, little crash."
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 45,
+        "confidence": "C",
+        "note": "Hyperreal: less heart than meow in that user. Still a cathinone."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 55,
+        "confidence": "B",
+        "note": "People type 4-EMC when they mean 4-MEC."
+      }
+    },
+    "route_myth": "slam_only",
+    "npc_line": "Snorted: nothing. Slammed: the rush old threads wrote poems about.",
+    "sources": [
+      {
+        "title": "Bluelight 4-EMC experiments (Vaya)",
+        "url": "https://www.bluelight.org/community/threads/bridging-new-gaps-4-ethylmethcathinone-4-emc-experiments.686504/",
+        "type": "forum",
+        "year": 2013
+      },
+      {
+        "title": "Bluelight 4-ethylmethcathinone / Hyperreal",
+        "url": "https://www.bluelight.org/community/threads/4-ethylmethcathinone.502836/",
+        "type": "forum",
+        "year": 2011
+      },
+      {
+        "title": "UNODC LSS 4-Ethylmethcathinone",
+        "url": "https://www.unodc.org/LSS/Substance/Details/ebfd8ff0-9449-4dfe-be73-971b228cb186",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "n is small.",
+      "The slam poem is one writer.",
+      "Oral/nasal may be a different product."
+    ]
+  },
+  {
+    "id": "3-emc",
+    "name": "3-EMC",
+    "family": "synthetic_cathinone",
+    "subclass": "ethyl_methcathinone",
+    "aliases": [
+      "3-ethylmethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "Cayman: potential stimulant. Properties unknown.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "A standard in a drawer.",
+    "sources": [
+      {
+        "title": "Cayman 3-EMC hydrochloride",
+        "url": "https://www.caymanchem.com/product/9001082/3-ethylmethcathinone-hydrochloride",
+        "type": "forensic",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No human nights."
+    ]
+  },
+  {
+    "id": "2-emc",
+    "name": "2-EMC",
+    "family": "synthetic_cathinone",
+    "subclass": "ethyl_methcathinone",
+    "aliases": [
+      "2-ethylmethcathinone"
+    ],
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "feel": {
+      "headline": "Named as the remaining ethyl-ring isomer. No bag we can defend.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Do not invent the ortho just to fill the grid.",
+    "sources": [
+      {
+        "title": "Substituted cathinone tables",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinone",
+        "type": "wiki",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No seizure series, no forum."
+    ]
+  },
+  {
+    "id": "methedrone",
+    "name": "Methedrone",
+    "family": "synthetic_cathinone",
+    "subclass": "methoxy_methcathinone",
+    "aliases": [
+      "4-MeOMC",
+      "bk-PMMA",
+      "PMMC",
+      "4-methoxymethcathinone",
+      "methoxyphedrine",
+      "4-methoxyephedrone"
+    ],
+    "research_status": "moderately_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "The name that sounds like meow and kills like PMMA. Slow on, heat-stroke rumor, festival poison flag.",
+      "rush": {
+        "score": 7,
+        "confidence": "C",
+        "note": "Slower onset than meow in mouse locomotor work — the dangerous kind of slow.",
+        "x": 7
+      },
+      "euphoria": {
+        "score": 16,
+        "confidence": "C",
+        "note": "Sold as MDMA-shaped. Users exist. The product did not stay on tables long.",
+        "x": 16
+      },
+      "enjoyment": {
+        "score": 10,
+        "confidence": "C",
+        "note": "Vendors pulled it after the Swedish deaths.",
+        "x": 10
+      },
+      "compulsiveness": {
+        "score": 13,
+        "confidence": "C",
+        "note": "Slow onset invites the extra bump. That is the PMMA lesson.",
+        "x": 13
+      },
+      "reinforcement": {
+        "score": 12,
+        "confidence": "C",
+        "note": "Withdrawn fast; not a lasting brand."
+      },
+      "rush_x": 7,
+      "euphoria_x": 16,
+      "enjoyment_x": 10,
+      "compulsive_x": 13
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Bath-salt review language is class-level."
+      },
+      "aftereffects": {
+        "score": 85,
+        "confidence": "B",
+        "note": "Two 2009 Swedish fatalities with methedrone essentially alone on the tox."
+      },
+      "psychosis_concern": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Class bath-salt psychiatric list, not a fat methedrone vault."
+      },
+      "cardiovascular": {
+        "score": 80,
+        "confidence": "B",
+        "note": "para-methoxy family: hyperthermia and adrenergic storm risk."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 90,
+        "confidence": "A",
+        "note": "Name collision with mephedrone."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "Festival poison flag.",
+    "sources": [
+      {
+        "title": "Wikstrom et al. two fatal methedrone intoxications",
+        "url": "https://doi.org/10.1093/jat/34.9.594",
+        "type": "paper",
+        "year": 2010
+      },
+      {
+        "title": "Wikipedia Methedrone",
+        "url": "https://en.wikipedia.org/wiki/Methedrone",
+        "type": "wiki",
+        "year": null
+      },
+      {
+        "title": "Marusich et al. bath-salt cathinones in mice",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3475178/",
+        "type": "paper",
+        "year": 2012
+      },
+      {
+        "title": "Prosser and Nelson bath-salt review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3550219/",
+        "type": "paper",
+        "year": 2012
+      }
+    ],
+    "gaps": [
+      "Tiny human feel corpus.",
+      "Do not treat Wikipedia 26 h half-life as PK (citation needed)."
+    ]
+  },
+  {
+    "id": "3-meomc",
+    "name": "3-MeOMC",
+    "family": "synthetic_cathinone",
+    "subclass": "methoxy_methcathinone",
+    "aliases": [
+      "3-methoxymethcathinone",
+      "3-MOMC"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Weaker 3-MMC with a methoxy. A couple of old-shop posts, then silence.",
+      "rush": {
+        "score": 6,
+        "confidence": "D",
+        "note": "Short sniff report in an old legal-high scrape.",
+        "x": 6
+      },
+      "euphoria": {
+        "score": 11,
+        "confidence": "D",
+        "note": "Empathy / motivation claimed, less than 3-MMC.",
+        "x": 11
+      },
+      "enjoyment": {
+        "score": 10,
+        "confidence": "D",
+        "note": "Not a scene.",
+        "x": 10
+      },
+      "compulsiveness": {
+        "score": 12,
+        "confidence": "D",
+        "note": "Unknown.",
+        "x": 12
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "rush_x": 6,
+      "euphoria_x": 11,
+      "enjoyment_x": 10,
+      "compulsive_x": 12
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "The methoxy that did not get a scare poster.",
+    "sources": [
+      {
+        "title": "Legalhighs.guru 3-MeOMC scrape",
+        "url": "https://legalhighs.guru/3-meomc/",
+        "type": "forum",
+        "year": 2014
+      },
+      {
+        "title": "Analytical panels 3-MeOMC vs methedrone",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9000803/",
+        "type": "paper",
+        "year": 2022
+      }
+    ],
+    "gaps": [
+      "No agency file.",
+      "No Erowid vault."
+    ]
+  },
+  {
+    "id": "2-meomc",
+    "name": "2-MeOMC",
+    "family": "synthetic_cathinone",
+    "subclass": "methoxy_methcathinone",
+    "aliases": [
+      "2-methoxymethcathinone",
+      "2-MOMC"
+    ],
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "feel": {
+      "headline": "Ortho-methoxy twin in the tables. No night.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "A row in the isomer paper.",
+    "sources": [
+      {
+        "title": "Substituted cathinone tables",
+        "url": "https://en.wikipedia.org/wiki/Substituted_cathinone",
+        "type": "wiki",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No human reports found."
+    ]
+  },
+  {
+    "id": "mexedrone",
+    "name": "Mexedrone",
+    "family": "synthetic_cathinone",
+    "subclass": "chain_methoxy_mmc",
+    "aliases": [
+      "3-methoxy-2-(methylamino)-1-(4-methylphenyl)propan-1-one"
+    ],
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "They advertised it like meow. It was not. Smell right, shards right, night missing.",
+      "rush": {
+        "score": 3,
+        "confidence": "A",
+        "note": "Ten to twenty minutes of dizzy meph-headspace that never goes anywhere.",
+        "x": 3
+      },
+      "euphoria": {
+        "score": 6,
+        "confidence": "A",
+        "note": "Consensus flop. A few oral+MPA combo enjoyers do not rewrite the molecule.",
+        "x": 6
+      },
+      "enjoyment": {
+        "score": 4,
+        "confidence": "A",
+        "note": "Tired, sweaty, heart up, no stim. Garbage.",
+        "x": 4
+      },
+      "compulsiveness": {
+        "score": 9,
+        "confidence": "B",
+        "note": "People still burned grams because the ritual said meow. Habit, not reward.",
+        "x": 9
+      },
+      "reinforcement": {
+        "score": 5,
+        "confidence": "A",
+        "note": "Almost nobody reordered."
+      },
+      "rush_x": 3,
+      "euphoria_x": 6,
+      "enjoyment_x": 4,
+      "compulsive_x": 9
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 45,
+        "confidence": "B",
+        "note": "Vasoconstriction and sweat without the party. Crap effects are not benign."
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 55,
+        "confidence": "B",
+        "note": "Elevated HR at nothing doses."
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 80,
+        "confidence": "A",
+        "note": "Sold as street meph in London 2015."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "They advertised it like meow. It was not.",
+    "sources": [
+      {
+        "title": "r/researchchemicals Mexedrone Again",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/3kv8s7/mexedrone_again/",
+        "type": "forum",
+        "year": 2015
+      },
+      {
+        "title": "Bluelight Mexedrone thread",
+        "url": "https://www.bluelight.org/community/threads/mexedrone.764088/",
+        "type": "forum",
+        "year": 2015
+      },
+      {
+        "title": "r/researchchemicals lackluster mexedrone",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/9ug42n/just_boofed_500mg_of_mexedrone_and_even_thats/",
+        "type": "forum",
+        "year": 2018
+      },
+      {
+        "title": "Drugs-Forum mexedrone experiences",
+        "url": "https://drugs-forum.com/threads/mexedrone.273743/",
+        "type": "forum",
+        "year": 2015
+      }
+    ],
+    "gaps": [
+      "Pharmacology papers exist; they do not rescue the street reviews."
+    ]
+  },
+  {
+    "id": "34-dmmc",
+    "name": "3,4-DMMC",
+    "family": "synthetic_cathinone",
+    "subclass": "dimethyl_methcathinone",
+    "aliases": [
+      "3,4-dimethylmethcathinone"
+    ],
+    "research_status": "moderately_documented",
+    "market": "rc_era",
+    "feel": {
+      "headline": "NRG-era leftover. Polish threads wrote falling in love. English threads wrote burn and nothing.",
+      "rush": {
+        "score": 8,
+        "confidence": "B",
+        "note": "I-TREND Poland: smooth onset. Drugs-Forum EN: body pressure then tea-level stim.",
+        "x": 8
+      },
+      "euphoria": {
+        "score": 14,
+        "confidence": "B",
+        "note": "PL: strong euphoria and empathy. EN: very very slight. Split. Do not average hate into a 20.",
+        "x": 14
+      },
+      "enjoyment": {
+        "score": 11,
+        "confidence": "B",
+        "note": "Nasty nose, vinegar sweat, rapid tolerance. Even fans needed mixers.",
+        "x": 11
+      },
+      "compulsiveness": {
+        "score": 14,
+        "confidence": "B",
+        "note": "Boosting talk; tolerance in days. Not 4-MMC gravity.",
+        "x": 14
+      },
+      "reinforcement": {
+        "score": 12,
+        "confidence": "B",
+        "note": "Headshop leftover, not a lasting brand."
+      },
+      "rush_x": 8,
+      "euphoria_x": 14,
+      "enjoyment_x": 11,
+      "compulsive_x": 14
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 45,
+        "confidence": "C",
+        "note": "PL after-effects list includes fear and paranoia."
+      },
+      "aftereffects": {
+        "score": 65,
+        "confidence": "B",
+        "note": "Headache, rhinorrhoea, next-day exhaustion."
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 60,
+        "confidence": "B",
+        "note": "Intracranial-pressure feeling, chest sting. Some said less heart than meow."
+      },
+      "sleep": {
+        "score": 70,
+        "confidence": "B",
+        "note": "Insomnia even when not stimulated."
+      },
+      "mislabel": {
+        "score": 50,
+        "confidence": "C",
+        "note": "NRG-era branded packets. Australia and EU seizures 2010+."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "NRG-era leftover.",
+    "sources": [
+      {
+        "title": "I-TREND 3,4-DMMC briefing",
+        "url": "https://www.ofdt.fr/BDD/publications/docs/I-TREND/I-TREND_WS5_NTF-SWPS_3,4DMMC.pdf",
+        "type": "agency",
+        "year": 2015
+      },
+      {
+        "title": "Drugs-Forum 3,4-DMMC experiences",
+        "url": "https://drugs-forum.com/threads/3-4-dmmc-3-4-dimethylmethcathinone-experiences.160183/",
+        "type": "forum",
+        "year": 2011
+      },
+      {
+        "title": "Ferreira PK-PD-tox 3,4-DMMC",
+        "url": "https://isomerdesign.com/bitnest/external/10.1007/s11419-019-00494-x",
+        "type": "paper",
+        "year": 2019
+      },
+      {
+        "title": "Luethi et al. mephedrone analog pharmacology",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S002839081730357X",
+        "type": "paper",
+        "year": 2018
+      }
+    ],
+    "gaps": [
+      "PL vs EN feel split never resolved with checking.",
+      "2,3 / 2,4 contamination possible."
+    ]
+  },
+  {
+    "id": "24-dmmc",
+    "name": "2,4-DMMC",
+    "family": "synthetic_cathinone",
+    "subclass": "dimethyl_methcathinone",
+    "aliases": [
+      "2,4-dimethylmethcathinone",
+      "2-methylmephedrone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Poland-notified isomer. Reddit 2022: almost certainly worse. Nobody wrote the night.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": "Pharmacology exists. Feel does not."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Legal leftover geometry.",
+    "sources": [
+      {
+        "title": "Synthetic cathinones enantioselectivity review (Poland 2,4-DMMC)",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9000803/",
+        "type": "paper",
+        "year": 2022
+      },
+      {
+        "title": "r/researchchemicals 2,4-DMMC thread",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/ychh8w/24_dimethyl_methcathinone_24_dmmc_anyone_have_any/",
+        "type": "forum",
+        "year": 2022
+      }
+    ],
+    "gaps": [
+      "Zero confirmed human phenomenology."
+    ]
+  },
+  {
+    "id": "23-dmmc",
+    "name": "2,3-DMMC",
+    "family": "synthetic_cathinone",
+    "subclass": "dimethyl_methcathinone",
+    "aliases": [
+      "2,3-dimethylmethcathinone"
+    ],
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "feel": {
+      "headline": "In-vitro cousin. 5-HT2A activation in the dish — a hallucination rumor, not a product.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "A footnote that wants to be a trip.",
+    "sources": [
+      {
+        "title": "Luethi et al. 2018",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S002839081730357X",
+        "type": "paper",
+        "year": 2018
+      }
+    ],
+    "gaps": [
+      "No seizure-as-product story we could lock."
+    ]
+  },
+  {
+    "id": "4-fec",
+    "name": "4-FEC",
+    "family": "synthetic_cathinone",
+    "subclass": "fluoro_ethcathinone",
+    "aliases": [
+      "4-fluoroethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "N-ethyl flephedrone. Lives in urine-assay papers. Not in trip vaults.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Fleph with an extra carbon on the nitrogen. Nobody reviewed it.",
+    "sources": [
+      {
+        "title": "GC-MS methods listing 4-FEC with 4-FMC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9000803/",
+        "type": "forensic",
+        "year": 2022
+      },
+      {
+        "title": "Wikipedia list of designer drugs",
+        "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+        "type": "wiki",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No human feel.",
+      "No EUDA file."
+    ]
+  },
+  {
+    "id": "4-bec",
+    "name": "4-BEC",
+    "family": "synthetic_cathinone",
+    "subclass": "bromo_ethcathinone",
+    "aliases": [
+      "4-bromoethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "rc_era",
+    "feel": {
+      "headline": "Seized and characterized. No poems.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "A bromine on CEC skeleton. A paper, not a playlist.",
+    "sources": [
+      {
+        "title": "Blazewicz et al. seizure characterization including 4-BEC",
+        "url": "https://www.semanticscholar.org/paper/Identification-and-structural-characterization-of-B%C5%82a%C5%BCewicz-Bednarek/5c65981262ef88b43f3fd58eec2d34fc4d560809",
+        "type": "forensic",
+        "year": 2017
+      }
+    ],
+    "gaps": [
+      "No user corpus."
+    ]
+  },
+  {
+    "id": "ethedrone",
+    "name": "Ethedrone",
+    "family": "synthetic_cathinone",
+    "subclass": "methoxy_ethcathinone",
+    "aliases": [
+      "4-MeO-N-ethylcathinone",
+      "4-methoxethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "Methedrone N-ethyl stamp. Named. Not reviewed.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "The methoxy scare, one carbon longer, still no diary.",
+    "sources": [
+      {
+        "title": "Substituted cathinone / designer-drug lists",
+        "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+        "type": "wiki",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No fatality series, no forum megathread found under this name."
+    ]
+  },
+  {
+    "id": "3-fluoromephedrone",
+    "name": "3-fluoromephedrone",
+    "family": "synthetic_cathinone",
+    "subclass": "fluoro_methyl_methcathinone",
+    "aliases": [
+      "3-fluoro-4-methylmethcathinone"
+    ],
+    "research_status": "identity_uncertain",
+    "market": "uncertain",
+    "feel": {
+      "headline": "Wikipedia lists it. A 2025 thread asked anyone tried the new one. Replies described flephedrone.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": "Do not steal 3-FMC or 4-MMC reviews."
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 80,
+        "confidence": "C",
+        "note": "Name collapses into 3-FMC in casual talk."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "If they say 3-fluoromephedrone, they might mean last decade fleph.",
+    "sources": [
+      {
+        "title": "Wikipedia list of designer drugs",
+        "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+        "type": "wiki",
+        "year": null
+      },
+      {
+        "title": "r/researchchemicals 3-fluoromephedrone thread",
+        "url": "https://www.reddit.com/r/researchchemicals/comments/1kba3wi/anyone_tried_the_new_3fluoromephedrone/",
+        "type": "forum",
+        "year": 2025
+      }
+    ],
+    "gaps": [
+      "No forensic monograph confirming a circulating 3-F-4-MMC product distinct from 3-FMC."
+    ]
+  },
+  {
+    "id": "34-dmec",
+    "name": "3,4-DMEC",
+    "family": "synthetic_cathinone",
+    "subclass": "dimethyl_ethcathinone",
+    "aliases": [
+      "3,4-dimethylethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "N-ethyl 3,4-DMMC. In the assay list. Not in the stories.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "DMMC ethyl stamp. Still waiting on a witness.",
+    "sources": [
+      {
+        "title": "Analytical panels listing 3,4-DMEC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9000803/",
+        "type": "forensic",
+        "year": 2022
+      }
+    ],
+    "gaps": [
+      "No human feel."
+    ]
+  },
+  {
+    "id": "24-dmec",
+    "name": "2,4-DMEC",
+    "family": "synthetic_cathinone",
+    "subclass": "dimethyl_ethcathinone",
+    "aliases": [
+      "2,4-dimethylethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "Poland notification, same year as 2,4-DMMC. No nights.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Another Poland letter. Another empty review.",
+    "sources": [
+      {
+        "title": "Poland NPS notifications including 2,4-DMEC",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9000803/",
+        "type": "paper",
+        "year": 2022
+      }
+    ],
+    "gaps": [
+      "No user reports."
+    ]
+  },
+  {
+    "id": "nn-dmmc",
+    "name": "N,N-DMMC",
+    "family": "synthetic_cathinone",
+    "subclass": "n_dimethyl_methcathinone",
+    "aliases": [
+      "4-MDMC",
+      "4-methyl-N,N-dimethylcathinone",
+      "4-methyldimethcathinone"
+    ],
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "feel": {
+      "headline": "Not 3,4-DMMC. Extra methyl on the nitrogen, not the ring. Easy to merge in chatter.",
+      "rush": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "euphoria": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "mislabel": {
+        "score": 70,
+        "confidence": "C",
+        "note": "DMMC in chatter collapses three different molecules."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "If they say DMMC, ask which letters sat where.",
+    "sources": [
+      {
+        "title": "Wikipedia list of designer drugs (4-MDMC)",
+        "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+        "type": "wiki",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No clean street phenomenology under this exact ID."
+    ]
+  }
+]

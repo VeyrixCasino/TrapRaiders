@@ -1,0 +1,2394 @@
+{
+  "assignment_id": 17,
+  "slug": "dissos_diaryl_other",
+  "title": "Diarylethylamine / other dissociative classes",
+  "family": "dissociatives",
+  "subfamily": "diarylethylamine_dxm_n2o_other",
+  "priority_family": "disso",
+  "disclaimer": "Fictional game catalog research. Unitless 0-100 inferences from public reports. Not a manual. No recipes. No how-to-take. No milligram instructions. Pleasure and compulsiveness are independent axes. Families in this file are not analogues of each other.",
+  "scoring": {
+    "scale": "0-100 or null",
+    "pleasure_vs_compulsiveness": "independent",
+    "priority_axes": [
+      "rush",
+      "euphoria",
+      "enjoyment",
+      "compulsiveness"
+    ],
+    "extra_axes": [
+      "dissociation_depth",
+      "warmth",
+      "mania",
+      "confusion"
+    ],
+    "supporting_axes": [
+      "stimulation",
+      "sedation",
+      "disinhibition"
+    ]
+  },
+  "scope": {
+    "include_kit_w": [
+      "diphenidine",
+      "ephenidine",
+      "mxp",
+      "fluorolintane"
+    ],
+    "include_diaryl_relatives": [
+      "isophenidine",
+      "lefetamine",
+      "2cl_diphenidine",
+      "2cl_ephenidine",
+      "2meo_ephenidine"
+    ],
+    "include_isomer_stamps": [
+      "3_mxp",
+      "4_mxp"
+    ],
+    "include_other_families": [
+      "dxm",
+      "dxo",
+      "nitrous_oxide",
+      "memantine",
+      "amantadine",
+      "diethyl_ether"
+    ],
+    "include_thin": [
+      "12_depy",
+      "lanicemine",
+      "remacemide"
+    ],
+    "exclude_ket_likes": [
+      "ketamine",
+      "dck",
+      "2f_dck",
+      "2f_nendck",
+      "nenk",
+      "2meo_ketamine",
+      "2bdck",
+      "tiletamine",
+      "fxe",
+      "hxe"
+    ],
+    "exclude_mxe_oxo": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxipr",
+      "o_pce",
+      "mxm"
+    ],
+    "exclude_pcp_pce": [
+      "pcp",
+      "3meo_pcp",
+      "3ho_pcp",
+      "3me_pcp",
+      "3cl_pcp",
+      "3f_pcp",
+      "4meo_pcp",
+      "pce",
+      "3meo_pce",
+      "3ho_pce",
+      "pcpy",
+      "pcmo",
+      "tcp"
+    ],
+    "exclude_opioids": [
+      "mt45",
+      "ad1211",
+      "diphenpipenol",
+      "salvia",
+      "salvinorin"
+    ],
+    "exclude_other_assignments": [
+      "dph_diphenhydramine",
+      "ghb",
+      "gbl"
+    ]
+  },
+  "families_stay_separate": [
+    {
+      "id": "diarylethylamine",
+      "kit": "W",
+      "door": "flask_rc",
+      "mesh": "fine_powder",
+      "note": "Lefetamine children. 2013-16 legal-ket era. Not MXE analogues even when the bag says MXE."
+    },
+    {
+      "id": "morphinan",
+      "kit": null,
+      "door": "corner_store",
+      "mesh": "bottle_syrup",
+      "note": "DXM / DXO. Not a diphenidine cousin. Not Flask."
+    },
+    {
+      "id": "nitrous_oxide",
+      "kit": null,
+      "door": "club_crate",
+      "mesh": "balloon_charger",
+      "note": "Thirty seconds. Not a powder. Not a wall."
+    },
+    {
+      "id": "aminoadamantane",
+      "kit": null,
+      "door": "pharmacy_diversion",
+      "mesh": "pill",
+      "note": "Memantine / amantadine. Days of fog. Almost no rush."
+    },
+    {
+      "id": "ether",
+      "kit": null,
+      "door": "museum_crate",
+      "mesh": "solvent_historical",
+      "note": "Historical frolic. One dusty dare. Not a tutorial."
+    }
+  ],
+  "remembered_diaryls": {
+    "street_nights_in_order": [
+      "ephenidine",
+      "mxp",
+      "diphenidine"
+    ],
+    "headline_name": "mxp",
+    "name_only": [
+      "fluorolintane"
+    ],
+    "not_remembered": [
+      "isophenidine",
+      "lefetamine",
+      "2cl_diphenidine",
+      "2cl_ephenidine",
+      "2meo_ephenidine",
+      "3_mxp",
+      "4_mxp"
+    ],
+    "note": "Ephenidine is the night people still describe. MXP is the MXE-replacement sticker and the death-certificate name. Diphenidine is the steep liar plus Japan incense headlines. Fluorolintane is one bottle. Everyone else is chemist memory.",
+    "other_families_npcs_name": [
+      "dxm",
+      "nitrous_oxide"
+    ]
+  },
+  "alias_validations": [
+    {
+      "label": "DPH",
+      "also_seen_as": [
+        "DPH"
+      ],
+      "resolves_to": null,
+      "is_separate_agent": true,
+      "collision": "diphenhydramine",
+      "confidence": "high",
+      "note": "Papers sometimes call diphenidine DPH. Street DPH is diphenhydramine (assignment 29). Never print DPH on a diphenidine sign."
+    },
+    {
+      "label": "MXP",
+      "also_seen_as": [
+        "methoxyphenidine",
+        "2-MXP",
+        "2-MeO-diphenidine",
+        "2-MEO-diphenidine"
+      ],
+      "resolves_to": "mxp",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "Sold isomer is 2-MXP. 3-MXP and 4-MXP are lab stamps, not extra headliners."
+    },
+    {
+      "label": "NEDPA",
+      "also_seen_as": [
+        "EPE",
+        "N-ethyldiphenidine"
+      ],
+      "resolves_to": "ephenidine",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "NEDPA is the forensic tag for ephenidine."
+    },
+    {
+      "label": "NPDPA",
+      "also_seen_as": [
+        "isopropylphenidine"
+      ],
+      "resolves_to": "isophenidine",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "NPDPA is isophenidine, not ephenidine."
+    }
+  ],
+  "slider_board": {
+    "diaryl_enjoyment_high_to_low": [
+      "ephenidine",
+      "2cl_ephenidine",
+      "mxp",
+      "diphenidine"
+    ],
+    "diaryl_euphoria_high_to_low": [
+      "ephenidine",
+      "mxp",
+      "diphenidine"
+    ],
+    "file_rush_high_to_low": [
+      "nitrous_oxide",
+      "diethyl_ether",
+      "diphenidine",
+      "ephenidine",
+      "lefetamine",
+      "mxp",
+      "dxm",
+      "memantine"
+    ],
+    "file_compulsiveness_high_to_low": [
+      "nitrous_oxide",
+      "dxm",
+      "diphenidine",
+      "ephenidine",
+      "mxp",
+      "diethyl_ether",
+      "lefetamine",
+      "memantine"
+    ],
+    "notes": [
+      "Do not put DXM or nitrous on the diaryl board.",
+      "Diaryls lose the rush contest to nitrous and do not owe MXE a hug.",
+      "MXP owns the death certificates. Ephenidine owns the poems."
+    ]
+  },
+  "agents": [
+    {
+      "id": "diphenidine",
+      "name": "diphenidine",
+      "full_name": "diphenidine",
+      "substitutive": "1,2-DEP",
+      "systematic": "1-(1,2-diphenylethyl)piperidine",
+      "aliases": [
+        "DPD",
+        "DND",
+        "1,2-DEP"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "piperidine_diaryl",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "kit": "W",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "remembered": true,
+      "remembered_as": "the lie",
+      "scores": {
+        "rush": 42,
+        "euphoria": 48,
+        "enjoyment": 38,
+        "compulsiveness": 55,
+        "dissociation_depth": 70,
+        "warmth": 28,
+        "mania": 55,
+        "confusion": 82,
+        "stimulation": 58,
+        "sedation": 40,
+        "disinhibition": 50
+      },
+      "confidence": 0.68,
+      "one_liner": "Legal ket that lies.",
+      "feel": {
+        "headline": "Legal ket that lies.",
+        "rush": {
+          "score": 42,
+          "confidence": "C",
+          "note": "Not a ket slam by mouth. Slow stairs. Vapor rumor exists; not a how-to."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Low-end tingle then can sour with no warning."
+        },
+        "enjoyment": {
+          "score": 38,
+          "confidence": "B",
+          "note": "Bought as legal ket. Remembered as a bad night."
+        },
+        "compulsiveness": {
+          "score": 55,
+          "confidence": "B",
+          "note": "Steep curve. Chase the hole, get a dumber kidnapping."
+        },
+        "reinforcement": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Session chase, not a lifestyle fiend like O-PCE."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Agitation / confusion in STRIDA-type tox."
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Long residual, next-day dumb."
+        },
+        "psychosis_concern": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Mania/psychosis rumor common to stim-dissos."
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Tachycardia / hypertension in case series."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "Fora said smoke/vapor more than ket-style insufflation. Flag only.",
+      "stim_vs_sedation": "stim-disso walk that can dump into dumb confusion",
+      "flags": [
+        "freakout",
+        "mislabel",
+        "vape_fav"
+      ],
+      "flag_notes": {
+        "mislabel": "Japan herbal incense mixed with synthetic cannabinoids. Also sold as legal ket.",
+        "vape_fav": "ACMD user-fora note. Not a recipe."
+      },
+      "npc_line": "Legal ket that lies.",
+      "sources": [
+        "product_families",
+        "acmd_2023",
+        "wallach_2016",
+        "helander_2015",
+        "pw_diphenidine",
+        "morris_wallach_2014"
+      ],
+      "gaps": [
+        "Solo vs spice-mix harm is muddy.",
+        "DPH alias collides with diphenhydramine."
+      ]
+    },
+    {
+      "id": "ephenidine",
+      "name": "ephenidine",
+      "full_name": "ephenidine",
+      "substitutive": "N-ethyl-1,2-diphenylethylamine",
+      "systematic": "N-ethyl-1,2-diphenylethanamine",
+      "aliases": [
+        "NEDPA",
+        "EPE",
+        "N-ethyldiphenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "open_chain_diaryl",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "kit": "W",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "remembered": true,
+      "remembered_as": "the night",
+      "scores": {
+        "rush": 40,
+        "euphoria": 78,
+        "enjoyment": 82,
+        "compulsiveness": 58,
+        "dissociation_depth": 72,
+        "warmth": 62,
+        "mania": 38,
+        "confusion": 48,
+        "stimulation": 42,
+        "sedation": 55,
+        "disinhibition": 60
+      },
+      "confidence": 0.7,
+      "one_liner": "Not a hole. A kidnapping.",
+      "feel": {
+        "headline": "Not a hole. A kidnapping.",
+        "rush": {
+          "score": 40,
+          "confidence": "C",
+          "note": "A little come-up buzz. The night arrives; it does not punch."
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Highest hug on the diaryl shelf. Cosmic, clear-headed vs DXM/ket."
+        },
+        "enjoyment": {
+          "score": 76,
+          "confidence": "B",
+          "note": "The diaryl people remember. Forced, long, worth the stamp."
+        },
+        "compulsiveness": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Redose listed; acute tolerance kills the encore. Residual keeps them sitting."
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "C",
+          "note": "People come back for the cosmic, not the rush."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Less manic than diphenidine in rumor."
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Days-to-weeks residual / afterglow talk."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": "ER leftover-days stories exist; not the brand."
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Class tachycardia; no ephenidine case series in ACMD."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "Same vapor-faster rumor as the other diaryls. Flag only.",
+      "stim_vs_sedation": "soft body, clearer head, forced dissociation — not a couch-only and not a slam",
+      "flags": [
+        "freakout"
+      ],
+      "flag_notes": {
+        "freakout": "The forced / kidnapping end. House inference."
+      },
+      "npc_line": "Not a hole. A kidnapping.",
+      "sources": [
+        "product_families",
+        "pw_ephenidine",
+        "kang_2016",
+        "bluelight_ephenidine",
+        "bluelight_new_diaryl",
+        "reddit_eph_hole",
+        "acmd_2023",
+        "eiden_2018"
+      ],
+      "gaps": [
+        "Hole-vs-kidnap is forum weather.",
+        "Loved in reports, missing from tox registries — not a safety medal."
+      ]
+    },
+    {
+      "id": "mxp",
+      "name": "MXP",
+      "full_name": "methoxphenidine",
+      "substitutive": "2-MeO-diphenidine",
+      "systematic": "1-[1-(2-methoxyphenyl)-2-phenylethyl]piperidine",
+      "aliases": [
+        "methoxphenidine",
+        "methoxyphenidine",
+        "2-MXP",
+        "2-MeO-diphenidine",
+        "2-MEO-diphenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "piperidine_diaryl",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "kit": "W",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "remembered": true,
+      "remembered_as": "the sticker",
+      "scores": {
+        "rush": 35,
+        "euphoria": 52,
+        "enjoyment": 44,
+        "compulsiveness": 50,
+        "dissociation_depth": 68,
+        "warmth": 40,
+        "mania": 35,
+        "confusion": 74,
+        "stimulation": 48,
+        "sedation": 45,
+        "disinhibition": 42
+      },
+      "confidence": 0.72,
+      "one_liner": "They printed MXE on the hope.",
+      "feel": {
+        "headline": "They printed MXE on the hope.",
+        "rush": {
+          "score": 35,
+          "confidence": "B",
+          "note": "Slow stairs. Spinning / roller-coaster is not a rush."
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Soft vibration plus afterglow fans. Peak vs MXE is the disappointment."
+        },
+        "enjoyment": {
+          "score": 44,
+          "confidence": "B",
+          "note": "Flop as a replacement. Real chemical. Some liked control and afterglow."
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Session redose. Duration-for-days is a trap."
+        },
+        "reinforcement": {
+          "score": 46,
+          "confidence": "C",
+          "note": "People bought the hope, not the encore."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Confusion, agitation, occasional seizure rumor."
+        },
+        "aftereffects": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Van Hout: wave that can last days. Afterglow some defend."
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Hallucinations / paranoia in Euro-DEN-type cases."
+        },
+        "cardiovascular": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Hypertension / tachycardia in tox and Van Hout."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "Early reddit: you cannot treat it like MXE insufflation. Vapor faster. Flag only.",
+      "stim_vs_sedation": "DXM-shaped body, clearer head, long confusing cousin of the MXE they wanted",
+      "flags": [
+        "mislabel",
+        "vape_fav"
+      ],
+      "flag_notes": {
+        "mislabel": "Sold as MXE replacement. 3-MXP/4-MXP are lab isomers, not extra SKUs."
+      },
+      "npc_line": "They printed MXE on the hope.",
+      "sources": [
+        "product_families",
+        "vanhout_2015",
+        "pw_mxp",
+        "who_2mxp",
+        "acmd_2023",
+        "wallach_2016",
+        "mclaughlin_2016",
+        "eiden_2018",
+        "reddit_mxp_vs_mxe"
+      ],
+      "gaps": [
+        "Afterglow fans vs never-again never studied.",
+        "Owns most diaryl death certificates, often poly-drug."
+      ]
+    },
+    {
+      "id": "fluorolintane",
+      "name": "fluorolintane",
+      "full_name": "fluorolintane",
+      "substitutive": "2-F-DPPy",
+      "systematic": "1-[1-(2-fluorophenyl)-2-phenylethyl]pyrrolidine",
+      "aliases": [
+        "2-F-DPPy",
+        "2F-DPPy"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "pyrrolidine_diaryl",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "kit": "W",
+      "sku_role": "dusty_bottle",
+      "card_weight": "thin",
+      "remembered": false,
+      "remembered_as": "one bottle",
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.15,
+      "one_liner": "One bottle.",
+      "feel": {
+        "headline": "One bottle.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not invent a vibe from DAT numbers."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": "Tertiary guide claims more compulsive; not a report pile."
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "npc_line": "One bottle.",
+      "sources": [
+        "product_families",
+        "colestock_2019",
+        "acmd_2023",
+        "reddit_fluorolintane"
+      ],
+      "gaps": [
+        "Human report volume is basically zero.",
+        "ACMD: no WEDINOS, no Euro-DEN, no deaths."
+      ]
+    },
+    {
+      "id": "isophenidine",
+      "name": "isophenidine",
+      "full_name": "isophenidine",
+      "substitutive": "N-isopropyl-1,2-diphenylethylamine",
+      "systematic": "N-(1,2-diphenylethyl)propan-2-amine",
+      "aliases": [
+        "NPDPA",
+        "isopropylphenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "open_chain_diaryl",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "kit": "W",
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.12,
+      "one_liner": "The isopropyl twin. Ask a chemist.",
+      "feel": {
+        "headline": "A lab name. Sweden scheduled it. Nobody wrote the night.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [],
+      "npc_line": "The isopropyl twin. Ask a chemist.",
+      "sources": [
+        "acmd_2023",
+        "wink_2014",
+        "wiki_isophenidine"
+      ],
+      "gaps": [
+        "Identified Germany ~2008. Never a scene."
+      ]
+    },
+    {
+      "id": "lefetamine",
+      "name": "lefetamine",
+      "full_name": "lefetamine",
+      "substitutive": "N,N-dimethyl-1,2-diphenylethylamine",
+      "systematic": "N,N-dimethyl-1,2-diphenylethanamine",
+      "aliases": [
+        "SPA",
+        "Santenol"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "open_chain_diaryl",
+      "research_status": "moderately_documented",
+      "market": "street",
+      "kit": null,
+      "sku_role": "historical_parent",
+      "card_weight": "relative",
+      "remembered": false,
+      "scores": {
+        "rush": 36,
+        "euphoria": 40,
+        "enjoyment": 34,
+        "compulsiveness": 42,
+        "dissociation_depth": 28,
+        "warmth": 22,
+        "mania": 30,
+        "confusion": 25,
+        "stimulation": 58,
+        "sedation": 20,
+        "disinhibition": 35
+      },
+      "confidence": 0.35,
+      "one_liner": "Grandparent in a brown bottle. Not the kidnapping.",
+      "feel": {
+        "headline": "The grandparent. More coffee than hole.",
+        "rush": {
+          "score": 36,
+          "confidence": "D",
+          "note": "Old stim rumor. Not a modern bag."
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Mild. Analgesic history contaminates reviews."
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "D",
+          "note": "Museum shelf."
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "D",
+          "note": "Stim-shaped. Thin modern reports."
+        },
+        "reinforcement": {
+          "score": 38,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "stim_vs_sedation": "stim + weak disso; do not back-port ephenidine magic",
+      "flags": [],
+      "npc_line": "Grandparent in a brown bottle. Not the kidnapping.",
+      "sources": [
+        "acmd_2023",
+        "morris_wallach_2014"
+      ],
+      "gaps": [
+        "Modern RC-era reports almost do not exist."
+      ]
+    },
+    {
+      "id": "2cl_diphenidine",
+      "name": "2-chlorodiphenidine",
+      "full_name": "2-chlorodiphenidine",
+      "substitutive": "2-Cl-DPH",
+      "systematic": "1-[1-(2-chlorophenyl)-2-phenylethyl]piperidine",
+      "aliases": [
+        "2-Cl-DPH",
+        "2-Cl-diphenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "piperidine_diaryl",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "kit": null,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.08,
+      "one_liner": "The lab put a Cl on it. The street did not.",
+      "feel": {
+        "headline": "A halogen on a paper. Not a remembered night.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [],
+      "npc_line": "The lab put a Cl on it. The street did not.",
+      "sources": [
+        "wallach_2016",
+        "acmd_2023"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "2cl_ephenidine",
+      "name": "2-chloro-ephenidine",
+      "full_name": "2-chloro-ephenidine",
+      "substitutive": "2-Cl-ephenidine",
+      "systematic": "2-(2-chlorophenyl)-N-ethyl-1-phenylethylamine",
+      "aliases": [
+        "2-chloro-ephenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "open_chain_diaryl",
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "kit": null,
+      "sku_role": "vendor_moment",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": 55,
+        "enjoyment": 52,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.2,
+      "one_liner": "A week of vendor copy. Not a kidnapping.",
+      "feel": {
+        "headline": "Weaker ephenidine, one Bluelight voice.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 55,
+          "confidence": "D",
+          "note": "Roi: maybe a little more recreational than ephenidine."
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "D",
+          "note": "One comparison, not a scene."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [],
+      "npc_line": "A week of vendor copy. Not a kidnapping.",
+      "sources": [
+        "bluelight_new_diaryl"
+      ],
+      "gaps": [
+        "No forensic pile. Could be a one-shop SKU that died."
+      ]
+    },
+    {
+      "id": "2meo_ephenidine",
+      "name": "2-MeO-ephenidine",
+      "full_name": "2-MeO-ephenidine",
+      "substitutive": "2-MeO-ephenidine",
+      "systematic": null,
+      "aliases": [
+        "2-MeO-ephenidine",
+        "3-MeO-ephenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "open_chain_diaryl",
+      "research_status": "identity_uncertain",
+      "market": "uncertain",
+      "kit": null,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.05,
+      "one_liner": "They could not even agree which carbon.",
+      "feel": {
+        "headline": "A name on a 2014 thread. Even the IUPAC was argued.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [
+        "mislabel"
+      ],
+      "npc_line": "They could not even agree which carbon.",
+      "sources": [
+        "bluelight_new_diaryl"
+      ],
+      "gaps": [
+        "2-MeO vs 3-MeO from the systematic name never cleaned up."
+      ]
+    },
+    {
+      "id": "3_mxp",
+      "name": "3-MXP",
+      "full_name": "3-methoxydiphenidine",
+      "substitutive": "3-MeO-diphenidine",
+      "systematic": "1-[1-(3-methoxyphenyl)-2-phenylethyl]piperidine",
+      "aliases": [
+        "3-methoxphenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "piperidine_diaryl",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "kit": null,
+      "sku_role": "isomer_stamp",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.08,
+      "one_liner": "Same sticker, different carbon. Still not MXE.",
+      "feel": {
+        "headline": "Isomer stamp. The sold bottle was 2-MXP.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [
+        "mislabel"
+      ],
+      "npc_line": "Same sticker, different carbon. Still not MXE.",
+      "sources": [
+        "mclaughlin_2016",
+        "wallach_2016"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "4_mxp",
+      "name": "4-MXP",
+      "full_name": "4-methoxydiphenidine",
+      "substitutive": "4-MeO-diphenidine",
+      "systematic": "1-[1-(4-methoxyphenyl)-2-phenylethyl]piperidine",
+      "aliases": [
+        "4-methoxphenidine"
+      ],
+      "family": "diarylethylamine",
+      "subclass": "piperidine_diaryl",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "kit": null,
+      "sku_role": "isomer_stamp",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.08,
+      "one_liner": "Para-methoxy on a chart. No street feel.",
+      "feel": {
+        "headline": "Isomer stamp. The sold bottle was 2-MXP.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [
+        "mislabel"
+      ],
+      "npc_line": "Para-methoxy on a chart. No street feel.",
+      "sources": [
+        "mclaughlin_2016",
+        "wallach_2016"
+      ],
+      "gaps": []
+    },
+    {
+      "id": "dxm",
+      "name": "DXM",
+      "full_name": "dextromethorphan",
+      "substitutive": "DXM",
+      "systematic": "dextromethorphan",
+      "aliases": [
+        "dextromethorphan",
+        "robo",
+        "tussin"
+      ],
+      "family": "morphinan",
+      "subclass": "dxm",
+      "research_status": "well_documented",
+      "market": "street",
+      "kit": null,
+      "sku_role": "corner_store",
+      "card_weight": "full",
+      "remembered": true,
+      "remembered_as": "the aisle",
+      "scores": {
+        "rush": 28,
+        "euphoria": 58,
+        "enjoyment": 52,
+        "compulsiveness": 70,
+        "dissociation_depth": 75,
+        "warmth": 30,
+        "mania": 35,
+        "confusion": 70,
+        "stimulation": 35,
+        "sedation": 60,
+        "disinhibition": 55
+      },
+      "confidence": 0.9,
+      "one_liner": "Corner-store disso. Not Flask.",
+      "feel": {
+        "headline": "Corner-store disso. Not Flask.",
+        "rush": {
+          "score": 28,
+          "confidence": "A",
+          "note": "No slam. A long greasy climb."
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "A",
+          "note": "Wonky, music, cartoon gravity. Also itchy."
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "A",
+          "note": "Polarizing cheap magic. Do not average never-again into low euphoria."
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "A",
+          "note": "The bottle is in the house. Plateaus are a ladder."
+        },
+        "reinforcement": {
+          "score": 62,
+          "confidence": "A",
+          "note": "Broke-NPC default. Not pyro-fiend."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Public robo-walk is the freakout, not paranoia-first."
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "A",
+          "note": "Next-day wool. Taste lingers in rumor."
+        },
+        "psychosis_concern": {
+          "score": 45,
+          "confidence": "B",
+          "note": "High-platter weird; not PCP mania."
+        },
+        "cardiovascular": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Wonky rest, not a clean knock-out."
+        }
+      },
+      "route_myth": "Oral aisle product. HBr vs polistirex is the same molecule, two clocks — one SKU.",
+      "stim_vs_sedation": "sedating / wonky / robotic. Not a diaryl.",
+      "flags": [
+        "freakout",
+        "redose"
+      ],
+      "flag_notes": {
+        "freakout": "Public robo-walk. House flag.",
+        "mislabel": "Multi-symptom cold bags are a dirtier product, not stronger DXM."
+      },
+      "npc_line": "Corner-store disso. Not Flask.",
+      "sources": [
+        "product_families",
+        "morris_wallach_2014"
+      ],
+      "gaps": [
+        "Do not write combo lists.",
+        "CCC-type bags are a different dirty SKU."
+      ]
+    },
+    {
+      "id": "dxo",
+      "name": "DXO",
+      "full_name": "dextrorphan",
+      "substitutive": "DXO",
+      "systematic": "dextrorphan",
+      "aliases": [
+        "dextrorphan"
+      ],
+      "family": "morphinan",
+      "subclass": "dxo",
+      "research_status": "limited_evidence",
+      "market": "literature_only",
+      "kit": null,
+      "sku_role": "metabolite_lore",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.15,
+      "one_liner": "The ghost inside the syrup.",
+      "feel": {
+        "headline": "The metabolite people cite. Not a stamp.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not copy DXM scores onto a molecule nobody bagged."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [],
+      "npc_line": "That's the ghost inside the syrup. You still bought the syrup.",
+      "sources": [
+        "morris_wallach_2014"
+      ],
+      "gaps": [
+        "Human DXO-only reports are trivia."
+      ]
+    },
+    {
+      "id": "nitrous_oxide",
+      "name": "nitrous oxide",
+      "full_name": "nitrous oxide",
+      "substitutive": "N2O",
+      "systematic": "N2O",
+      "aliases": [
+        "laughing gas",
+        "balloons",
+        "whippets",
+        "chargers",
+        "nitrous"
+      ],
+      "family": "inhaled_gas",
+      "subclass": "nitrous",
+      "research_status": "well_documented",
+      "market": "street",
+      "kit": null,
+      "sku_role": "club_crate",
+      "card_weight": "full",
+      "remembered": true,
+      "remembered_as": "balloons",
+      "scores": {
+        "rush": 92,
+        "euphoria": 80,
+        "enjoyment": 78,
+        "compulsiveness": 90,
+        "dissociation_depth": 70,
+        "warmth": 20,
+        "mania": 15,
+        "confusion": 40,
+        "stimulation": 20,
+        "sedation": 25,
+        "disinhibition": 70
+      },
+      "confidence": 0.92,
+      "one_liner": "Balloons. Thirty seconds.",
+      "feel": {
+        "headline": "Balloons. Thirty seconds. One more charger.",
+        "rush": {
+          "score": 70,
+          "confidence": "A",
+          "note": "The only true rush in this file. Instant dissolve. Then air."
+        },
+        "euphoria": {
+          "score": 72,
+          "confidence": "A",
+          "note": "Giggling, cartoon, music-as-cathedral for a breath."
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "A",
+          "note": "Party noun. Chronic stackers still talk like they had fun until their legs stop."
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "A",
+          "note": "Just one more. Highest fiend in this assignment, lowest duration."
+        },
+        "reinforcement": {
+          "score": 80,
+          "confidence": "A",
+          "note": "The hand learns the motion."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 15,
+          "confidence": "B",
+          "note": "Not a paranoia drug."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "A",
+          "note": "Empty, headache. Chronic: B12 neuropathy pile is paper now."
+        },
+        "psychosis_concern": {
+          "score": 20,
+          "confidence": "C",
+          "note": "Rare vs the nerve story."
+        },
+        "cardiovascular": {
+          "score": 25,
+          "confidence": "C",
+          "note": "Hypoxia / B12-thrombosis case pile exists; not the party story."
+        },
+        "sleep": {
+          "score": 10,
+          "confidence": "B",
+          "note": "Too short."
+        }
+      },
+      "route_myth": "Balloons / chargers / tanks are packaging, not new molecules. Not a how-to.",
+      "stim_vs_sedation": "blink anesthesia. Not a powder disso.",
+      "flags": [
+        "redose"
+      ],
+      "npc_line": "Balloons. Thirty seconds.",
+      "sources": [
+        "product_families",
+        "n2o_b12_review",
+        "erowid_memantine_n2o"
+      ],
+      "gaps": [
+        "Tank vs charger is packaging."
+      ]
+    },
+    {
+      "id": "memantine",
+      "name": "memantine",
+      "full_name": "memantine",
+      "substitutive": "memantine",
+      "systematic": "3,5-dimethyladamantan-1-amine",
+      "aliases": [
+        "Namenda"
+      ],
+      "family": "aminoadamantane",
+      "subclass": "memantine",
+      "research_status": "moderately_documented",
+      "market": "street",
+      "kit": null,
+      "sku_role": "pharmacy_diversion",
+      "card_weight": "full",
+      "remembered": true,
+      "remembered_as": "namenda week",
+      "scores": {
+        "rush": 8,
+        "euphoria": 35,
+        "enjoyment": 48,
+        "compulsiveness": 28,
+        "dissociation_depth": 45,
+        "warmth": 25,
+        "mania": 22,
+        "confusion": 60,
+        "stimulation": 30,
+        "sedation": 40,
+        "disinhibition": 30
+      },
+      "confidence": 0.6,
+      "one_liner": "Namenda week. You will still be on it on Thursday.",
+      "feel": {
+        "headline": "Namenda week. Fog with a prescription font.",
+        "rush": {
+          "score": 8,
+          "confidence": "B",
+          "note": "Glacial. If it rushed them, they stacked something else."
+        },
+        "euphoria": {
+          "score": 35,
+          "confidence": "B",
+          "note": "Mild lift or none. Often just strange."
+        },
+        "enjoyment": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Functional niche vs empty anxiety."
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Too long to binge like ket. People still forget and redose."
+        },
+        "reinforcement": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Anxious fog."
+        },
+        "aftereffects": {
+          "score": 85,
+          "confidence": "B",
+          "note": "Days. That is the product."
+        },
+        "psychosis_concern": {
+          "score": 25,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "Oral pill. Clock is the story, not the route.",
+      "stim_vs_sedation": "long weak fog. Not Kit W. Not DXM. Not a balloon.",
+      "flags": [],
+      "npc_line": "Namenda week. You will still be on it on Thursday.",
+      "sources": [
+        "erowid_memantine_n2o",
+        "acmd_2023"
+      ],
+      "gaps": [
+        "Prescription vs scene clock is a how-to; we only scored shape."
+      ]
+    },
+    {
+      "id": "amantadine",
+      "name": "amantadine",
+      "full_name": "amantadine",
+      "substitutive": "amantadine",
+      "systematic": "adamantan-1-amine",
+      "aliases": [],
+      "family": "aminoadamantane",
+      "subclass": "amantadine",
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "kit": null,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.1,
+      "one_liner": "That's the other adamantane. Nobody asked.",
+      "feel": {
+        "headline": "Flu-shelf leftover. Weaker than the already-weak one.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [],
+      "npc_line": "That's the other adamantane. Nobody asked.",
+      "sources": [],
+      "gaps": [
+        "Recreational file is basically empty."
+      ]
+    },
+    {
+      "id": "diethyl_ether",
+      "name": "diethyl ether",
+      "full_name": "diethyl ether",
+      "substitutive": "ether",
+      "systematic": "ethoxyethane",
+      "aliases": [
+        "ether"
+      ],
+      "family": "inhalant_anesthetic",
+      "subclass": "ether",
+      "research_status": "moderately_documented",
+      "market": "street",
+      "kit": null,
+      "sku_role": "museum_crate",
+      "card_weight": "relative",
+      "remembered": false,
+      "scores": {
+        "rush": 70,
+        "euphoria": 55,
+        "enjoyment": 40,
+        "compulsiveness": 50,
+        "dissociation_depth": 55,
+        "warmth": 15,
+        "mania": 20,
+        "confusion": 50,
+        "stimulation": 25,
+        "sedation": 55,
+        "disinhibition": 60
+      },
+      "confidence": 0.4,
+      "one_liner": "Grandfather's balloon. It smelled like a hospital fire.",
+      "feel": {
+        "headline": "Victorian dare. Museum crate.",
+        "rush": {
+          "score": 70,
+          "confidence": "C",
+          "note": "Historical slam-by-breath. Not a modern bag."
+        },
+        "euphoria": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Giddy, short."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "D",
+          "note": "The smell writes the review."
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Frolic culture was a stack. Thin modern file."
+        },
+        "reinforcement": {
+          "score": 42,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 20,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Reek, hangover."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "Historical inhalant. Not a tutorial.",
+      "flags": [
+        "redose"
+      ],
+      "npc_line": "Grandfather's balloon. It smelled like a hospital fire.",
+      "sources": [],
+      "gaps": [
+        "Must never become a solvent-abuse tutorial."
+      ]
+    },
+    {
+      "id": "12_depy",
+      "name": "1,2-DEPy",
+      "full_name": "1,2-diphenethylpyrrolidine",
+      "substitutive": "1,2-DEPy",
+      "systematic": "1-(1,2-diphenylethyl)pyrrolidine",
+      "aliases": [],
+      "family": "diarylethylamine",
+      "subclass": "pyrrolidine_diaryl",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "kit": null,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "remembered": false,
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "confusion": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null
+      },
+      "confidence": 0.05,
+      "one_liner": "Un-fluorinated fluorolintane parent. No bag.",
+      "feel": {
+        "headline": "ACMD said potential. Nobody stocked it.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "flags": [],
+      "npc_line": "A parent on a chart.",
+      "sources": [
+        "acmd_2023",
+        "colestock_2019"
+      ],
+      "gaps": []
+    }
+  ],
+  "rankings": {
+    "remembered_diaryls": [
+      "ephenidine",
+      "mxp",
+      "diphenidine",
+      "fluorolintane"
+    ],
+    "by_evidence": [
+      "dxm",
+      "nitrous_oxide",
+      "mxp",
+      "diphenidine",
+      "ephenidine",
+      "memantine",
+      "lefetamine",
+      "diethyl_ether",
+      "fluorolintane",
+      "isophenidine"
+    ],
+    "by_enjoyment_scored": [
+      "ephenidine",
+      "nitrous_oxide",
+      "2cl_ephenidine",
+      "dxm",
+      "memantine",
+      "mxp",
+      "diethyl_ether",
+      "diphenidine",
+      "lefetamine"
+    ],
+    "by_euphoria_scored": [
+      "nitrous_oxide",
+      "ephenidine",
+      "dxm",
+      "diethyl_ether",
+      "2cl_ephenidine",
+      "mxp",
+      "diphenidine",
+      "lefetamine",
+      "memantine"
+    ],
+    "by_rush_scored": [
+      "nitrous_oxide",
+      "diethyl_ether",
+      "diphenidine",
+      "ephenidine",
+      "lefetamine",
+      "mxp",
+      "dxm",
+      "memantine"
+    ],
+    "by_compulsiveness_scored": [
+      "nitrous_oxide",
+      "dxm",
+      "ephenidine",
+      "diphenidine",
+      "mxp",
+      "diethyl_ether",
+      "lefetamine",
+      "memantine"
+    ],
+    "note": "Evidence ranking is not a fun ranking. MXP owns certificates. Ephenidine owns poems. Nitrous owns the rush and the charger pile."
+  },
+  "counts": {
+    "full_cards": 6,
+    "relative_cards": 2,
+    "thin_null_cards": 9,
+    "scored_agents": 9,
+    "named_agents": 17,
+    "remembered_diaryls": 3,
+    "families": 5
+  },
+  "coverage": {
+    "searched": [
+      "wiki/product_families.md Kit W + disso feel cards",
+      "ACMD diphenidine review 2023 + Home Secretary letter",
+      "WHO ECDD 2-MeO-diphenidine critical review",
+      "Wallach 2016 PLoS ONE; Wallach 2015 DTA; McLaughlin 2016 2/3/4-MXP",
+      "Kang 2016 ephenidine; Colestock/Wallach 2019 fluorolintane",
+      "Van Hout 2015 Word of mouse; Eiden 2018; Helander STRIDA 2015",
+      "Morris & Wallach 2014; Wink 2014 NEDPA/NPDPA",
+      "PsychonautWiki Diphenidine / Ephenidine / Methoxphenidine (Fluorolintane 404)",
+      "Bluelight ephenidine Big & Dandy + 2014 new diaryl RC thread",
+      "reddit ephenidine hole, MXP vs MXE, fluorolintane one-week",
+      "Erowid MXP / memantine+N2O; N2O-B12 systematic review",
+      "Wikipedia isophenidine"
+    ],
+    "scored": [
+      "diphenidine",
+      "ephenidine",
+      "mxp",
+      "dxm",
+      "nitrous_oxide",
+      "memantine",
+      "lefetamine",
+      "diethyl_ether",
+      "2cl_ephenidine"
+    ],
+    "named_mostly_null": [
+      "fluorolintane",
+      "isophenidine",
+      "2cl_diphenidine",
+      "2meo_ephenidine",
+      "3_mxp",
+      "4_mxp",
+      "dxo",
+      "amantadine",
+      "12_depy"
+    ],
+    "alias_resolved": [
+      "MXP=2-MXP",
+      "NEDPA=ephenidine",
+      "NPDPA=isophenidine",
+      "DPH collision with diphenhydramine"
+    ],
+    "not_duplicated": [
+      "ket_likes",
+      "mxe_oxo",
+      "pcp_pce",
+      "diaryl_opioids",
+      "salvia",
+      "dph"
+    ],
+    "strength": "Three diaryls have stable street language (lie / hope / kidnapping) matching the house contract. MXP has the paper trail. DXM and nitrous are culturally saturated.",
+    "weakness": "Ephenidine is loved in trip reports and thin in tox registries. Fluorolintane/isophenidine are names. DAT-heavy bench data is not a feel card."
+  },
+  "gaps": [
+    "No head-to-head human study of ephenidine vs MXP vs diphenidine.",
+    "Ephenidine hole-vs-kidnap split unresolved; house inference stays kidnapping.",
+    "MXP 3-/4-isomer bags are a lab story, not a second scene.",
+    "2-MeO-ephenidine identity (2 vs 3) never cleaned up.",
+    "Fluorolintane human file is empty.",
+    "Diaryl urotoxicity: ACMD says no evidence. Do not advertise safety.",
+    "DXO-as-product is almost certainly not a Port Rook SKU.",
+    "Memantine recreational vs prescription clock is a how-to; shape only.",
+    "Ether crate must never become a tutorial.",
+    "Japan incense deaths are poly-bags (diaryl + synthetic cannabinoid)."
+  ],
+  "one_liners": {
+    "ephenidine": "Not a hole. A kidnapping.",
+    "mxp": "They printed MXE on the hope.",
+    "diphenidine": "Legal ket that lies.",
+    "fluorolintane": "One bottle.",
+    "isophenidine": "The isopropyl twin. Ask a chemist.",
+    "lefetamine": "Grandparent in a brown bottle.",
+    "dxm": "Corner-store disso. Not Flask.",
+    "dxo": "The ghost inside the syrup.",
+    "nitrous_oxide": "Balloons. Thirty seconds.",
+    "memantine": "Namenda week. Still on it Thursday.",
+    "diethyl_ether": "Grandfather's balloon. It smelled like a hospital fire."
+  },
+  "sources": [
+    {
+      "id": "product_families",
+      "kind": "house",
+      "title": "wiki/product_families.md Kit W / disso feel cards",
+      "path": "wiki/product_families.md"
+    },
+    {
+      "id": "acmd_2023",
+      "kind": "paper",
+      "title": "ACMD review of the evidence on the use and harms of diphenidine",
+      "url": "https://www.gov.uk/government/publications/acmd-review-of-the-evidence-on-the-use-and-harms-of-diphenidine"
+    },
+    {
+      "id": "who_2mxp",
+      "kind": "paper",
+      "title": "WHO ECDD 43rd critical review: 2-MEO-diphenidine",
+      "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/43rd-ecdd/2-meo-diphenidine-report-final-a.pdf"
+    },
+    {
+      "id": "wallach_2016",
+      "kind": "paper",
+      "title": "Pharmacological investigations of diphenidine, methoxphenidine and analogues",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4912077/"
+    },
+    {
+      "id": "wallach_2015",
+      "kind": "paper",
+      "title": "Characterization of diphenidine, its pyrrolidine analogue, and 2,2-diphenylethyl isomers",
+      "cite": "Drug Test Anal. 2015;7(5):358-367"
+    },
+    {
+      "id": "mclaughlin_2016",
+      "kind": "paper",
+      "title": "2-MXP and differentiation from 3- and 4-methoxydiphenidine isomers",
+      "cite": "Drug Test Anal. 2016;8(1):98-109"
+    },
+    {
+      "id": "kang_2016",
+      "kind": "paper",
+      "title": "Ephenidine: a new psychoactive agent with ketamine-like NMDA receptor antagonist properties",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5084681/"
+    },
+    {
+      "id": "colestock_2019",
+      "kind": "paper",
+      "title": "Pharmacological characterizations of the legal high fluorolintane and isomers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6899220/"
+    },
+    {
+      "id": "vanhout_2015",
+      "kind": "paper",
+      "title": "Word of mouse: indigenous harm reduction and online consumerism of methoxphenidine",
+      "cite": "J Psychoactive Drugs. 2015;47(1):30-41"
+    },
+    {
+      "id": "eiden_2018",
+      "kind": "paper",
+      "title": "Ephenidine, diphenidine, and methoxphenidine complications reported to the French Addictovigilance Network",
+      "cite": "Fundam Clin Pharmacol. 2018"
+    },
+    {
+      "id": "helander_2015",
+      "kind": "paper",
+      "title": "STRIDA: diphenidine and methoxphenidine intoxications",
+      "cite": "Clin Toxicol. 2015"
+    },
+    {
+      "id": "morris_wallach_2014",
+      "kind": "paper",
+      "title": "From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs",
+      "cite": "Drug Test Anal. 2014;6(7-8):614-632"
+    },
+    {
+      "id": "wink_2014",
+      "kind": "paper",
+      "title": "Lefetamine-derived designer drugs NEDPA and NPDPA: metabolism and detectability",
+      "cite": "Drug Test Anal. 2014;6(10):1038-1048"
+    },
+    {
+      "id": "pw_diphenidine",
+      "kind": "wiki",
+      "title": "PsychonautWiki Diphenidine",
+      "url": "https://psychonautwiki.org/wiki/Diphenidine"
+    },
+    {
+      "id": "pw_ephenidine",
+      "kind": "wiki",
+      "title": "PsychonautWiki Ephenidine",
+      "url": "https://psychonautwiki.org/wiki/Ephenidine"
+    },
+    {
+      "id": "pw_mxp",
+      "kind": "wiki",
+      "title": "PsychonautWiki Methoxphenidine",
+      "url": "https://psychonautwiki.org/wiki/Methoxphenidine"
+    },
+    {
+      "id": "bluelight_ephenidine",
+      "kind": "thread",
+      "title": "The Big & Dandy Ephenidine Thread",
+      "url": "https://www.bluelight.org/community/threads/the-big-dandy-ephenidine-n-ethyl-1-2-diphenylethylamine-thread.766110/"
+    },
+    {
+      "id": "bluelight_new_diaryl",
+      "kind": "thread",
+      "title": "New dissociative RCs: ephenidine, 2-chloro-ephenidine, 2-MeO-ephenidine",
+      "url": "https://www.bluelight.org/community/threads/new-dissociative-rcs-ephenidine-2-chloro-ephenidine-and-2-meo-ephenidine.744515/"
+    },
+    {
+      "id": "reddit_eph_hole",
+      "kind": "thread",
+      "title": "You can hole on Ephenidine and it is amazing",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/47bp7g/you_can_hole_on_ephenidine_and_it_is_amazing/"
+    },
+    {
+      "id": "reddit_mxp_vs_mxe",
+      "kind": "thread",
+      "title": "Anyone have experience with Methoxphenidine (MXP) how does it stack against DXM and MXE?",
+      "url": "https://www.reddit.com/r/Drugs/comments/20gjib/anyone_have_experience_with_methoxphenidinemxp/"
+    },
+    {
+      "id": "reddit_fluorolintane",
+      "kind": "thread",
+      "title": "Experience with Fluorolintane?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/fe78zn/experience_with_fluorolintane/"
+    },
+    {
+      "id": "erowid_memantine_n2o",
+      "kind": "experience",
+      "title": "Memantine & Nitrous Oxide — Just the Kick in the Teeth I Was Looking For",
+      "url": "https://www.erowid.org/experiences/exp.php?ID=114110"
+    },
+    {
+      "id": "n2o_b12_review",
+      "kind": "paper",
+      "title": "Toxic legacy of recreational nitrous oxide use: B12 deficiency systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42306345/"
+    },
+    {
+      "id": "wiki_isophenidine",
+      "kind": "wiki",
+      "title": "Wikipedia: Isophenidine / NPDPA",
+      "url": "https://en.wikipedia.org/wiki/Isopropylphenidine"
+    }
+  ]
+}

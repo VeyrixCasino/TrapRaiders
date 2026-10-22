@@ -1,0 +1,4811 @@
+{
+  "assignment": "27_28",
+  "title": "Cannabinoids — spice + phytocannabinoids / hemp semisynthetics",
+  "disclaimer": "Game catalog. Not a cookbook. No recipes, doses, or injection SOP. Scores 0-100 or null. Unknown is null, never 0. Spice is compulsive/nasty, not fun.",
+  "rules": [
+    "no_recipes",
+    "no_doses",
+    "no_opioids",
+    "spice_is_nasty_not_fun",
+    "pharma_similarity_is_not_family"
+  ],
+  "lead_axes": [
+    "rush",
+    "euphoria",
+    "compulsiveness",
+    "enjoyment"
+  ],
+  "nomenclature_merges": [
+    {
+      "id": "jwh_018",
+      "same": [
+        "AM-678"
+      ],
+      "not": [
+        "AM-2201",
+        "JWH-073",
+        "THJ-018"
+      ]
+    },
+    {
+      "id": "am_2201",
+      "same": [
+        "5-fluoro-JWH-018"
+      ],
+      "not": [
+        "JWH-018",
+        "MAM-2201"
+      ]
+    },
+    {
+      "id": "xlr_11",
+      "same": [
+        "5F-UR-144"
+      ],
+      "not": [
+        "UR-144"
+      ]
+    },
+    {
+      "id": "5f_adb",
+      "same": [
+        "5F-MDMB-PINACA",
+        "MDMB-5F-PINACA"
+      ],
+      "not": [
+        "5F-MDMB-PICA",
+        "5F-AMB"
+      ]
+    },
+    {
+      "id": "amb_fubinaca",
+      "same": [
+        "FUB-AMB",
+        "MMB-FUBINACA"
+      ],
+      "not": [
+        "AB-FUBINACA",
+        "ADB-FUBINACA"
+      ]
+    },
+    {
+      "id": "adb_butinaca",
+      "same": [
+        "ADB-BINACA"
+      ],
+      "not": [
+        "ADB-PINACA"
+      ]
+    },
+    {
+      "id": "4f_mdmb_binaca",
+      "same": [
+        "4F-MDMB-BUTINACA"
+      ],
+      "not": [
+        "5F-MDMB-PINACA"
+      ]
+    },
+    {
+      "id": "apinaca",
+      "same": [
+        "AKB48"
+      ],
+      "not": [
+        "5F-APINACA",
+        "APICA"
+      ]
+    },
+    {
+      "id": "adb_chminaca",
+      "same": [
+        "MAB-CHMINACA"
+      ],
+      "not": [
+        "AB-CHMINACA"
+      ]
+    },
+    {
+      "id": "cumyl_pegaclone",
+      "same": [
+        "SGT-78"
+      ],
+      "not": [
+        "CUMYL-4CN-BINACA"
+      ]
+    },
+    {
+      "id": "bzo_hexoxizid",
+      "same": [
+        "MDA-19"
+      ],
+      "not": [
+        "BZO-POXIZID"
+      ]
+    },
+    {
+      "id": "thc",
+      "same": [
+        "delta-9-THC",
+        "dronabinol"
+      ],
+      "not": [
+        "delta-8",
+        "THCP",
+        "spice"
+      ]
+    },
+    {
+      "id": "hhc",
+      "same": [
+        "hexahydrocannabinol"
+      ],
+      "not": [
+        "HHC-O",
+        "HHC-P"
+      ]
+    }
+  ],
+  "identity_uncertain_names": [
+    "Spice",
+    "K2",
+    "Black Mamba",
+    "AK-47",
+    "synthetic marijuana"
+  ],
+  "names_only_27": [
+    "JWH-015",
+    "JWH-019",
+    "JWH-020",
+    "JWH-200",
+    "JWH-203",
+    "JWH-251",
+    "JWH-307",
+    "JWH-398",
+    "AM-679",
+    "AM-1248",
+    "AM-2233",
+    "MAM-2201",
+    "EAM-2201",
+    "A-796260",
+    "A-834735",
+    "XLR-12",
+    "FAB-144",
+    "BB-22",
+    "FUB-PB-22",
+    "NM-2201",
+    "THJ-018",
+    "THJ-2201",
+    "STS-135",
+    "APICA",
+    "PX-1",
+    "PX-2",
+    "APP-BINACA",
+    "5F-APP-PICA",
+    "ADB-4en-PINACA",
+    "ADB-HEXINACA",
+    "BZO-POXIZID",
+    "5F-BZO-POXIZID",
+    "BZO-CHMOXIZID",
+    "WIN 55,212-2",
+    "CP 55,940",
+    "HU-211",
+    "MDMB-INACA",
+    "ADB-INACA"
+  ],
+  "names_only_28": [
+    "THC-H",
+    "THC-B",
+    "THC-JD",
+    "THC-X",
+    "PHC",
+    "HHC-P-O-A",
+    "THCP-O",
+    "delta-11-THC"
+  ],
+  "forensic_not_skus": [
+    "MDMB-INACA",
+    "ADB-INACA",
+    "MDMB-5Br-INACA"
+  ],
+  "generations_27": [
+    "0_cp_hu",
+    "1_jwh",
+    "1b_am",
+    "2_ur",
+    "2b_ester",
+    "3_pinaca",
+    "3b_fubinaca",
+    "3c_chm",
+    "4_adb_mdmb",
+    "4b_cumyl",
+    "5_post2021"
+  ],
+  "substances": [
+    {
+      "id": "cp_47497",
+      "name": "CP 47,497",
+      "family": "synthetic_cannabinoid",
+      "subclass": "cp_hu_classical",
+      "aliases": [
+        "CP-47,497",
+        "CP 47,497-C8 homolog"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "The other powder in the first Spice tin.",
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Smoked herb onset, not a stim snap."
+        },
+        "euphoria": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "Before they named the generations, this was already in the tin.",
+      "sources": [
+        {
+          "title": "Auwärter et al. Spice",
+          "url": "https://doi.org/10.1002/jms.1558",
+          "type": "paper",
+          "year": 2009
+        },
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Almost nobody wrote a CP-only trip."
+      ],
+      "generation": "0_cp_hu",
+      "card": "full"
+    },
+    {
+      "id": "hu_210",
+      "name": "HU-210",
+      "family": "synthetic_cannabinoid",
+      "subclass": "cp_hu_classical",
+      "aliases": [
+        "HU210"
+      ],
+      "research_status": "limited_evidence",
+      "market": "literature_only",
+      "feel": {
+        "headline": "Paper monster. Almost never a bag.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Museum bottle. If a vendor printed it, believe the lab last.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "No usable feel corpus."
+      ],
+      "generation": "0_cp_hu",
+      "card": "thin"
+    },
+    {
+      "id": "jwh_018",
+      "name": "JWH-018",
+      "family": "synthetic_cannabinoid",
+      "subclass": "jwh_naphthoylindole",
+      "aliases": [
+        "AM-678"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The one that taught the world Spice was not incense.",
+        "rush": {
+          "score": 64,
+          "confidence": "A",
+          "note": "Smoked CB1 punch. Not cocaine."
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "A",
+          "note": "Real stoned lift, short window."
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Highest fun on the spice wall."
+        },
+        "compulsiveness": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Bowl, cone, cone."
+        },
+        "reinforcement": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "A",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke mislabel",
+      "npc_line": "First Spice. Strong weed that files a complaint.",
+      "sources": [
+        {
+          "title": "Auwärter 2009",
+          "url": "https://doi.org/10.1002/jms.1558",
+          "type": "paper",
+          "year": 2009
+        },
+        {
+          "title": "Erowid JWH-018",
+          "url": "https://www.erowid.org/chemicals/jwh_018/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Brand-on-the-tin is not the molecule."
+      ],
+      "generation": "1_jwh",
+      "card": "full"
+    },
+    {
+      "id": "jwh_073",
+      "name": "JWH-073",
+      "family": "synthetic_cannabinoid",
+      "subclass": "jwh_naphthoylindole",
+      "aliases": [
+        "butyl-JWH-018"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "018's shorter cousin. Same night, less legend.",
+        "rush": {
+          "score": 52,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "018's understudy. Same stage, smaller part.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Often mixed with 018."
+      ],
+      "generation": "1_jwh",
+      "card": "full"
+    },
+    {
+      "id": "jwh_081",
+      "name": "JWH-081",
+      "family": "synthetic_cannabinoid",
+      "subclass": "jwh_naphthoylindole",
+      "aliases": [
+        "4-methoxy-JWH-018"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Methoxy Huffman stamp.",
+        "rush": {
+          "score": 58,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "They added a methoxy. They did not add joy.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Mixes."
+      ],
+      "generation": "1_jwh",
+      "card": "full"
+    },
+    {
+      "id": "jwh_122",
+      "name": "JWH-122",
+      "family": "synthetic_cannabinoid",
+      "subclass": "jwh_naphthoylindole",
+      "aliases": [
+        "4-methyl-JWH-018"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Methyl Huffman stamp. Heavier rumor.",
+        "rush": {
+          "score": 58,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "They added a methyl. They did not add joy.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Mixes."
+      ],
+      "generation": "1_jwh",
+      "card": "full"
+    },
+    {
+      "id": "jwh_210",
+      "name": "JWH-210",
+      "family": "synthetic_cannabinoid",
+      "subclass": "jwh_naphthoylindole",
+      "aliases": [
+        "4-ethyl-JWH-018"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Ethyl Huffman stamp. Hotter.",
+        "rush": {
+          "score": 58,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "Heavier stamp. Same complaint.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Mixes."
+      ],
+      "generation": "1_jwh",
+      "card": "full"
+    },
+    {
+      "id": "jwh_250",
+      "name": "JWH-250",
+      "family": "synthetic_cannabinoid",
+      "subclass": "jwh_phenylacetyl",
+      "aliases": [],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Different linker. Still Spice.",
+        "rush": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 68,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "Different linker. Same lighter.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Small solo-report pile."
+      ],
+      "generation": "1_jwh",
+      "card": "full"
+    },
+    {
+      "id": "am_2201",
+      "name": "AM-2201",
+      "family": "synthetic_cannabinoid",
+      "subclass": "am_fluoro_jwh",
+      "aliases": [
+        "5-fluoro-JWH-018"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "018 after they put a fluoro on the tail. The panic upgrade.",
+        "rush": {
+          "score": 56,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 65,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke vape_fav freakout",
+      "npc_line": "018's fluoro cousin who ruins parties.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        },
+        {
+          "title": "UN 2015 AM-2201",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "Leaf potency lottery."
+      ],
+      "generation": "1b_am",
+      "card": "full"
+    },
+    {
+      "id": "am_694",
+      "name": "AM-694",
+      "family": "synthetic_cannabinoid",
+      "subclass": "am_series",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Iodo stamp. Seized. Almost no honest review.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A name on a control list. Not a night.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Do not clone AM-2201."
+      ],
+      "generation": "1b_am",
+      "card": "thin"
+    },
+    {
+      "id": "am_1220",
+      "name": "AM-1220",
+      "family": "synthetic_cannabinoid",
+      "subclass": "am_series",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Early AM leftover. Thin bag, thinner poems.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Catalog cousin. Don't invent a personality.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Mix-ups with AM-2201."
+      ],
+      "generation": "1b_am",
+      "card": "thin"
+    },
+    {
+      "id": "ur_144",
+      "name": "UR-144",
+      "family": "synthetic_cannabinoid",
+      "subclass": "ur_cyclopropyl",
+      "aliases": [
+        "TMCP-018"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Cyclopropyl Spice. Shorter, colder, less weed.",
+        "rush": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "They replaced the naphthoyl. They also replaced the point.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        },
+        {
+          "title": "UN 2018 UR-144",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Often mixed with XLR-11."
+      ],
+      "generation": "2_ur",
+      "card": "full"
+    },
+    {
+      "id": "xlr_11",
+      "name": "XLR-11",
+      "family": "synthetic_cannabinoid",
+      "subclass": "ur_cyclopropyl",
+      "aliases": [
+        "5F-UR-144"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The kidney-scare fluoro. Short, greedy, unloved.",
+        "rush": {
+          "score": 56,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 26,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "A",
+          "note": "CDC AKI cluster."
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "vape_fav smoke freakout",
+      "npc_line": "Rocket fuel on oregano. Then the hospital.",
+      "sources": [
+        {
+          "title": "CDC MMWR XLR-11 AKI",
+          "url": "https://www.cdc.gov/mmwr",
+          "type": "agency",
+          "year": 2013
+        }
+      ],
+      "gaps": [
+        "Often multi-SCRA."
+      ],
+      "generation": "2_ur",
+      "card": "full"
+    },
+    {
+      "id": "pb_22",
+      "name": "PB-22",
+      "family": "synthetic_cannabinoid",
+      "subclass": "quinoline_ester",
+      "aliases": [
+        "QUPIC"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Quinoline ester. Legal JWH that still put people on the floor.",
+        "rush": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "A different linker so the law tripped. The body did not care.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Solo feel thin."
+      ],
+      "generation": "2b_ester",
+      "card": "full"
+    },
+    {
+      "id": "5f_pb_22",
+      "name": "5F-PB-22",
+      "family": "synthetic_cannabinoid",
+      "subclass": "quinoline_ester",
+      "aliases": [
+        "5-fluoro-PB-22"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fluoro quinoline ester. UN 2018.",
+        "rush": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 72,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke freakout",
+      "npc_line": "The fluoro that still emptied rooms.",
+      "sources": [
+        {
+          "title": "UN 2018 5F-PB-22",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Fatality notes outrun fun."
+      ],
+      "generation": "2b_ester",
+      "card": "full"
+    },
+    {
+      "id": "apinaca",
+      "name": "APINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca_adamantyl",
+      "aliases": [
+        "AKB48",
+        "AKB-48"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Adamantyl. Named like an idol group. Felt like a bad idea.",
+        "rush": {
+          "score": 54,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 68,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "AKB48. The only cute thing about it is the sticker.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Japanese incense mix bags."
+      ],
+      "generation": "3_pinaca",
+      "card": "full"
+    },
+    {
+      "id": "5f_apinaca",
+      "name": "5F-APINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca_adamantyl",
+      "aliases": [
+        "5F-AKB48"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fluoro AKB48. UN 2017.",
+        "rush": {
+          "score": 56,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 52,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "Same idol sticker. Worse fluoro.",
+      "sources": [
+        {
+          "title": "UN 2017 5F-APINACA",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2017
+        }
+      ],
+      "gaps": [],
+      "generation": "3_pinaca",
+      "card": "full"
+    },
+    {
+      "id": "ab_pinaca",
+      "name": "AB-PINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca",
+      "aliases": [],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The first indazole that made Spice a medical story.",
+        "rush": {
+          "score": 66,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 78,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 62,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke spray mislabel",
+      "npc_line": "This is where legal weed stopped pretending.",
+      "sources": [
+        {
+          "title": "UN 2018 AB-PINACA",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Leaf dose lottery."
+      ],
+      "generation": "3_pinaca",
+      "card": "full"
+    },
+    {
+      "id": "5f_ab_pinaca",
+      "name": "5F-AB-PINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca",
+      "aliases": [],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fluoro AB-PINACA. Same crime.",
+        "rush": {
+          "score": 64,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 26,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 78,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "AB with a fluoro. Still not weed.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [],
+      "generation": "3_pinaca",
+      "card": "full"
+    },
+    {
+      "id": "adb_pinaca",
+      "name": "ADB-PINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca",
+      "aliases": [],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "AB's tert-butyl cousin. Meaner headlines.",
+        "rush": {
+          "score": 68,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 65,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke freakout",
+      "npc_line": "Same wall. Worse headlines.",
+      "sources": [
+        {
+          "title": "CDC ADB-PINACA outbreak notes",
+          "url": "https://www.cdc.gov",
+          "type": "agency",
+          "year": 2013
+        }
+      ],
+      "gaps": [
+        "Brand-on-the-tin."
+      ],
+      "generation": "3_pinaca",
+      "card": "full"
+    },
+    {
+      "id": "5f_adb",
+      "name": "5F-ADB",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca",
+      "aliases": [
+        "5F-MDMB-PINACA",
+        "MDMB-5F-PINACA"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The death-stamp PINACA. Compulsive, not a treat.",
+        "rush": {
+          "score": 58,
+          "confidence": "A",
+          "note": "Violent smoked onset."
+        },
+        "euphoria": {
+          "score": 24,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 78,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 76,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 75,
+          "confidence": "A",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 88,
+          "confidence": "A",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke freakout OD",
+      "npc_line": "Not a high. A blackout with extra steps.",
+      "sources": [
+        {
+          "title": "UN 2018 5F-MDMB-PINACA",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2018
+        },
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Potency lottery."
+      ],
+      "generation": "3_pinaca",
+      "card": "full"
+    },
+    {
+      "id": "5f_amb",
+      "name": "5F-AMB",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca",
+      "aliases": [
+        "5F-AMB-PINACA",
+        "5F-MMB-PINACA"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "5F-ADB's valinate cousin.",
+        "rush": {
+          "score": 64,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 82,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "The other 5-fluoro that emptied rooms.",
+      "sources": [
+        {
+          "title": "UN 2020 5F-AMB-PINACA",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2020
+        }
+      ],
+      "gaps": [
+        "Confused with 5F-ADB."
+      ],
+      "generation": "3_pinaca",
+      "card": "full"
+    },
+    {
+      "id": "ab_fubinaca",
+      "name": "AB-FUBINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "fubinaca",
+      "aliases": [],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Fluorobenzyl AB. Workhorse before the zombie stamp.",
+        "rush": {
+          "score": 62,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 26,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke spray mislabel",
+      "npc_line": "K2 when the lab is being honest.",
+      "sources": [
+        {
+          "title": "UN 2020 AB-FUBINACA",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2020
+        }
+      ],
+      "gaps": [
+        "Mix-ups with ADB-/AMB-."
+      ],
+      "generation": "3b_fubinaca",
+      "card": "full"
+    },
+    {
+      "id": "adb_fubinaca",
+      "name": "ADB-FUBINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "fubinaca",
+      "aliases": [],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "ADB on the FUB tail. Same ambulance.",
+        "rush": {
+          "score": 66,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 82,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "AB-FUB's meaner twin. Do not merge the bottles.",
+      "sources": [
+        {
+          "title": "UN 2019 ADB-FUBINACA",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "Sticker collision with AMB-FUBINACA."
+      ],
+      "generation": "3b_fubinaca",
+      "card": "full"
+    },
+    {
+      "id": "amb_fubinaca",
+      "name": "AMB-FUBINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "fubinaca",
+      "aliases": [
+        "FUB-AMB",
+        "MMB-FUBINACA"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "AK-47 24 Karat Gold. The zombie stamp. Not a party.",
+        "rush": {
+          "score": 56,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 12,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 75,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 90,
+          "confidence": "A",
+          "note": "Zombie / stupor outbreak."
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "spray mislabel freakout OD",
+      "npc_line": "They called it gold. People folded in the street.",
+      "sources": [
+        {
+          "title": "NYC 2016 AMB-FUBINACA outbreak",
+          "url": "https://www.nyc.gov",
+          "type": "agency",
+          "year": 2016
+        }
+      ],
+      "gaps": [
+        "AK-47 is not a molecule."
+      ],
+      "generation": "3b_fubinaca",
+      "card": "full"
+    },
+    {
+      "id": "mdmb_fubinaca",
+      "name": "MDMB-FUBINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "fubinaca",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "MDMB on FUB. Seized. Thin feel.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Another FUB stamp. No poems.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Empty subjective file."
+      ],
+      "generation": "3b_fubinaca",
+      "card": "thin"
+    },
+    {
+      "id": "ab_chminaca",
+      "name": "AB-CHMINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "chminaca",
+      "aliases": [],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Cyclohexylmethyl AB. EU risk-assessment chemical.",
+        "rush": {
+          "score": 64,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 32,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 24,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "The CHM stamp. Same demon, different tail.",
+      "sources": [
+        {
+          "title": "EMCDDA AB-CHMINACA RA",
+          "url": "https://www.euda.europa.eu",
+          "type": "agency",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "Leaf lottery."
+      ],
+      "generation": "3c_chm",
+      "card": "full"
+    },
+    {
+      "id": "adb_chminaca",
+      "name": "ADB-CHMINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "chminaca",
+      "aliases": [
+        "MAB-CHMINACA"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "MAB. Not a second molecule. Mean CHMINACA.",
+        "rush": {
+          "score": 66,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 82,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "If the bag says MAB, it's this. Still not weed.",
+      "sources": [
+        {
+          "title": "EU 2018 ADB-CHMINACA",
+          "url": "https://www.euda.europa.eu",
+          "type": "agency",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "MAB vs ADB sticker."
+      ],
+      "generation": "3c_chm",
+      "card": "full"
+    },
+    {
+      "id": "mdmb_chmica",
+      "name": "MDMB-CHMICA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "chmica",
+      "aliases": [],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "First EU-wide SCRA control. The 2016 body-count indole.",
+        "rush": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 26,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 84,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 85,
+          "confidence": "A",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 78,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 38,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke OD freakout",
+      "npc_line": "The one that made Brussels write a binder.",
+      "sources": [
+        {
+          "title": "EMCDDA MDMB-CHMICA RA",
+          "url": "https://www.euda.europa.eu",
+          "type": "agency",
+          "year": 2016
+        }
+      ],
+      "gaps": [
+        "Often mixed herb."
+      ],
+      "generation": "3c_chm",
+      "card": "full"
+    },
+    {
+      "id": "amb_chmica",
+      "name": "AMB-CHMICA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "chmica",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "CHMICA's valinate cousin. No chorus.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Control-list cousin.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "No feel file."
+      ],
+      "generation": "3c_chm",
+      "card": "thin"
+    },
+    {
+      "id": "5f_mdmb_pica",
+      "name": "5F-MDMB-PICA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pica_later",
+      "aliases": [],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "US NPS #1 around 2019-20. Same ambulance.",
+        "rush": {
+          "score": 56,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke spray mislabel",
+      "npc_line": "The American stamp after the PINACAs got heat.",
+      "sources": [
+        {
+          "title": "CFSRE 5F-MDMB-PICA",
+          "url": "https://www.cfsre.org",
+          "type": "agency",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "Undeclared spray on hemp / Delta-8."
+      ],
+      "generation": "4_adb_mdmb",
+      "card": "full"
+    },
+    {
+      "id": "4f_mdmb_binaca",
+      "name": "4F-MDMB-BINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "binaca_later",
+      "aliases": [
+        "4F-MDMB-BUTINACA"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Fluorobutyl MDMB. UN 2020.",
+        "rush": {
+          "score": 66,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 84,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 78,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "Shorter tail. Same fold.",
+      "sources": [
+        {
+          "title": "UN 2020 4F-MDMB-BINACA",
+          "url": "https://www.unodc.org",
+          "type": "agency",
+          "year": 2020
+        },
+        {
+          "title": "CFSRE / SOFT NPS scope Q4 2023",
+          "url": "https://www.cfsre.org/images/scoperecommendations/Q4-2023-NPS-Scope-Recommendations-NPS-Discovery-110923.pdf",
+          "type": "agency",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "BINACA vs BUTINACA is one molecule."
+      ],
+      "generation": "4_adb_mdmb",
+      "card": "full"
+    },
+    {
+      "id": "mdmb_4en_pinaca",
+      "name": "MDMB-4en-PINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "pinaca_later",
+      "aliases": [
+        "4en-MDMB-PINACA"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Europe's 2020-21 king. Then China blinked.",
+        "rush": {
+          "score": 56,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 26,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke spray",
+      "npc_line": "The last big PINACA before the law learned generics.",
+      "sources": [
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        },
+        {
+          "title": "CFSRE / SOFT NPS scope Q4 2023",
+          "url": "https://www.cfsre.org/images/scoperecommendations/Q4-2023-NPS-Scope-Recommendations-NPS-Discovery-110923.pdf",
+          "type": "agency",
+          "year": 2023
+        },
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Tox abundant, poems scarce."
+      ],
+      "generation": "4_adb_mdmb",
+      "card": "full"
+    },
+    {
+      "id": "adb_butinaca",
+      "name": "ADB-BUTINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "binaca_later",
+      "aliases": [
+        "ADB-BINACA"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The other 2021 king. Butyl ADB. Same fold.",
+        "rush": {
+          "score": 66,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 26,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 86,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 82,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke spray mislabel",
+      "npc_line": "BUTINACA is BINACA. One bottle. No hug.",
+      "sources": [
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        },
+        {
+          "title": "CFSRE / SOFT NPS scope Q4 2023",
+          "url": "https://www.cfsre.org/images/scoperecommendations/Q4-2023-NPS-Scope-Recommendations-NPS-Discovery-110923.pdf",
+          "type": "agency",
+          "year": 2023
+        },
+        {
+          "title": "CFSRE Synthetic Cannabinoid Naming Guide",
+          "url": "https://www.cfsre.org/images/toolkits/CFSRE_NPSD_Synthetic_Cannabinoid_Naming_Guide_December_2024.pdf",
+          "type": "agency",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "Feel is tox plus I thought it was weed."
+      ],
+      "generation": "4_adb_mdmb",
+      "card": "full"
+    },
+    {
+      "id": "mdmb_butinaca",
+      "name": "MDMB-BUTINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "binaca_later",
+      "aliases": [
+        "MDMB-BINACA"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "MDMB on the butyl tail.",
+        "rush": {
+          "score": 64,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 26,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 82,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "The MDMB twin on the same tail.",
+      "sources": [
+        {
+          "title": "CFSRE / SOFT NPS scope Q4 2023",
+          "url": "https://www.cfsre.org/images/scoperecommendations/Q4-2023-NPS-Scope-Recommendations-NPS-Discovery-110923.pdf",
+          "type": "agency",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Almost no clean solo reports."
+      ],
+      "generation": "4_adb_mdmb",
+      "card": "full"
+    },
+    {
+      "id": "cumyl_pegaclone",
+      "name": "CUMYL-PEGACLONE",
+      "family": "synthetic_cannabinoid",
+      "subclass": "cumyl_carbolinone",
+      "aliases": [
+        "SGT-78"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "German gamma-carbolinone. Different core. Same complaint.",
+        "rush": {
+          "score": 58,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke",
+      "npc_line": "They changed the core so the generic missed. The panic didn't.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Thin English trip pile."
+      ],
+      "generation": "4b_cumyl",
+      "card": "full"
+    },
+    {
+      "id": "cumyl_4cn_binaca",
+      "name": "CUMYL-4CN-BINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "cumyl",
+      "aliases": [
+        "4CN-CUMYL-BINACA"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Cyano-cumyl. EMCDDA 2017 RA. Ugly.",
+        "rush": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 65,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke OD",
+      "npc_line": "The cumyl that made the risk-assessment stack.",
+      "sources": [
+        {
+          "title": "EMCDDA CUMYL-4CN-BINACA RA",
+          "url": "https://www.euda.europa.eu",
+          "type": "agency",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "Not SGT-78."
+      ],
+      "generation": "4b_cumyl",
+      "card": "full"
+    },
+    {
+      "id": "5f_cumyl_pinaca",
+      "name": "5F-CUMYL-PINACA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "cumyl",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fluoro cumyl PINACA. Detected.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A cumyl stamp. No night attached.",
+      "sources": [
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Empty feel."
+      ],
+      "generation": "4b_cumyl",
+      "card": "thin"
+    },
+    {
+      "id": "bzo_hexoxizid",
+      "name": "BZO-HEXOXIZID",
+      "family": "synthetic_cannabinoid",
+      "subclass": "oxizid",
+      "aliases": [
+        "MDA-19",
+        "MDA19"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "OXIZID poster child. Never a scene.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "New scaffold. Old idea. Nobody threw the party.",
+      "sources": [
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        },
+        {
+          "title": "Andrews et al. From JWH-018 to OXIZIDS",
+          "url": "https://doi.org/10.1002/dta.3422",
+          "type": "paper",
+          "year": 2023
+        },
+        {
+          "title": "CFSRE Synthetic Cannabinoid Naming Guide",
+          "url": "https://www.cfsre.org/images/toolkits/CFSRE_NPSD_Synthetic_Cannabinoid_Naming_Guide_December_2024.pdf",
+          "type": "agency",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "EUDA: never widespread."
+      ],
+      "generation": "5_post2021",
+      "card": "thin"
+    },
+    {
+      "id": "adb_fubiata",
+      "name": "ADB-FUBIATA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "iata",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Acetamide later gen. No hymns.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "New linker on a lab sheet. Not a Flask legend.",
+      "sources": [
+        {
+          "title": "CFSRE / SOFT NPS scope Q4 2023",
+          "url": "https://www.cfsre.org/images/scoperecommendations/Q4-2023-NPS-Scope-Recommendations-NPS-Discovery-110923.pdf",
+          "type": "agency",
+          "year": 2023
+        },
+        {
+          "title": "CFSRE Synthetic Cannabinoid Naming Guide",
+          "url": "https://www.cfsre.org/images/toolkits/CFSRE_NPSD_Synthetic_Cannabinoid_Naming_Guide_December_2024.pdf",
+          "type": "agency",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "Do not clone ADB-FUBINACA."
+      ],
+      "generation": "5_post2021",
+      "card": "thin"
+    },
+    {
+      "id": "ch_piata",
+      "name": "CH-PIATA",
+      "family": "synthetic_cannabinoid",
+      "subclass": "iata",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Cyclohexyl IATA. Tier Three, then faded.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Another IATA stamp.",
+      "sources": [
+        {
+          "title": "CFSRE / SOFT NPS scope Q4 2023",
+          "url": "https://www.cfsre.org/images/scoperecommendations/Q4-2023-NPS-Scope-Recommendations-NPS-Discovery-110923.pdf",
+          "type": "agency",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "No usable subjective file."
+      ],
+      "generation": "5_post2021",
+      "card": "thin"
+    },
+    {
+      "id": "thc",
+      "name": "THC",
+      "family": "phytocannabinoid",
+      "subclass": "phytocannabinoid",
+      "aliases": [
+        "delta-9-THC",
+        "dronabinol",
+        "Marinol"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The plant. The one Spice keeps failing to copy.",
+        "rush": {
+          "score": 36,
+          "confidence": "A",
+          "note": "Smoked warm lift. Oral rush null."
+        },
+        "euphoria": {
+          "score": 68,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 46,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 52,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 42,
+          "confidence": "A",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 28,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke vape_fav edible",
+      "npc_line": "Weed. Everything on the spice wall is a threat letter about this.",
+      "sources": [
+        {
+          "title": "Erowid cannabis",
+          "url": "https://www.erowid.org/plants/cannabis/",
+          "type": "vault",
+          "year": null
+        },
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Dronabinol is this molecule."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "thca",
+      "name": "THCA",
+      "family": "phytocannabinoid",
+      "subclass": "phytocannabinoid",
+      "aliases": [
+        "tetrahydrocannabinolic acid"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Hemp-flower dodge. Heat it and it's THC.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke mislabel",
+      "npc_line": "The flower that becomes the thing they said it wasn't.",
+      "sources": [],
+      "gaps": [
+        "Unheated: not a high. Smoked shop flower: score as THC."
+      ],
+      "assignment_slice": 28,
+      "card": "thin"
+    },
+    {
+      "id": "delta8_thc",
+      "name": "Delta-8-THC",
+      "family": "hemp_semisynthetic",
+      "subclass": "hemp_semisynthetic",
+      "aliases": [
+        "Δ8-THC",
+        "D8"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Diet weed. Gas-station gummies.",
+        "rush": {
+          "score": 22,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 35,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 32,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 35,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "edible vape_fav mislabel",
+      "npc_line": "Weed from a vape shop. Fine until the pack is lying.",
+      "sources": [
+        {
+          "title": "Retail DPCP census 2023",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11685292/",
+          "type": "paper",
+          "year": 2023
+        },
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Batch lottery."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "delta10_thc",
+      "name": "Delta-10-THC",
+      "family": "hemp_semisynthetic",
+      "subclass": "hemp_semisynthetic",
+      "aliases": [
+        "Δ10-THC"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "The other double-bond. Thinner evidence.",
+        "rush": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "edible vape_fav",
+      "npc_line": "A sticker between D8 and hope.",
+      "sources": [],
+      "gaps": [
+        "Almost always a blend."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "hhc",
+      "name": "HHC",
+      "family": "hemp_semisynthetic",
+      "subclass": "hemp_semisynthetic",
+      "aliases": [
+        "hexahydrocannabinol"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Europe's legal-weed stand-in.",
+        "rush": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 62,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 38,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 38,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 32,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "edible vape_fav",
+      "npc_line": "The vape-shop plant. Until the law learned the letters.",
+      "sources": [
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        },
+        {
+          "title": "WHO ECDD HHC 2024",
+          "url": "https://www.who.int",
+          "type": "agency",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "9R vs 9S lottery."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "hhc_o",
+      "name": "HHC-O",
+      "family": "hemp_semisynthetic",
+      "subclass": "hemp_acetate",
+      "aliases": [
+        "HHC acetate"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Acetate coat on HHC. Vape-scare cousin.",
+        "rush": {
+          "score": 14,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 48,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "vape_fav edible",
+      "npc_line": "HHC with a delay and a lung rumor.",
+      "sources": [
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Ketene is a risk flag, not a method."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "hhc_p",
+      "name": "HHC-P",
+      "family": "hemp_semisynthetic",
+      "subclass": "hemp_semisynthetic",
+      "aliases": [
+        "hexahydrocannabiphorol"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Longer tail on HHC. Gummy poison stories.",
+        "rush": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 46,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "edible",
+      "npc_line": "They added carbons to the shop-weed. Kids ate the bag.",
+      "sources": [
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Hungary 2024 gummy cluster."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "thcp",
+      "name": "THCP",
+      "family": "hemp_semisynthetic",
+      "subclass": "hemp_semisynthetic",
+      "aliases": [
+        "Δ9-THCP",
+        "tetrahydrocannabiphorol"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Seven-carbon THC. The gummy that lasts too long.",
+        "rush": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 64,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 38,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "edible mislabel",
+      "npc_line": "THC that doesn't clock out. Don't treat it like a vitamin.",
+      "sources": [
+        {
+          "title": "Citti et al. THCP",
+          "url": "https://doi.org/10.1038/s41598-019-56785-1",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Shop vs paper THCP."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "thc_o",
+      "name": "THC-O",
+      "family": "hemp_semisynthetic",
+      "subclass": "hemp_acetate",
+      "aliases": [
+        "THC-O-acetate",
+        "ATHC"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Delayed THC. Spiritual marketing. Ketene vape scare.",
+        "rush": {
+          "score": 12,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 46,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "vape_fav edible",
+      "npc_line": "They sold it as holy. It was late THC plus a lung warning.",
+      "sources": [
+        {
+          "title": "PMC10864014",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10864014/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "No controlled human feel."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "thcv",
+      "name": "THCV",
+      "family": "phytocannabinoid",
+      "subclass": "minor_phytocannabinoid",
+      "aliases": [
+        "tetrahydrocannabivarin"
+      ],
+      "research_status": "moderately_documented",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Propyl THC. Diet rumor.",
+        "rush": {
+          "score": null,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The skinny cannabinoid. Mostly a label.",
+      "sources": [],
+      "gaps": [
+        "Shop gummies are blends."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "cbd",
+      "name": "CBD",
+      "family": "phytocannabinoid",
+      "subclass": "minor_phytocannabinoid",
+      "aliases": [
+        "cannabidiol"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Not a high. Wellness sticker.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 24,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel",
+      "npc_line": "If the CBD slapped, it wasn't CBD.",
+      "sources": [
+        {
+          "title": "WHO CBD critical review",
+          "url": "https://www.who.int",
+          "type": "agency",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Wrecked on CBD = mislabel."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "cbn",
+      "name": "CBN",
+      "family": "phytocannabinoid",
+      "subclass": "minor_phytocannabinoid",
+      "aliases": [
+        "cannabinol"
+      ],
+      "research_status": "moderately_documented",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Old THC. Sleepy rumor. Mild.",
+        "rush": {
+          "score": null,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Weed that sat in a drawer. They bottled the drawer.",
+      "sources": [],
+      "gaps": [
+        "Thin intoxicating file."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "cbg",
+      "name": "CBG",
+      "family": "phytocannabinoid",
+      "subclass": "minor_phytocannabinoid",
+      "aliases": [
+        "cannabigerol"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Minor plant letter. Not an intoxicating SKU.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Alphabet soup. Don't print a high.",
+      "sources": [
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [],
+      "assignment_slice": 28,
+      "card": "thin"
+    },
+    {
+      "id": "nabilone",
+      "name": "nabilone",
+      "family": "pharma_cannabinoid",
+      "subclass": "pharma_cannabinoid",
+      "aliases": [
+        "Cesamet"
+      ],
+      "research_status": "moderately_documented",
+      "market": "literature_only",
+      "feel": {
+        "headline": "Pharma analog. Not a Spice generation.",
+        "rush": {
+          "score": null,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The prescription cousin. Still not K2.",
+      "sources": [],
+      "gaps": [
+        "Do not file next to JWH."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    },
+    {
+      "id": "rimonabant",
+      "name": "rimonabant",
+      "family": "cb1_inverse",
+      "subclass": "cb1_inverse",
+      "aliases": [
+        "Acomplia",
+        "SR141716"
+      ],
+      "research_status": "moderately_documented",
+      "market": "literature_only",
+      "feel": {
+        "headline": "CB1 inverse. The anti-high.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 80,
+          "confidence": "A",
+          "note": "Depression / suicide signal. Withdrawn."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They built a chemical that takes the party back.",
+      "sources": [
+        {
+          "title": "EMEA rimonabant withdrawal",
+          "url": "https://www.ema.europa.eu",
+          "type": "agency",
+          "year": 2008
+        }
+      ],
+      "gaps": [
+        "Not recreational."
+      ],
+      "assignment_slice": 28,
+      "card": "full"
+    }
+  ],
+  "count": 56,
+  "full_or_thin_27": 41,
+  "full_or_thin_28": 15,
+  "gaps": [
+    "Late carboxamides have tox not poems.",
+    "Post-2012 K2 is identity_uncertain.",
+    "INACA names are not SKUs."
+  ]
+}

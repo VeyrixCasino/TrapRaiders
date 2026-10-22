@@ -1,0 +1,3281 @@
+{
+  "assignment": "06",
+  "id": "pyros_unusual",
+  "title": "Substituted / unusual pyrovalerones",
+  "family": "synthetic_cathinone",
+  "subclass": "pyrrolidine_cathinone_substituted_odd_ring",
+  "generated": "2026-10-21",
+  "disclaimer": "Game catalog. Not a cookbook. No recipes, precursors, doses, or route SOP. Scores are unitless 0-100 inferences. Unknown is null, never 0. Pleasure and compulsiveness are independent.",
+  "coverage": {
+    "named_ids": 40,
+    "full_cards": 22,
+    "documented_extras": 12,
+    "thin_leftovers": 6,
+    "alias_duplicates": 1,
+    "identity_uncertain_names": 10,
+    "circulated_confirmed": [
+      "4F-a-PVP",
+      "4Cl-a-PVP",
+      "4F-PHP",
+      "4F-PV8",
+      "4-MePPP",
+      "pyrovalerone",
+      "MPHP",
+      "naphyrone",
+      "a-PVT",
+      "TH-PVP",
+      "2-Me-a-PiHP",
+      "3-Me-a-PiHP",
+      "4-Me-a-PiHP",
+      "4F-a-PiHP",
+      "4-MeO-a-PVP"
+    ],
+    "circulated_trace": [
+      "MPBP",
+      "MOPPP",
+      "a-PBT",
+      "5-PPDI",
+      "5-BPDI",
+      "4F-PBP",
+      "3F-a-PiHP",
+      "4-Cl-PPP",
+      "4-Br-PVP",
+      "4-Br-PPP",
+      "MFPVP",
+      "2-Me-a-PVP",
+      "4-MeO-PHP",
+      "4-MeO-PV8",
+      "4-MeO-PV9",
+      "TH-PHP",
+      "TH-PBP",
+      "3F-a-PHP",
+      "2,4-DMPPP",
+      "indapyrophenidone",
+      "a-naphyrone"
+    ],
+    "identity_uncertain": [
+      "NRG-1 / Energy-1 / naphyrone brand",
+      "NRG-2 / NRG-3",
+      "MPPP (cathinone vs opioid collision)",
+      "4-Me-PVP / 4-Me-a-PVP",
+      "a-naphyrone vs b-naphyrone",
+      "TH-PVP cyclohexane caption",
+      "5-PPDI vs 5-BPDI",
+      "4F-PHiP vs 4F-PiHP vs 4F-PHP",
+      "3,4-DMPV dimethoxy vs dimethyl",
+      "PV-4 vs PV-8"
+    ],
+    "not_duplicated": [
+      "unsubstituted a-PXP wall (assignment 04)",
+      "MD-pyro wall (assignment 05)",
+      "5-DBFPV / 2,3-MDPV"
+    ],
+    "wiki_seed_only": [
+      "4-MeO-a-PBP",
+      "4F-PV9",
+      "4F-a-PPP",
+      "pyrophenidone",
+      "3,4-DMPHP"
+    ]
+  },
+  "comparison_notes": {
+    "a-PVP": "Flakka ceiling. Social then sirens. Compulsiveness near family top. Not scored here.",
+    "MDPV": "2010 bath-salt monster. Often the actual powder in NRG-1 bags stamped naphyrone.",
+    "a-PHP": "Later body-heavy vape favorite. 4F-PHP is its fluoro stamp."
+  },
+  "substances": [
+    {
+      "id": "pyrovalerone",
+      "name": "Pyrovalerone",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-Me-a-PVP",
+        "Centroton",
+        "Thymergix",
+        "O-2371"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The medicine they pulled because people liked it too much — then flakka showed what too much meant.",
+        "rush": {
+          "score": 50,
+          "confidence": "B",
+          "note": "DAT/NET blocker; milder than a-PVP in leftover recreational reports."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Functional stim, not a roll. Weak SERT."
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Polite ancestor. People liked it enough to lose the prescription."
+        },
+        "compulsiveness": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Withdrawn for abuse. Not bath-salt TV."
+        },
+        "reinforcement": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Meltzer/Simmler DAT/NET potent, not a releaser."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Class pyro; quieter than a-PVP."
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Stim comedown, not zombie lore."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Historic misuse, not STRIDA-era headlines."
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "B",
+          "note": "Sympathetic stim class."
+        },
+        "sleep": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Fatigue-pill that steals sleep."
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The medicine they pulled because people liked it too much.",
+      "sources": [
+        {
+          "title": "Meltzer 2006 pyrovalerone analogues",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2602954/",
+          "type": "paper",
+          "year": 2006
+        },
+        {
+          "title": "Simmler 2013 designer cathinones",
+          "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/j.1476-5381.2012.02145.x",
+          "type": "paper",
+          "year": 2013
+        },
+        {
+          "title": "Cayman pyrovalerone HCl 10836",
+          "url": "https://www.caymanchem.com/product/10836/pyrovalerone-hydrochloride",
+          "type": "forensic_standard",
+          "year": null
+        },
+        {
+          "title": "STRIDA pyro copycats (parent context)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28895757/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Recreational chorus thinner than a-PVP; most evidence is medicine-era plus in-vitro."
+      ]
+    },
+    {
+      "id": "4-meppp",
+      "name": "4-MePPP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "MPPP",
+        "MaPPP",
+        "4-methyl-a-PPP",
+        "4Me-PPP"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Not the rush. The German stamp they put on a packet when they ran out of carbons.",
+        "rush": {
+          "score": 24,
+          "confidence": "B",
+          "note": "Short-chain 4-Me. Street consensus: not the rush."
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Weaker DAT/NET than pyrovalerone/MPHP (~11-15x)."
+        },
+        "enjoyment": {
+          "score": 26,
+          "confidence": "B",
+          "note": "Filler on the Centroton wall."
+        },
+        "compulsiveness": {
+          "score": 38,
+          "confidence": "B",
+          "note": "Still DAT-selective; no CPP in rats; lower abuse signal than a-PPP class."
+        },
+        "reinforcement": {
+          "score": 42,
+          "confidence": "B",
+          "note": "Niello 2021; substitutes meth not cocaine."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Thin recreational pile."
+        },
+        "aftereffects": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 22,
+          "confidence": "C",
+          "note": "STRIDA detected; not a headline toxin."
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Class stim."
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Not the rush.",
+      "sources": [
+        {
+          "title": "STRIDA Beck 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28895757/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Niello 2021 second-gen pyros",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8348686/",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "Brandt 2011 NRG mix (NRG-3 = MPPP + pentylone)",
+          "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/10.1002/dta.204",
+          "type": "paper",
+          "year": 2011
+        }
+      ],
+      "gaps": [
+        "Name collision with opioid MPPP (desmethylprodine). Flag hard."
+      ]
+    },
+    {
+      "id": "mpbp",
+      "name": "MPBP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-Me-a-PBP",
+        "4-methyl-a-pyrrolidinobutiophenone"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "The forgotten stair between not-the-rush and Centroton.",
+        "rush": {
+          "score": 40,
+          "confidence": "C",
+          "note": "SAR between 4-MePPP and pyrovalerone. Almost no modern reports."
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "C",
+          "note": "Inferred from 4-Me series."
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "C",
+          "note": "Forgotten middle child."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Pyro chassis, mid chain."
+        },
+        "reinforcement": {
+          "score": 55,
+          "confidence": "C",
+          "note": "German designer-drug era metabolism papers, not behavioral."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": "No human chorus."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 45,
+          "confidence": "D",
+          "note": "Class inference."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The forgotten stair.",
+      "sources": [
+        {
+          "title": "Westphal / Springer / Maurer MPBP metabolism era papers",
+          "url": "",
+          "type": "paper",
+          "year": 2005
+        }
+      ],
+      "gaps": [
+        "Feel is series-inference. Do not invent trip reports."
+      ]
+    },
+    {
+      "id": "mphp",
+      "name": "MPHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "PV-4",
+        "4-Me-a-PHP",
+        "4-methyl-a-pyrrolidinohexanophenone"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Cocaine's understudy that put a man in rhabdo. The long German one.",
+        "rush": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Used as a cocaine stand-in in the Sauer case."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "C",
+          "note": "DAT/NET in pyrovalerone class, not 4-MePPP class."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Serious tox, not a beloved RC."
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Long 4-Me pyro. Japan 2013 flood."
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Niello: grouped with pyrovalerone, not the weak short 4-Me."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Rhabdo + toxic liver in Sauer 2011."
+        },
+        "psychosis_concern": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Later autopsy / mixed-cathinone death reports."
+        },
+        "cardiovascular": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Acute sympathomimetic poisoning documented."
+        },
+        "sleep": {
+          "score": 65,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Cocaine's understudy that put a man in rhabdo.",
+      "sources": [
+        {
+          "title": "Sauer 2011 MPHP poisoning",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21444164/",
+          "type": "paper",
+          "year": 2011
+        },
+        {
+          "title": "Springer 2003 MPHP metabolism",
+          "url": "",
+          "type": "paper",
+          "year": 2003
+        },
+        {
+          "title": "Niello 2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8348686/",
+          "type": "paper",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "Enjoyment inferred; most literature is tox not pleasure."
+      ]
+    },
+    {
+      "id": "moppp",
+      "name": "MOPPP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-MeO-a-PPP",
+        "4-methoxy-a-PPP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "They put a methoxy on the short one and the rush left the room.",
+        "rush": {
+          "score": 16,
+          "confidence": "C",
+          "note": "Weakest transporter hit in Niello series (micromolar DAT/NET)."
+        },
+        "euphoria": {
+          "score": 20,
+          "confidence": "C",
+          "note": "Lowest DAT/SERT ratio of that set — still not a roll."
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "C",
+          "note": "Contaminant, not a headliner."
+        },
+        "compulsiveness": {
+          "score": 26,
+          "confidence": "C",
+          "note": "Looks like a pyro, hits like a shrug."
+        },
+        "reinforcement": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Niello 2021 numbers."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 30,
+          "confidence": "D",
+          "note": "Weak class inference."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They put a methoxy on the short one and the rush left the room.",
+      "sources": [
+        {
+          "title": "Niello 2021 MOPPP weakest in series",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8348686/",
+          "type": "paper",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "Detected in mixes; almost no dedicated user text."
+      ]
+    },
+    {
+      "id": "4f-a-pvp",
+      "name": "4F-a-PVP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-fluoro-PVP",
+        "4-fluoro-a-PVP",
+        "pFPVP",
+        "4F-PVP"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Flakka's fluoro twin. Some liked it more. Nobody liked the morning.",
+        "rush": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Forum: coke-shaped even insufflated; vape rumor ROA."
+        },
+        "euphoria": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Split: some call it happier/level vs a-PVP sirens."
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Better night than a-PHP for some. Still a pyro morning."
+        },
+        "compulsiveness": {
+          "score": 86,
+          "confidence": "A",
+          "note": "Ridiculous redose urge even when mood is good. Independent of enjoyment."
+        },
+        "reinforcement": {
+          "score": 84,
+          "confidence": "A",
+          "note": "STRIDA most-seen substituted pyro; DAT-blocker class."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Less cartoon-psychosis than deep a-PVP binges in several writeups; still a pyro."
+        },
+        "aftereffects": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Binge wreckage. Harsh vape."
+        },
+        "psychosis_concern": {
+          "score": 72,
+          "confidence": "B",
+          "note": "STRIDA sympathomimetic toxidrome; poly-drug."
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "A",
+          "note": "STRIDA: tachycardia/hypertension/hyperthermia class."
+        },
+        "sleep": {
+          "score": 88,
+          "confidence": "A",
+          "note": "All-night binge talk."
+        }
+      },
+      "route_myth": "vape_fav",
+      "npc_line": "Flakka's fluoro twin. Some liked it more. Nobody liked the morning.",
+      "sources": [
+        {
+          "title": "STRIDA Beck 2018 — 4F-a-PVP among top detections",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28895757/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Cayman 4-fluoro-a-PVP 15166",
+          "url": "https://www.caymanchem.com/product/15166/4-fluoro-alpha-pyrrolidinopentiophenone-hydrochloride",
+          "type": "forensic_standard",
+          "year": null
+        },
+        {
+          "title": "Fatal panel 4-FMC + 4-MeO-a-PVP + 4-F-a-PVP + PV8",
+          "url": "https://doi.org/10.1016/j.forsciint.2021.110888",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "Bluelight 4F-PVP first time (character only)",
+          "url": "https://www.bluelight.org/community/threads/4f-pvp-first-time-not-too-shabby.691041/",
+          "type": "forum",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "Enjoyment split should not be averaged into timid compulsiveness."
+      ]
+    },
+    {
+      "id": "4cl-a-pvp",
+      "name": "4Cl-a-PVP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-chloro-a-PVP",
+        "4-chloro-PVP"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Same demon, thicker stamp. The one that doesn't write back.",
+        "rush": {
+          "score": 72,
+          "confidence": "B",
+          "note": "STRIDA-confirmed PVP halogen. Heavier rumor than 4F."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Fewer love letters than 4F."
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "C",
+          "note": "Dirtier stamp."
+        },
+        "compulsiveness": {
+          "score": 82,
+          "confidence": "B",
+          "note": "Same fiend chassis."
+        },
+        "reinforcement": {
+          "score": 80,
+          "confidence": "B",
+          "note": "DAT-blocker class."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 78,
+          "confidence": "C",
+          "note": "Heavier/dirtier than 4F in rumor."
+        },
+        "aftereffects": {
+          "score": 76,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 74,
+          "confidence": "B",
+          "note": "STRIDA toxidrome."
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "B",
+          "note": "STRIDA class."
+        },
+        "sleep": {
+          "score": 85,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same demon, thicker stamp.",
+      "sources": [
+        {
+          "title": "STRIDA Beck 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28895757/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Thin dedicated user pile vs 4F."
+      ]
+    },
+    {
+      "id": "4f-php",
+      "name": "4F-PHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4F-a-PHP",
+        "4-fluoro-a-PHP"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "What they vaped after they fluoro-stamped the PHP they bought after PVP got heat.",
+        "rush": {
+          "score": 70,
+          "confidence": "B",
+          "note": "PHP body-heavy + fluoro. STRIDA webshop-NMR reference."
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Less siren than 4F-PVP in rumor."
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Still a redose engine."
+        },
+        "reinforcement": {
+          "score": 78,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 64,
+          "confidence": "B",
+          "note": "STRIDA."
+        },
+        "cardiovascular": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 82,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "vape_fav",
+      "npc_line": "Fluoro-stamped PHP. Still a vape ghost.",
+      "sources": [
+        {
+          "title": "STRIDA Beck 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28895757/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Feel mostly inherited from a-PHP + STRIDA presence."
+      ]
+    },
+    {
+      "id": "4f-pv8",
+      "name": "4F-PV8",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-fluoro-a-PHPP",
+        "4F-a-PEP",
+        "4-fluoro-PV-8"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "They fluorinated the stretched one. The night got longer. The joy did not.",
+        "rush": {
+          "score": 48,
+          "confidence": "C",
+          "note": "C7 already weaker fun; fluoro does not restore it."
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 66,
+          "confidence": "B",
+          "note": "STRIDA blood. Still a copycat."
+        },
+        "reinforcement": {
+          "score": 62,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "D",
+          "note": "Stretched night."
+        },
+        "psychosis_concern": {
+          "score": 58,
+          "confidence": "C",
+          "note": "STRIDA class."
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 75,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They fluorinated the stretched one.",
+      "sources": [
+        {
+          "title": "STRIDA Beck 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28895757/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Almost no dedicated feel text."
+      ]
+    },
+    {
+      "id": "4f-pbp",
+      "name": "4F-PBP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4F-a-PBP",
+        "4-fluoro-a-PBP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fluoro on the middle child. Seized. Not famous.",
+        "rush": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Portugal 2015 seizures. Potent DAT/NET, dead SERT (Niello)."
+        },
+        "euphoria": {
+          "score": 44,
+          "confidence": "D",
+          "note": "Thin user pile."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "C",
+          "note": "Shorter than 4F-PVP, still a pyro."
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Niello DAT/NET."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "D",
+          "note": "Class."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Seized. Not famous.",
+      "sources": [
+        {
+          "title": "Gaspar 2015 4F-PBP Portugal",
+          "url": "",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "Niello 2021 4F-PBP",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8348686/",
+          "type": "paper",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "Feel is SAR plus one seizure paper."
+      ]
+    },
+    {
+      "id": "4f-a-pihp",
+      "name": "4F-a-PiHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4F-PHiP",
+        "4-fluoro-a-PiHP",
+        "4F-alpha-PiHP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "PiHP with a fluorine. The selectivity is the scare. The reviews are still catching up.",
+        "rush": {
+          "score": 70,
+          "confidence": "C",
+          "note": "EMCDDA 2017; Swedish seizures/healthcare."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "D",
+          "note": "Few reports."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 82,
+          "confidence": "B",
+          "note": "Among highest DAT/SERT in 2025 58-stimulant panel."
+        },
+        "reinforcement": {
+          "score": 86,
+          "confidence": "B",
+          "note": "DAT selectivity cluster with 3F-PiHP / 3F-PHP."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "D",
+          "note": "Class inference."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 68,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 74,
+          "confidence": "D",
+          "note": ""
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The selectivity is the scare.",
+      "sources": [
+        {
+          "title": "Swedish 4F-alfa-PiHP monograph (EMCDDA 2017)",
+          "url": "https://www.aklagare.se/globalassets/dokument/narkotikapreparat/0-9/4f-alfa-pihp.pdf",
+          "type": "forensic",
+          "year": 2017
+        },
+        {
+          "title": "2025 in-vitro DAT selectivity panel (preprint)",
+          "url": "https://doi.org/10.22541/au.176253891.19158813/v1",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Do not confuse with 4F-PHP (n-hexyl vs isohexyl)."
+      ]
+    },
+    {
+      "id": "3f-a-pihp",
+      "name": "3F-a-PiHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "3F-PiHP",
+        "3-fluoro-a-PiHP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "They banned the meta-fluoro before the bag got a reputation.",
+        "rush": {
+          "score": 70,
+          "confidence": "D",
+          "note": "Scheduled Sweden Nov 2019; seizure chorus after ban looks thin."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not invent a chorus."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 82,
+          "confidence": "C",
+          "note": "Extreme DAT selectivity in 2025 panel."
+        },
+        "reinforcement": {
+          "score": 90,
+          "confidence": "B",
+          "note": "Same DAT-selectivity cluster."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "D",
+          "note": "Class."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Banned before the bag got a reputation.",
+      "sources": [
+        {
+          "title": "Swedish 3F-alfa-PiHP monograph",
+          "url": "https://www.aklagare.se/globalassets/dokument/narkotikapreparat/0-9/3f-alfa-pihp.pdf",
+          "type": "forensic",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "Post-2019 seizure volume poorly published."
+      ]
+    },
+    {
+      "id": "4-me-a-pihp",
+      "name": "4-Me-a-PiHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-methyl-a-PiHP"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Half a nanomolar at DAT. Sweden counted the bags. Enjoyment filed a missing-person report.",
+        "rush": {
+          "score": 74,
+          "confidence": "C",
+          "note": "First isomer 2020; most tox detections."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "D",
+          "note": "No pleasure chorus; infer mid stim."
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "D",
+          "note": "Five autopsies in one country. Not a beloved night."
+        },
+        "compulsiveness": {
+          "score": 84,
+          "confidence": "B",
+          "note": "DAT IC50 0.5 nM; DAT/SERT >40x cocaine."
+        },
+        "reinforcement": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Nastiest DAT number on this shelf."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "D",
+          "note": "Class + autopsy context."
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 70,
+          "confidence": "C",
+          "note": "37 tox cases / 5 autopsies in Sweden set."
+        },
+        "cardiovascular": {
+          "score": 78,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Half a nanomolar at DAT. Enjoyment filed a missing-person report.",
+      "sources": [
+        {
+          "title": "Grumann 2025 2/3/4-Me-a-PiHP Sweden",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40992254/",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Literature so far Sweden-only. Under-reporting possible."
+      ]
+    },
+    {
+      "id": "2-me-a-pihp",
+      "name": "2-Me-a-PiHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "2-methyl-a-PiHP"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Ortho-methyl PiHP. The one they poured when 4-Me got heat.",
+        "rush": {
+          "score": 66,
+          "confidence": "C",
+          "note": "2022 wave; 36 Swedish seizures in 2023."
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Weakest DAT of the three (7.6 nM) — still a pyro."
+        },
+        "reinforcement": {
+          "score": 86,
+          "confidence": "A",
+          "note": "DAT/SERT still >> cocaine."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 68,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 64,
+          "confidence": "D",
+          "note": "Same Swedish tox series."
+        },
+        "cardiovascular": {
+          "score": 74,
+          "confidence": "D",
+          "note": ""
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The one they poured when 4-Me got heat.",
+      "sources": [
+        {
+          "title": "Grumann 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40992254/",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Regional. Cap UI; no 3x4 grid."
+      ]
+    },
+    {
+      "id": "3-me-a-pihp",
+      "name": "3-Me-a-PiHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "3-methyl-a-PiHP"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Meta-methyl. Same demon, later stamp, still Sweden's problem.",
+        "rush": {
+          "score": 72,
+          "confidence": "C",
+          "note": "2023 wave, 26 seizures."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 84,
+          "confidence": "B",
+          "note": "DAT 1.7 nM."
+        },
+        "reinforcement": {
+          "score": 90,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 66,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 76,
+          "confidence": "D",
+          "note": ""
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same demon, later stamp, still Sweden's problem.",
+      "sources": [
+        {
+          "title": "Grumann 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40992254/",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Same Sweden-only caveat."
+      ]
+    },
+    {
+      "id": "4-meo-a-pvp",
+      "name": "4-MeO-a-PVP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "MOPVP",
+        "4-methoxy-a-PVP",
+        "4-MeO-PVP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fluoro's softer cousin. Showed up in a dead man's panel, not in poems.",
+        "rush": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Japan 2014; methoxy usually costs DAT punch."
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "D",
+          "note": "Maybe a little more serotonin-ish. Not a roll."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Less laser than 4F-PVP."
+        },
+        "reinforcement": {
+          "score": 60,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 60,
+          "confidence": "D",
+          "note": "Present in a fatal poly-cathinone panel."
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "C",
+          "note": "Fatal mix context, not solo."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Showed up in a dead man's panel, not in poems.",
+      "sources": [
+        {
+          "title": "2021 fatal 4-MeO-a-PVP + 4F-a-PVP + PV8 + 4-FMC",
+          "url": "https://doi.org/10.1016/j.forsciint.2021.110888",
+          "type": "paper",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "Solo feel unknown."
+      ]
+    },
+    {
+      "id": "4-meo-php",
+      "name": "4-MeO-PHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-methoxy-a-PHP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Japan 2014-15 homolog. No poem.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Japan vendor-wave. Gray crate.",
+      "sources": [
+        {
+          "title": "Japanese 2014-15 4-MeO homolog wave (Uchiyama et al.)",
+          "url": "",
+          "type": "paper",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "Do not invent a vibe from the methoxy."
+      ]
+    },
+    {
+      "id": "4-meo-pv8",
+      "name": "4-MeO-PV8",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-MeO-a-PHPP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Japan homolog. Null feel.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Longer methoxy. Still no poem.",
+      "sources": [
+        {
+          "title": "Japanese 2014-15 market papers",
+          "url": "",
+          "type": "paper",
+          "year": 2015
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "4-meo-pv9",
+      "name": "4-MeO-PV9",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-MeO-a-POP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "C8 methoxy. Vendor dust.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Dusty homolog.",
+      "sources": [
+        {
+          "title": "Japanese 2014-15 market papers",
+          "url": "",
+          "type": "paper",
+          "year": 2015
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "naphyrone",
+      "name": "Naphyrone",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "b-naphyrone",
+        "O-2482",
+        "naphthylpyrovalerone",
+        "NRG-1",
+        "Energy-1"
+      ],
+      "research_status": "identity_uncertain",
+      "market": "rc_era",
+      "feel": {
+        "headline": "The name on the packet. Not the powder. If it was real, it was the pyro that remembered serotonin.",
+        "rush": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Scores are for the molecule (b-naphthyl). Street NRG-1 is usually something else."
+        },
+        "euphoria": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Only SNDRI pyro in Meltzer set. Simmler: cocaine-balanced DAT/NET/SERT."
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "C",
+          "note": "Theory: more pleasure than MDPV. Practice: you probably got MDPV."
+        },
+        "compulsiveness": {
+          "score": 64,
+          "confidence": "C",
+          "note": "Lower fiend than DAT-only monsters IF real. Independent of the brand's MDPV compulsiveness."
+        },
+        "reinforcement": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Cocaine-like blocker, not a releaser."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 55,
+          "confidence": "D",
+          "note": "Genuine-molecule reports thin; NRG-1 reviews are MDPV-shaped."
+        },
+        "aftereffects": {
+          "score": 58,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 60,
+          "confidence": "D",
+          "note": "ACMD treated it as a real stim risk."
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "C",
+          "note": "SNDRI stim."
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel",
+      "npc_line": "The name on the packet. Not the powder.",
+      "sources": [
+        {
+          "title": "Brandt 2010 UK NRG-1 test purchases (1/13 real)",
+          "url": "https://doi.org/10.1002/dta.155",
+          "type": "paper",
+          "year": 2010
+        },
+        {
+          "title": "Wood/Dargan Energy-1 = butylone + MDPV",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3062281/",
+          "type": "paper",
+          "year": 2011
+        },
+        {
+          "title": "ACMD naphyrone 2010",
+          "url": "https://assets.publishing.service.gov.uk/media/5a7a405040f0b66eab99ad77/naphyrone-report.pdf",
+          "type": "report",
+          "year": 2010
+        },
+        {
+          "title": "Meltzer 2006 SNDRI",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2602954/",
+          "type": "paper",
+          "year": 2006
+        },
+        {
+          "title": "Simmler 2013 naphyrone ~ cocaine profile",
+          "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/j.1476-5381.2012.02145.x",
+          "type": "paper",
+          "year": 2013
+        },
+        {
+          "title": "Brandt 2010 a vs b naphthyl",
+          "url": "https://doi.org/10.1002/dta.185",
+          "type": "paper",
+          "year": 2010
+        }
+      ],
+      "gaps": [
+        "Street reviews of NRG-1 are not naphyrone reviews. Treat as mislabel rolls."
+      ]
+    },
+    {
+      "id": "a-naphyrone",
+      "name": "a-Naphyrone",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "1-naphthyl-naphyrone",
+        "aP-VNa1"
+      ],
+      "research_status": "identity_uncertain",
+      "market": "rc_era",
+      "feel": {
+        "headline": "The isomer hiding in the real bag. Nobody knows what it feels like.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Pharmacology unknown."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel",
+      "npc_line": "The isomer hiding in the real bag.",
+      "sources": [
+        {
+          "title": "Brandt 2010 alpha or beta naphthyl",
+          "url": "https://doi.org/10.1002/dta.185",
+          "type": "paper",
+          "year": 2010
+        },
+        {
+          "title": "Cayman 11240 naphyrone 1-naphthyl isomer",
+          "url": "https://www.caymanchem.com/product/11240/naphyrone-1-naphthyl-isomer-hydrochloride",
+          "type": "forensic_standard",
+          "year": null
+        },
+        {
+          "title": "EMCDDA formal notification 18.08.2010",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "Do not copy b-naphyrone scores onto the 1-naphthyl isomer."
+      ]
+    },
+    {
+      "id": "a-pvt",
+      "name": "a-PVT",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "alpha-PVT",
+        "a-pyrrolidinopentiothiophenone"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "They swapped the benzene for a thiophene. STRIDA still found it in blood.",
+        "rush": {
+          "score": 56,
+          "confidence": "C",
+          "note": "Thinner/shorter than PVP in rumor."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "D",
+          "note": "Not PVP."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "D",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 68,
+          "confidence": "B",
+          "note": "STRIDA-confirmed pyro class."
+        },
+        "reinforcement": {
+          "score": 72,
+          "confidence": "C",
+          "note": "DAT/NET class inference."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 58,
+          "confidence": "C",
+          "note": "STRIDA toxidrome set."
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": "STRIDA + 2021 plasma case."
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Benzene swapped for sulfur. STRIDA still found the blood.",
+      "sources": [
+        {
+          "title": "STRIDA Beck 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28895757/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Uchiyama 2015 a-PVT/a-PBT illicit products",
+          "url": "https://doi.org/10.1007/s11419-015-0288-3",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "a-PVT plasma case 2021",
+          "url": "https://doi.org/10.1016/j.forsciint.2021.110721",
+          "type": "paper",
+          "year": 2021
+        },
+        {
+          "title": "EMCDDA notification 21.05.2013",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "User feel thinner than the forensic footprint."
+      ]
+    },
+    {
+      "id": "a-pbt",
+      "name": "a-PBT",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "alpha-PBT",
+        "a-pyrrolidinobutiothiophenone"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "PVT's shorter sulfur brother. Seized. Unreviewed.",
+        "rush": {
+          "score": 42,
+          "confidence": "D",
+          "note": "Japan 2015 with a-PVT. No STRIDA star."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Shorter thienyl pyro."
+        },
+        "reinforcement": {
+          "score": 55,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Shorter sulfur. Unreviewed.",
+      "sources": [
+        {
+          "title": "Uchiyama 2015",
+          "url": "https://doi.org/10.1007/s11419-015-0288-3",
+          "type": "paper",
+          "year": 2015
+        },
+        {
+          "title": "EMCDDA notification 12.09.2014",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "No human feel text found."
+      ]
+    },
+    {
+      "id": "th-pvp",
+      "name": "TH-PVP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "tetralin-a-PVP",
+        "aP-VTHNa2"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Tetralin in a pyro costume. The rats did not even dance.",
+        "rush": {
+          "score": 18,
+          "confidence": "B",
+          "note": "Failed to produce stimulant effects in animals. SERT-leaning vs classic pyros."
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Looks like a pyro, acts like a shrug."
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 20,
+          "confidence": "B",
+          "note": "Not the DAT laser. Multi-country seizures anyway."
+        },
+        "reinforcement": {
+          "score": 24,
+          "confidence": "B",
+          "note": "In-vitro SERT-leaning; animal fail-to-stim."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 20,
+          "confidence": "D",
+          "note": "Not the flakka story."
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 25,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Tetralin in a pyro costume. The rats did not even dance.",
+      "sources": [
+        {
+          "title": "EMCDDA notification 10.08.2015 (Hungary first ID)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        },
+        {
+          "title": "TH-PVP Wikipedia (verify structure = tetralin, not cyclohexane)",
+          "url": "https://en.wikipedia.org/wiki/TH-PVP",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Wiki 'cyclohexane-a-PVP' caption is dirty. Structure is tetralin."
+      ]
+    },
+    {
+      "id": "th-php",
+      "name": "TH-PHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "aP-HTHNa2"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Tetralin C6. Named. Unfelt.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not copy TH-PVP animal failure without data."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same dusty tetralin shelf, longer tail.",
+      "sources": [
+        {
+          "title": "EMCDDA notification 10.03.2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "th-pbp",
+      "name": "TH-PBP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "aP-BTHNa2"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Tetralin C4. Named. Unfelt.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Shorter tetralin. Still a paper.",
+      "sources": [
+        {
+          "title": "EMCDDA notification 14.08.2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "5-ppdi",
+      "name": "5-PPDI",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "5-PPDi",
+        "indanyl-a-PBP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Indane on a C4 pyro. Drug-checking caught it. Forums did not.",
+        "rush": {
+          "score": 44,
+          "confidence": "D",
+          "note": "Energy Control powder + Japanese urine metabolites = someone took it."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 54,
+          "confidence": "D",
+          "note": "Indanyl pyro class inference."
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Drug-checking caught it. Forums did not.",
+      "sources": [
+        {
+          "title": "Fabregat-Safont 2018 5-PPDI Energy Control",
+          "url": "",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Ishii 2020 5-PPDI human urine metabolites",
+          "url": "https://doi.org/10.1016/j.forsciint.2020.110214",
+          "type": "paper",
+          "year": 2020
+        },
+        {
+          "title": "EMCDDA notification 28.10.2015",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "Easy menu swap with 5-BPDI."
+      ]
+    },
+    {
+      "id": "5-bpdi",
+      "name": "5-BPDI",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "5-BPDi",
+        "indanyl-a-PHP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "5-PPDI's longer twin. A powder with a paper. Not a scene.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "EMCDDA 17.04.2015; Poland 2019 characterization."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 56,
+          "confidence": "D",
+          "note": "C6 indane pyro inference only."
+        },
+        "reinforcement": {
+          "score": 60,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A powder with a paper. Not a scene.",
+      "sources": [
+        {
+          "title": "EMCDDA notification 17.04.2015",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11635063/",
+          "type": "paper",
+          "year": 2024
+        },
+        {
+          "title": "Blazewicz 2019 Poland 5-BPDI",
+          "url": "https://doi.org/10.1007/s11419-018-00463-w",
+          "type": "paper",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "Feel null-heavy on purpose."
+      ]
+    },
+    {
+      "id": "4-cl-ppp",
+      "name": "4-Cl-PPP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-Cl-a-PPP",
+        "4-CPrC",
+        "4-chloro-a-PPP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Chloro on the short one. Catalog cousin. Not a night.",
+        "rush": {
+          "score": 28,
+          "confidence": "D",
+          "note": "PPP-length. Class rumor is slam_only; do not invent insufflated rush."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 44,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 48,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "slam_only",
+      "npc_line": "Chloro on the short one. Not a night.",
+      "sources": [
+        {
+          "title": "Poland 4-Cl-PPP to EU-EWS",
+          "url": "",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "4-br-pvp",
+      "name": "4-Br-PVP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-bromo-a-PVP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Bromine on PVP. One country's crate.",
+        "rush": {
+          "score": 70,
+          "confidence": "D",
+          "note": "Poland seizure to EMCDDA. Rare."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "D",
+          "note": "PVP halogen class."
+        },
+        "reinforcement": {
+          "score": 82,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 75,
+          "confidence": "D",
+          "note": "Class."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Bromine on PVP. One country's crate.",
+      "sources": [
+        {
+          "title": "Poland 4-Br-PVP / 4-Cl-PPP / hexedrone EU-EWS",
+          "url": "",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "4-br-ppp",
+      "name": "4-Br-PPP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-bromo-a-PPP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Poland 2019 short bromo. Null feel.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "D",
+          "note": "Short-chain pyro inference."
+        },
+        "reinforcement": {
+          "score": 44,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Short bromine. Paper only.",
+      "sources": [
+        {
+          "title": "Blazewicz 2019",
+          "url": "https://doi.org/10.1007/s11419-018-00463-w",
+          "type": "paper",
+          "year": 2019
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "mfpvp",
+      "name": "MFPVP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4F-3Me-a-PVP",
+        "4-fluoro-3-methyl-a-PVP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Two stamps on one PVP. Lab-grade crystal. No fan club.",
+        "rush": {
+          "score": 68,
+          "confidence": "D",
+          "note": "Slovenia 2020 crystalline test-purchase >95% HCl."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "D",
+          "note": "Dual ring stamp on PVP chassis."
+        },
+        "reinforcement": {
+          "score": 80,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 72,
+          "confidence": "D",
+          "note": "Class."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Two stamps. No fan club.",
+      "sources": [
+        {
+          "title": "Slovenia NFL 4F-3Me-a-PVP report 2187-20",
+          "url": "https://www.policija.si/apps/nfl_response_web/0_Analytical_Reports_final/4F-3Me-%CE%B1-PVP-ID-2187-20_report.pdf",
+          "type": "forensic",
+          "year": 2020
+        },
+        {
+          "title": "Cayman 31050",
+          "url": "https://www.caymanchem.com/product/31050/4-fluoro-3-methyl-alpha-pyrrolidinovalerophenone-hydrochloride",
+          "type": "forensic_standard",
+          "year": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "2-me-a-pvp",
+      "name": "2-Me-a-PVP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "2-methyl-a-PVP",
+        "2-Me-PVP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Scheduled. Thinner chorus than 2-Me-PiHP.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Swedish monograph exists. Feel mostly null."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "D",
+          "note": "PVP methyl class inference only."
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The PVP ortho-methyl. Not the PiHP one.",
+      "sources": [
+        {
+          "title": "Swedish 2-Me-alfa-PVP monograph",
+          "url": "https://www.aklagare.se/om-oss/dokument/narkotikapreparat/",
+          "type": "forensic",
+          "year": 2022
+        }
+      ],
+      "gaps": [
+        "Do not alias to 2-Me-PiHP."
+      ]
+    },
+    {
+      "id": "3f-a-php",
+      "name": "3F-a-PHP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "3-fluoro-a-PHP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Named in the 3F-PiHP scheduling text. Trace.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 80,
+          "confidence": "C",
+          "note": "2025 panel: extreme DAT selectivity cluster."
+        },
+        "reinforcement": {
+          "score": 88,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 72,
+          "confidence": "D",
+          "note": "Class."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Trace fluoro-PHP. Do not confuse with 3F-PiHP.",
+      "sources": [
+        {
+          "title": "Swedish 3F-alfa-PiHP monograph (names 3F-a-PHP as analog)",
+          "url": "https://www.aklagare.se/globalassets/dokument/narkotikapreparat/0-9/3f-alfa-pihp.pdf",
+          "type": "forensic",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "Trace market. DAT selectivity is the only punchy number."
+      ]
+    },
+    {
+      "id": "2-4-dmppp",
+      "name": "2,4-DMPPP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "2,4-DM-a-PPP",
+        "DMPPP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Poland 2019 dimethyl short pyro. Identity-adjacent to old German DMPPP.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Dimethyl on the short one. Confirm the structure before you print it.",
+      "sources": [
+        {
+          "title": "Blazewicz 2019 2,4-DMPPP",
+          "url": "https://doi.org/10.1007/s11419-018-00463-w",
+          "type": "paper",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "Possible alias overlap with older 2,4-DM-a-PPP / DMPPP naming."
+      ]
+    },
+    {
+      "id": "indapyrophenidone",
+      "name": "Indapyrophenidone",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone_odd_ring",
+      "aliases": [
+        "indanyl-a-phenyl-a-PVP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "UK 2017 one-off. Null feel.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "One seized unknown. Not a shelf.",
+      "sources": [
+        {
+          "title": "UK 2017 indapyrophenidone identification",
+          "url": "",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "One-off. Do not grow a family."
+      ]
+    },
+    {
+      "id": "4-meo-pbp",
+      "name": "4-MeO-a-PBP",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4-methoxy-a-PBP"
+      ],
+      "research_status": "unverified_claim",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Wikipedia seed. No seizure paper in this pass.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Wiki dust. Do not ship.",
+      "sources": [
+        {
+          "title": "Wikipedia list of designer drugs (seed only)",
+          "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Unverified circulation."
+      ]
+    },
+    {
+      "id": "4f-pv9",
+      "name": "4F-PV9",
+      "family": "synthetic_cathinone",
+      "subclass": "pyrrolidine_cathinone",
+      "aliases": [
+        "4F-a-POP",
+        "4-fluoro-PV-9"
+      ],
+      "research_status": "unverified_claim",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Wiki homolog. Not in STRIDA. Gray.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They kept adding carbons. We stopped counting.",
+      "sources": [
+        {
+          "title": "Wikipedia list of designer drugs (seed only)",
+          "url": "https://en.wikipedia.org/wiki/List_of_designer_drugs",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "No forensic hit in this pass."
+      ]
+    }
+  ]
+}

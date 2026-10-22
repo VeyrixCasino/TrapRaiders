@@ -1,0 +1,2208 @@
+{
+  "assignment_id": "15_16",
+  "slug": "dissos_pcp_pce",
+  "title": "PCP-type + PCE / PCPr / PCMo / other ACH",
+  "family": "dissociatives",
+  "subfamily": "non_oxo_arylcyclohexylamine",
+  "priority_family": "disso",
+  "kits": [
+    "M",
+    "N"
+  ],
+  "disclaimer": "Fictional game catalog research. Unitless 0-100 inferences from public reports. Not a manual. No recipes. No how-to-take. No milligram instructions. No opioids. Pleasure and compulsiveness are independent. Mania can be the enjoyment. Unknown scores are null, never 0.",
+  "scoring": {
+    "scale": "0-100 or null",
+    "pleasure_vs_compulsiveness": "independent",
+    "priority_axes": [
+      "rush",
+      "euphoria",
+      "enjoyment",
+      "compulsiveness"
+    ],
+    "extra_axes": [
+      "dissociation_depth",
+      "warmth",
+      "mania",
+      "functional",
+      "motor",
+      "aftereffects",
+      "judgment",
+      "psychosis_concern"
+    ],
+    "supporting_axes": [
+      "stimulation",
+      "sedation",
+      "disinhibition"
+    ]
+  },
+  "scope": {
+    "include_full_15": [
+      "pcp",
+      "3meo_pcp",
+      "3ho_pcp",
+      "3me_pcp",
+      "3cl_pcp",
+      "3f_pcp",
+      "4meo_pcp",
+      "pcpy",
+      "3meo_pcpy",
+      "3me_pcpy"
+    ],
+    "include_full_16": [
+      "pce",
+      "3meo_pce",
+      "3ho_pce",
+      "3me_pce",
+      "pcpr",
+      "3meo_pcpr",
+      "pcmo",
+      "3meo_pcmo",
+      "tcp",
+      "md_pcp"
+    ],
+    "include_neighbor": [
+      "o_pce"
+    ],
+    "include_unusual_documented": [
+      "pcmea",
+      "pceea",
+      "pcmpa",
+      "pcip",
+      "pcde",
+      "tcpy",
+      "md_pcpr",
+      "4meo_pce",
+      "bncp",
+      "2meo_pcp",
+      "4me_pcp",
+      "4prime_me_pcp"
+    ],
+    "include_literature_only_null": [
+      "3ho_pcpr",
+      "3me_pcpr",
+      "3cl_pce",
+      "3f_pcipr"
+    ],
+    "exclude_oxo": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxipr",
+      "ketamine",
+      "dck",
+      "2f_dck",
+      "fxe",
+      "hxe"
+    ],
+    "exclude_opioids": [
+      "bdpc",
+      "c8813"
+    ],
+    "exclude_diarylethylamines": [
+      "mxp",
+      "diphenidine",
+      "ephenidine",
+      "fluorolintane"
+    ],
+    "o_pce_note": "Kit N sticker. Full card is assignment 14. Neighbor only."
+  },
+  "nomenclature": [
+    {
+      "label": "PCMo",
+      "also_seen_as": [
+        "PCM"
+      ],
+      "resolves_to": "pcmo",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "PCM is ambiguous. Morris: use PCMo for morpholine, PCMe for N-methyl-1-phenylcyclohexylamine."
+    },
+    {
+      "label": "O-PCE",
+      "also_seen_as": [
+        "2-oxo-PCE",
+        "eticyclidone"
+      ],
+      "resolves_to": "o_pce",
+      "is_separate_agent": false,
+      "owned_by": 14,
+      "confidence": "high",
+      "note": "Not PCE. 2-oxo neighbor. Do not full-profile here."
+    },
+    {
+      "label": "PCPy",
+      "also_seen_as": [
+        "rolicyclidine",
+        "PHP"
+      ],
+      "resolves_to": "pcpy",
+      "is_separate_agent": false,
+      "confidence": "high"
+    }
+  ],
+  "slider_board": {
+    "mania_high_to_low": [
+      "3meo_pcp",
+      "3meo_pce",
+      "pcp",
+      "pce",
+      "3me_pcpy",
+      "3meo_pcpy",
+      "tcp",
+      "3me_pcp",
+      "3me_pce",
+      "3ho_pcp",
+      "3meo_pcpr",
+      "3ho_pce",
+      "3f_pcp",
+      "4meo_pcp",
+      "3cl_pcp",
+      "pcmo"
+    ],
+    "cozy_high_to_low": [
+      "3ho_pcp",
+      "3cl_pcp",
+      "3meo_pce",
+      "3meo_pcp",
+      "3meo_pcmo",
+      "4meo_pcp",
+      "3me_pcp",
+      "3ho_pce",
+      "pcmo",
+      "3f_pcp",
+      "pcp",
+      "3me_pcpy"
+    ],
+    "functional_high_to_low": [
+      "3me_pcp",
+      "3me_pce",
+      "3me_pcpy",
+      "3meo_pce",
+      "3ho_pcp",
+      "3f_pcp",
+      "md_pcp",
+      "3meo_pcp",
+      "pcp",
+      "4meo_pcp",
+      "3ho_pce",
+      "pcmo"
+    ],
+    "enjoyment_high_to_low": [
+      "3meo_pcp",
+      "3ho_pcp",
+      "3meo_pce",
+      "3me_pcp",
+      "3me_pcpy",
+      "pcp",
+      "3me_pce",
+      "pce",
+      "3meo_pcpr",
+      "3cl_pcp",
+      "4meo_pcp",
+      "3f_pcp",
+      "3ho_pce",
+      "3meo_pcmo",
+      "pcmo"
+    ],
+    "euphoria_high_to_low": [
+      "3ho_pcp",
+      "3meo_pcp",
+      "3me_pcpy",
+      "3meo_pce",
+      "3me_pcp",
+      "3cl_pcp",
+      "pcp",
+      "3me_pce",
+      "pce",
+      "3meo_pcpr",
+      "4meo_pcp",
+      "3f_pcp",
+      "3ho_pce",
+      "3meo_pcmo",
+      "pcmo"
+    ],
+    "rush_high_to_low": [
+      "3me_pcpy",
+      "pcp",
+      "3me_pce",
+      "3meo_pcp",
+      "pce",
+      "3meo_pce",
+      "3me_pcp",
+      "3meo_pcpr",
+      "3ho_pcp",
+      "3f_pcp",
+      "3cl_pcp",
+      "3ho_pce",
+      "4meo_pcp",
+      "3meo_pcmo",
+      "pcmo"
+    ],
+    "compulsiveness_high_to_low": [
+      "3meo_pcp",
+      "3me_pcpy",
+      "3meo_pce",
+      "pcp",
+      "3ho_pcp",
+      "3me_pcp",
+      "pce",
+      "3me_pce",
+      "3meo_pcpr",
+      "4meo_pcp",
+      "3ho_pce",
+      "3f_pcp",
+      "3cl_pcp",
+      "3meo_pcmo",
+      "pcmo"
+    ],
+    "aftereffects_high_to_low": [
+      "3meo_pcp",
+      "pcp",
+      "3meo_pce",
+      "tcp",
+      "3ho_pcp",
+      "4meo_pcp",
+      "pce",
+      "3meo_pcpr",
+      "3me_pcp",
+      "3ho_pce",
+      "3me_pcpy",
+      "3me_pce",
+      "3cl_pcp",
+      "3f_pcp",
+      "3meo_pcmo"
+    ],
+    "notes": [
+      "Mania is the product on this wall. Cozy and functional are escape hatches.",
+      "3-MeO-PCP low-end 'functional' is a trap (delusions of sobriety / prophet email).",
+      "3-Me-PCP: majority finish-a-sentence; minority say friends notice worse behavior change. Catalog keeps functional > god-mode and records the split.",
+      "3-F-PCP camps (trash vs less-manic walk) unresolved; enjoyment stays low-mid.",
+      "O-PCE mania/fiend is assignment 14. Neighbor only."
+    ]
+  },
+  "rankings": {
+    "mania": [
+      "3meo_pcp",
+      "3meo_pce",
+      "pcp",
+      "pce",
+      "3me_pcpy",
+      "3meo_pcpy",
+      "tcp",
+      "3me_pcp",
+      "3me_pce",
+      "3ho_pcp",
+      "3meo_pcpr",
+      "3ho_pce",
+      "3f_pcp",
+      "4meo_pcp",
+      "3cl_pcp",
+      "pcmo"
+    ],
+    "cozy": [
+      "3ho_pcp",
+      "3cl_pcp",
+      "3meo_pce",
+      "3meo_pcp",
+      "3meo_pcmo",
+      "4meo_pcp",
+      "3me_pcp",
+      "3ho_pce",
+      "pcmo",
+      "3f_pcp",
+      "pcp",
+      "3me_pcpy"
+    ],
+    "functional": [
+      "3me_pcp",
+      "3me_pce",
+      "3me_pcpy",
+      "3meo_pce",
+      "3ho_pcp",
+      "3f_pcp",
+      "md_pcp",
+      "3meo_pcp",
+      "pcp",
+      "4meo_pcp",
+      "3ho_pce",
+      "pcmo"
+    ],
+    "by_evidence": [
+      "pcp",
+      "3meo_pcp",
+      "3meo_pce",
+      "4meo_pcp",
+      "3ho_pcp",
+      "pce",
+      "tcp",
+      "pcpy",
+      "3me_pcpy",
+      "3ho_pce",
+      "3cl_pcp",
+      "3me_pcp",
+      "3meo_pcmo",
+      "3me_pce",
+      "3meo_pcpr",
+      "3f_pcp",
+      "pcmo",
+      "pcpr",
+      "md_pcp"
+    ],
+    "note": "Mania ranking is not a fun ranking, but on this shelf mania is the fun for a lot of NPCs. 3-HO-PCP is the cozy. 3-Me-PCP is the sentence."
+  },
+  "agents": [
+    {
+      "id": "pcp",
+      "name": "PCP",
+      "full_name": "phencyclidine",
+      "substitutive": "PCP",
+      "systematic": "1-(1-phenylcyclohexyl)piperidine",
+      "aliases": [
+        "angel dust",
+        "Sernyl",
+        "hog",
+        "sherm",
+        "wet",
+        "fry",
+        "peace pill",
+        "embalming fluid"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "well_documented",
+      "market": "street",
+      "scores": {
+        "enjoyment": 72,
+        "euphoria": 62,
+        "rush": 70,
+        "compulsiveness": 74,
+        "dissociation_depth": 72,
+        "warmth": 40,
+        "mania": 88,
+        "stimulation": 70,
+        "sedation": 45,
+        "disinhibition": 82,
+        "functional": 28,
+        "motor": 78,
+        "aftereffects": 86,
+        "judgment": 90,
+        "psychosis_concern": 85
+      },
+      "confidence": 0.9,
+      "one_liner": "The movie one. You can walk. You should not.",
+      "feel": "Walk-around manic. Long. Power and float, not a hug. Smoke-on-leaf is the American myth. Aftereffects measured in many hours to a couple of days. Media superhero-violence is mostly panic copy; agitation and delusions still earn freakout.",
+      "stim_vs_sedation": "stimulating walk-around with anesthetic body; not a couch chemical until it is",
+      "flags": [
+        "mania",
+        "freakout",
+        "smoke_fav",
+        "mislabel"
+      ],
+      "flag_notes": {
+        "mislabel": "1970s drug of deception (sold as LSD, mescaline, cocaine, THC).",
+        "smoke_fav": "Sherm/wet/fry leaf myth. Route flag only."
+      },
+      "sources": [
+        "morris_wallach_2014",
+        "wiki_pcp",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3meo_pcp",
+      "name": "3-MeO-PCP",
+      "full_name": "3-methoxyphencyclidine",
+      "substitutive": "3-MeO-PCP",
+      "systematic": "1-[1-(3-methoxyphenyl)cyclohexyl]piperidine",
+      "aliases": [
+        "3-MeO"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 86,
+        "euphoria": 78,
+        "rush": 64,
+        "compulsiveness": 84,
+        "dissociation_depth": 68,
+        "warmth": 62,
+        "mania": 96,
+        "stimulation": 82,
+        "sedation": 28,
+        "disinhibition": 88,
+        "functional": 48,
+        "motor": 50,
+        "aftereffects": 90,
+        "judgment": 94,
+        "psychosis_concern": 92
+      },
+      "confidence": 0.88,
+      "one_liner": "You will answer emails like a prophet.",
+      "feel": "God-mode. Subtle come-up plus delusions of sobriety — that is the redose engine. Low: colors and email. Mid: prophet. High: psychotic delirium and a long return. After-effects hang a long time. Mania is the enjoyment for fans.",
+      "stim_vs_sedation": "stimulating, walk-around, not a hole drug until it is a problem",
+      "flags": [
+        "mania",
+        "freakout",
+        "redose"
+      ],
+      "sources": [
+        "pw_3meo_pcp",
+        "who_3meo_pcp",
+        "pmc_3meo_psychosis",
+        "roth_2013",
+        "morris_wallach_2014",
+        "reddit_q1l2h5",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3ho_pcp",
+      "name": "3-HO-PCP",
+      "full_name": "3-hydroxyphencyclidine",
+      "substitutive": "3-HO-PCP",
+      "systematic": "3-(1-piperidin-1-ylcyclohexyl)phenol",
+      "aliases": [
+        "hydroxyphencyclidine"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 82,
+        "euphoria": 84,
+        "rush": 48,
+        "compulsiveness": 72,
+        "dissociation_depth": 70,
+        "warmth": 92,
+        "mania": 58,
+        "stimulation": 40,
+        "sedation": 72,
+        "disinhibition": 64,
+        "functional": 55,
+        "motor": 58,
+        "aftereffects": 76,
+        "judgment": 60,
+        "psychosis_concern": 62
+      },
+      "confidence": 0.7,
+      "one_liner": "The cozy PCP.",
+      "feel": "Warm-numb. Slow mania in slippers. Body-high, lazy, still a PCP. Opioid-ish myth: animal mu affinity is real; human opioid feel is disputed. Still a disso, not an opioid SKU.",
+      "stim_vs_sedation": "sedating-warm with a manageable manic tide",
+      "flags": [
+        "mania"
+      ],
+      "flag_notes": {
+        "mania": "Gentler than 3-MeO. Not absent."
+      },
+      "sources": [
+        "pw_3ho_pcp",
+        "morris_wallach_2014",
+        "reddit_q1l2h5",
+        "reddit_wmolv3",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3me_pcp",
+      "name": "3-Me-PCP",
+      "full_name": "3-methylphencyclidine",
+      "substitutive": "3-Me-PCP",
+      "systematic": "1-[1-(3-methylphenyl)cyclohexyl]piperidine",
+      "aliases": [
+        "3-methyl-PCP"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 76,
+        "euphoria": 70,
+        "rush": 58,
+        "compulsiveness": 68,
+        "dissociation_depth": 50,
+        "warmth": 58,
+        "mania": 64,
+        "stimulation": 68,
+        "sedation": 36,
+        "disinhibition": 70,
+        "functional": 78,
+        "motor": 42,
+        "aftereffects": 62,
+        "judgment": 52,
+        "psychosis_concern": 58
+      },
+      "confidence": 0.58,
+      "one_liner": "The one you can finish a sentence on.",
+      "feel": "Clearer and smoother than 3-MeO in the majority. Shallower, more recreational. Split: at least one long-time user says friends clock worse behavior change on 3-Me. Catalog keeps functional > god-mode and does not call it safe.",
+      "stim_vs_sedation": "stimulating-lucid, less confusing headspace",
+      "flags": [
+        "mania"
+      ],
+      "sources": [
+        "reddit_jlkhyi",
+        "bluelight_3meo_alt",
+        "reddit_q1l2h5",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3cl_pcp",
+      "name": "3-Cl-PCP",
+      "full_name": "3-chlorophencyclidine",
+      "substitutive": "3-Cl-PCP",
+      "systematic": "1-[1-(3-chlorophenyl)cyclohexyl]piperidine",
+      "aliases": [
+        "3-chloro-PCP"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "later_stamp",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 56,
+        "euphoria": 62,
+        "rush": 36,
+        "compulsiveness": 40,
+        "dissociation_depth": 58,
+        "warmth": 70,
+        "mania": 28,
+        "stimulation": 30,
+        "sedation": 74,
+        "disinhibition": 50,
+        "functional": 40,
+        "motor": 55,
+        "aftereffects": 48,
+        "judgment": 40,
+        "psychosis_concern": 30
+      },
+      "confidence": 0.48,
+      "one_liner": "Couch PCP. Burns. Pretty, if you stay seated.",
+      "feel": "Heavy, stoning, colorful, anxiolytic. Ephenidine-adjacent visuals in one expert voice. Cardiovascular strain and flu-like whispers. Majority ranking energy is harsh leftover, not a prophet.",
+      "stim_vs_sedation": "sedating couch, little 3-MeO stim",
+      "flags": [],
+      "sources": [
+        "pw_3cl_pcp",
+        "erowid_115030",
+        "bluelight_3meo_alt",
+        "reddit_jlkhyi"
+      ]
+    },
+    {
+      "id": "3f_pcp",
+      "name": "3-F-PCP",
+      "full_name": "3-fluorophencyclidine",
+      "substitutive": "3-F-PCP",
+      "systematic": "1-[1-(3-fluorophenyl)cyclohexyl]piperidine",
+      "aliases": [
+        "3-fluoro-PCP",
+        "3-FL-PCP"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "later_stamp",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 42,
+        "euphoria": 48,
+        "rush": 40,
+        "compulsiveness": 44,
+        "dissociation_depth": 45,
+        "warmth": 35,
+        "mania": 32,
+        "stimulation": 55,
+        "sedation": 38,
+        "disinhibition": 48,
+        "functional": 50,
+        "motor": 40,
+        "aftereffects": 40,
+        "judgment": 38,
+        "psychosis_concern": 28
+      },
+      "confidence": 0.35,
+      "one_liner": "Vendor fluoro. Less prophet, more shrug.",
+      "feel": "Split: trash/slow/harsh/boring versus recreational stim that is significantly less manic than 3-MeO. Catalog does not average the camps into a fake nice PCP.",
+      "stim_vs_sedation": "unresolved: stim-walk vs dumb dissociation smack",
+      "flags": [],
+      "sources": [
+        "reddit_m0adxy",
+        "reddit_jlkhyi",
+        "reddit_11tc05s",
+        "erowid_115030"
+      ]
+    },
+    {
+      "id": "4meo_pcp",
+      "name": "4-MeO-PCP",
+      "full_name": "4-methoxyphencyclidine",
+      "substitutive": "4-MeO-PCP",
+      "systematic": "1-[1-(4-methoxyphenyl)cyclohexyl]piperidine",
+      "aliases": [
+        "methoxydine"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "first_rc_leftover",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 46,
+        "euphoria": 50,
+        "rush": 28,
+        "compulsiveness": 52,
+        "dissociation_depth": 62,
+        "warmth": 48,
+        "mania": 34,
+        "stimulation": 32,
+        "sedation": 58,
+        "disinhibition": 44,
+        "functional": 30,
+        "motor": 60,
+        "aftereffects": 70,
+        "judgment": 55,
+        "psychosis_concern": 40
+      },
+      "confidence": 0.62,
+      "one_liner": "2008 leftover. First legal PCP. Weaker.",
+      "feel": "First arylcyclohexylamine research chemical sold online. Muddy, long, weaker than PCP. NMDA-selective, little DAT. More powder, more confusion, not more magic.",
+      "stim_vs_sedation": "heavier/muddier than 3-MeO, not a mania slap",
+      "flags": [],
+      "sources": [
+        "pw_4meo_pcp",
+        "morris_wallach_2014",
+        "roth_2013",
+        "product_families"
+      ]
+    },
+    {
+      "id": "pcpy",
+      "name": "PCPy",
+      "full_name": "rolicyclidine",
+      "substitutive": "PCPy",
+      "systematic": "1-(1-phenylcyclohexyl)pyrrolidine",
+      "aliases": [
+        "PHP",
+        "rolicyclidine"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "museum",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "street",
+      "scores": {
+        "enjoyment": 58,
+        "euphoria": 52,
+        "rush": 50,
+        "compulsiveness": 55,
+        "dissociation_depth": 58,
+        "warmth": 45,
+        "mania": 60,
+        "stimulation": 40,
+        "sedation": 62,
+        "disinhibition": 60,
+        "functional": 35,
+        "motor": 60,
+        "aftereffects": 58,
+        "judgment": 70,
+        "psychosis_concern": 62
+      },
+      "confidence": 0.45,
+      "one_liner": "Same wall, different N. The sleepy PCP.",
+      "feel": "1970s PCP analog. Similar potency in old literature plus a sedating barbiturate-ish overlay. Leaf and powder. Museum cousin, not a Flask headliner.",
+      "stim_vs_sedation": "more sedating than PCP in period user talk",
+      "flags": [
+        "mania",
+        "smoke_fav"
+      ],
+      "sources": [
+        "morris_wallach_2014",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3meo_pcpy",
+      "name": "3-MeO-PCPy",
+      "full_name": "3-methoxyrolicyclidine",
+      "substitutive": "3-MeO-PCPy",
+      "systematic": "1-[1-(3-methoxyphenyl)cyclohexyl]pyrrolidine",
+      "aliases": [],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "vendor_cousin",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 60,
+        "euphoria": 55,
+        "rush": 50,
+        "compulsiveness": 58,
+        "dissociation_depth": 48,
+        "warmth": 48,
+        "mania": 68,
+        "stimulation": 62,
+        "sedation": 35,
+        "disinhibition": 60,
+        "functional": 45,
+        "motor": null,
+        "aftereffects": 55,
+        "judgment": 65,
+        "psychosis_concern": 65
+      },
+      "confidence": 0.28,
+      "one_liner": "Same wall, different N. The awake PCPy.",
+      "feel": "MXE-era obscurity. A bit more awake than plain PCPy. Same mania wall, thinner file. Do not invent a novel personality.",
+      "stim_vs_sedation": "more awake than PCPy",
+      "flags": [
+        "mania"
+      ],
+      "sources": [
+        "morris_wallach_2014",
+        "bluelight_3meo_pcpr",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3me_pcpy",
+      "name": "3-Me-PCPy",
+      "full_name": "3-methylrolicyclidine",
+      "substitutive": "3-Me-PCPy",
+      "systematic": "1-[1-(3-methylphenyl)cyclohexyl]pyrrolidine",
+      "aliases": [],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "later_stamp",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 72,
+        "euphoria": 74,
+        "rush": 78,
+        "compulsiveness": 80,
+        "dissociation_depth": 32,
+        "warmth": 40,
+        "mania": 70,
+        "stimulation": 86,
+        "sedation": 18,
+        "disinhibition": 76,
+        "functional": 62,
+        "motor": 35,
+        "aftereffects": 50,
+        "judgment": 58,
+        "psychosis_concern": 68
+      },
+      "confidence": 0.55,
+      "one_liner": "Dissociative cocaine. Shallow on purpose.",
+      "feel": "Super stim, short, shallow, euphoric, social, redose-prone. Not a trip. Mania/psychosis listed higher than ket/MXE on the PW talk page. Compulsiveness can beat enjoyment.",
+      "stim_vs_sedation": "stim-forward, almost no sedation",
+      "flags": [
+        "mania",
+        "redose"
+      ],
+      "sources": [
+        "nervewing_3me_pcpy",
+        "bluelight_3me_pcpy",
+        "pw_talk_3me_pcpy",
+        "reddit_wmolv3"
+      ]
+    },
+    {
+      "id": "4me_pcp",
+      "name": "4-Me-PCP",
+      "full_name": "4-methylphencyclidine",
+      "substitutive": "4-Me-PCP",
+      "systematic": "1-[1-(4-methylphenyl)cyclohexyl]piperidine",
+      "aliases": [],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "dusty_crate",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": 15,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.2,
+      "one_liner": "Canada dust. Disappointing.",
+      "feel": "1989 Canadian seizure. One Hive/Bluelight line: disappointing, basically inactive. Not a wall. Different molecule from 4-prime-Me-PCP.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014"
+      ]
+    },
+    {
+      "id": "4prime_me_pcp",
+      "name": "4'-Me-PCP",
+      "full_name": "4-methyl-1-(1-phenylcyclohexyl)piperidine",
+      "substitutive": "4'-Me-PCP",
+      "systematic": "4-methyl-1-(1-phenylcyclohexyl)piperidine",
+      "aliases": [
+        "4-Me'-PCP"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "dusty_crate",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.15,
+      "one_liner": "1981 parsley dip. Weak stamp.",
+      "feel": "Northern Virginia street sample on parsley. Weak in rat assays. One 'active at a third of PCP' line. Do not print a methyl-isomer grid.",
+      "stim_vs_sedation": null,
+      "flags": [
+        "smoke_fav"
+      ],
+      "sources": [
+        "morris_wallach_2014"
+      ]
+    },
+    {
+      "id": "pce",
+      "name": "PCE",
+      "full_name": "eticyclidine",
+      "substitutive": "PCE",
+      "systematic": "N-ethyl-1-phenylcyclohexylamine",
+      "aliases": [
+        "CI-400",
+        "cyclohexamine"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "parent",
+      "card_weight": "full",
+      "research_status": "well_documented",
+      "market": "street",
+      "scores": {
+        "enjoyment": 64,
+        "euphoria": 58,
+        "rush": 62,
+        "compulsiveness": 68,
+        "dissociation_depth": 60,
+        "warmth": 38,
+        "mania": 76,
+        "stimulation": 78,
+        "sedation": 32,
+        "disinhibition": 70,
+        "functional": 42,
+        "motor": 65,
+        "aftereffects": 70,
+        "judgment": 78,
+        "psychosis_concern": 74
+      },
+      "confidence": 0.55,
+      "one_liner": "Parent of the MeO/HO stamps. Twitchier PCP.",
+      "feel": "Slightly more potent than PCP in old clinical/animal piles. More stimulating, less anesthetic couch. 1969-80s analog, often sold as PCP. Modern RC heads talk about 3-MeO-PCE, not the parent.",
+      "stim_vs_sedation": "stimulating parent",
+      "flags": [
+        "mania",
+        "mislabel"
+      ],
+      "sources": [
+        "morris_wallach_2014",
+        "wiki_pce",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3meo_pce",
+      "name": "3-MeO-PCE",
+      "full_name": "3-methoxyeticyclidine",
+      "substitutive": "3-MeO-PCE",
+      "systematic": "N-ethyl-1-(3-methoxyphenyl)cyclohexan-1-amine",
+      "aliases": [
+        "methoxieticyclidine"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 80,
+        "euphoria": 74,
+        "rush": 58,
+        "compulsiveness": 78,
+        "dissociation_depth": 62,
+        "warmth": 70,
+        "mania": 86,
+        "stimulation": 80,
+        "sedation": 30,
+        "disinhibition": 78,
+        "functional": 60,
+        "motor": 48,
+        "aftereffects": 82,
+        "judgment": 88,
+        "psychosis_concern": 84
+      },
+      "confidence": 0.8,
+      "one_liner": "3-MeO-PCP's twitchier cousin.",
+      "feel": "Stimulating, functional at low, chaos at high. Creeping mania, not always a slap. Warm in some rankings. PW: psychosis/mania higher than ket/MXE. Afterglow can eat the next day. The peace is how people stay in the bag.",
+      "stim_vs_sedation": "clean comfortable stim vs O-PCE scalpel",
+      "flags": [
+        "mania",
+        "freakout",
+        "redose"
+      ],
+      "sources": [
+        "pw_3meo_pce",
+        "roth_2013",
+        "reddit_wmolv3",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3ho_pce",
+      "name": "3-HO-PCE",
+      "full_name": "3-hydroxyeticyclidine",
+      "substitutive": "3-HO-PCE",
+      "systematic": "3-[1-(ethylamino)cyclohexyl]phenol",
+      "aliases": [
+        "hydroxyeticyclidine"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "filler",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 38,
+        "euphoria": 42,
+        "rush": 28,
+        "compulsiveness": 50,
+        "dissociation_depth": 55,
+        "warmth": 44,
+        "mania": 48,
+        "stimulation": 36,
+        "sedation": 52,
+        "disinhibition": 40,
+        "functional": 40,
+        "motor": 50,
+        "aftereffects": 55,
+        "judgment": 50,
+        "psychosis_concern": 50
+      },
+      "confidence": 0.5,
+      "one_liner": "It works. Nobody writes poems.",
+      "feel": "Pure disso, little magic. PW lists mania; forum ranking energy is F-tier. Opioid rumor is copy-paste from 3-HO-PCP and unproven here.",
+      "stim_vs_sedation": "halfway nothing: not cozy, not prophet",
+      "flags": [],
+      "sources": [
+        "pw_3ho_pce",
+        "reddit_8x63d2",
+        "reddit_129220v",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3me_pce",
+      "name": "3-Me-PCE",
+      "full_name": "3-methyleticyclidine",
+      "substitutive": "3-Me-PCE",
+      "systematic": "N-ethyl-1-(3-methylphenyl)cyclohexan-1-amine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "later_stamp",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 66,
+        "euphoria": 62,
+        "rush": 70,
+        "compulsiveness": 64,
+        "dissociation_depth": 44,
+        "warmth": 52,
+        "mania": 58,
+        "stimulation": 76,
+        "sedation": 24,
+        "disinhibition": 66,
+        "functional": 68,
+        "motor": 32,
+        "aftereffects": 48,
+        "judgment": 50,
+        "psychosis_concern": 48
+      },
+      "confidence": 0.42,
+      "one_liner": "Short PCE. Finish the night, maybe the sentence.",
+      "feel": "Short, fast, fiery, electric. Party/walk, not a sit-inside chemical. Shallower and more hedonistic than 3-MeO-PCE. Less manic than PCP compounds. Motor mostly intact.",
+      "stim_vs_sedation": "stim, restless, not a couch",
+      "flags": [],
+      "sources": [
+        "nervewing_3me_pce"
+      ]
+    },
+    {
+      "id": "o_pce",
+      "name": "O-PCE",
+      "full_name": "eticyclidone",
+      "substitutive": "2-oxo-PCE",
+      "systematic": "2-phenyl-2-(ethylamino)cyclohexan-1-one",
+      "aliases": [
+        "2-oxo-PCE"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "neighbor_only",
+      "card_weight": "neighbor",
+      "owned_by": 14,
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.9,
+      "one_liner": "Not a hug. A scalpel. Air left the room.",
+      "feel": "Neighbor only. Assignment 14 owns the full card. Kit N still prints the sticker because it sits between ket and PCE. Clean, surgical, stimulating, fiendish. Scores live in 14_disso_mxe.",
+      "stim_vs_sedation": "stimulating scalpel — see assignment 14",
+      "flags": [
+        "redose",
+        "mania",
+        "bladder",
+        "mislabel"
+      ],
+      "sources": [
+        "product_families",
+        "assignment_14"
+      ]
+    },
+    {
+      "id": "pcpr",
+      "name": "PCPr",
+      "full_name": "N-propyl-1-phenylcyclohexylamine",
+      "substitutive": "PCPr",
+      "systematic": "N-propyl-1-phenylcyclohexylamine",
+      "aliases": [
+        "NPPCA"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "rare",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": 45,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": 36,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.22,
+      "one_liner": "N-propyl. Less manic in rumor. Rare.",
+      "feel": "DEA Microgram 1979. Germany 1990s with alkoxyalkyl analog cluster. Almost no modern poems. Do not clone 3-MeO-PCPr onto the naked parent.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3meo_pcpr",
+      "name": "3-MeO-PCPr",
+      "full_name": "3-methoxy-PCPr",
+      "substitutive": "3-MeO-PCPr",
+      "systematic": "N-propyl-1-(3-methoxyphenyl)cyclohexan-1-amine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "rare",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 62,
+        "euphoria": 58,
+        "rush": 48,
+        "compulsiveness": 60,
+        "dissociation_depth": 55,
+        "warmth": 48,
+        "mania": 50,
+        "stimulation": 62,
+        "sedation": 40,
+        "disinhibition": 55,
+        "functional": 42,
+        "motor": 50,
+        "aftereffects": 68,
+        "judgment": 70,
+        "psychosis_concern": 48
+      },
+      "confidence": 0.4,
+      "one_liner": "3-MeO-PCP's shorter, dumber cousin. Confusion is the feature.",
+      "feel": "3-MeO-PCP-shaped dissociation with more confusion and memory holes, shorter night, redose because it felt short. Highlight was pleasant nonsense, not prophecy. Somewhat less manic in secondary writeups.",
+      "stim_vs_sedation": "stim at low, confusion at high",
+      "flags": [
+        "redose"
+      ],
+      "sources": [
+        "wallach_2016",
+        "bluelight_3meo_pcpr",
+        "product_families"
+      ]
+    },
+    {
+      "id": "pcmo",
+      "name": "PCMo",
+      "full_name": "1-(1-phenylcyclohexyl)morpholine",
+      "substitutive": "PCMo",
+      "systematic": "4-(1-phenylcyclohexyl)morpholine",
+      "aliases": [
+        "PCM"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "joke_crate",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "scores": {
+        "enjoyment": 28,
+        "euphoria": 30,
+        "rush": 16,
+        "compulsiveness": 22,
+        "dissociation_depth": 30,
+        "warmth": 40,
+        "mania": 12,
+        "stimulation": 18,
+        "sedation": 50,
+        "disinhibition": 25,
+        "functional": 20,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": 15
+      },
+      "confidence": 0.35,
+      "one_liner": "Almost a cough syrup joke.",
+      "feel": "Morpholine. Weak. Animal activity much less than PCP. Hive: weaker, shorter, only minor effects even when people used a lot of powder. 1954 sedative patent leftover.",
+      "stim_vs_sedation": "weak sedative disso",
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014",
+        "wiki_ach",
+        "product_families"
+      ]
+    },
+    {
+      "id": "3meo_pcmo",
+      "name": "3-MeO-PCMo",
+      "full_name": "3-methoxy-PCMo",
+      "substitutive": "3-MeO-PCMo",
+      "systematic": "4-[1-(3-methoxyphenyl)cyclohexyl]morpholine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "vendor",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 34,
+        "euphoria": 40,
+        "rush": 22,
+        "compulsiveness": 36,
+        "dissociation_depth": 42,
+        "warmth": 55,
+        "mania": 20,
+        "stimulation": 24,
+        "sedation": 52,
+        "disinhibition": 35,
+        "functional": 25,
+        "motor": 50,
+        "aftereffects": 40,
+        "judgment": 40,
+        "psychosis_concern": 25
+      },
+      "confidence": 0.5,
+      "one_liner": "Morpholine 3-MeO. Weak. Soft. Forgettable.",
+      "feel": "The morpholine that actually got sold. Simplistic shallow head, bland geometry, soft warm tingle. Animal reward/reinforcement exists so compulsiveness can exist without poems. Bladder class-risk worse because people use more material.",
+      "stim_vs_sedation": "soft, shallow, not mania",
+      "flags": [
+        "bladder"
+      ],
+      "sources": [
+        "pw_3meo_pcmo",
+        "product_families"
+      ]
+    },
+    {
+      "id": "tcp",
+      "name": "TCP",
+      "full_name": "tenocyclidine",
+      "substitutive": "TCP",
+      "systematic": "1-[1-(thiophen-2-yl)cyclohexyl]piperidine",
+      "aliases": [
+        "CI-421"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "museum",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "street",
+      "scores": {
+        "enjoyment": 58,
+        "euphoria": 52,
+        "rush": 55,
+        "compulsiveness": 50,
+        "dissociation_depth": 64,
+        "warmth": 35,
+        "mania": 62,
+        "stimulation": 65,
+        "sedation": 40,
+        "disinhibition": 58,
+        "functional": 38,
+        "motor": 58,
+        "aftereffects": 70,
+        "judgment": 70,
+        "psychosis_concern": 60
+      },
+      "confidence": 0.45,
+      "one_liner": "Thiophene Parke-Davis leftover. Longer PCP.",
+      "feel": "Thiophene instead of phenyl. First ACH into US Schedule I. Street 1972-75, often misrepresented. Later forum: slightly more potent than PCP, longer, some say more hallucinogenic. Museum shelf.",
+      "stim_vs_sedation": "PCP-shaped, maybe more visual, longer",
+      "flags": [
+        "mislabel",
+        "mania"
+      ],
+      "sources": [
+        "morris_wallach_2014",
+        "product_families"
+      ]
+    },
+    {
+      "id": "md_pcp",
+      "name": "3,4-MD-PCP",
+      "full_name": "3,4-methylenedioxy-PCP",
+      "substitutive": "3,4-MD-PCP",
+      "systematic": "1-[1-(1,3-benzodioxol-5-yl)cyclohexyl]piperidine",
+      "aliases": [
+        "MDPCP"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "museum",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": 48,
+        "euphoria": 40,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": 40,
+        "mania": 35,
+        "stimulation": 50,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": 55,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.22,
+      "one_liner": "MD leftover. Clear, not a roll.",
+      "feel": "MD ring on PCP. One comparison note: clear, motivating, less hedonistic. Not an MDMA hug. Do not file as Kit F.",
+      "stim_vs_sedation": "clear/motivating in one note",
+      "flags": [],
+      "sources": [
+        "wiki_ach",
+        "product_families"
+      ]
+    },
+    {
+      "id": "pcmea",
+      "name": "PCMEA",
+      "full_name": "N-(2-methoxyethyl)-1-phenylcyclohexan-1-amine",
+      "substitutive": "PCMEA",
+      "systematic": "N-(2-methoxyethyl)-1-phenylcyclohexan-1-amine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "unusual_documented",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": 40,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": 70,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.18,
+      "one_liner": "German 1990s alkoxyalkyl. Long, thin file.",
+      "feel": "Detected in Germany late 1990s with PCEEA/PCMPA/PCPr. Hive: active, long duration. No modern vault.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014",
+        "wallach_2016"
+      ]
+    },
+    {
+      "id": "pceea",
+      "name": "PCEEA",
+      "full_name": "N-(2-ethoxyethyl)-1-phenylcyclohexan-1-amine",
+      "substitutive": "PCEEA",
+      "systematic": "N-(2-ethoxyethyl)-1-phenylcyclohexan-1-amine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "unusual_documented",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.15,
+      "one_liner": "The one first-gen analog that was actually new on the street.",
+      "feel": "Morris: only novel first-generation analog at appearance. Germany 1990s. Hive said it works. No poem. Do not invent a vibe.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014"
+      ]
+    },
+    {
+      "id": "pcmpa",
+      "name": "PCMPA",
+      "full_name": "N-(3-methoxypropyl)-1-phenylcyclohexan-1-amine",
+      "substitutive": "PCMPA",
+      "systematic": "N-(3-methoxypropyl)-1-phenylcyclohexan-1-amine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "unusual_documented",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": 40,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": 70,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.18,
+      "one_liner": "PCMEA's longer alkoxy cousin. Same thin German file.",
+      "feel": "Germany 1990s with PCMEA. Hive lumped them. Long duration rumor. Rest null.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014"
+      ]
+    },
+    {
+      "id": "pcip",
+      "name": "PCiP",
+      "full_name": "N-isopropyl-1-phenylcyclohexylamine",
+      "substitutive": "PCiP",
+      "systematic": "1-phenyl-N-(propan-2-yl)cyclohexan-1-amine",
+      "aliases": [
+        "NIPPCA"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "unusual_documented",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": 50,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.12,
+      "one_liner": "One 1984 DEA anecdote. Dissociative, several hours.",
+      "feel": "Vaupel citing DEA: recently abused analog. One qualitative line. Extent of availability unknown.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014"
+      ]
+    },
+    {
+      "id": "pcde",
+      "name": "PCDE",
+      "full_name": "dieticyclidine",
+      "substitutive": "PCDE",
+      "systematic": "N,N-diethyl-1-phenylcyclohexanamine",
+      "aliases": [
+        "CI-482",
+        "dieticyclidine"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "uncertain",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.08,
+      "one_liner": "Parke-Davis leftover. No feel file.",
+      "feel": "CI-482. Hive mentioned a route. No street-feel catalog. All null.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014",
+        "wiki_ach"
+      ]
+    },
+    {
+      "id": "tcpy",
+      "name": "TCPy",
+      "full_name": "1-[1-(thiophen-2-yl)cyclohexyl]pyrrolidine",
+      "substitutive": "TCPy",
+      "systematic": "1-[1-(thiophen-2-yl)cyclohexyl]pyrrolidine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "street",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.1,
+      "one_liner": "Thiophene PCPy. Schedule I leftover. No poem.",
+      "feel": "Clandestine sample in the literature. Animal PCP-like, a bit weaker. US Schedule I 1989. Feel scores null.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014"
+      ]
+    },
+    {
+      "id": "md_pcpr",
+      "name": "3,4-MD-PCPr",
+      "full_name": "3,4-methylenedioxy-PCPr",
+      "substitutive": "3,4-MD-PCPr",
+      "systematic": null,
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.08,
+      "one_liner": "Named beside 3,4-MD-PCP. No separate poem.",
+      "feel": "One lounge post listed it with 3,4-MD-PCP and 3,4-MD-PCiPr. Do not invent a vibe.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "wiki_ach"
+      ]
+    },
+    {
+      "id": "4meo_pce",
+      "name": "4-MeO-PCE",
+      "full_name": "4-methoxyeticyclidine",
+      "substitutive": "4-MeO-PCE",
+      "systematic": "N-ethyl-1-(4-methoxyphenyl)cyclohexan-1-amine",
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "uncertain",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.08,
+      "one_liner": "Para-methoxy on a chart. No street feel.",
+      "feel": "Shows up in analog and in-silico NPS lists next to 3-MeO-PCE. Trip-report volume basically zero. All null.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "wiki_ach"
+      ]
+    },
+    {
+      "id": "bncp",
+      "name": "BnCP",
+      "full_name": "1-(1-benzylcyclohexyl)piperidine",
+      "substitutive": "BnCP",
+      "systematic": "1-(1-benzylcyclohexyl)piperidine",
+      "aliases": [
+        "PECP"
+      ],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "street",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.08,
+      "one_liner": "Canada dust next to 4-Me-PCP. Reduced potency.",
+      "feel": "Detected 1989 with 4-Me-PCP. Literature said reduced potency. Why it was made is unclear. Feel null.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "morris_wallach_2014"
+      ]
+    },
+    {
+      "id": "2meo_pcp",
+      "name": "2-MeO-PCP",
+      "full_name": "2-methoxyphencyclidine",
+      "substitutive": "2-MeO-PCP",
+      "systematic": "1-[1-(2-methoxyphenyl)cyclohexyl]piperidine",
+      "aliases": [],
+      "kit": "M",
+      "assignment": 15,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.05,
+      "one_liner": "SAR table. Never a famous bag.",
+      "feel": "On Wikipedia ACH charts. Not in Morris's street-analog fourteen. Do not invent a 2-MeO personality.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "wiki_ach"
+      ]
+    },
+    {
+      "id": "3ho_pcpr",
+      "name": "3-HO-PCPr",
+      "full_name": "3-hydroxy-PCPr",
+      "substitutive": "3-HO-PCPr",
+      "systematic": null,
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.05,
+      "one_liner": "Wikipedia row. No street text.",
+      "feel": "Do not invent cozy-PCPr.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "wiki_ach"
+      ]
+    },
+    {
+      "id": "3me_pcpr",
+      "name": "3-Me-PCPr",
+      "full_name": "3-methyl-PCPr",
+      "substitutive": "3-Me-PCPr",
+      "systematic": null,
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.05,
+      "one_liner": "Analytical table. No poem.",
+      "feel": "Wallach 2016 notes 3-Me-PCPr as previously unreported analytically. That is not a trip report.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "wallach_2016",
+        "wiki_ach"
+      ]
+    },
+    {
+      "id": "3cl_pce",
+      "name": "3-Cl-PCE",
+      "full_name": "3-chloroeticyclidine",
+      "substitutive": "3-Cl-PCE",
+      "systematic": null,
+      "aliases": [],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.05,
+      "one_liner": "Wikipedia row. Do not clone 3-Cl-PCP.",
+      "feel": "No street text found. All null.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "wiki_ach"
+      ]
+    },
+    {
+      "id": "3f_pcipr",
+      "name": "3-F-PCiPr",
+      "full_name": "3-fluoro-N-isopropyl-PCE analog",
+      "substitutive": "3-F-PCiPr",
+      "systematic": null,
+      "aliases": [
+        "3-F-PCiP"
+      ],
+      "kit": "N",
+      "assignment": 16,
+      "sku_role": "name_only",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "scores": {
+        "enjoyment": null,
+        "euphoria": null,
+        "rush": null,
+        "compulsiveness": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null,
+        "stimulation": null,
+        "sedation": null,
+        "disinhibition": null,
+        "functional": null,
+        "motor": null,
+        "aftereffects": null,
+        "judgment": null,
+        "psychosis_concern": null
+      },
+      "confidence": 0.05,
+      "one_liner": "Wikipedia row. Not a bag.",
+      "feel": "Do not invent a fluoro-isopropyl personality.",
+      "stim_vs_sedation": null,
+      "flags": [],
+      "sources": [
+        "wiki_ach"
+      ]
+    }
+  ],
+  "counts": {
+    "full_cards": 20,
+    "neighbor_cards": 1,
+    "thin_null_cards": 16,
+    "scored_agents": 20,
+    "named_agents": 37,
+    "alias_only": 2,
+    "alias_only_ids": [
+      "PCM->pcmo",
+      "O-PCE neighbor owned_by 14"
+    ]
+  },
+  "coverage": {
+    "searched": [
+      "Wikipedia Arylcyclohexylamine, Phencyclidine, Eticyclidine, PCP-related template",
+      "Morris & Wallach 2014 From PCP to MXE (street analog chronology)",
+      "WHO 43rd ECDD 3-MeO-PCP critical review",
+      "PMC11053433 3-MeO-PCP psychotic disorder PET case",
+      "Roth 2013 PLOS ONE NMDA/SERT/sigma binding",
+      "Wallach 2016 N-alkyl-ACH analytics",
+      "2019 Psychopharmacology 4-MeO-PCP / 3-MeO-PCMo animal reward",
+      "PsychonautWiki 3-MeO-PCP, 3-MeO-PCE, 3-HO-PCP, 3-HO-PCE, 4-MeO-PCP, 3-Cl-PCP, 3-MeO-PCMo, Talk:3-Me-PCPy",
+      "Erowid Exp 115030 3-Cl-PCP",
+      "Nervewing 3-Me-PCE and 3-Me-PCPy",
+      "Bluelight 3-MeO-PCPr, 3-Me-PCPy, 3-MeO-PCP alternative",
+      "r/dissociatives 3-MeO vs 3-HO mania; PCP RCs",
+      "r/researchchemicals 3-Me/3-F/3-Cl; 3-F less-manic; F-tier 3-HO-PCE",
+      "wiki/product_families.md Kits M/N feel cards"
+    ],
+    "strength": "PCP and 3-MeO-PCP triangulate paper plus forum plus clinical-tox. 3-MeO-PCE / 3-HO-PCP / 4-MeO-PCP share a stable comparison language (prophet / cozy / leftover). 1970s analog set is historically solid even when feel is thin.",
+    "weakness": "3-F / 3-Cl / 3-Me-PCE / 3-MeO-PCPr are single-author weather. PCPr/PCMo/TCP modern feel is almost empty. 3-Me-PCP mania-vs-functional split unresolved. Aftereffects are qualitative duration, not half-lives."
+  },
+  "gaps": [
+    "No head-to-head human study of 3-MeO-PCP vs 3-HO-PCP vs 3-Me-PCP vs 3-MeO-PCE.",
+    "3-Me-PCP: house finish-a-sentence vs friends-say-worse-behavior. Both stay in the file.",
+    "3-HO-PCP mu-opioid: animal yes, human feel disputed. Myth tag. Not an opioid SKU.",
+    "3-HO-PCE opioid rumor is copy-paste and thinner.",
+    "3-F-PCP camps (trash vs fun-less-manic) unresolved.",
+    "3-Cl-PCP cardiotoxicity / flu-like is PW anecdote.",
+    "PCPr naked parent has almost zero trip text.",
+    "3,4-MD-PCP is one lounge note; do not invent MDMA-like.",
+    "PCMEA/PCEEA/PCMPA: German 1990s plus Hive, no modern vault.",
+    "Long aftereffects vs true half-life: do not print pharmacokinetic numbers as gameplay.",
+    "Street PCP contaminant lore exists; precursor names stay out.",
+    "O-PCE dual-owned with Kit N sticker / assignment 14 card."
+  ],
+  "one_liners": {
+    "pcp": "The movie one. You can walk. You should not.",
+    "3meo_pcp": "You will answer emails like a prophet.",
+    "3ho_pcp": "The cozy PCP.",
+    "3me_pcp": "The one you can finish a sentence on.",
+    "3cl_pcp": "Couch PCP. Burns. Pretty, if you stay seated.",
+    "3f_pcp": "Vendor fluoro. Less prophet, more shrug.",
+    "4meo_pcp": "2008 leftover. First legal PCP. Weaker.",
+    "pcpy": "Same wall, different N. The sleepy PCP.",
+    "3meo_pcpy": "Same wall, different N. The awake PCPy.",
+    "3me_pcpy": "Dissociative cocaine. Shallow on purpose.",
+    "pce": "Parent of the MeO/HO stamps. Twitchier PCP.",
+    "3meo_pce": "3-MeO-PCP's twitchier cousin.",
+    "3ho_pce": "It works. Nobody writes poems.",
+    "3me_pce": "Short PCE. Finish the night, maybe the sentence.",
+    "o_pce": "Not a hug. A scalpel. Air left the room.",
+    "pcpr": "N-propyl. Less manic in rumor. Rare.",
+    "3meo_pcpr": "3-MeO-PCP's shorter, dumber cousin. Confusion is the feature.",
+    "pcmo": "Almost a cough syrup joke.",
+    "3meo_pcmo": "Morpholine 3-MeO. Weak. Soft. Forgettable.",
+    "tcp": "Thiophene Parke-Davis leftover. Longer PCP.",
+    "md_pcp": "MD leftover. Clear, not a roll."
+  },
+  "sources": [
+    {
+      "id": "morris_wallach_2014",
+      "kind": "paper",
+      "title": "From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs",
+      "cite": "Drug Test Anal. 2014;6(7-8):614-632"
+    },
+    {
+      "id": "wiki_ach",
+      "kind": "wiki",
+      "title": "Wikipedia Arylcyclohexylamine",
+      "url": "https://en.wikipedia.org/wiki/Arylcyclohexylamine"
+    },
+    {
+      "id": "wiki_pcp",
+      "kind": "wiki",
+      "title": "Wikipedia Phencyclidine",
+      "url": "https://en.wikipedia.org/wiki/Phencyclidine"
+    },
+    {
+      "id": "wiki_pce",
+      "kind": "wiki",
+      "title": "Wikipedia Eticyclidine",
+      "url": "https://en.wikipedia.org/wiki/Eticyclidine"
+    },
+    {
+      "id": "who_3meo_pcp",
+      "kind": "paper",
+      "title": "WHO ECDD 43rd critical review: 3-MeO-PCP",
+      "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/43rd-ecdd/3-meo-pcp-finalreport-a.pdf"
+    },
+    {
+      "id": "pmc_3meo_psychosis",
+      "kind": "paper",
+      "title": "3-MeO-PCP induced psychotic disorder (PET case)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11053433/"
+    },
+    {
+      "id": "roth_2013",
+      "kind": "paper",
+      "title": "MXE and 3- and 4-MeO-PCP / 3-MeO-PCE NMDA binding",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059334"
+    },
+    {
+      "id": "wallach_2016",
+      "kind": "paper",
+      "title": "Syntheses and analytical characterizations of N-alkyl-arylcyclohexylamines",
+      "cite": "Drug Test Anal. 2016;8(8):801-815"
+    },
+    {
+      "id": "pw_3meo_pcp",
+      "kind": "wiki",
+      "title": "PsychonautWiki 3-MeO-PCP",
+      "url": "https://psychonautwiki.org/wiki/3-MeO-PCP"
+    },
+    {
+      "id": "pw_3meo_pce",
+      "kind": "wiki",
+      "title": "PsychonautWiki 3-MeO-PCE",
+      "url": "https://psychonautwiki.org/wiki/3-MeO-PCE"
+    },
+    {
+      "id": "pw_3ho_pcp",
+      "kind": "wiki",
+      "title": "PsychonautWiki 3-HO-PCP",
+      "url": "https://psychonautwiki.org/wiki/3-HO-PCP"
+    },
+    {
+      "id": "pw_3ho_pce",
+      "kind": "wiki",
+      "title": "PsychonautWiki 3-HO-PCE",
+      "url": "https://psychonautwiki.org/wiki/3-HO-PCE"
+    },
+    {
+      "id": "pw_4meo_pcp",
+      "kind": "wiki",
+      "title": "PsychonautWiki 4-MeO-PCP",
+      "url": "https://psychonautwiki.org/wiki/4-MeO-PCP"
+    },
+    {
+      "id": "pw_3cl_pcp",
+      "kind": "wiki",
+      "title": "PsychonautWiki 3-Cl-PCP",
+      "url": "https://psychonautwiki.org/wiki/3-Cl-PCP"
+    },
+    {
+      "id": "pw_3meo_pcmo",
+      "kind": "wiki",
+      "title": "PsychonautWiki 3-MeO-PCMo",
+      "url": "https://psychonautwiki.org/wiki/3-MeO-PCMo"
+    },
+    {
+      "id": "pw_talk_3me_pcpy",
+      "kind": "wiki",
+      "title": "PsychonautWiki Talk:3-Me-PCPy",
+      "url": "https://psychonautwiki.org/wiki/Talk:3-Me-PCPy"
+    },
+    {
+      "id": "erowid_115030",
+      "kind": "experience",
+      "title": "3-Cl-PCP — The Softening Pool",
+      "url": "https://erowid.org/experiences/exp.php?ID=115030"
+    },
+    {
+      "id": "nervewing_3me_pce",
+      "kind": "report",
+      "title": "Nervewing: 3-Me-PCE",
+      "url": "https://nervewing.blogspot.com/2021/11/3-me-pce.html"
+    },
+    {
+      "id": "nervewing_3me_pcpy",
+      "kind": "report",
+      "title": "Nervewing: 3-Me-PCPy",
+      "url": "https://nervewing.blogspot.com/2021/07/3-me-pcpy.html"
+    },
+    {
+      "id": "bluelight_3meo_pcpr",
+      "kind": "thread",
+      "title": "Bluelight 3-MeO-PCPr",
+      "url": "https://www.bluelight.org/community/threads/3-meo-pcpr.592033/page-2"
+    },
+    {
+      "id": "bluelight_3me_pcpy",
+      "kind": "thread",
+      "title": "3-Me-PCPy Fast and Casual",
+      "url": "https://www.bluelight.org/community/threads/3-me-pcpy-semi-experienced-20-mg-intranasal-fast-and-casual.906020/"
+    },
+    {
+      "id": "bluelight_3meo_alt",
+      "kind": "thread",
+      "title": "3-MeO-PCP alternative now that is banned",
+      "url": "https://www.bluelight.org/community/threads/3-meo-pcp-alternative-now-that-is-banned.911456/"
+    },
+    {
+      "id": "reddit_q1l2h5",
+      "kind": "thread",
+      "title": "3-MeO-PCP vs 3-HO-PCP: Mania",
+      "url": "https://www.reddit.com/r/dissociatives/comments/q1l2h5/3meopcp_vs_3hopcp_mania/"
+    },
+    {
+      "id": "reddit_wmolv3",
+      "kind": "thread",
+      "title": "PCP research chemicals",
+      "url": "https://www.reddit.com/r/dissociatives/comments/wmolv3/pcp_research_chemicals/"
+    },
+    {
+      "id": "reddit_jlkhyi",
+      "kind": "thread",
+      "title": "Are 3-Me-PCP, 3-F-PCP, 3-Cl-PCP as motivating and functional as 3-MeO-PCP?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/jlkhyi/are_3mepcp_3fpcp_3clpcp_as_motivating_and/"
+    },
+    {
+      "id": "reddit_m0adxy",
+      "kind": "thread",
+      "title": "3-F-PCP: recreational and stimulating, less manic",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/m0adxy/3fpcp_a_recreational_and_stimulating_disso_but/"
+    },
+    {
+      "id": "reddit_11tc05s",
+      "kind": "thread",
+      "title": "3-Me-PCP, 3-FL-PCP, 3-CL-PCP which one",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/11tc05s/3mepcp_3flpcp_3clpcl_which_one_should_i_go_for/"
+    },
+    {
+      "id": "reddit_8x63d2",
+      "kind": "thread",
+      "title": "Comparisons: 3-HO-PCP, 3-HO-PCE, 3-MeO-PCE, 3-MeO-PCP",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/8x63d2/comparisons_3hopcp_3hopce_3meopce_3meopcp/"
+    },
+    {
+      "id": "reddit_129220v",
+      "kind": "thread",
+      "title": "Doses/durations of the newer dissociatives (ranking includes F-tier 3-HO-PCE)",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/129220v/dosesdurationsonset_speed_of_the_newer/"
+    },
+    {
+      "id": "product_families",
+      "kind": "house",
+      "title": "wiki/product_families.md Kits M/N / disso feel cards",
+      "path": "wiki/product_families.md"
+    },
+    {
+      "id": "assignment_14",
+      "kind": "house",
+      "title": "O-PCE full card lives in 14_disso_mxe",
+      "path": "wiki/substance_research/14_disso_mxe.md"
+    }
+  ]
+}

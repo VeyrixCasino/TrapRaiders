@@ -1,0 +1,3954 @@
+{
+  "assignment": [
+    "09",
+    "10"
+  ],
+  "file": "09_10_phenmetrazine_piperazine",
+  "title": "Phenmetrazines, aminorex / oxazolines, piperazines",
+  "disclaimer": "Game catalog research. Unitless 0-100 inferences from public reports. Unknown scores are null, never 0. Not a manual. No recipes. No how-to-take. No milligram instructions. Families are chemically separate.",
+  "score_range": "0-100 or null",
+  "lead_axes": [
+    "rush",
+    "euphoria",
+    "enjoyment",
+    "compulsiveness"
+  ],
+  "families_kept_separate": [
+    "phenylmorpholine_phenmetrazine",
+    "aminorex_oxazoline",
+    "oxazolinone_pemoline",
+    "piperazine",
+    "pipradrol_neighbor"
+  ],
+  "compounds": [
+    {
+      "id": "phenmetrazine",
+      "name": "Phenmetrazine",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "Preludin",
+        "prellies",
+        "Fenmetrazine"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "loved",
+      "feel": {
+        "headline": "The old heads' amphetamine. Diet-pill that escaped the bottle.",
+        "rush": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Oral is a climb. Old street myth reserved the snap for other routes — flag only."
+        },
+        "euphoria": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Amphetamine-shaped lift, talk, appetite gone. 60s–70s prellies lore is real affection."
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "B",
+          "note": "People sought it after the pharmacy stopped."
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Withdrawn as an anorectic because people would not leave it alone."
+        },
+        "reinforcement": {
+          "score": 76,
+          "confidence": "B",
+          "note": "Historical street demand after medical withdrawal."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Binge talk, class stim."
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "C",
+          "note": "Crash / irritability inferred from class and withdrawal history."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Amphetamine-class risk; not a modern case-series star."
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Catecholamine releaser."
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Insomnia is the point of an anorectic stim."
+        }
+      },
+      "route_myth": "oral_ok; historical slam talk exists — fail-state rumor, not a tutorial",
+      "npc_line": "Prellies. Before the copies learned to lie.",
+      "sources": [
+        {
+          "title": "Rothman et al. phenmetrazine DAT/NET release",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12228777/",
+          "type": "paper",
+          "year": 2002
+        },
+        {
+          "title": "McLaughlin et al. methylphenmetrazine isomers",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29673128/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "WHO ECDD 3-FPM critical review (Preludin background)",
+          "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/43rd-ecdd/3-fluorophenmetrazine-a.pdf",
+          "type": "paper",
+          "year": 2020
+        }
+      ],
+      "gaps": [
+        "Modern first-person file is thin; most love is historical."
+      ]
+    },
+    {
+      "id": "phendimetrazine",
+      "name": "Phendimetrazine",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "Bontril",
+        "Prelu-2"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "existed",
+      "feel": {
+        "headline": "The prescription leftover. Prodrug that becomes the prellie.",
+        "rush": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Oral medicine energy."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "C",
+          "note": "Thinner than phenmetrazine; fun is downstream after N-demethylation."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Diverted, not worshipped."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Real abuse history, not RC-forum religion."
+        },
+        "reinforcement": {
+          "score": 44,
+          "confidence": "C",
+          "note": "Script diversion exists; no cult."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Class stim."
+        },
+        "aftereffects": {
+          "score": 45,
+          "confidence": "D",
+          "note": null
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Anorectic stim."
+        },
+        "sleep": {
+          "score": 60,
+          "confidence": "C",
+          "note": "Insomnia."
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "The script they still print. The magic already left.",
+      "sources": [
+        {
+          "title": "McLaughlin et al. 2018 (prodrug note)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29673128/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Recreational trip-report volume is small next to Preludin lore."
+      ]
+    },
+    {
+      "id": "3-fpm",
+      "name": "3-FPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "3-fluorophenmetrazine",
+        "3-FPH",
+        "PAL-593"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "human_love": "era_loved",
+      "feel": {
+        "headline": "Clean-functional liar. Still ruins weekends.",
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Oral is a work drug. Insufflation burns. Other routes get named as the snap — flag only."
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "B",
+          "note": "First hour lift, talk, fake empathy. Short; redose teases it back then you live in stimulation."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "B",
+          "note": "People bought the idea: file taxes, clean the flat, talk."
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "A",
+          "note": "Short action, repetition over hours or days, fast tolerance. Habit-forming talk in WHO/forums."
+        },
+        "reinforcement": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Wallets opened for years. Kit U headliner."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Anxiety on the comedown and in STRIDA polydrug series."
+        },
+        "aftereffects": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Anxiety, fatigue, depression, irritability; 9–72 h onset talk, lingering toward a week in the Polish summary."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Delirium in STRIDA, always polydrug."
+        },
+        "cardiovascular": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Tachycardia common in intoxications."
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Insomnia listed among sought and leftover effects."
+        }
+      },
+      "route_myth": "oral_ok; insufflation burns; slam_only is a fail-state rumor (limb ischemia case) not a tutorial; vape_fav appears in one loud megathread as the fiendish snap",
+      "npc_line": "Clean functional. Ask the weekend.",
+      "sources": [
+        {
+          "title": "WHO ECDD 43rd 3-FPM critical review",
+          "url": "https://cdn.who.int/media/docs/default-source/controlled-substances/43rd-ecdd/3-fluorophenmetrazine-a.pdf",
+          "type": "paper",
+          "year": 2020
+        },
+        {
+          "title": "Mayer et al. fluorinated phenmetrazines as MAT releasers",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.10.006",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "McLaughlin et al. 3-FPM vs 2-/4-FPM",
+          "url": "https://doi.org/10.1002/dta.1945",
+          "type": "forensic",
+          "year": 2017
+        },
+        {
+          "title": "Adamowicz & Gieron 3-FPM on the Polish market",
+          "url": "https://arch.ies.gov.pl/images/PDF/2016/vol_105/105_Adamowicz.pdf",
+          "type": "forensic",
+          "year": 2016
+        },
+        {
+          "title": "Backberg et al. STRIDA 3-FPM",
+          "url": "https://doi.org/10.1080/15563650.2016.1211288",
+          "type": "forensic",
+          "year": 2016
+        },
+        {
+          "title": "Bluelight EADD 3-FPM megathread",
+          "url": "https://www.bluelight.org/community/threads/the-eadd-3-fpm-megathread.774653/",
+          "type": "forum",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "No controlled human study. STRIDA is polydrug. Do not treat PAL numbers as street IDs."
+      ]
+    },
+    {
+      "id": "4-fpm",
+      "name": "4-FPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "4-fluorophenmetrazine",
+        "PAL-748"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "The other fluoro. Characterized more than loved.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "In vitro DAT/NET releaser like 3-FPM. No human poem."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Kit U stamp, not a headliner."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "Assume class stim if a bag appears."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same crystal bag. Wrong fluorine. Nobody wrote home.",
+      "sources": [
+        {
+          "title": "Mayer et al. 2018",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.10.006",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "McLaughlin et al. 2017",
+          "url": "https://doi.org/10.1002/dta.1945",
+          "type": "forensic",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "Do not clone 3-FPM scores."
+      ]
+    },
+    {
+      "id": "2-fpm",
+      "name": "2-FPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "2-fluorophenmetrazine"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "The isomer the paper needed. Not a product.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Mayer 2018: yet to appear as a research chemical at time of writing."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Lab bottle. Empty hook.",
+      "sources": [
+        {
+          "title": "Mayer et al. 2018",
+          "url": "https://doi.org/10.1016/j.neuropharm.2017.10.006",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "No credible human feel file."
+      ]
+    },
+    {
+      "id": "3-cpm",
+      "name": "3-CPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "3-chlorophenmetrazine",
+        "PAL-594"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "3-FPM's heavier cousin. The crate, not the poem.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "DAT/NET releaser on paper. Human file empty."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Real 2022–23 NPS products (mostly trans-3-CPM)."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "Class stim assumed."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They swapped F for Cl after the functional one got heat.",
+      "sources": [
+        {
+          "title": "Identification of 3-CPM from NPS products and differentiation from 2-/4-CPM",
+          "url": "https://www.springermedicine.com/identification-of-3-chlorophenmetrazine-3-cpm-from-new-psychoact/53065044",
+          "type": "forensic",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "Do not invent heavier-3-FPM as fact — NPC guess only."
+      ]
+    },
+    {
+      "id": "2-cpm",
+      "name": "2-CPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "2-chlorophenmetrazine"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Made so the lab could tell 3-CPM apart.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Isomer homework.",
+      "sources": [
+        {
+          "title": "3-CPM isomer differentiation 2024",
+          "url": "https://www.springermedicine.com/identification-of-3-chlorophenmetrazine-3-cpm-from-new-psychoact/53065044",
+          "type": "forensic",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "Not in the 2022–23 packages."
+      ]
+    },
+    {
+      "id": "4-cpm",
+      "name": "4-CPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "4-chlorophenmetrazine"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Para-chloro reference standard.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Isomer homework.",
+      "sources": [
+        {
+          "title": "3-CPM isomer differentiation 2024",
+          "url": "https://www.springermedicine.com/identification-of-3-chlorophenmetrazine-3-cpm-from-new-psychoact/53065044",
+          "type": "forensic",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "Not reported as the thing in the packages."
+      ]
+    },
+    {
+      "id": "4-mpm",
+      "name": "4-MPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "4-methylphenmetrazine",
+        "PAL-747"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "After 3-FPM. Vendor-real. Feel file still thin.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "In vitro SERT tilt vs parent — lab guess, not a roll report."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "EMCDDA Oct 2015; two vendor samples confirmed."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They put a methyl where the fluorine was. The reviews never arrived.",
+      "sources": [
+        {
+          "title": "McLaughlin et al. 4-MPM / 3-MPM / 2-MPM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29673128/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Do not print legal MDMA."
+      ]
+    },
+    {
+      "id": "3-mpm",
+      "name": "3-MPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "3-methylphenmetrazine",
+        "PAL-773"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Meta-methyl stamp. One vendor bottle in the same paper.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "In vitro closer to phenmetrazine stim than 4-MPM."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "EMCDDA July 2016."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same paper, quieter name.",
+      "sources": [
+        {
+          "title": "McLaughlin et al. 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29673128/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Human feel empty."
+      ]
+    },
+    {
+      "id": "2-mpm",
+      "name": "2-MPM",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "2-methylphenmetrazine"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Ortho isomer for the chromatogram.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Authors found no prior market info."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Not on the table.",
+      "sources": [
+        {
+          "title": "McLaughlin et al. 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29673128/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Literature standard only."
+      ]
+    },
+    {
+      "id": "3-fpe",
+      "name": "3-FPE",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "3-fluorophenetrazine",
+        "3-ethyl-2-(3-fluorophenyl)morpholine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "3-FPM plus a carbon. One loud Bluelight chemist, not a wave.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Sekio: quite similar to 3-FPM. One voice."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They stretched 3-FPM. The cult stayed with the original.",
+      "sources": [
+        {
+          "title": "Bluelight 3-FPE thread",
+          "url": "https://www.bluelight.org/community/threads/novel-stimulant-3-fluorophenetrazine-3-fpe.756612/",
+          "type": "forum",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "No forensic monograph found in this pass."
+      ]
+    },
+    {
+      "id": "g-130",
+      "name": "G-130",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [
+        "2-phenyl-5,5-dimethylmorpholine"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Italian research morpholine. Museum shelf.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Paper morpholine.",
+      "sources": [
+        {
+          "title": "UNODC phenmetrazines group page",
+          "url": "https://www.unodc.org/LSS/substancegroup/Details/d999fe8c-492f-4d4b-832b-2aa56dab87e0",
+          "type": "forensic",
+          "year": 2024
+        }
+      ],
+      "gaps": [
+        "No RC-era seizure file found here. Do not promote to Kit U."
+      ]
+    },
+    {
+      "id": "fenmetramide",
+      "name": "Fenmetramide",
+      "family": "phenylmorpholine",
+      "subclass": "phenmetrazine",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Old anorectic cousin. Not a Port Rook SKU.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Medicine cabinet, locked.",
+      "sources": [],
+      "gaps": [
+        "No recreational file found."
+      ]
+    },
+    {
+      "id": "aminorex",
+      "name": "Aminorex",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [
+        "Menocil",
+        "Apiquel"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Diet pill that closed a country. Recreational love never showed up.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Stimulant / anorectic, not a 4-MAR memoir."
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "D",
+          "note": "Releaser on paper. Street poems almost none. Mostly medicine then levamisole metabolite."
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Withdrawn 1968 after pulmonary-hypertension epidemic."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 15,
+          "confidence": "D",
+          "note": "Once misrepresented as 4-MAR to dodge a law — mislabel, not fandom."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Pulmonary arterial hypertension in susceptible people is the historical fail-state."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 85,
+          "confidence": "A",
+          "note": "Pulmonary hypertension epidemic is the reason the medicine died."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel (sold as 4-MAR in at least one 1991 report); also a minor levamisole-cocaine metabolite — not a secret roll",
+      "npc_line": "The diet pill that drowned lungs. Nobody asked for an encore.",
+      "sources": [
+        {
+          "title": "Maier et al. Aminorex analogs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Brewster & Davis aminorex sold as 4-MAR",
+          "url": "",
+          "type": "forensic",
+          "year": 1991
+        }
+      ],
+      "gaps": [
+        "Almost no modern recreational report corpus."
+      ]
+    },
+    {
+      "id": "4-mar",
+      "name": "4-MAR",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [
+        "4-methylaminorex",
+        "U4Euh",
+        "U4Euh",
+        "Euphoria",
+        "4-MAX",
+        "Ice"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "loved",
+      "feel": {
+        "headline": "They named it Euphoria. For once the street name was not lying.",
+        "rush": {
+          "score": 56,
+          "confidence": "B",
+          "note": "Long climb, not a pyro snap. Duration is the point."
+        },
+        "euphoria": {
+          "score": 76,
+          "confidence": "A",
+          "note": "Erowid titles are love letters. Meth-shaped lift plus a long clean plateau."
+        },
+        "enjoyment": {
+          "score": 80,
+          "confidence": "A",
+          "note": "The human-love SKU on the aminorex wall. Late-80s underground; RC kids still ask for a revival."
+        },
+        "compulsiveness": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Night does not end so you redose less than mephedrone; people still chased the bag."
+        },
+        "reinforcement": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Emergency scheduling followed actual demand."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Long stim night."
+        },
+        "aftereffects": {
+          "score": 65,
+          "confidence": "B",
+          "note": "A whole day, sometimes into the next. Insomnia is the tax."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Class risk; thin modern series."
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": "One published fatality with heart/lung failure; family pulmonary-hypertension case in makers/users."
+        },
+        "sleep": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Duration eats sleep."
+        }
+      },
+      "route_myth": "oral_ok; Ice also means meth — mislabel / identity fight; cis vs trans often unknown on the street",
+      "npc_line": "U4Euh. The one the forum still lights a candle for.",
+      "sources": [
+        {
+          "title": "Erowid 4-Methylaminorex experience index",
+          "url": "https://www.erowid.org/experiences/subs/exp_4Methylaminorex.shtml",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "Wikipedia 4-Methylaminorex",
+          "url": "https://en.wikipedia.org/wiki/4-Methylaminorex",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "Maier et al. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "cis vs trans street identity often unknown. Ice name collides with meth."
+      ]
+    },
+    {
+      "id": "4-4-dmar",
+      "name": "4,4'-DMAR",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [
+        "cis-4,4'-dimethylaminorex",
+        "Serotoni",
+        "4-methyl-U4Euh",
+        "4-M-4-MAR"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "human_love": "hated",
+      "feel": {
+        "headline": "They printed ecstasy logos. The bag printed obituaries.",
+        "rush": {
+          "score": 50,
+          "confidence": "C",
+          "note": "House-party powder/pills; oral and insufflated."
+        },
+        "euphoria": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Long stim, sometimes MDMA-shaped warmth. Not empty. Then the deaths."
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "B",
+          "note": "Peak existed; retrospective satisfaction collapsed after 2013–14."
+        },
+        "compulsiveness": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Redosed in party settings; duration and serotonin load punish that."
+        },
+        "reinforcement": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Market died of reputation, not boredom."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Agitation, hallucinations, disorientation in clinical notes."
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "A",
+          "note": "Serotonin-toxicity picture."
+        },
+        "psychosis_concern": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Agitation / hallucination cluster in EMCDDA notes."
+        },
+        "cardiovascular": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Cardiac arrest in EWN; NE-mediated cardiotoxicity in the official read."
+        },
+        "sleep": {
+          "score": 75,
+          "confidence": "C",
+          "note": "Long stim."
+        }
+      },
+      "route_myth": "mislabel (sold as MDMA / ecstasy logos); OD",
+      "npc_line": "Serotoni. Cute name. Ugly year.",
+      "sources": [
+        {
+          "title": "Europol/EMCDDA EWN 4,4'-DMAR Feb 2014",
+          "url": "https://www.europol.europa.eu/sites/default/files/documents/ewn_4-methylaminorex__para-methyl-derivative_feb_2014_-_public_.pdf",
+          "type": "forensic",
+          "year": 2014
+        },
+        {
+          "title": "Loi et al. 4,4'-DMAR web-based study",
+          "url": "https://doi.org/10.1002/hup.2575",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Federal Register Schedule I 4,4'-DMAR",
+          "url": "https://www.federalregister.gov/documents/2020/04/07/2020-07095/schedules-of-controlled-substances-placement-of-44-dmar-in-schedule-i",
+          "type": "paper",
+          "year": 2020
+        }
+      ],
+      "gaps": [
+        "First-person file is smaller than the death file."
+      ]
+    },
+    {
+      "id": "mdmar",
+      "name": "MDMAR",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [
+        "3,4-methylenedioxy-4-methylaminorex"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "MDMA x 4-MAR on paper. Vendor donation, not a scene.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Potent non-selective releaser in the dish."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Purchased sample ~90% cis. Little market-presence info."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": "Class risk if it ever floods — do not invent a roll."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They hybridized the legend. Nobody threw the party.",
+      "sources": [
+        {
+          "title": "McLaughlin et al. MDMAR characterization",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5331736/",
+          "type": "paper",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "No reliable recreational corpus."
+      ]
+    },
+    {
+      "id": "3-4-mar",
+      "name": "3,4-MAR",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [
+        "3,4-dimethylaminorex"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Lab cousin. Rare EU ping.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Detected in the EU 2015; rarely a street drug."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Forensic footnote.",
+      "sources": [
+        {
+          "title": "Maier et al. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "No memoir."
+      ]
+    },
+    {
+      "id": "n-methylaminorex",
+      "name": "N-methylaminorex",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Same 2015 EU ping. Not a memoir.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Name on a list.",
+      "sources": [
+        {
+          "title": "Maier et al. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "4f-4-mar",
+      "name": "4'F-4-MAR",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [
+        "4-fluoro-4-methylaminorex",
+        "4-FPO"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Test-purchase fluoro. Sometimes mislabeled as a phenmetrazine.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Slovenian NFL test purchase, mostly trans, sold as 4-FPO."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel (4-FPO sticker; sometimes filed as phenmetrazine in chatter)",
+      "npc_line": "The sticker said 4-FPO. The family is aminorex. Do not file it under 3-FPM.",
+      "sources": [
+        {
+          "title": "Maier et al. 2018 (4-FPO / Slovenian NFL)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Subjective file thin. Identity fights with Kit U."
+      ]
+    },
+    {
+      "id": "clominorex",
+      "name": "Clominorex",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "McNeil anorectic leftover. Never a bag.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Drawer compound.",
+      "sources": [
+        {
+          "title": "Maier et al. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "fluminorex",
+      "name": "Fluminorex",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "McNeil anorectic leftover. Never a bag.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Drawer compound.",
+      "sources": [
+        {
+          "title": "Maier et al. 2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "rexamino",
+      "name": "Rexamino",
+      "family": "aminorex",
+      "subclass": "aminorex",
+      "aliases": [
+        "4-phenylaminorex"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Horse metabolite, not a product.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The vet's chromatogram.",
+      "sources": [
+        {
+          "title": "Maier et al. 2018 (Ho et al. levamisole metabolism)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6287711/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "pemoline",
+      "name": "Pemoline",
+      "family": "oxazolinone",
+      "subclass": "pemoline",
+      "aliases": [
+        "Cylert",
+        "Tradon",
+        "Magrilon"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "existed",
+      "feel": {
+        "headline": "ADHD tablet that failed the liver exam. Not a party.",
+        "rush": {
+          "score": 12,
+          "confidence": "C",
+          "note": "Slow oral onset, no snap."
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Mild stim. Doping / study-drug, not rave."
+        },
+        "enjoyment": {
+          "score": 24,
+          "confidence": "C",
+          "note": "Withdrawn / restricted after hepatotoxicity."
+        },
+        "compulsiveness": {
+          "score": 20,
+          "confidence": "D",
+          "note": "Not a fiend chem."
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 15,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": "Hepatotoxicity is the class curse."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Milder than amphetamine."
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Cylert. Homework. Then bloodwork.",
+      "sources": [
+        {
+          "title": "Gielsdorf 1982 pemoline / fenozolone / thozalinone in urine",
+          "url": "https://doi.org/10.1515/cclm.1982.20.2.65",
+          "type": "paper",
+          "year": 1982
+        }
+      ],
+      "gaps": [
+        "Little modern RC-era feel."
+      ]
+    },
+    {
+      "id": "cyclazodone",
+      "name": "Cyclazodone",
+      "family": "oxazolinone",
+      "subclass": "pemoline",
+      "aliases": [],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "1960s analog that showed up in 2017 as a smart stim. Weak hug.",
+        "rush": {
+          "score": 18,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Clean focus claims, little joy."
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "C",
+          "note": "Nootropic boards, not Bluelight love."
+        },
+        "compulsiveness": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Repeated because the work window is the product."
+        },
+        "reinforcement": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Uncommon in seizure trend reports."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Liver anxiety as a pemoline cousin."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "sleep": {
+          "score": 45,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "They sold it next to 3-FPM. It filed the paperwork. It did not throw the party.",
+      "sources": [
+        {
+          "title": "CFSRE/NACCT 2022 NMC case (2017 appearance note)",
+          "url": "https://www.cfsre.org/images/Basile_Cyclazodone_Submitted_Abstract_NACCT_2022.pdf",
+          "type": "forensic",
+          "year": 2022
+        }
+      ],
+      "gaps": [
+        "Thin peer-reviewed human psych."
+      ]
+    },
+    {
+      "id": "n-methylcyclazodone",
+      "name": "N-methylcyclazodone",
+      "family": "oxazolinone",
+      "subclass": "pemoline",
+      "aliases": [
+        "NMC"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Cyclazodone that actually buzzes. Liver rumor included.",
+        "rush": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "C",
+          "note": "More stim than parent. Still not 4-MAR."
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": "NDEWS 2021–22 reddit bump as a supplement."
+        },
+        "compulsiveness": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Multi-day self-treatment in the lab-confirmed tox case."
+        },
+        "reinforcement": {
+          "score": 42,
+          "confidence": "C",
+          "note": "Niche, not a flood."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Chorea, CK/ALT up in NACCT case; reddit liver talk."
+        },
+        "psychosis_concern": {
+          "score": 25,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Tachycardia, wide QRS/QTc in confirmed case."
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "NMC. Smart-drug sticker, hospital choreography.",
+      "sources": [
+        {
+          "title": "Basile et al. NACCT 2022 NMC toxicity",
+          "url": "https://www.cfsre.org/images/Basile_Cyclazodone_Submitted_Abstract_NACCT_2022.pdf",
+          "type": "forensic",
+          "year": 2022
+        },
+        {
+          "title": "NDEWS web monitoring NMC 19 Aug 2022",
+          "url": "https://ndews.org/wordpress/files/2023/04/8.19.22.pdf",
+          "type": "forensic",
+          "year": 2022
+        }
+      ],
+      "gaps": [
+        "Enjoyment inferred from nootropic framing, not a big Erowid vault."
+      ]
+    },
+    {
+      "id": "fenozolone",
+      "name": "Fenozolone",
+      "family": "oxazolinone",
+      "subclass": "pemoline",
+      "aliases": [
+        "Ordinator"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Old European pemoline cousin. Doping-era name.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Museum label.",
+      "sources": [
+        {
+          "title": "Gielsdorf 1982",
+          "url": "https://doi.org/10.1515/cclm.1982.20.2.65",
+          "type": "paper",
+          "year": 1982
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "thozalinone",
+      "name": "Thozalinone",
+      "family": "oxazolinone",
+      "subclass": "pemoline",
+      "aliases": [
+        "Stimsen"
+      ],
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Old European pemoline cousin. Doping-era name.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Museum label.",
+      "sources": [
+        {
+          "title": "Gielsdorf 1982",
+          "url": "https://doi.org/10.1515/cclm.1982.20.2.65",
+          "type": "paper",
+          "year": 1982
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "2-dpmp",
+      "name": "2-DPMP",
+      "family": "pipradrol",
+      "subclass": "pipradrol_neighbor",
+      "aliases": [
+        "desoxypipradrol",
+        "2-diphenylmethylpiperidine"
+      ],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "human_love": "hated",
+      "feel": {
+        "headline": "Ivory Wave's long devil. Compulsive. Not loved.",
+        "rush": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "C",
+          "note": "Stim is real; joy is not the memory."
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "B",
+          "note": "People remember the length and the damage."
+        },
+        "compulsiveness": {
+          "score": 84,
+          "confidence": "B",
+          "note": "Days-long stimulation. Legal-high era UK."
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Infamous more than sought twice."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 85,
+          "confidence": "B",
+          "note": "The come-down is a calendar, not an evening."
+        },
+        "psychosis_concern": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 95,
+          "confidence": "B",
+          "note": "Insomnia that does not end."
+        }
+      },
+      "route_myth": "mislabel (Ivory Wave / bath-salt packets sometimes actually MDPV)",
+      "npc_line": "Still awake. Still not having fun.",
+      "sources": [
+        {
+          "title": "UK legal-high / Ivory Wave forensic era (secondary reviews)",
+          "url": "",
+          "type": "forensic",
+          "year": 2010
+        }
+      ],
+      "gaps": [
+        "Packet contents were a lottery. Agent 30 may expand pipradrols."
+      ]
+    },
+    {
+      "id": "d2pm",
+      "name": "D2PM",
+      "family": "pipradrol",
+      "subclass": "pipradrol_neighbor",
+      "aliases": [
+        "diphenylprolinol"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Weaker pipradrol cousin. Headache more than magic.",
+        "rush": {
+          "score": 22,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 24,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "C",
+          "note": "Headache / empty stim complaints."
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 35,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Headache is the brand."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They stocked it because 2-DPMP got heat. The headache came free.",
+      "sources": [
+        {
+          "title": "UK NPS reviews (secondary)",
+          "url": "",
+          "type": "forensic",
+          "year": 2012
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "pipradrol",
+      "name": "Pipradrol",
+      "family": "pipradrol",
+      "subclass": "pipradrol_neighbor",
+      "aliases": [],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Old European medicine stim. Parent of 2-DPMP.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Grandfather's focus pill.",
+      "sources": [],
+      "gaps": [
+        "Thin recreational file."
+      ]
+    },
+    {
+      "id": "prolintane",
+      "name": "Prolintane",
+      "family": "pyrrolidine_stimulant",
+      "subclass": "pipradrol_neighbor",
+      "aliases": [
+        "Catovit"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "human_love": "existed",
+      "feel": {
+        "headline": "1960s EU stim. Dusty, not Flask.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Not a pyro just because it has a pyrrolidine — do not collapse into Kit I."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "Grandfather's other focus pill.",
+      "sources": [],
+      "gaps": [
+        "Not a cathinone. Agent 30 may own a fuller tropane/odd-stim expansion."
+      ]
+    },
+    {
+      "id": "bzp",
+      "name": "BZP",
+      "family": "piperazine",
+      "subclass": "benzylpiperazine_stim",
+      "aliases": [
+        "1-benzylpiperazine",
+        "A2",
+        "N-benzylpiperazine"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "era_loved",
+      "feel": {
+        "headline": "Legal-high era. It was legal. That was the magic.",
+        "rush": {
+          "score": 45,
+          "confidence": "B",
+          "note": "Oral amphetamine-lite. Dirty coffee with ambition, not pyro."
+        },
+        "euphoria": {
+          "score": 55,
+          "confidence": "B",
+          "note": "Real lift, talk, party energy. WHO: stimulant including euphoria."
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Era love, not molecule love. NZ youth actually used it. Modern heads call it harsh."
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "B",
+          "note": "People stacked pills. Not 3-FPM-level fiend."
+        },
+        "reinforcement": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Tens of millions of party pills sold in NZ by 2008."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Agitation in hospital series, usually mixes."
+        },
+        "aftereffects": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Two-day crash in user lore."
+        },
+        "psychosis_concern": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Seizures / severe agitation in mixes."
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Tachycardia."
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Insomnia, jaw."
+        }
+      },
+      "route_myth": "oral_ok; often a blend with TFMPP sold as legal ecstasy",
+      "npc_line": "Party pill. The law was the high.",
+      "sources": [
+        {
+          "title": "WHO ECDD piperazine pre-reviews",
+          "url": "https://iris.who.int/server/api/core/bitstreams/2fceb845-4f2d-45a9-98d3-778405be1761/content",
+          "type": "paper",
+          "year": 2012
+        },
+        {
+          "title": "NZ BZP classification debate",
+          "url": "https://www.parliament.nz/en/pb/hansard-debates/rhr/document/48HansD_20080305_00001111/misuse-of-drugs-classification-of-bzp-amendment-bill",
+          "type": "paper",
+          "year": 2008
+        },
+        {
+          "title": "UNODC ST/NAR/47 piperazines in seized materials",
+          "url": "https://www.unodc.org/documents/scientific/STNAR47_Piperazines_Ebook.pdf",
+          "type": "forensic",
+          "year": 2013
+        }
+      ],
+      "gaps": [
+        "Many BZP nights were blends."
+      ]
+    },
+    {
+      "id": "tfmpp",
+      "name": "TFMPP",
+      "family": "piperazine",
+      "subclass": "phenylpiperazine_serotonin",
+      "aliases": [
+        "1-(3-trifluoromethylphenyl)piperazine"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "hated",
+      "feel": {
+        "headline": "The half of the pill that made you nauseous on purpose.",
+        "rush": {
+          "score": 15,
+          "confidence": "B",
+          "note": "Not a stim snap."
+        },
+        "euphoria": {
+          "score": 35,
+          "confidence": "B",
+          "note": "5-HT-heavy fake-roll. Alone often dysphoric."
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Very few solo reports. Nausea, tremor, hallucinations."
+        },
+        "compulsiveness": {
+          "score": 18,
+          "confidence": "B",
+          "note": "You chase the mix, not TFMPP. Animal data: low abuse potential."
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "B",
+          "note": "WHO: critical review not warranted on dependence grounds."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "B",
+          "note": "Anxiety."
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Nausea is the brand."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Hallucinations in tox notes."
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; almost always stacked with BZP as legal ecstasy",
+      "npc_line": "That's the twist they added so you'd think it was a roll.",
+      "sources": [
+        {
+          "title": "WHO ECDD TFMPP",
+          "url": "https://iris.who.int/server/api/core/bitstreams/2fceb845-4f2d-45a9-98d3-778405be1761/content",
+          "type": "paper",
+          "year": 2012
+        },
+        {
+          "title": "CAHMA Safer Using Piperazines",
+          "url": "https://www.cahma.org.au/article/safer-using-piperazines/",
+          "type": "forum",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Almost no one ate it as a single SKU on purpose after the first time."
+      ]
+    },
+    {
+      "id": "mcpp",
+      "name": "mCPP",
+      "family": "piperazine",
+      "subclass": "phenylpiperazine_serotonin",
+      "aliases": [
+        "1-(3-chlorophenyl)piperazine",
+        "meta-chlorophenylpiperazine"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "hated",
+      "feel": {
+        "headline": "The hangover in a pill.",
+        "rush": {
+          "score": 8,
+          "confidence": "A",
+          "note": "There is no rush. There is a flu."
+        },
+        "euphoria": {
+          "score": 12,
+          "confidence": "A",
+          "note": "Papers sometimes say euphoria. Users say anxiety, panic, headache, nausea."
+        },
+        "enjoyment": {
+          "score": 10,
+          "confidence": "A",
+          "note": "No human love. Adulterant / fake-ecstasy."
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": "A",
+          "note": "Who redoses a hangover."
+        },
+        "reinforcement": {
+          "score": 10,
+          "confidence": "A",
+          "note": "Bought by accident, stamped as Molly."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 75,
+          "confidence": "A",
+          "note": "Anxiety and panic most frequent tox."
+        },
+        "aftereffects": {
+          "score": 90,
+          "confidence": "A",
+          "note": "The experience is the hangover."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Hallucinations listed."
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Misery more than insomnia."
+        }
+      },
+      "route_myth": "mislabel (sold as ecstasy); oral_ok",
+      "npc_line": "If the pill feels like tomorrow morning, it was mCPP.",
+      "sources": [
+        {
+          "title": "WHO ECDD mCPP pre-review",
+          "url": "https://ecddrepository.org/sites/default/files/5.3cmcpppre-review.pdf",
+          "type": "paper",
+          "year": 2014
+        },
+        {
+          "title": "Erowid mCPP experiences",
+          "url": "https://erowid.org/experiences/exp.php?ID=57882",
+          "type": "forum",
+          "year": 2006
+        }
+      ],
+      "gaps": [
+        "A minority of old reports claim a warm body. Do not let that overwrite hangover consensus."
+      ]
+    },
+    {
+      "id": "pcpp",
+      "name": "pCPP",
+      "family": "piperazine",
+      "subclass": "phenylpiperazine_serotonin",
+      "aliases": [
+        "1-(4-chlorophenyl)piperazine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Isomer homework. mCPP's shadow.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "MS can collide with mCPP."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Not sought as a product."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": "Assume hangover-family if it appears."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same hangover family. Wrong stamp on the chromatogram.",
+      "sources": [
+        {
+          "title": "AAFS 2008 CPP isomer note",
+          "url": "https://www.aafs.org/sites/default/files/media/documents/AAFS-2008-B37.pdf",
+          "type": "forensic",
+          "year": 2008
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "ocpp",
+      "name": "oCPP",
+      "family": "piperazine",
+      "subclass": "phenylpiperazine_serotonin",
+      "aliases": [
+        "1-(2-chlorophenyl)piperazine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Ortho-chloro isomer. Easier MS tell than pCPP.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Lab tell, not a party.",
+      "sources": [
+        {
+          "title": "AAFS 2008 CPP isomer note",
+          "url": "https://www.aafs.org/sites/default/files/media/documents/AAFS-2008-B37.pdf",
+          "type": "forensic",
+          "year": 2008
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "meopp",
+      "name": "MeOPP",
+      "family": "piperazine",
+      "subclass": "phenylpiperazine_serotonin",
+      "aliases": [
+        "pMeOPP",
+        "1-(4-methoxyphenyl)piperazine",
+        "pMPP"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Quiet phenylpiperazine. Weak, weird, not a roll.",
+        "rush": {
+          "score": 10,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Serotonergic, often dull or sedating vs BZP."
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "C",
+          "note": "NZ scheduled it with the 2008 set. Standalone love: no."
+        },
+        "compulsiveness": {
+          "score": 15,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 16,
+          "confidence": "D",
+          "note": "Blend letter, not a SKU people asked for."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 45,
+          "confidence": "D",
+          "note": "Headache / nausea class effects."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 25,
+          "confidence": "D",
+          "note": "More dull than wired."
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "They needed another letter for the blend.",
+      "sources": [
+        {
+          "title": "NZ Misuse of Drugs Act Schedule 3 (MeOPP listed)",
+          "url": "https://www.legislation.govt.nz/act/public/1975/0116/latest/DLM436723.html",
+          "type": "paper",
+          "year": 2008
+        },
+        {
+          "title": "UNODC ST/NAR/47",
+          "url": "https://www.unodc.org/documents/scientific/STNAR47_Piperazines_Ebook.pdf",
+          "type": "forensic",
+          "year": 2013
+        }
+      ],
+      "gaps": [
+        "Almost no clean solo vault."
+      ]
+    },
+    {
+      "id": "pfpp",
+      "name": "pFPP",
+      "family": "piperazine",
+      "subclass": "phenylpiperazine_serotonin",
+      "aliases": [
+        "1-(4-fluorophenyl)piperazine",
+        "4-FPP",
+        "fluoperazine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "The grin they advertised. Milder than BZP, still a packet chemical.",
+        "rush": {
+          "score": 22,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "C",
+          "note": "Marketed as smiley / MDMA-lite in leftover NZ brands."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "C",
+          "note": "More friendly than mCPP, less than a real roll."
+        },
+        "compulsiveness": {
+          "score": 22,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Brand lore bigger than molecule lore."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Class nausea / headache possible. Not the mCPP villain."
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; packet names The Big Grin / Extreme Beans / Retro pills / Lab-X are brands not extra molecules",
+      "npc_line": "The Big Grin. Small grin.",
+      "sources": [
+        {
+          "title": "Piperazine derivatives as dangerous abused compounds",
+          "url": "https://doi.org/10.2478/acph-2020-0035",
+          "type": "paper",
+          "year": 2020
+        },
+        {
+          "title": "NZ Schedule 3 pFPP",
+          "url": "https://www.legislation.govt.nz/act/public/1975/0116/latest/DLM436723.html",
+          "type": "paper",
+          "year": 2008
+        }
+      ],
+      "gaps": [
+        "Brand lore > molecule lore."
+      ]
+    },
+    {
+      "id": "mbzp",
+      "name": "MBZP",
+      "family": "piperazine",
+      "subclass": "benzylpiperazine_stim",
+      "aliases": [
+        "1-methyl-4-benzylpiperazine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "BZP after the ban. Diet stim.",
+        "rush": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 32,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Replacement SKU, not a new religion."
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 26,
+          "confidence": "D",
+          "note": "NZ Class C with BZP."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 30,
+          "confidence": "D",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "D",
+          "note": ""
+        },
+        "sleep": {
+          "score": 45,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok",
+      "npc_line": "They methylated the legal high. The night got thinner.",
+      "sources": [
+        {
+          "title": "NZ Misuse of Drugs Act Schedule 3",
+          "url": "https://www.legislation.govt.nz/act/public/1975/0116/latest/DLM436723.html",
+          "type": "paper",
+          "year": 2008
+        }
+      ],
+      "gaps": [
+        "Few solo reports."
+      ]
+    },
+    {
+      "id": "mdbzp",
+      "name": "MDBZP",
+      "family": "piperazine",
+      "subclass": "benzylpiperazine_stim",
+      "aliases": [
+        "MDBP",
+        "1-(3,4-methylenedioxybenzyl)piperazine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "human_love": "existed",
+      "feel": {
+        "headline": "MD-benzyl. Looks like a roll on the whiteboard. Wasn't.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not clone MDMA."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Fipexide metabolite; seized as designer piperazine."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They drew a methylenedioxy on BZP and waited for Molly. She did not come.",
+      "sources": [
+        {
+          "title": "UNODC ST/NAR/47",
+          "url": "https://www.unodc.org/documents/scientific/STNAR47_Piperazines_Ebook.pdf",
+          "type": "forensic",
+          "year": 2013
+        }
+      ],
+      "gaps": [
+        "Human feel file thin."
+      ]
+    },
+    {
+      "id": "dbzp",
+      "name": "DBZP",
+      "family": "piperazine",
+      "subclass": "benzylpiperazine_stim",
+      "aliases": [
+        "1,4-dibenzylpiperazine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "The impurity, not the product.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Shows up in BZP seizures as leftover."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Not a sought SKU."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "That peak is the leftover, not the party.",
+      "sources": [
+        {
+          "title": "UNODC ST/NAR/47",
+          "url": "https://www.unodc.org/documents/scientific/STNAR47_Piperazines_Ebook.pdf",
+          "type": "forensic",
+          "year": 2013
+        }
+      ],
+      "gaps": [
+        "Almost no intentional-use reports."
+      ]
+    },
+    {
+      "id": "pfbp",
+      "name": "pFBP",
+      "family": "piperazine",
+      "subclass": "benzylpiperazine_stim",
+      "aliases": [
+        "1-(4-fluorobenzyl)piperazine"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "human_love": "existed",
+      "feel": {
+        "headline": "Fluoro-benzyl stamp. Forensic list, not a memoir.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Benzyl column, stim-shaped on paper."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Vendor alphabet.",
+      "sources": [
+        {
+          "title": "Piperazine designer-drug lists",
+          "url": "https://doi.org/10.3390/jcm11071758",
+          "type": "paper",
+          "year": 2022
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "bzp_tfmpp_combo",
+      "name": "BZP+TFMPP party pill",
+      "family": "piperazine",
+      "subclass": "historical_combo_packet",
+      "aliases": [
+        "Bliss",
+        "Charge",
+        "Combo",
+        "Jax",
+        "Frenzy",
+        "Rapture",
+        "A2",
+        "Legal X",
+        "Legal E",
+        "Herbal Ecstasy",
+        "Clear Light",
+        "Exodus",
+        "The Good Stuff"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "human_love": "era_loved",
+      "feel": {
+        "headline": "It said herbal ecstasy on the tin. It was piperazine and optimism.",
+        "rush": {
+          "score": 42,
+          "confidence": "B",
+          "note": "BZP supplies the stim. Typical seized lore ~2:1 BZP:TFMPP — ratio is history, not a recipe."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Fake-roll from the blend. Some nights were fine. Hangover included."
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "B",
+          "note": "NZ 2000s cultural moment. Love of legality plus a night out."
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Stacked tins, not a pyro binge."
+        },
+        "reinforcement": {
+          "score": 56,
+          "confidence": "B",
+          "note": "Estimated 26 million party pills sold in NZ by 2008."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Nausea from TFMPP plus BZP crash."
+        },
+        "psychosis_concern": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Hospital series were mixes."
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral_ok; mislabel (legal ecstasy / herbal ecstasy); packet names are brands not extra molecules",
+      "npc_line": "Party pill. The law was the high.",
+      "sources": [
+        {
+          "title": "Controlling NPS in New Zealand",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00450618.2022.2067230",
+          "type": "paper",
+          "year": 2022
+        },
+        {
+          "title": "Piperazine derivatives review (brand names)",
+          "url": "https://doi.org/10.2478/acph-2020-0035",
+          "type": "paper",
+          "year": 2020
+        },
+        {
+          "title": "UNODC ST/NAR/47",
+          "url": "https://www.unodc.org/documents/scientific/STNAR47_Piperazines_Ebook.pdf",
+          "type": "forensic",
+          "year": 2013
+        }
+      ],
+      "gaps": [
+        "Do not invent extra brand names. Do not treat Legal E as a compound ID."
+      ]
+    }
+  ],
+  "combo_packets": [
+    {
+      "id": "bzp_tfmpp_brands",
+      "energy": "BZP + TFMPP",
+      "documented_names": [
+        "Bliss",
+        "Charge",
+        "Combo",
+        "Clear Light",
+        "Exodus",
+        "The Good Stuff",
+        "Jax",
+        "Frenzy",
+        "Rapture",
+        "A2",
+        "Legal X",
+        "Legal E",
+        "Herbal Ecstasy"
+      ],
+      "feel": "The actual product: BZP stim + TFMPP fake-roll. Era love. Hangover included."
+    },
+    {
+      "id": "x4_pep",
+      "energy": "X4 / PEP / Party Pills",
+      "documented_names": [
+        "X4",
+        "PEP",
+        "Party Pills"
+      ],
+      "feel": "Up to four piperazines. Kitchen-sink identity lottery."
+    },
+    {
+      "id": "pfpp_brands",
+      "energy": "pFPP brands",
+      "documented_names": [
+        "The Big Grin",
+        "Mashed",
+        "Extreme Beans",
+        "Playboy Bunny",
+        "Retro pills",
+        "Lab-X"
+      ],
+      "feel": "Milder grin."
+    },
+    {
+      "id": "cherries",
+      "energy": "Cherries",
+      "documented_names": [
+        "Cherries"
+      ],
+      "feel": "pFPP + TFMPP. Serotonin blend, less BZP."
+    },
+    {
+      "id": "mcpp_stamps",
+      "energy": "mCPP stamps",
+      "documented_names": [
+        "Arlequin",
+        "X4",
+        "Rolls Royce",
+        "Smarties"
+      ],
+      "feel": "Often sold as ecstasy. Hangover city. Logos like Mitsubishi / Lacoste are stamps not extra SKUs."
+    }
+  ],
+  "coverage": {
+    "unique_chemical_ids": 45,
+    "full_or_usable_feel_cards": 19,
+    "thin_or_mostly_null": 27,
+    "extras_beyond_seed": [
+      "4-MPM",
+      "3-MPM",
+      "2-MPM",
+      "2-FPM",
+      "2-CPM",
+      "4-CPM",
+      "3-FPE",
+      "G-130",
+      "fenmetramide",
+      "phendimetrazine",
+      "MDMAR",
+      "3,4-MAR",
+      "N-methylaminorex",
+      "4'F-4-MAR",
+      "clominorex",
+      "fluminorex",
+      "rexamino",
+      "NMC",
+      "fenozolone",
+      "thozalinone",
+      "2-DPMP",
+      "D2PM",
+      "pipradrol",
+      "prolintane",
+      "pCPP",
+      "oCPP",
+      "pFPP",
+      "MBZP",
+      "MDBZP",
+      "DBZP",
+      "pFBP",
+      "BZP+TFMPP combo packets"
+    ],
+    "identity_fights": [
+      "4-MAR vs meth Ice",
+      "4-FPO vs phenmetrazine",
+      "Ivory Wave vs 2-DPMP vs MDPV",
+      "BZP bags that were blends",
+      "DBZP as impurity"
+    ],
+    "evidence_tiers": {
+      "A_B_human_file": [
+        "phenmetrazine",
+        "3-FPM",
+        "4-MAR",
+        "4,4'-DMAR",
+        "aminorex",
+        "BZP",
+        "TFMPP",
+        "mCPP",
+        "pemoline",
+        "BZP+TFMPP packet"
+      ],
+      "C_market_real_thin_feel": [
+        "3-CPM",
+        "4-MPM",
+        "3-MPM",
+        "cyclazodone",
+        "NMC",
+        "pFPP",
+        "MeOPP",
+        "MBZP",
+        "2-DPMP",
+        "D2PM",
+        "3-FPE"
+      ],
+      "D_or_literature_only": [
+        "2-FPM",
+        "2-CPM",
+        "4-CPM",
+        "2-MPM",
+        "G-130",
+        "fenmetramide",
+        "MDMAR",
+        "3,4-MAR",
+        "N-methylaminorex",
+        "4'F-4-MAR",
+        "clominorex",
+        "fluminorex",
+        "rexamino",
+        "fenozolone",
+        "thozalinone",
+        "pCPP",
+        "oCPP",
+        "MDBZP",
+        "pFBP",
+        "DBZP"
+      ]
+    },
+    "unodc_note": "UNODC mentions 13 novel phenmetrazines; unnamed extras stay unnamed until a paper or a bag."
+  },
+  "human_love": {
+    "loved": [
+      "4-MAR",
+      "phenmetrazine"
+    ],
+    "era_loved": [
+      "3-FPM",
+      "BZP+TFMPP packets",
+      "BZP"
+    ],
+    "existed_or_niche": [
+      "phendimetrazine",
+      "NMC",
+      "cyclazodone",
+      "pemoline",
+      "MeOPP",
+      "MBZP",
+      "pFPP",
+      "3-CPM",
+      "4-MPM"
+    ],
+    "hated_or_infamous": [
+      "mCPP",
+      "TFMPP alone",
+      "4,4'-DMAR",
+      "aminorex",
+      "2-DPMP"
+    ],
+    "paper_or_customs_only": [
+      "2-FPM",
+      "2-CPM",
+      "4-CPM",
+      "2-MPM",
+      "MDMAR",
+      "4'F-4-MAR",
+      "clominorex",
+      "fluminorex",
+      "rexamino",
+      "DBZP",
+      "pFBP"
+    ],
+    "flask_three_bottles": [
+      "3-FPM",
+      "4-MAR",
+      "BZP+TFMPP party-pill tin"
+    ]
+  }
+}

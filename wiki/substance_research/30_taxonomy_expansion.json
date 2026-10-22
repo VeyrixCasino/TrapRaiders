@@ -1,0 +1,2841 @@
+{
+  "assignment": 30,
+  "title": "Taxonomy expansion — missing families after 01-29",
+  "disclaimer": "Game catalog. Not a cookbook. No opioids. Tropanes are the rush kings.",
+  "rules": [
+    "no_recipes",
+    "no_doses",
+    "no_opioids",
+    "tropanes_are_rush_kings",
+    "do_not_steal_01_29"
+  ],
+  "lead_axes": [
+    "rush",
+    "euphoria",
+    "compulsiveness",
+    "enjoyment"
+  ],
+  "proposed_subclasses": [
+    {
+      "id": "tropane_stimulant",
+      "owner": "30",
+      "evidence": "global street cocaine/crack"
+    },
+    {
+      "id": "phenyltropane",
+      "owner": "30",
+      "evidence": "RC dichloropane / troparil"
+    },
+    {
+      "id": "coke_mimic_local_anesthetic",
+      "owner": "30",
+      "evidence": "2010 legal-high flop"
+    },
+    {
+      "id": "aminoindane_stim",
+      "owner": "30",
+      "evidence": "Synthacaine; 07-10 deferral"
+    },
+    {
+      "id": "camfetamine_adjacent",
+      "owner": "30",
+      "evidence": "EMCDDA 2011"
+    },
+    {
+      "id": "eugeroic",
+      "owner": "30",
+      "evidence": "diverted modafinil"
+    },
+    {
+      "id": "khat_parent",
+      "owner": "30",
+      "evidence": "WHO khat"
+    },
+    {
+      "id": "ghb_family",
+      "owner": "propose_25_26",
+      "evidence": "street G / GBL"
+    },
+    {
+      "id": "methaqualone_family",
+      "owner": "propose_25_26",
+      "evidence": "Quaalude history; SL-164"
+    },
+    {
+      "id": "gabapentinoid",
+      "owner": "propose_25_26",
+      "evidence": "Lyrica street; phenibut"
+    },
+    {
+      "id": "mescaline_cactus",
+      "owner": "30",
+      "evidence": "plant SKU; synthetics in 18-20"
+    },
+    {
+      "id": "alkyl_nitrite",
+      "owner": "30",
+      "evidence": "club poppers"
+    },
+    {
+      "id": "volatile_solvent",
+      "owner": "30",
+      "evidence": "one warning crate"
+    },
+    {
+      "id": "common_legal",
+      "owner": "30",
+      "evidence": "alcohol/nicotine/caffeine"
+    },
+    {
+      "id": "arecoline_betel",
+      "owner": "30",
+      "evidence": "global chew"
+    },
+    {
+      "id": "shop_ethnogen",
+      "owner": "30",
+      "evidence": "blue lotus"
+    },
+    {
+      "id": "btcp_benocyclidine",
+      "owner": "30",
+      "evidence": "literature"
+    },
+    {
+      "id": "leftover_otc_stim",
+      "owner": "30",
+      "evidence": "Benzedrex / DMAA / prolintane"
+    }
+  ],
+  "missing_from_original_30_agent_map": [
+    "tropane stimulants (cocaine/crack/paste/leaf)",
+    "phenyltropane RCs",
+    "legal-coke mimics / Synthacaine blend",
+    "aminoindane stims except MDAI",
+    "khat parent as a plant kit",
+    "GHB/GBL/1,4-BD",
+    "methaqualone + RC ludes",
+    "gabapentinoids / phenibut",
+    "mescaline cactus as a plant SKU",
+    "poppers",
+    "solvent inhalants (N2O was covered)",
+    "alcohol / nicotine / caffeine as game chemicals",
+    "betel / arecoline",
+    "eugeroics",
+    "OTC leftover stims",
+    "whole cannabinoid wall (now 27-28)",
+    "whole deliriant / atypical hall wall (now 29)",
+    "camfetamine / BTCP footnotes"
+  ],
+  "do_not_reopen": [
+    "opioids",
+    "2C/NBOMe alphabets",
+    "pyro/cathinone walks",
+    "ACH/diaryl dissos",
+    "MPA",
+    "MDAI",
+    "FLY/TMA",
+    "spice/THC",
+    "DPH/salvia"
+  ],
+  "nomenclature_merges": [
+    {
+      "id": "cocaine",
+      "same": [
+        "coke",
+        "blow"
+      ],
+      "not": [
+        "crack",
+        "tusi"
+      ]
+    },
+    {
+      "id": "crack",
+      "same": [
+        "rock",
+        "freebase"
+      ],
+      "not": [
+        "coca paste"
+      ]
+    },
+    {
+      "id": "dichloropane",
+      "same": [
+        "RTI-111"
+      ],
+      "not": [
+        "cocaine",
+        "troparil"
+      ]
+    },
+    {
+      "id": "dimethocaine",
+      "same": [
+        "larocaine"
+      ],
+      "not": [
+        "dimethylcathinone"
+      ]
+    },
+    {
+      "id": "synthacaine",
+      "same": [
+        "MPA+2-AI bags"
+      ],
+      "not": [
+        "a molecule"
+      ]
+    },
+    {
+      "id": "ghb",
+      "same": [
+        "G"
+      ],
+      "not": [
+        "GBL as a separate UI soul"
+      ]
+    }
+  ],
+  "names_only": [
+    "WIN 35,428 / CFT",
+    "RTI-113",
+    "tesofensine",
+    "tropacocaine",
+    "fencamfamine",
+    "mazindol",
+    "vanoxerine",
+    "6-methylnicotine"
+  ],
+  "substances": [
+    {
+      "id": "cocaine",
+      "name": "cocaine",
+      "family": "tropane",
+      "subclass": "tropane_stimulant",
+      "aliases": [
+        "coke",
+        "blow",
+        "snow"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The rush everything else is compared to.",
+        "rush": {
+          "score": 25,
+          "confidence": "A",
+          "note": "",
+          "x": 1
+        },
+        "euphoria": {
+          "score": 25,
+          "confidence": "A",
+          "note": "",
+          "x": 1
+        },
+        "enjoyment": {
+          "score": 25,
+          "confidence": "A",
+          "note": "",
+          "x": 1
+        },
+        "compulsiveness": {
+          "score": 25,
+          "confidence": "A",
+          "note": "",
+          "x": 1
+        },
+        "reinforcement": {
+          "score": 78,
+          "confidence": "A",
+          "note": ""
+        },
+        "rush_x": 1,
+        "euphoria_x": 1,
+        "enjoyment_x": 1,
+        "compulsive_x": 1
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 62,
+          "confidence": "A",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 78,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "redose",
+      "npc_line": "The snap. Pyros keep trying to steal this sentence.",
+      "sources": [
+        {
+          "title": "Erowid cocaine",
+          "url": "https://www.erowid.org/chemicals/cocaine/",
+          "type": "vault",
+          "year": null
+        },
+        {
+          "title": "EUDA European Drug Report 2025 — NPS",
+          "url": "https://www.euda.europa.eu/publications/european-drug-report/2025/new-psychoactive-substances_en",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Tusi is not cocaine."
+      ],
+      "card": "full",
+      "proposed_subclass": "tropane_stimulant"
+    },
+    {
+      "id": "crack",
+      "name": "crack",
+      "family": "tropane",
+      "subclass": "tropane_stimulant",
+      "aliases": [
+        "rock",
+        "freebase"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Same molecule. Different door.",
+        "rush": {
+          "score": 34,
+          "confidence": "A",
+          "note": "",
+          "x": 1.6
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "A",
+          "note": "",
+          "x": 1.15
+        },
+        "enjoyment": {
+          "score": 20,
+          "confidence": "A",
+          "note": "",
+          "x": 0.75
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "A",
+          "note": "",
+          "x": 2
+        },
+        "reinforcement": {
+          "score": 82,
+          "confidence": "A",
+          "note": ""
+        },
+        "rush_x": 1.6,
+        "euphoria_x": 1.15,
+        "enjoyment_x": 0.75,
+        "compulsive_x": 2
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 88,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 85,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 75,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke redose paranoia",
+      "npc_line": "The king of the hit. The beggar of the next one.",
+      "sources": [],
+      "gaps": [
+        "No prep card."
+      ],
+      "card": "full",
+      "proposed_subclass": "tropane_stimulant"
+    },
+    {
+      "id": "coca_paste",
+      "name": "coca paste",
+      "family": "tropane",
+      "subclass": "tropane_stimulant",
+      "aliases": [
+        "basuco",
+        "paco"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The dirty middle. Cheap smoke.",
+        "rush": {
+          "score": 62,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 75,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 55,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke redose",
+      "npc_line": "Coke before it learned manners.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "tropane_stimulant"
+    },
+    {
+      "id": "coca_leaf",
+      "name": "coca leaf",
+      "family": "tropane",
+      "subclass": "tropane_stimulant",
+      "aliases": [
+        "coca tea"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The plant. Work chew. Not a line.",
+        "rush": {
+          "score": 8,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "The leaf they should have left as the leaf.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "tropane_stimulant"
+    },
+    {
+      "id": "dichloropane",
+      "name": "dichloropane",
+      "family": "phenyltropane",
+      "subclass": "phenyltropane",
+      "aliases": [
+        "RTI-111"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "RC cocaine. Longer. Less snap.",
+        "rush": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 55,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral redose",
+      "npc_line": "Coke that stays for a meeting and forgets the entrance.",
+      "sources": [
+        {
+          "title": "PsychonautWiki dichloropane",
+          "url": "https://psychonautwiki.org",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "No RTI analog wall."
+      ],
+      "card": "full",
+      "proposed_subclass": "phenyltropane"
+    },
+    {
+      "id": "troparil",
+      "name": "troparil",
+      "family": "phenyltropane",
+      "subclass": "phenyltropane",
+      "aliases": [
+        "WIN 35,065-2",
+        "β-CPT"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Parent phenyltropane. Rare bag.",
+        "rush": {
+          "score": 42,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "The textbook coke analog. The street did not RSVP.",
+      "sources": [],
+      "gaps": [
+        "WIN 35,428 names-only."
+      ],
+      "card": "full",
+      "proposed_subclass": "phenyltropane"
+    },
+    {
+      "id": "dimethocaine",
+      "name": "dimethocaine",
+      "family": "coke_mimic",
+      "subclass": "coke_mimic_local_anesthetic",
+      "aliases": [
+        "larocaine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Legal coke that flopped.",
+        "rush": {
+          "score": 22,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 20,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 35,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 15,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel",
+      "npc_line": "They sold the numb. They forgot the point.",
+      "sources": [],
+      "gaps": [
+        "DMC also means dimethylcathinone."
+      ],
+      "card": "full",
+      "proposed_subclass": "coke_mimic_local_anesthetic"
+    },
+    {
+      "id": "4f_tropacocaine",
+      "name": "4-fluorotropacocaine",
+      "family": "coke_mimic",
+      "subclass": "coke_mimic_local_anesthetic",
+      "aliases": [
+        "pFBT"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fluoro tropacocaine. Thin file.",
+        "rush": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Another dentist's idea of a party.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "coke_mimic_local_anesthetic"
+    },
+    {
+      "id": "synthacaine",
+      "name": "Synthacaine",
+      "family": "blend_sticker",
+      "subclass": "identity_uncertain_blend",
+      "aliases": [
+        "often MPA + 2-AI"
+      ],
+      "research_status": "identity_uncertain",
+      "market": "rc_era",
+      "feel": {
+        "headline": "A sticker. Not a molecule.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "mislabel",
+      "npc_line": "The name on the packet. Not the powder.",
+      "sources": [],
+      "gaps": [
+        "MPA owned by 07-10."
+      ],
+      "card": "thin",
+      "proposed_subclass": "coke_mimic_local_anesthetic"
+    },
+    {
+      "id": "2_ai",
+      "name": "2-AI",
+      "family": "aminoindane",
+      "subclass": "aminoindane_stim",
+      "aliases": [
+        "2-aminoindane"
+      ],
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "The other half of Synthacaine. Not MDAI.",
+        "rush": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 32,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Legal dust they poured next to MPA and called it blow.",
+      "sources": [],
+      "gaps": [
+        "07-10 deferred this backbone."
+      ],
+      "card": "full",
+      "proposed_subclass": "aminoindane_stim"
+    },
+    {
+      "id": "nm_2_ai",
+      "name": "NM-2-AI",
+      "family": "aminoindane",
+      "subclass": "aminoindane_stim",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Methyl stamp on 2-AI.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Catalog cousin. Don't invent the night.",
+      "sources": [],
+      "gaps": [],
+      "card": "thin",
+      "proposed_subclass": "aminoindane_stim"
+    },
+    {
+      "id": "camfetamine",
+      "name": "camfetamine",
+      "family": "stimulant",
+      "subclass": "camfetamine_adjacent",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Fencamfamine's street cousin.",
+        "rush": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A norbornane they tried to sell as speed.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "camfetamine_adjacent"
+    },
+    {
+      "id": "prolintane",
+      "name": "prolintane",
+      "family": "stimulant",
+      "subclass": "leftover_otc_stim",
+      "aliases": [],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Old European stim. Not a pyro.",
+        "rush": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A prescription that thought it was interesting.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "leftover_otc_stim"
+    },
+    {
+      "id": "propylhexedrine",
+      "name": "propylhexedrine",
+      "family": "stimulant",
+      "subclass": "leftover_otc_stim",
+      "aliases": [
+        "Benzedrex"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The inhaler they should have left in the nose.",
+        "rush": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 65,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Cotton in a tube. The tube was not the point they wanted.",
+      "sources": [],
+      "gaps": [
+        "No extraction steps."
+      ],
+      "card": "full",
+      "proposed_subclass": "leftover_otc_stim"
+    },
+    {
+      "id": "dmaa",
+      "name": "DMAA",
+      "family": "stimulant",
+      "subclass": "leftover_otc_stim",
+      "aliases": [
+        "methylhexanamine"
+      ],
+      "research_status": "moderately_documented",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Pre-workout panic.",
+        "rush": {
+          "score": 24,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 24,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 15,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 35,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They put it in a tub next to creatine. The heart noticed.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "leftover_otc_stim"
+    },
+    {
+      "id": "modafinil",
+      "name": "modafinil",
+      "family": "eugeroic",
+      "subclass": "eugeroic",
+      "aliases": [
+        "Provigil"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Wake. Not a party.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 46,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 18,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "The pill that files the report and skips the rave.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "eugeroic"
+    },
+    {
+      "id": "flmodafinil",
+      "name": "flmodafinil",
+      "family": "eugeroic",
+      "subclass": "eugeroic",
+      "aliases": [
+        "CRL-40,940"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Modafinil fluoro stamp.",
+        "rush": {
+          "score": null,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same desk. New sticker.",
+      "sources": [],
+      "gaps": [],
+      "card": "thin",
+      "proposed_subclass": "eugeroic"
+    },
+    {
+      "id": "adrafinil",
+      "name": "adrafinil",
+      "family": "eugeroic",
+      "subclass": "eugeroic",
+      "aliases": [
+        "Olmifon"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Modafinil prodrug rumor.",
+        "rush": {
+          "score": null,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 26,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 14,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same desk. Older sticker.",
+      "sources": [],
+      "gaps": [],
+      "card": "thin",
+      "proposed_subclass": "eugeroic"
+    },
+    {
+      "id": "bupropion",
+      "name": "bupropion",
+      "family": "stimulant",
+      "subclass": "leftover_otc_stim",
+      "aliases": [
+        "Wellbutrin"
+      ],
+      "research_status": "moderately_documented",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Recreational file is mostly a warning.",
+        "rush": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 18,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 14,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They snorted their antidepressant. The seizure came free.",
+      "sources": [],
+      "gaps": [
+        "No method."
+      ],
+      "card": "full",
+      "proposed_subclass": "leftover_otc_stim"
+    },
+    {
+      "id": "btcp",
+      "name": "benocyclidine",
+      "family": "mixed",
+      "subclass": "btcp_benocyclidine",
+      "aliases": [
+        "BTCP"
+      ],
+      "research_status": "limited_evidence",
+      "market": "literature_only",
+      "feel": {
+        "headline": "DAT blocker in a PCP costume.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A paper that looks like two families and lives in neither.",
+      "sources": [],
+      "gaps": [
+        "Do not steal PCP."
+      ],
+      "card": "thin",
+      "proposed_subclass": "btcp_benocyclidine"
+    },
+    {
+      "id": "khat",
+      "name": "khat",
+      "family": "khat_parent",
+      "subclass": "khat_parent",
+      "aliases": [
+        "Catha edulis",
+        "qat"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The plant that invented the cathinone wall.",
+        "rush": {
+          "score": 14,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 50,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 34,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "The leaf. Everything in Flask is a panic about this.",
+      "sources": [],
+      "gaps": [
+        "Synthetics stay 01-06."
+      ],
+      "card": "full",
+      "proposed_subclass": "khat_parent"
+    },
+    {
+      "id": "ghb",
+      "name": "GHB",
+      "family": "sedative",
+      "subclass": "ghb_family",
+      "aliases": [
+        "G",
+        "sodium oxybate"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The melt. Euphoria in a bottle.",
+        "rush": {
+          "score": 28,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 68,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 45,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        }
+      },
+      "route_myth": "oral redose OD amnesia",
+      "npc_line": "The hug that deletes the last hour.",
+      "sources": [
+        {
+          "title": "Erowid GHB",
+          "url": "https://www.erowid.org/chemicals/ghb/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Park for 25-26."
+      ],
+      "card": "full",
+      "proposed_subclass": "ghb_family",
+      "hand_off": "25_26"
+    },
+    {
+      "id": "gbl",
+      "name": "GBL",
+      "family": "sedative",
+      "subclass": "ghb_family",
+      "aliases": [
+        "1,4-BD"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Industrial doors into G.",
+        "rush": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 66,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 68,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 45,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral redose OD mislabel",
+      "npc_line": "The bottle under the sink that thinks it's G.",
+      "sources": [],
+      "gaps": [
+        "No conversion steps."
+      ],
+      "card": "full",
+      "proposed_subclass": "ghb_family",
+      "hand_off": "25_26"
+    },
+    {
+      "id": "methaqualone",
+      "name": "methaqualone",
+      "family": "sedative",
+      "subclass": "methaqualone_family",
+      "aliases": [
+        "Quaalude",
+        "Mandrax"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The lost luxury downer.",
+        "rush": {
+          "score": 22,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 72,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 76,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral mislabel",
+      "npc_line": "The down they keep lying about having.",
+      "sources": [],
+      "gaps": [
+        "Modern ludes are usually benzos."
+      ],
+      "card": "full",
+      "proposed_subclass": "methaqualone_family",
+      "hand_off": "25_26"
+    },
+    {
+      "id": "sl_164",
+      "name": "SL-164",
+      "family": "sedative",
+      "subclass": "methaqualone_family",
+      "aliases": [
+        "dicloqualone"
+      ],
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "RC lude. Almost no honest luxury.",
+        "rush": {
+          "score": null,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "They printed Quaalude on the hope.",
+      "sources": [],
+      "gaps": [
+        "No analog wall."
+      ],
+      "card": "thin",
+      "proposed_subclass": "methaqualone_family",
+      "hand_off": "25_26"
+    },
+    {
+      "id": "phenibut",
+      "name": "phenibut",
+      "family": "sedative",
+      "subclass": "gabapentinoid",
+      "aliases": [],
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Shop GABA. Fourth night is a hostage.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 64,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 55,
+          "confidence": "A",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 25,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "Legal calm. Illegal withdrawal.",
+      "sources": [],
+      "gaps": [
+        "Park for 25-26."
+      ],
+      "card": "full",
+      "proposed_subclass": "gabapentinoid",
+      "hand_off": "25_26"
+    },
+    {
+      "id": "pregabalin",
+      "name": "pregabalin",
+      "family": "sedative",
+      "subclass": "gabapentinoid",
+      "aliases": [
+        "Lyrica"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Pharmacy drunk. Street value real.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 56,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 54,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 58,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral OD",
+      "npc_line": "The blister that drinks you.",
+      "sources": [],
+      "gaps": [
+        "Flag OD, no opioid pairing research."
+      ],
+      "card": "full",
+      "proposed_subclass": "gabapentinoid",
+      "hand_off": "25_26"
+    },
+    {
+      "id": "alcohol",
+      "name": "alcohol",
+      "family": "common_legal",
+      "subclass": "common_legal",
+      "aliases": [
+        "ethanol"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The default. Compulsion is a culture.",
+        "rush": {
+          "score": 24,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 62,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 60,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "The one they already have when they swear they don't do drugs.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "common_legal"
+    },
+    {
+      "id": "nicotine",
+      "name": "nicotine",
+      "family": "common_legal",
+      "subclass": "common_legal",
+      "aliases": [
+        "tobacco"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The small rush they pretend isn't one.",
+        "rush": {
+          "score": 46,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 48,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 86,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "smoke vape_fav",
+      "npc_line": "Not a party. A leash.",
+      "sources": [],
+      "gaps": [
+        "6-methylnicotine names-only."
+      ],
+      "card": "full",
+      "proposed_subclass": "common_legal"
+    },
+    {
+      "id": "caffeine",
+      "name": "caffeine",
+      "family": "common_legal",
+      "subclass": "common_legal",
+      "aliases": [],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Work. Jitters. Not a brick.",
+        "rush": {
+          "score": 10,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 18,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 40,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 44,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "The stim they already poured.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "common_legal"
+    },
+    {
+      "id": "poppers",
+      "name": "poppers",
+      "family": "inhalant",
+      "subclass": "alkyl_nitrite",
+      "aliases": [
+        "amyl nitrite",
+        "isopropyl nitrite"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Thirty seconds of flush. Club crate.",
+        "rush": {
+          "score": 58,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 40,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 48,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 36,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 15,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 10,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 10,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "route_myth": "inhale OD",
+      "npc_line": "A bottle that lasts as long as a chorus.",
+      "sources": [],
+      "gaps": [
+        "One SKU class."
+      ],
+      "card": "full",
+      "proposed_subclass": "alkyl_nitrite"
+    },
+    {
+      "id": "toluene",
+      "name": "toluene / solvents",
+      "family": "inhalant",
+      "subclass": "volatile_solvent",
+      "aliases": [
+        "petrol",
+        "glue"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "A rush that eats the person.",
+        "rush": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 34,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 80,
+          "confidence": "A",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 70,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 40,
+          "confidence": "B",
+          "note": ""
+        }
+      },
+      "route_myth": "inhale",
+      "npc_line": "The bag. There is no punchline.",
+      "sources": [],
+      "gaps": [
+        "One warning crate."
+      ],
+      "card": "full",
+      "proposed_subclass": "volatile_solvent"
+    },
+    {
+      "id": "mescaline",
+      "name": "mescaline",
+      "family": "plant_ethnogen",
+      "subclass": "mescaline_cactus",
+      "aliases": [
+        "peyote",
+        "San Pedro"
+      ],
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The cactus. 18-20 owns the synthetic cousins.",
+        "rush": {
+          "score": null,
+          "confidence": "A",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 68,
+          "confidence": "A",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "A",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "A",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "The cactus they keep trying to turn into a 2C.",
+      "sources": [
+        {
+          "title": "Erowid mescaline",
+          "url": "https://www.erowid.org/chemicals/mescaline/",
+          "type": "vault",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "No brew how-to."
+      ],
+      "card": "full",
+      "proposed_subclass": "mescaline_cactus"
+    },
+    {
+      "id": "betel",
+      "name": "betel quid",
+      "family": "plant_ethnogen",
+      "subclass": "arecoline_betel",
+      "aliases": [
+        "arecoline",
+        "areca"
+      ],
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "The other global chew.",
+        "rush": {
+          "score": 16,
+          "confidence": "B",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 30,
+          "confidence": "B",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 38,
+          "confidence": "B",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "B",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "oral",
+      "npc_line": "Red teeth. Long afternoon.",
+      "sources": [],
+      "gaps": [],
+      "card": "full",
+      "proposed_subclass": "arecoline_betel"
+    },
+    {
+      "id": "blue_lotus",
+      "name": "blue lotus",
+      "family": "shop_ethnogen",
+      "subclass": "shop_ethnogen",
+      "aliases": [
+        "Nymphaea"
+      ],
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "headline": "Shop resin. Mild.",
+        "rush": {
+          "score": null,
+          "confidence": "C",
+          "note": ""
+        },
+        "euphoria": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "C",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "C",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A vape-shop hieroglyph.",
+      "sources": [],
+      "gaps": [
+        "Spiked products."
+      ],
+      "card": "thin",
+      "proposed_subclass": "shop_ethnogen"
+    }
+  ],
+  "count": 35,
+  "gaps": [
+    "25-26 should absorb GHB, methaqualone, gabapentinoids.",
+    "No opioid families.",
+    "Phenyltropane analog research stops at documented bags."
+  ]
+}

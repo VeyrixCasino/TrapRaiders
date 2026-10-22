@@ -1,0 +1,7117 @@
+[
+  {
+    "id": "amphetamine",
+    "name": "Amphetamine",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "speed",
+      "amph",
+      "paste",
+      "adderall-street"
+    ],
+    "assignment": "07",
+    "series": "parent",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Everything else is a remix.",
+      "rush_x": 9,
+      "euphoria_x": 13,
+      "enjoyment_x": 17,
+      "compulsive_x": 11,
+      "rush": {
+        "score": 9,
+        "x": 9,
+        "confidence": "A",
+        "note": "Baseline street stim. Talky grind. Racemic paste is dirtier and more jitter than pharma dex."
+      },
+      "euphoria": {
+        "score": 13,
+        "x": 13,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 17,
+        "x": 17,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 11,
+        "x": 11,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 14,
+        "x": 14,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 52,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose / oral_ok",
+    "npc_line": "Everything else is a remix.",
+    "flags": [
+      "redose",
+      "oral_ok"
+    ],
+    "notes": "Parent of the fluoroamp wall. Not a cathinone.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Erowid",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "dextroamphetamine",
+    "name": "Dextroamphetamine",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "dexedrine",
+      "dexies",
+      "d-amp"
+    ],
+    "assignment": "07",
+    "series": "parent",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Speed with a doctor voice.",
+      "rush_x": 7,
+      "euphoria_x": 12,
+      "enjoyment_x": 15,
+      "compulsive_x": 9,
+      "rush": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": "Cleaner amph. Focus plus mood. The prescription people grind into weekend."
+      },
+      "euphoria": {
+        "score": 12,
+        "x": 12,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 15,
+        "x": 15,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 9,
+        "x": 9,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 12,
+        "x": 12,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 42,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / work / focus",
+    "npc_line": "Speed with a doctor voice.",
+    "flags": [
+      "oral_ok",
+      "work",
+      "focus"
+    ],
+    "notes": "Pharma d-isomer. Diverted and street-pressed.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Erowid",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "methamphetamine",
+    "name": "Methamphetamine",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "meth",
+      "crystal",
+      "ice",
+      "tina"
+    ],
+    "assignment": "07",
+    "series": "parent",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The one every analog is chasing and none of them catch.",
+      "rush_x": 27,
+      "euphoria_x": 22,
+      "enjoyment_x": 19,
+      "compulsive_x": 31,
+      "rush": {
+        "score": 27,
+        "x": 27,
+        "confidence": "A",
+        "note": "The king. Rush analogs chase. Euphoria that lasts. Compulsion that eats days."
+      },
+      "euphoria": {
+        "score": 22,
+        "x": 22,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 19,
+        "x": 19,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 31,
+        "x": 31,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 25,
+        "x": 25,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 64,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 70,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 58,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 72,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose / paranoia",
+    "npc_line": "The one every analog is chasing and none of them catch.",
+    "flags": [
+      "redose",
+      "paranoia"
+    ],
+    "notes": "Reference high for this wall. No recipe notes.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Erowid",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "lisdexamfetamine",
+    "name": "Lisdexamfetamine",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "vyvanse",
+      "lisdex"
+    ],
+    "assignment": "07",
+    "series": "prodrug",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Homework in a capsule.",
+      "rush_x": 2,
+      "euphoria_x": 6,
+      "enjoyment_x": 10,
+      "compulsive_x": 3,
+      "rush": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": "Prodrug. Slow, long, functional. Diverted Vyvanse. Almost no rush."
+      },
+      "euphoria": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 30,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 28,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 24,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 26,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / work / focus",
+    "npc_line": "Homework in a capsule.",
+    "flags": [
+      "oral_ok",
+      "work",
+      "focus"
+    ],
+    "notes": "d-amp prodrug. Recreational value is the duration, not the spark.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "phentermine",
+    "name": "Phentermine",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "adipex",
+      "ionamin"
+    ],
+    "assignment": "07",
+    "series": "anorectic",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The doctor called it appetite. The body called it coffee with a record.",
+      "rush_x": 2,
+      "euphoria_x": 3,
+      "enjoyment_x": 4,
+      "compulsive_x": 3,
+      "rush": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": "Old diet pill. Dry stim, little magic. Pharmacy leftover, not a party."
+      },
+      "euphoria": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 30,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 28,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "The doctor called it appetite. The body called it coffee with a record.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "Documented pharma stim. Not a cathinone.",
+    "sources": [
+      {
+        "title": "Wikipedia/pharma history",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "n-ethylamphetamine",
+    "name": "N-Ethylamphetamine",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "ethylamphetamine",
+      "etilamfetamine"
+    ],
+    "assignment": "07",
+    "series": "n-alkyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Amphetamine that stayed an extra carbon and lost the plot.",
+      "rush_x": 6,
+      "euphoria_x": 8,
+      "enjoyment_x": 9,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": "Old analog / some RC presence. Amph-shaped, thinner, less loved."
+      },
+      "euphoria": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 42,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "Amphetamine that stayed an extra carbon and lost the plot.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "Documented analog. Not a headliner.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "forensic analog lists",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "fenethylline",
+    "name": "Fenethylline",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "captagon",
+      "theophylline-amp"
+    ],
+    "assignment": "07",
+    "series": "prodrug",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The stamp on the war footage.",
+      "rush_x": 8,
+      "euphoria_x": 11,
+      "enjoyment_x": 12,
+      "compulsive_x": 8,
+      "rush": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": "Theophylline-amp prodrug. Levant / Gulf street myth. Wired, long, military rumor."
+      },
+      "euphoria": {
+        "score": 11,
+        "x": 11,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 12,
+        "x": 12,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 48,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / long",
+    "npc_line": "The stamp on the war footage.",
+    "flags": [
+      "oral_ok",
+      "long"
+    ],
+    "notes": "Pressed-pill mesh. Street Captagon is often mislabeled other stims.",
+    "sources": [
+      {
+        "title": "UNODC Captagon reporting",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "2-fa",
+    "name": "2-FA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2-fluoroamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "2-FMA's impatient little brother.",
+      "rush_x": 5,
+      "euphoria_x": 7,
+      "enjoyment_x": 10,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 5,
+        "x": 5,
+        "confidence": "A",
+        "note": "Short functional. More recreational than 2-FMA, still not a night out. Some redose because it ends."
+      },
+      "euphoria": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 10,
+        "x": 10,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 36,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / work / redose",
+    "npc_line": "2-FMA's impatient little brother.",
+    "flags": [
+      "oral_ok",
+      "work",
+      "redose"
+    ],
+    "notes": "Documented RC. PW page + first-wave vendor era.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Bluelight/RC reddit",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "2-fma",
+    "name": "2-FMA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2-fluoromethamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Files the report. Does not throw the party.",
+      "rush_x": 3,
+      "euphoria_x": 5,
+      "enjoyment_x": 12,
+      "compulsive_x": 4,
+      "rush": {
+        "score": 3,
+        "x": 3,
+        "confidence": "A",
+        "note": "Work. Long, clean-ish, Vyvanse-shaped. Little euphoria, real focus. The fluoroamp people actually finished a shift on."
+      },
+      "euphoria": {
+        "score": 5,
+        "x": 5,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 12,
+        "x": 12,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 4,
+        "x": 4,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 30,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 32,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / work / focus",
+    "npc_line": "Files the report. Does not throw the party.",
+    "flags": [
+      "oral_ok",
+      "work",
+      "focus"
+    ],
+    "notes": "First reported RC sale ~2007. User override: work stim.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "3-fa",
+    "name": "3-FA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "3-fluoroamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The fun fluoro that still lets you type.",
+      "rush_x": 8,
+      "euphoria_x": 11,
+      "enjoyment_x": 13,
+      "compulsive_x": 9,
+      "rush": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": "More dopamine, more mood, less serotonin than 4-FA. Recreational amph that some used as work anyway."
+      },
+      "euphoria": {
+        "score": 11,
+        "x": 11,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 13,
+        "x": 13,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 9,
+        "x": 9,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 11,
+        "x": 11,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 42,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / redose",
+    "npc_line": "The fun fluoro that still lets you type.",
+    "flags": [
+      "oral_ok",
+      "redose"
+    ],
+    "notes": "PW: potent classical stim, mild entactogenic undertone, less 'study drug' than 2-FMA.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "r/researchchemicals comparisons",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "3-fma",
+    "name": "3-FMA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "3-fluoromethamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "A little taste of both. Optimal for neither.",
+      "rush_x": 6,
+      "euphoria_x": 9,
+      "enjoyment_x": 10,
+      "compulsive_x": 7,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": "Straddles work and roll. Not enough of either. Mid-pack leftover after 2-FMA / 4-FA."
+      },
+      "euphoria": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 42,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "A little taste of both. Optimal for neither.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "PW stub: between 2-FMA functional and 4-FMA euphoria.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "r/researchchemicals comparisons",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4-fa",
+    "name": "4-FA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "4-fluoroamphetamine",
+      "4-FMP",
+      "PAL-303",
+      "Flux"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "MDMA for people who have a shift.",
+      "rush_x": 7,
+      "euphoria_x": 16,
+      "enjoyment_x": 18,
+      "compulsive_x": 7,
+      "rush": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": "The friendly one. Mild roll up front, amph grind after. Dutch scene darling. Empathy without the full Molly kidnapping."
+      },
+      "euphoria": {
+        "score": 16,
+        "x": 16,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 18,
+        "x": 18,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 13,
+        "x": 13,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 30,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 40,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "MDMA for people who have a shift.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "User override: friendly. Later NL headlines on stroke/bleed after it got big. 4-subs carry serotonin-depletion rumor.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Dutch DIMS/4-FA scene",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4-fma",
+    "name": "4-FMA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "4-fluoromethamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "4-FA's heavier sibling who stayed too long.",
+      "rush_x": 7,
+      "euphoria_x": 13,
+      "enjoyment_x": 12,
+      "compulsive_x": 8,
+      "rush": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": "Heavier 4-FA. More side effects, more headache/heart talk, longer. Sold as 4-FA after the NL ban."
+      },
+      "euphoria": {
+        "score": 13,
+        "x": 13,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 12,
+        "x": 12,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 54,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 52,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "mislabel / redose",
+    "npc_line": "4-FA's heavier sibling who stayed too long.",
+    "flags": [
+      "mislabel",
+      "redose"
+    ],
+    "notes": "Detected Japan 2006 legal high. Flooded NL as 4-FA substitute ~2017–18.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "2-fea",
+    "name": "2-FEA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2-fluoroethamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Vendor fluoro.",
+      "rush_x": 4,
+      "euphoria_x": 5,
+      "enjoyment_x": 7,
+      "compulsive_x": 4,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "N-ethyl 2-fluoro. PW page, thin trail. Shorter, milder, not a headliner."
+      },
+      "euphoria": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 34,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "Vendor fluoro.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "PW research-chemical list. Feel thinner than 2-FA/2-FMA.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "3-fea",
+    "name": "3-FEA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "3-fluoroethamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The roll-leaning ethyl.",
+      "rush_x": 5,
+      "euphoria_x": 12,
+      "enjoyment_x": 11,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": "Serotonergic. Forum people put it nearer 4-FMA than 3-FA — hug, less grind."
+      },
+      "euphoria": {
+        "score": 12,
+        "x": 12,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 11,
+        "x": 11,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 38,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "The roll-leaning ethyl.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "PW page + RC comparison threads.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "r/researchchemicals comparisons",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4-fea",
+    "name": "4-FEA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "4-fluoroethamphetamine"
+    ],
+    "assignment": "07",
+    "series": "fluoroamphetamine",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "What they poured when 4-FA dried.",
+      "rush_x": 4,
+      "euphoria_x": 10,
+      "enjoyment_x": 9,
+      "compulsive_x": 4,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "Seen in amph seizures. More entactogen, less spark. Thin compared with 4-FA."
+      },
+      "euphoria": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 40,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "What they poured when 4-FA dried.",
+    "flags": [
+      "mislabel"
+    ],
+    "notes": "NPS 2016 trend notes: 4-FEA in amphetamine seizures.",
+    "sources": [
+      {
+        "title": "NPS trend reports",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "pma",
+    "name": "PMA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "para-methoxyamphetamine",
+      "4-MeO-amp"
+    ],
+    "assignment": "07",
+    "series": "methoxy_stim",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The fake Molly that cooks you.",
+      "rush_x": 3,
+      "euphoria_x": 5,
+      "enjoyment_x": 2,
+      "compulsive_x": 3,
+      "rush": {
+        "score": 3,
+        "x": 3,
+        "confidence": "A",
+        "note": "Slow, late, hot. Fake ecstasy. People redose because it didn't hit — then it does, as heatstroke."
+      },
+      "euphoria": {
+        "score": 5,
+        "x": 5,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 2,
+        "x": 2,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 3,
+        "x": 3,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 60,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 70,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 72,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 68,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "heatstroke / OD / mislabel / serotonin_tox",
+    "npc_line": "The fake Molly that cooks you.",
+    "flags": [
+      "heatstroke",
+      "OD",
+      "mislabel",
+      "serotonin_tox"
+    ],
+    "notes": "Stim methoxyamp, not DOx. Deaths from delayed onset plus redose.",
+    "sources": [
+      {
+        "title": "EMCDDA",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "Erowid",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "pmma",
+    "name": "PMMA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "para-methoxymethamphetamine",
+      "4-MeO-meth"
+    ],
+    "assignment": "07",
+    "series": "methoxy_stim",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "PMA that stayed an extra carbon. Still an oven.",
+      "rush_x": 3,
+      "euphoria_x": 5,
+      "enjoyment_x": 2,
+      "compulsive_x": 3,
+      "rush": {
+        "score": 3,
+        "x": 3,
+        "confidence": "A",
+        "note": "PMA's N-methyl twin. Same scam, same oven."
+      },
+      "euphoria": {
+        "score": 5,
+        "x": 5,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 2,
+        "x": 2,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 3,
+        "x": 3,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 62,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 72,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 74,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 70,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "heatstroke / OD / mislabel / serotonin_tox",
+    "npc_line": "PMA that stayed an extra carbon. Still an oven.",
+    "flags": [
+      "heatstroke",
+      "OD",
+      "mislabel",
+      "serotonin_tox"
+    ],
+    "notes": "EMCDDA risk assessment. Stim methoxyamp, not DOx.",
+    "sources": [
+      {
+        "title": "EMCDDA PMMA risk assessment",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4-ma",
+    "name": "4-MA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "4-methylamphetamine",
+      "p-methylamphetamine"
+    ],
+    "assignment": "07",
+    "series": "methyl_stim",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Speed that wasn't. The cut that ended nights.",
+      "rush_x": 6,
+      "euphoria_x": 8,
+      "enjoyment_x": 6,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": "EU speed adulterant. Serotonin-heavy, MAOI talk, deaths in the 2010s cut."
+      },
+      "euphoria": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 60,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 52,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 56,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "adulterant / OD / mislabel",
+    "npc_line": "Speed that wasn't. The cut that ended nights.",
+    "flags": [
+      "adulterant",
+      "OD",
+      "mislabel"
+    ],
+    "notes": "Not PMA. 4-methyl, not 4-methoxy. Baumann / Liechti NPS reviews.",
+    "sources": [
+      {
+        "title": "EMCDDA",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "Liechti NPS pharmacology",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4-mta",
+    "name": "4-MTA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "4-methylthioamphetamine",
+      "flatliner"
+    ],
+    "assignment": "07",
+    "series": "thio_stim",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "They called it Flatliner. Believe the name.",
+      "rush_x": 3,
+      "euphoria_x": 7,
+      "enjoyment_x": 4,
+      "compulsive_x": 2,
+      "rush": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": "Flatliner. Empathogen more than spark. Slow, long, MAOI + 5-HT — ugly when it goes wrong."
+      },
+      "euphoria": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 58,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 56,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 54,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "serotonin_tox / OD / long",
+    "npc_line": "They called it Flatliner. Believe the name.",
+    "flags": [
+      "serotonin_tox",
+      "OD",
+      "long"
+    ],
+    "notes": "Documented 1990s–2000s. Not a methoxy; included as documented stim/empathogen analog on this wall.",
+    "sources": [
+      {
+        "title": "EMCDDA",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "Liechti NPS pharmacology",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "methiopropamine",
+    "name": "Methiopropamine",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "MPA"
+    ],
+    "assignment": "07",
+    "series": "thiophene",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Meth's sulfur cousin. Coffee with a seizure rumor.",
+      "rush_x": 7,
+      "euphoria_x": 8,
+      "enjoyment_x": 9,
+      "compulsive_x": 11,
+      "rush": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": "Thiophene meth. UK legal-high workhorse ~2011–16. Amph-like focus, colder, fiendish enough. Synthacaine when cut with 2-AI."
+      },
+      "euphoria": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 9,
+        "x": 9,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 11,
+        "x": 11,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 48,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose / work",
+    "npc_line": "Meth's sulfur cousin. Coffee with a seizure rumor.",
+    "flags": [
+      "redose",
+      "work"
+    ],
+    "notes": "Not a cathinone. IONA UK tox 2015–16. Top-three UK NPS in 2014/15.",
+    "sources": [
+      {
+        "title": "MDPI methiopropamine paper",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "IONA study",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "NPS 2016 trends",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "dom",
+    "name": "DOM",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "STP",
+      "2,5-dimethoxy-4-methylamphetamine"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout"
+    ],
+    "notes": "1967 psychedelic amp.  Long. Kit S. Not a stim SKU.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "dob",
+    "name": "DOB",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2,5-dimethoxy-4-bromoamphetamine"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout"
+    ],
+    "notes": "Halogen DOx. Long, mean, body-load legend. Note only.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "doi",
+    "name": "DOI",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2,5-dimethoxy-4-iodoamphetamine"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout"
+    ],
+    "notes": "Research / blotter DOx cousin. Note only.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "doc",
+    "name": "DOC",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2,5-dimethoxy-4-chloroamphetamine"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout"
+    ],
+    "notes": "The fourth DOx name that actually got sold. Note only.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "doet",
+    "name": "DOET",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2,5-dimethoxy-4-ethylamphetamine"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout"
+    ],
+    "notes": "Shulgin, rare bag. Note only.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "tma",
+    "name": "TMA",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "3,4,5-trimethoxyamphetamine"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout"
+    ],
+    "notes": "Methoxy psychedelic amp, not PMA-style stim. Note only.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "tma-2",
+    "name": "TMA-2",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "2,4,5-trimethoxyamphetamine"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout"
+    ],
+    "notes": "Methoxy psychedelic amp. Note only.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "bromo-dragonfly",
+    "name": "Bromo-DragonFLY",
+    "family": "amphetamine_stim",
+    "subclass": "amphetamine",
+    "aliases": [
+      "DOB-DragonFLY"
+    ],
+    "assignment": "07",
+    "series": "psychedelic_amp_note",
+    "research_status": "chemical_literature_only",
+    "market": "literature_only",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Festival vendor. Not a grind SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Psychedelic substituted amp. Not profiled on this stim board."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "freakout / OD",
+    "npc_line": "Festival vendor. Not a grind SKU.",
+    "flags": [
+      "freakout",
+      "OD"
+    ],
+    "notes": "One-off scare SKU. High OD flag. Not a family.",
+    "sources": [
+      {
+        "title": "product_families.md Kit S",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Shulgin/PiHKAL lore",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "methylphenidate",
+    "name": "Methylphenidate",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "MPH",
+      "ritalin",
+      "concerta"
+    ],
+    "assignment": "08",
+    "series": "parent",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The prescription they already know.",
+      "rush_x": 5,
+      "euphoria_x": 7,
+      "enjoyment_x": 11,
+      "compulsive_x": 8,
+      "rush": {
+        "score": 5,
+        "x": 5,
+        "confidence": "A",
+        "note": "The parent. Dry focus, some mood, anxiety tax. Pharma plus abuse since the 60s."
+      },
+      "euphoria": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 11,
+        "x": 11,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 52,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 40,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / focus / work",
+    "npc_line": "The prescription they already know.",
+    "flags": [
+      "oral_ok",
+      "focus",
+      "work"
+    ],
+    "notes": "NDRI. Luethi 2017 reference for the analog set.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Luethi 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "dexmethylphenidate",
+    "name": "Dexmethylphenidate",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "focalin",
+      "d-MPH"
+    ],
+    "assignment": "08",
+    "series": "parent",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Ritalin minus the dead weight.",
+      "rush_x": 5,
+      "euphoria_x": 7,
+      "enjoyment_x": 11,
+      "compulsive_x": 7,
+      "rush": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": "Focalin. Cleaner MPH. Same wall, less junk isomer."
+      },
+      "euphoria": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 11,
+        "x": 11,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 38,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / focus",
+    "npc_line": "Ritalin minus the dead weight.",
+    "flags": [
+      "oral_ok",
+      "focus"
+    ],
+    "notes": "Pharma d-threo. Documented diversion.",
+    "sources": [
+      {
+        "title": "pharma / PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "ethylphenidate",
+    "name": "Ethylphenidate",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "EPH"
+    ],
+    "assignment": "08",
+    "series": "chain",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Short, fiendish, burns the nose, empties the bag.",
+      "rush_x": 25,
+      "euphoria_x": 15,
+      "enjoyment_x": 11,
+      "compulsive_x": 36,
+      "rush": {
+        "score": 25,
+        "x": 25,
+        "confidence": "A",
+        "note": "Fiendish short. Recreational phenidate. Nose burn, drip, redose until the bag is a memory. UK 2011–15 star."
+      },
+      "euphoria": {
+        "score": 15,
+        "x": 15,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 11,
+        "x": 11,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 36,
+        "x": 36,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 24,
+        "x": 24,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 54,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 58,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 52,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 56,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose / caustic / vein_wreck",
+    "npc_line": "Short, fiendish, burns the nose, empties the bag.",
+    "flags": [
+      "redose",
+      "caustic",
+      "vein_wreck"
+    ],
+    "notes": "User override: fiendish short. Also forms in vivo from MPH+alcohol (not a recipe). Linked deaths / Scottish slam papers.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Klare 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "isopropylphenidate",
+    "name": "Isopropylphenidate",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "IPPH",
+      "IPH",
+      "IPD"
+    ],
+    "assignment": "08",
+    "series": "chain",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The one you can finish a sentence on.",
+      "rush_x": 4,
+      "euphoria_x": 6,
+      "enjoyment_x": 10,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "EPH's polite cousin. Longer, less rush, less uncomfortable. People used it to work."
+      },
+      "euphoria": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 34,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / work / focus",
+    "npc_line": "The one you can finish a sentence on.",
+    "flags": [
+      "oral_ok",
+      "work",
+      "focus"
+    ],
+    "notes": "PW: less euphoric rush than EPH, drawn-out, study-aid reputation.",
+    "sources": [
+      {
+        "title": "PsychonautWiki IPH",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "propylphenidate",
+    "name": "Propylphenidate",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "PPH"
+    ],
+    "assignment": "08",
+    "series": "chain",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Same wall, quieter.",
+      "rush_x": 4,
+      "euphoria_x": 5,
+      "enjoyment_x": 7,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "Chain stamp after IPPH. Pharmacology paper plus some vendor. Thinner reviews."
+      },
+      "euphoria": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 34,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "Same wall, quieter.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "In Luethi 2017 NPS set. Not a headliner.",
+    "sources": [
+      {
+        "title": "Luethi 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "UNODC phenidates",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4f-mph",
+    "name": "4F-MPH",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "4-fluoromethylphenidate",
+      "4-FMPH"
+    ],
+    "assignment": "08",
+    "series": "ring_fluoro",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Ritalin that files taxes.",
+      "rush_x": 6,
+      "euphoria_x": 10,
+      "enjoyment_x": 15,
+      "compulsive_x": 9,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "A",
+        "note": "Focus monster. Stronger, cleaner, more euphoric than MPH in the reviews. Forced stim at the top. Anxiety if you get greedy."
+      },
+      "euphoria": {
+        "score": 10,
+        "x": 10,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 15,
+        "x": 15,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 9,
+        "x": 9,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 12,
+        "x": 12,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 56,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 46,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / focus / work / redose",
+    "npc_line": "Ritalin that files taxes.",
+    "flags": [
+      "oral_ok",
+      "focus",
+      "work",
+      "redose"
+    ],
+    "notes": "User override: focus monster. Replaced EPH after UK 2015 ban. threo isomer much more active (McLaughlin 2017).",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "McLaughlin 2017 DTA",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4f-eph",
+    "name": "4F-EPH",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "4-fluoroethylphenidate"
+    ],
+    "assignment": "08",
+    "series": "ring_fluoro",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "EPH with a fluorine and a shorter fuse.",
+      "rush_x": 12,
+      "euphoria_x": 10,
+      "enjoyment_x": 9,
+      "compulsive_x": 16,
+      "rush": {
+        "score": 12,
+        "x": 12,
+        "confidence": "B",
+        "note": "Fluoro-EPH. Recreational, caustic, mixed better/worse-than-EPH threads."
+      },
+      "euphoria": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 16,
+        "x": 16,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 13,
+        "x": 13,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 52,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 52,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose / caustic",
+    "npc_line": "EPH with a fluorine and a shorter fuse.",
+    "flags": [
+      "redose",
+      "caustic"
+    ],
+    "notes": "PW page. Published fatality case review exists.",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "4F-EPH death case report",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "3,4-ctmp",
+    "name": "3,4-CTMP",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "3,4-DCMP",
+      "3,4-dichloromethylphenidate"
+    ],
+    "assignment": "08",
+    "series": "ring_chloro",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Skip. The bag wins.",
+      "rush_x": 10,
+      "euphoria_x": 5,
+      "enjoyment_x": 3,
+      "compulsive_x": 9,
+      "rush": {
+        "score": 10,
+        "x": 10,
+        "confidence": "A",
+        "note": "Too much. Super-potent, long, anxious. 5-HT2B pulmonary-hypertension rumor. Nobody finishes happy."
+      },
+      "euphoria": {
+        "score": 5,
+        "x": 5,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 3,
+        "x": 3,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 9,
+        "x": 9,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 78,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 70,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 72,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 68,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "too_much / pulmonary / paranoia / long",
+    "npc_line": "Skip. The bag wins.",
+    "flags": [
+      "too_much",
+      "pulmonary",
+      "paranoia",
+      "long"
+    ],
+    "notes": "User override: too much. German seizure. Luethi 2017.",
+    "sources": [
+      {
+        "title": "Klare 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Luethi 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "3,4-dcep",
+    "name": "3,4-DCEP",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "3,4-dichloroethylphenidate"
+    ],
+    "assignment": "08",
+    "series": "ring_chloro",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Seizure sticker.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Ethyl twin of CTMP. German seizure. Almost no trip-report trail."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "too_much",
+    "npc_line": "Seizure sticker.",
+    "flags": [
+      "too_much"
+    ],
+    "notes": "Klare 2017 confiscation set. Scores null — no feel corpus.",
+    "sources": [
+      {
+        "title": "Klare 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No reliable street reviews."
+    ]
+  },
+  {
+    "id": "4-me-tmp",
+    "name": "4-Me-TMP",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "4-Me-MPH",
+      "4-methylmethylphenidate"
+    ],
+    "assignment": "08",
+    "series": "ring_methyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Diet Ritalin with a methyl stamp.",
+      "rush_x": 4,
+      "euphoria_x": 6,
+      "enjoyment_x": 9,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "4-methyl MPH. Milder analog, functional, seized and sold."
+      },
+      "euphoria": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 36,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok / focus",
+    "npc_line": "Diet Ritalin with a methyl stamp.",
+    "flags": [
+      "oral_ok",
+      "focus"
+    ],
+    "notes": "Klare 2017 + Luethi 2017. Kit T name 4-Me-TMP.",
+    "sources": [
+      {
+        "title": "Klare 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Luethi 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "hdmp-28",
+    "name": "HDMP-28",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "methylnaphthidate"
+    ],
+    "assignment": "08",
+    "series": "naphthyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Ritalin that wandered into a different room.",
+      "rush_x": 6,
+      "euphoria_x": 9,
+      "enjoyment_x": 10,
+      "compulsive_x": 7,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": "Naphthyl phenidate. Not a typical dry stim — some serotonin, some mood. Mixed: interesting or pointless."
+      },
+      "euphoria": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 40,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "Ritalin that wandered into a different room.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "PW stub. Sold alongside EPH/IPPH/4F-MPH.",
+    "sources": [
+      {
+        "title": "PsychonautWiki Methylnaphthidate",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "hdep-28",
+    "name": "HDEP-28",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "ethylnaphthidate"
+    ],
+    "assignment": "08",
+    "series": "naphthyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Crate bottle.",
+      "rush_x": 5,
+      "euphoria_x": 6,
+      "enjoyment_x": 6,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": "Ethylnaphthidate. UK test-purchase. Conflicting, often unpleasant / long."
+      },
+      "euphoria": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 44,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "long",
+    "npc_line": "Crate bottle.",
+    "flags": [
+      "long"
+    ],
+    "notes": "Klare 2017 test purchase from UK shop.",
+    "sources": [
+      {
+        "title": "Klare 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "n-benzyl-ethylphenidate",
+    "name": "N-Benzylethylphenidate",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "N-benzyl-EPH"
+    ],
+    "assignment": "08",
+    "series": "n-benzyl",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Lab bag.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Seized. Luethi tested it. No street mythology."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Lab bag.",
+    "flags": [],
+    "notes": "Klare 2017 confiscation. Scores null.",
+    "sources": [
+      {
+        "title": "Klare 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Luethi 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No trip-report corpus."
+    ]
+  },
+  {
+    "id": "methylmorphenate",
+    "name": "Methylmorphenate",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [],
+    "assignment": "08",
+    "series": "morpholine",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Paper SKU.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Morpholine N-swap. In the 2017 NPS pharmacology set. Feel unknown."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Paper SKU.",
+    "flags": [],
+    "notes": "Luethi 2017 included it among marketed phenidate NPS.",
+    "sources": [
+      {
+        "title": "Luethi 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "Name confirmed in pharmacology set; no feel corpus."
+    ]
+  },
+  {
+    "id": "2-dpmp",
+    "name": "2-DPMP",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "desoxypipradrol",
+      "2-diphenylmethylpiperidine"
+    ],
+    "assignment": "08",
+    "series": "pipradrol",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The stim that does not clock out.",
+      "rush_x": 8,
+      "euphoria_x": 7,
+      "enjoyment_x": 4,
+      "compulsive_x": 24,
+      "rush": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": "Ivory Wave. Coke-shaped DAT, days long. Agitation, paranoia, hallucinations that outlast the weekend."
+      },
+      "euphoria": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 24,
+        "x": 24,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 14,
+        "x": 14,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 82,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 80,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 70,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 78,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "long / paranoia / freakout / redose",
+    "npc_line": "The stim that does not clock out.",
+    "flags": [
+      "long",
+      "paranoia",
+      "freakout",
+      "redose"
+    ],
+    "notes": "Assignment-explicit. ACMD Ivory Wave advice. Also in Whack (with fluorotropacocaine).",
+    "sources": [
+      {
+        "title": "ACMD Ivory Wave",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "Wood/Dargan 2012 review",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "d2pm",
+    "name": "D2PM",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "diphenylprolinol",
+      "diphenyl-2-pyrrolidinemethanol"
+    ],
+    "assignment": "08",
+    "series": "pipradrol",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Ivory Wave's slower cousin.",
+      "rush_x": 4,
+      "euphoria_x": 4,
+      "enjoyment_x": 3,
+      "compulsive_x": 10,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "Weaker 2-DPMP cousin. Insomnia 24–96 h in confirmed tox. Whack era."
+      },
+      "euphoria": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 10,
+        "x": 10,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 74,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 72,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 60,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 70,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "long / paranoia",
+    "npc_line": "Ivory Wave's slower cousin.",
+    "flags": [
+      "long",
+      "paranoia"
+    ],
+    "notes": "Pipradrol analog, not a true phenidate ester. Documented NPS.",
+    "sources": [
+      {
+        "title": "Wood/Dargan 2012 review",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "pipradrol",
+    "name": "Pipradrol",
+    "family": "phenidate",
+    "subclass": "phenidate",
+    "aliases": [
+      "meratran"
+    ],
+    "assignment": "08",
+    "series": "pipradrol",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The prescription they discontinued for a reason.",
+      "rush_x": 4,
+      "euphoria_x": 4,
+      "enjoyment_x": 5,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "1950s Meratran. Parent of 2-DPMP/D2PM. Museum medicine."
+      },
+      "euphoria": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 44,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "long",
+    "npc_line": "The prescription they discontinued for a reason.",
+    "flags": [
+      "long"
+    ],
+    "notes": "Old pharmaceutical. Documented ancestor, not a modern RC star.",
+    "sources": [
+      {
+        "title": "UNODC phenidates",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "historical pharma",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "phenmetrazine",
+    "name": "Phenmetrazine",
+    "family": "phenylmorpholine",
+    "subclass": "phenmetrazine",
+    "aliases": [
+      "preludin"
+    ],
+    "assignment": "09",
+    "series": "parent",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The old diet pill that actually slapped.",
+      "rush_x": 12,
+      "euphoria_x": 14,
+      "enjoyment_x": 15,
+      "compulsive_x": 16,
+      "rush": {
+        "score": 12,
+        "x": 12,
+        "confidence": "B",
+        "note": "1950s–70s diet-pill speed. Beatles lore. Real euphoria, real abuse, pulled."
+      },
+      "euphoria": {
+        "score": 14,
+        "x": 14,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 15,
+        "x": 15,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 16,
+        "x": 16,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 16,
+        "x": 16,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 56,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 54,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose",
+    "npc_line": "The old diet pill that actually slapped.",
+    "flags": [
+      "redose"
+    ],
+    "notes": "Phenylmorpholine parent. Not aminorex.",
+    "sources": [
+      {
+        "title": "Kalant 1966",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "PsychonautWiki 3-FPM parent notes",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "phendimetrazine",
+    "name": "Phendimetrazine",
+    "family": "phenylmorpholine",
+    "subclass": "phenmetrazine",
+    "aliases": [
+      "bontril"
+    ],
+    "assignment": "09",
+    "series": "prodrug",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Preludin with a seatbelt.",
+      "rush_x": 4,
+      "euphoria_x": 6,
+      "enjoyment_x": 7,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "N-methyl prodrug. Still prescribed in some places. Slower, thinner Preludin."
+      },
+      "euphoria": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 34,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "Preludin with a seatbelt.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "Documented anorectic prodrug of phenmetrazine.",
+    "sources": [
+      {
+        "title": "pharma history",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "3-fpm",
+    "name": "3-FPM",
+    "family": "phenylmorpholine",
+    "subclass": "phenmetrazine",
+    "aliases": [
+      "3-fluorophenmetrazine",
+      "PAL-593",
+      "3-FPH"
+    ],
+    "assignment": "09",
+    "series": "fluoro",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Clean until the bag is gone and the arm isn't.",
+      "rush_x": 6,
+      "euphoria_x": 8,
+      "enjoyment_x": 7,
+      "compulsive_x": 18,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "A",
+        "note": "Clean liar. Subtle, functional, less jitters in the brochure. People believed it — then redosed the weekend and wrecked veins. Flu-like inflammation comedown in a chunk of reports."
+      },
+      "euphoria": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 18,
+        "x": 18,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 13,
+        "x": 13,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 54,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 52,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose / work / vein_wreck / clean_liar",
+    "npc_line": "Clean until the bag is gone and the arm isn't.",
+    "flags": [
+      "redose",
+      "work",
+      "vein_wreck",
+      "clean_liar"
+    ],
+    "notes": "User override: clean liar. First human-use reports ~2015. McLaughlin 2016 test-purchased UK vendor 3-FPM (bags were 3-FPM).",
+    "sources": [
+      {
+        "title": "PsychonautWiki",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "McLaughlin 2016 DTA",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "product_families.md",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4-fpm",
+    "name": "4-FPM",
+    "family": "phenylmorpholine",
+    "subclass": "phenmetrazine",
+    "aliases": [
+      "4-fluorophenmetrazine"
+    ],
+    "assignment": "09",
+    "series": "fluoro",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "3-FPM's quieter twin. Nobody writes home.",
+      "rush_x": 3,
+      "euphoria_x": 4,
+      "enjoyment_x": 5,
+      "compulsive_x": 4,
+      "rush": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": "Para positional. Background stim. Forum: caffeine/nootropic, not 3-FPM. Sold, not loved."
+      },
+      "euphoria": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 28,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 30,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 30,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "3-FPM's quieter twin. Nobody writes home.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "Pharmacology paper on 2/3/4-FPM as DAT/NET releasers. Virginia scheduled 4-FPM as isomer of 3-FPM.",
+    "sources": [
+      {
+        "title": "Neuropharmacology 2017 FPM paper",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "r/researchchemicals 4-FPM reports",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "2-fpm",
+    "name": "2-FPM",
+    "family": "phenylmorpholine",
+    "subclass": "phenmetrazine",
+    "aliases": [
+      "2-fluorophenmetrazine"
+    ],
+    "assignment": "09",
+    "series": "fluoro",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": false,
+    "feel": {
+      "headline": "Isomer on a slide.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Ortho positional. Lab isomer used to differentiate vendor 3-FPM. Street feel does not exist."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Isomer on a slide.",
+    "flags": [],
+    "notes": "McLaughlin 2016 synthesized 2-FPM to tell it from vendor 3-FPM. circulated=false as a product.",
+    "sources": [
+      {
+        "title": "McLaughlin 2016 DTA",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Neuropharmacology 2017",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "Forensic/lab only. No bag mythology."
+    ]
+  },
+  {
+    "id": "3-cpm",
+    "name": "3-CPM",
+    "family": "phenylmorpholine",
+    "subclass": "phenmetrazine",
+    "aliases": [
+      "3-chlorophenmetrazine",
+      "PAL-594"
+    ],
+    "assignment": "09",
+    "series": "chloro",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "3-FPM with a chlorine and fewer reviews.",
+      "rush_x": 7,
+      "euphoria_x": 8,
+      "enjoyment_x": 8,
+      "compulsive_x": 8,
+      "rush": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": "Chloro 3-FPM. Dopamine-selective releaser on paper. Detected in NPS products. Thin trip-report trail."
+      },
+      "euphoria": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 42,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "redose",
+    "npc_line": "3-FPM with a chlorine and fewer reviews.",
+    "flags": [
+      "redose"
+    ],
+    "notes": "Wikipedia + 2026 Forensic Toxicology isomer paper: 3-CPM found in NPS products, distinct from 2-CPM/4-CPM.",
+    "sources": [
+      {
+        "title": "Wikipedia 3-CPM",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Forensic Toxicology 2026 3-CPM paper",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "aminorex",
+    "name": "Aminorex",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "menocil",
+      "apiquel"
+    ],
+    "assignment": "09",
+    "series": "parent",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The diet pill that invented a lung scandal.",
+      "rush_x": 6,
+      "euphoria_x": 7,
+      "enjoyment_x": 4,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": "1960s Menocil anorectic. Worked. Then a pulmonary-hypertension epidemic. Later: levamisole metabolite in cut cocaine (usually trace)."
+      },
+      "euphoria": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 46,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "pulmonary / adulterant",
+    "npc_line": "The diet pill that invented a lung scandal.",
+    "flags": [
+      "pulmonary",
+      "adulterant"
+    ],
+    "notes": "Not a modern party bag. Do not collapse into phenmetrazine.",
+    "sources": [
+      {
+        "title": "Maier 2018 ACS Chem Neurosci",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4-mar",
+    "name": "4-MAR",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "4-methylaminorex",
+      "U4Euh",
+      "4-MAX",
+      "ice-4mar",
+      "euphoria"
+    ],
+    "assignment": "09",
+    "series": "4-mar",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Sixteen hours. Satisfied, not fiending.",
+      "rush_x": 12,
+      "euphoria_x": 18,
+      "enjoyment_x": 19,
+      "compulsive_x": 8,
+      "rush": {
+        "score": 12,
+        "x": 12,
+        "confidence": "A",
+        "note": "1980s legend. Warm, talky, between meth and MDMA, closer to meth. Long. Old heads say it satisfies — less I-want-more than meth."
+      },
+      "euphoria": {
+        "score": 18,
+        "x": 18,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 19,
+        "x": 19,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 14,
+        "x": 14,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 28,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 36,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "long / pulmonary",
+    "npc_line": "Sixteen hours. Satisfied, not fiending.",
+    "flags": [
+      "long",
+      "pulmonary"
+    ],
+    "notes": "Street Ice name collides with meth. Family pulmonary-hypertension risk. cis/trans potency split is real; one SKU in-game.",
+    "sources": [
+      {
+        "title": "Erowid 4-MAR vaults",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Bluelight",
+        "url": "",
+        "type": "forum",
+        "year": null
+      },
+      {
+        "title": "Maier 2018",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Wikipedia 4-MAR",
+        "url": "",
+        "type": "forum",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4,4-dmar",
+    "name": "4,4'-DMAR",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "para-methyl-4-methylaminorex",
+      "serotoni"
+    ],
+    "assignment": "09",
+    "series": "4-mar",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Sold as ecstasy. Buried people.",
+      "rush_x": 8,
+      "euphoria_x": 10,
+      "enjoyment_x": 3,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": "Serotoni. MDMA tablet mimic. Non-selective releaser. 31 EU deaths 2013–14."
+      },
+      "euphoria": {
+        "score": 10,
+        "x": 10,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 3,
+        "x": 3,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 72,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 80,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 78,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 76,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "OD / serotonin_tox / mislabel / heatstroke",
+    "npc_line": "Sold as ecstasy. Buried people.",
+    "flags": [
+      "OD",
+      "serotonin_tox",
+      "mislabel",
+      "heatstroke"
+    ],
+    "notes": "EMCDDA risk assessment / UN scheduling. Not 4-MAR.",
+    "sources": [
+      {
+        "title": "Maier 2018",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "EMCDDA 4,4'-DMAR",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "3,4-dmar",
+    "name": "3,4-DMAR",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "3,4-dimethylaminorex"
+    ],
+    "assignment": "09",
+    "series": "4-mar",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Paper twin.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Isomer. Lab / rare 2015 EU detect. Not a product line."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Paper twin.",
+    "flags": [],
+    "notes": "Maier 2018: rarely a street drug; EU 2015 mention.",
+    "sources": [
+      {
+        "title": "Maier 2018",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No feel corpus."
+    ]
+  },
+  {
+    "id": "mdmar",
+    "name": "MDMAR",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "3,4-methylenedioxy-4-methylaminorex"
+    ],
+    "assignment": "09",
+    "series": "4-mar",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "They printed a hybrid. Almost nobody reordered.",
+      "rush_x": 6,
+      "euphoria_x": 9,
+      "enjoyment_x": 7,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": "MDMA times 4-MAR hybrid on paper. cis/trans published. Very little human lore."
+      },
+      "euphoria": {
+        "score": 9,
+        "x": 9,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 48,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "serotonin_tox",
+    "npc_line": "They printed a hybrid. Almost nobody reordered.",
+    "flags": [
+      "serotonin_tox"
+    ],
+    "notes": "McLaughlin/Brandt MDMAR paper. Detected as a 4-MAR analog, not a big product.",
+    "sources": [
+      {
+        "title": "Maier 2018",
+        "url": "",
+        "type": "paper",
+        "year": null
+      },
+      {
+        "title": "Scientific Reports 4'F-4-MAR (lists MDMAR)",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "4f-4-mar",
+    "name": "4'F-4-MAR",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "4F-MAR",
+      "pF-4-methylaminorex",
+      "4-FPO"
+    ],
+    "assignment": "09",
+    "series": "4-mar",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "4-MAR with a fluorine and a fake name.",
+      "rush_x": 7,
+      "euphoria_x": 8,
+      "enjoyment_x": 8,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": "Para-fluoro 4-MAR. Slovenian police plus Polish consumer sample. Sold mislabeled as 4-FPO. Some thought it was a phenmetrazine."
+      },
+      "euphoria": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 8,
+        "x": 8,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 42,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 42,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "mislabel",
+    "npc_line": "4-MAR with a fluorine and a fake name.",
+    "flags": [
+      "mislabel"
+    ],
+    "notes": "Fabregat-Safont 2019 Sci Rep. Do not file under phenmetrazine.",
+    "sources": [
+      {
+        "title": "Scientific Reports 2019 4'F-4-MAR",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "n-methylaminorex",
+    "name": "N-Methylaminorex",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [],
+    "assignment": "09",
+    "series": "n-methyl",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Name on a list.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "EU 2015 mention. No feel corpus."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Name on a list.",
+    "flags": [],
+    "notes": "Maier 2018: detected in the EU in 2015 with 3,4-DMAR.",
+    "sources": [
+      {
+        "title": "Maier 2018",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "No trip reports found."
+    ]
+  },
+  {
+    "id": "cyclazodone",
+    "name": "Cyclazodone",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [],
+    "assignment": "09",
+    "series": "oxazolidinone",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Smart-drug sticker. Stimulant underneath.",
+      "rush_x": 3,
+      "euphoria_x": 4,
+      "enjoyment_x": 6,
+      "compulsive_x": 5,
+      "rush": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": "Pemoline-like oxazolidinone. 2017 RC nootropic. Functional, dry, liver-side-eye."
+      },
+      "euphoria": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 36,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "work / oral_ok",
+    "npc_line": "Smart-drug sticker. Stimulant underneath.",
+    "flags": [
+      "work",
+      "oral_ok"
+    ],
+    "notes": "Oxazoline-adjacent, not phenmetrazine. CFSRE notes 2017 RC appearance.",
+    "sources": [
+      {
+        "title": "CFSRE N-methylcyclazodone case (parent mention)",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "n-methylcyclazodone",
+    "name": "N-Methylcyclazodone",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "NMC"
+    ],
+    "assignment": "09",
+    "series": "oxazolidinone",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The nootropic that made him dance.",
+      "rush_x": 4,
+      "euphoria_x": 4,
+      "enjoyment_x": 5,
+      "compulsive_x": 7,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "Confirmed tox case: choreiform storm, tachycardia, rhabdo, liver bump. People treated ADHD with a vendor jar."
+      },
+      "euphoria": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 52,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 54,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "too_much",
+    "npc_line": "The nootropic that made him dance.",
+    "flags": [
+      "too_much"
+    ],
+    "notes": "CFSRE/AACT 2022 case. Cyclazodone found as metabolite.",
+    "sources": [
+      {
+        "title": "CFSRE N-methylcyclazodone toxicity",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "pemoline",
+    "name": "Pemoline",
+    "family": "aminorex_oxazoline",
+    "subclass": "aminorex",
+    "aliases": [
+      "cylert"
+    ],
+    "assignment": "09",
+    "series": "oxazolidinone",
+    "research_status": "well_documented",
+    "market": "street",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Pharmacy ghost.",
+      "rush_x": 2,
+      "euphoria_x": 3,
+      "enjoyment_x": 4,
+      "compulsive_x": 2,
+      "rush": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": "Real ADHD medicine. Withdrawn — liver. Parent of the cyclazodone story."
+      },
+      "euphoria": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 30,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 28,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 28,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "Pharmacy ghost.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "Oxazoline family. Documented pharmaceutical, not an RC star.",
+    "sources": [
+      {
+        "title": "FDA/Cylert withdrawal history",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "CFSRE pemoline comparison",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "bzp",
+    "name": "BZP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "benzylpiperazine",
+      "A2"
+    ],
+    "assignment": "10",
+    "series": "benzyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The party pill. The hangover is the product.",
+      "rush_x": 6,
+      "euphoria_x": 8,
+      "enjoyment_x": 5,
+      "compulsive_x": 7,
+      "rush": {
+        "score": 6,
+        "x": 6,
+        "confidence": "A",
+        "note": "Amp-like legal high. Wired, long, nasty hangover — flu, headache, nausea, next day and the day after. NZ 1999–2008 industry."
+      },
+      "euphoria": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 5,
+        "x": 5,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 50,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 72,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 58,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 86,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "hangover / oral_ok / long",
+    "npc_line": "The party pill. The hangover is the product.",
+    "flags": [
+      "hangover",
+      "oral_ok",
+      "long"
+    ],
+    "notes": "User override: BZP hangover. ~26 million NZ pills by 2008 (industry estimate).",
+    "sources": [
+      {
+        "title": "Sheridan/Bowden NZ reviews",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "NZ Misuse of Drugs Act Class C",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "tfmpp",
+    "name": "TFMPP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "3-trifluoromethylphenylpiperazine"
+    ],
+    "assignment": "10",
+    "series": "phenyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The hug. Also the nausea.",
+      "rush_x": 2,
+      "euphoria_x": 6,
+      "enjoyment_x": 5,
+      "compulsive_x": 3,
+      "rush": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": "Serotonin half. MDMA-lite body, nausea, dysphoria if you take it alone. Almost always meant to be paired."
+      },
+      "euphoria": {
+        "score": 6,
+        "x": 6,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 46,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 56,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 50,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "The hug. Also the nausea.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "Baumann 2005 combo-with-BZP MDMA-like in animals. NZ Class C.",
+    "sources": [
+      {
+        "title": "NZ party-pill literature",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "Baumann BZP/TFMPP",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "bzp-tfmpp",
+    "name": "BZP + TFMPP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "legal X",
+      "party pill",
+      "frenzy",
+      "rapture",
+      "charge"
+    ],
+    "assignment": "10",
+    "series": "combo",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Legal X. Close enough to sell a country.",
+      "rush_x": 7,
+      "euphoria_x": 11,
+      "enjoyment_x": 8,
+      "compulsive_x": 6,
+      "rush": {
+        "score": 7,
+        "x": 7,
+        "confidence": "A",
+        "note": "The combo. Designed as legal MDMA. Works-ish. Hangover still BZP's. This is the historical SKU."
+      },
+      "euphoria": {
+        "score": 11,
+        "x": 11,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 8,
+        "x": 8,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 6,
+        "x": 6,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 7,
+        "x": 7,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 48,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 70,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 56,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 80,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "hangover / oral_ok / mislabel",
+    "npc_line": "Legal X. Close enough to sell a country.",
+    "flags": [
+      "hangover",
+      "oral_ok",
+      "mislabel"
+    ],
+    "notes": "Historical product, not a new molecule. Brands Frenzy/Rapture/Charge. Keep as its own catalog row.",
+    "sources": [
+      {
+        "title": "NZ party-pill literature",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "mcpp",
+    "name": "mCPP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "meta-chlorophenylpiperazine",
+      "1-(3-chlorophenyl)piperazine"
+    ],
+    "assignment": "10",
+    "series": "phenyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Nobody asked for this.",
+      "rush_x": 1,
+      "euphoria_x": 2,
+      "enjoyment_x": 1,
+      "compulsive_x": 1,
+      "rush": {
+        "score": 1,
+        "x": 1,
+        "confidence": "A",
+        "note": "Dirty. Headache, nausea, anxiety, flu. Famous MDMA adulterant. Almost nobody likes the pure."
+      },
+      "euphoria": {
+        "score": 2,
+        "x": 2,
+        "confidence": "A",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 1,
+        "x": 1,
+        "confidence": "A",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 1,
+        "x": 1,
+        "confidence": "A",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 1,
+        "x": 1,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 72,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 68,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 70,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 74,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "adulterant / hangover",
+    "npc_line": "Nobody asked for this.",
+    "flags": [
+      "adulterant",
+      "hangover"
+    ],
+    "notes": "NZ Class C. Also a trazodone metabolite — do not treat as a recipe.",
+    "sources": [
+      {
+        "title": "NZ schedule",
+        "url": "",
+        "type": "agency",
+        "year": null
+      },
+      {
+        "title": "MDMA adulterant literature",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "meopp",
+    "name": "MeOPP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "pMeOPP",
+      "4-MeOPP",
+      "para-methoxyphenylpiperazine"
+    ],
+    "assignment": "10",
+    "series": "phenyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Session candy.",
+      "rush_x": 2,
+      "euphoria_x": 4,
+      "enjoyment_x": 4,
+      "compulsive_x": 2,
+      "rush": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": "Milder, some mood. NZ Class C list. Never a star."
+      },
+      "euphoria": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 38,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 40,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "Session candy.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "Documented party-pill extra.",
+    "sources": [
+      {
+        "title": "NZ Misuse of Drugs Act Class C",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "pfpp",
+    "name": "pFPP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "para-fluorophenylpiperazine"
+    ],
+    "assignment": "10",
+    "series": "phenyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "The fluorinated extra in the jar.",
+      "rush_x": 2,
+      "euphoria_x": 4,
+      "enjoyment_x": 4,
+      "compulsive_x": 2,
+      "rush": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": "Mild, mixer. Same NZ ban list."
+      },
+      "euphoria": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 2,
+        "x": 2,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 3,
+        "x": 3,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 32,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 36,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 34,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 36,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "oral_ok",
+    "npc_line": "The fluorinated extra in the jar.",
+    "flags": [
+      "oral_ok"
+    ],
+    "notes": "NZ Class C 2008 list.",
+    "sources": [
+      {
+        "title": "NZ Misuse of Drugs Act Class C",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "mbzp",
+    "name": "MBZP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "1-methyl-4-benzylpiperazine"
+    ],
+    "assignment": "10",
+    "series": "benzyl",
+    "research_status": "well_documented",
+    "market": "rc_era",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Diet BZP.",
+      "rush_x": 4,
+      "euphoria_x": 5,
+      "enjoyment_x": 4,
+      "compulsive_x": 4,
+      "rush": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": "N-methyl BZP. Weaker BZP. Documented, listed, meh."
+      },
+      "euphoria": {
+        "score": 5,
+        "x": 5,
+        "confidence": "B",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": 4,
+        "x": 4,
+        "confidence": "B",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": 40,
+        "confidence": "C",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": 54,
+        "confidence": "C",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": 44,
+        "confidence": "C",
+        "note": ""
+      },
+      "sleep": {
+        "score": 60,
+        "confidence": "C",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "hangover",
+    "npc_line": "Diet BZP.",
+    "flags": [
+      "hangover"
+    ],
+    "notes": "NZ Class C 2008 list.",
+    "sources": [
+      {
+        "title": "NZ Misuse of Drugs Act Class C",
+        "url": "",
+        "type": "agency",
+        "year": null
+      }
+    ],
+    "gaps": []
+  },
+  {
+    "id": "mdbzp",
+    "name": "MDBZP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "1-(3,4-methylenedioxybenzyl)piperazine"
+    ],
+    "assignment": "10",
+    "series": "benzyl",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Catalog cousin.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": 3,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Methylenedioxybenzylpiperazine. Documented analog. Thin feel."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": 3,
+        "x": 3,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "",
+    "npc_line": "Catalog cousin.",
+    "flags": [],
+    "notes": "Appears in piperazine analog lists. Not a NZ headliner.",
+    "sources": [
+      {
+        "title": "piperazine NPS reviews",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "Thin trip-report trail."
+    ]
+  },
+  {
+    "id": "dbzp",
+    "name": "DBZP",
+    "family": "piperazine",
+    "subclass": "piperazine",
+    "aliases": [
+      "1,4-dibenzylpiperazine"
+    ],
+    "assignment": "10",
+    "series": "impurity",
+    "research_status": "limited_evidence",
+    "market": "uncertain",
+    "documented": true,
+    "circulated": true,
+    "feel": {
+      "headline": "Impurity with a name.",
+      "rush_x": null,
+      "euphoria_x": null,
+      "enjoyment_x": null,
+      "compulsive_x": null,
+      "rush": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": "Usually a BZP leftover, not a product."
+      },
+      "euphoria": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "enjoyment": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "compulsiveness": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "reinforcement": {
+        "score": null,
+        "x": null,
+        "confidence": "U",
+        "note": ""
+      }
+    },
+    "negatives": {
+      "paranoia": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "aftereffects": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "psychosis_concern": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "cardiovascular": {
+        "score": null,
+        "confidence": "U",
+        "note": ""
+      },
+      "sleep": {
+        "score": null,
+        "confidence": "U",
+        "note": "Hangover / wake tax, not a half-life."
+      }
+    },
+    "route_myth": "adulterant",
+    "npc_line": "Impurity with a name.",
+    "flags": [
+      "adulterant"
+    ],
+    "notes": "Do not treat as a cook note — catalog impurity SKU only.",
+    "sources": [
+      {
+        "title": "BZP impurity literature",
+        "url": "",
+        "type": "paper",
+        "year": null
+      }
+    ],
+    "gaps": [
+      "Not sold as its own bag."
+    ]
+  }
+]

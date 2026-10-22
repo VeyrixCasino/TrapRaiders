@@ -1,0 +1,2344 @@
+{
+  "assignment_id": 13,
+  "slug": "dissos_ketamine_type",
+  "title": "Ketamine-type dissociatives",
+  "family": "dissociatives",
+  "subfamily": "ketamine_type_arylcyclohexylamine",
+  "kit": "K",
+  "priority_family": "disso",
+  "disclaimer": "Fictional game catalog research. Unitless 0-100 inferences from public reports. Not a manual. No recipes. No how-to-take. No milligram instructions. Rush means onset salience. Pleasure and compulsiveness are independent axes. Hated redose is not low enjoyment.",
+  "scoring": {
+    "scale": "0-100 or null",
+    "unknown": null,
+    "rush_means": "onset salience, not a stim snap",
+    "pleasure_vs_compulsiveness": "independent",
+    "priority_axes": [
+      "rush",
+      "euphoria",
+      "enjoyment",
+      "compulsiveness"
+    ],
+    "extra_axes": [
+      "dissociation_depth",
+      "warmth",
+      "mania",
+      "reinforcement"
+    ],
+    "negative_axes": [
+      "bladder",
+      "confusion",
+      "residual",
+      "aftereffects",
+      "sleep",
+      "paranoia",
+      "psychosis_concern",
+      "cardiovascular"
+    ],
+    "hole_vs_walk": "required one-liner per full card"
+  },
+  "scope": {
+    "include_full": [
+      "ketamine",
+      "dck",
+      "2f_dck",
+      "nenk",
+      "2f_nendck",
+      "fxe",
+      "hxe",
+      "2meo_ketamine",
+      "2bdck",
+      "tiletamine"
+    ],
+    "include_thin": [
+      "2_tfmdck",
+      "npnk",
+      "2_fxpr",
+      "2meo_nek",
+      "tilmetamine"
+    ],
+    "exclude_mxe_oxo_pce": [
+      "mxe",
+      "dmxe",
+      "mxpr",
+      "mxipr",
+      "mxm",
+      "o_pce"
+    ],
+    "exclude_pcp_pce": [
+      "pcp",
+      "3meo_pcp",
+      "3ho_pcp",
+      "3me_pcp",
+      "3cl_pcp",
+      "3f_pcp",
+      "4meo_pcp",
+      "pce",
+      "3meo_pce",
+      "3ho_pce",
+      "3me_pce",
+      "pcpy",
+      "pcmo",
+      "tcp",
+      "oxo_pcpr"
+    ],
+    "exclude_diarylethylamines": [
+      "mxp",
+      "diphenidine",
+      "ephenidine",
+      "fluorolintane"
+    ]
+  },
+  "chased": [
+    {
+      "rank": 1,
+      "id": "ketamine",
+      "why": "The hole people mean. Kitchen-door. Always."
+    },
+    {
+      "rank": 2,
+      "id": "dck",
+      "why": "The analog old heads actually miss. Ket that stays for dinner."
+    },
+    {
+      "rank": 3,
+      "id": "2f_dck",
+      "why": "Volume chase when ket is dry. Closest clone. Batch lottery."
+    },
+    {
+      "rank": 4,
+      "id": "2f_nendck",
+      "why": "Late Flask after 2F dried. Also the powder inside most FXE/ket stickers."
+    },
+    {
+      "rank": 5,
+      "id": "fxe",
+      "why": "Name chase as MXE-shaped ket. Labs keep rewriting the sticker to CanKet."
+    }
+  ],
+  "not_chased": [
+    "hxe",
+    "nenk",
+    "2meo_ketamine",
+    "2bdck",
+    "tiletamine",
+    "2_tfmdck",
+    "npnk",
+    "2_fxpr",
+    "2meo_nek",
+    "tilmetamine"
+  ],
+  "street_rack": [
+    [
+      "ketamine",
+      "dck",
+      "2f_dck",
+      "2f_nendck",
+      "fxe",
+      "hxe"
+    ],
+    [
+      "nenk",
+      "2meo_ketamine",
+      "2bdck",
+      "tiletamine"
+    ]
+  ],
+  "alias_validations": [
+    {
+      "label": "CanKet",
+      "also_seen_as": [
+        "2-FXE",
+        "2F-NENK",
+        "2F-2oxo-PCE",
+        "2-FDCNEK",
+        "2-fluoro-deschloro-N-ethylketamine",
+        "Canberra ketamine"
+      ],
+      "resolves_to": "2f_nendck",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "CanTEST / ANU named it. DrugsData and CAHMA treat 2F-NENDCK, CanKet, and 2-FXE as one molecule: 2-(ethylamino)-2-(2-fluorophenyl)cyclohexan-1-one."
+    },
+    {
+      "label": "street FXE",
+      "also_seen_as": [
+        "FXE",
+        "fluorexetamine"
+      ],
+      "resolves_to": "2f_nendck",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "DrugsData April 2023: previously identified FXE samples were 2F-NENDCK once a 2-FXE standard existed. True 3-FXE remains a separate ID with almost no confirmed bags."
+    },
+    {
+      "label": "DXE",
+      "also_seen_as": [
+        "O-PCM",
+        "2'-oxo-PCM",
+        "deschloroketamine"
+      ],
+      "resolves_to": "dck",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "PsychonautWiki lists DXE / O-PCM as DCK. Not MXE."
+    },
+    {
+      "label": "ethketamine",
+      "also_seen_as": [
+        "NENK",
+        "N-ethylnorketamine",
+        "ENK"
+      ],
+      "resolves_to": "nenk",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "2012-era 2-Cl N-ethyl. Not O-PCE (no chlorine) and not 2F-NENDCK."
+    },
+    {
+      "label": "2-FK / fluoroketamine",
+      "also_seen_as": [
+        "2-FK",
+        "fluoroketamine"
+      ],
+      "resolves_to": "2f_dck",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "Inaccurate vendor name for 2F-DCK."
+    },
+    {
+      "label": "NEDCK / deschloro-N-ethyl-ketamine",
+      "also_seen_as": [
+        "2-oxo-PCE",
+        "eticyclidone"
+      ],
+      "resolves_to": "o_pce",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "That molecule is O-PCE. Other assignment. Do not print a Kit K bottle."
+    },
+    {
+      "label": "esketamine / arketamine",
+      "also_seen_as": [
+        "S-ket",
+        "R-ket",
+        "Spravato"
+      ],
+      "resolves_to": "ketamine",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "Enantiomers of ketamine, not analog stamps."
+    },
+    {
+      "label": "Telazol / Zoletil",
+      "also_seen_as": [
+        "polar bear ket"
+      ],
+      "resolves_to": "tiletamine",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "Combo product: tiletamine plus zolazepam. Flag on the tiletamine row, not a second SKU."
+    },
+    {
+      "label": "3DMXE",
+      "also_seen_as": [
+        "3D-MXE"
+      ],
+      "resolves_to": "dmxe",
+      "is_separate_agent": false,
+      "confidence": "high",
+      "note": "Owned by assignment 14. Not a ket-like."
+    }
+  ],
+  "slider_board": {
+    "enjoyment_high_to_low": [
+      "ketamine",
+      "dck",
+      "fxe",
+      "2f_nendck",
+      "hxe",
+      "2f_dck",
+      "tiletamine",
+      "nenk",
+      "2bdck",
+      "2meo_ketamine"
+    ],
+    "euphoria_high_to_low": [
+      "ketamine",
+      "dck",
+      "fxe",
+      "hxe",
+      "2f_dck",
+      "2f_nendck",
+      "tiletamine",
+      "nenk",
+      "2bdck",
+      "2meo_ketamine"
+    ],
+    "rush_high_to_low": [
+      "ketamine",
+      "tiletamine",
+      "2f_nendck",
+      "fxe",
+      "2f_dck",
+      "2bdck",
+      "dck",
+      "nenk",
+      "hxe",
+      "2meo_ketamine"
+    ],
+    "compulsiveness_high_to_low": [
+      "ketamine",
+      "2f_dck",
+      "2f_nendck",
+      "dck",
+      "fxe",
+      "nenk",
+      "hxe",
+      "tiletamine",
+      "2bdck",
+      "2meo_ketamine"
+    ],
+    "dissociation_depth_high_to_low": [
+      "ketamine",
+      "tiletamine",
+      "dck",
+      "2f_dck",
+      "2f_nendck",
+      "fxe",
+      "hxe",
+      "nenk",
+      "2bdck",
+      "2meo_ketamine"
+    ],
+    "warmth_high_to_low": [
+      "hxe",
+      "ketamine",
+      "dck",
+      "fxe",
+      "2bdck",
+      "nenk",
+      "2f_dck",
+      "2f_nendck",
+      "tiletamine",
+      "2meo_ketamine"
+    ],
+    "mania_high_to_low": [
+      "2f_nendck",
+      "fxe",
+      "tiletamine",
+      "dck",
+      "ketamine",
+      "hxe",
+      "nenk",
+      "2f_dck",
+      "2bdck",
+      "2meo_ketamine"
+    ],
+    "notes": [
+      "Rush is onset salience.",
+      "2F-DCK enjoyment is a lottery average. Good shards sit near ket. Bad shards sit near NENK.",
+      "FXE street bags inherit CanKet scores. Molecule scores assume genuine 3-FXE.",
+      "Ketamine compulsiveness is high because they like it and it is short. 2F-DCK compulsiveness is high because the bag is weak. Do not average never-again into low euphoria."
+    ]
+  },
+  "agents": [
+    {
+      "id": "ketamine",
+      "name": "ketamine",
+      "full_name": "ketamine",
+      "substitutive": "2-Cl-2-oxo-PCM",
+      "systematic": "2-(2-chlorophenyl)-2-(methylamino)cyclohexan-1-one",
+      "aliases": [
+        "ket",
+        "K",
+        "special K",
+        "esketamine",
+        "arketamine"
+      ],
+      "kit": "K",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "well_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Kitchen-door hole. Bump until the floor wins.",
+        "hole_vs_walk": "Short hole is the fantasy. Walk-around wonk is the party bump.",
+        "rush": {
+          "score": 44,
+          "confidence": "A",
+          "note": "Onset salience. Sniff-and-the-room-tilts."
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "A",
+          "note": "Warm float, not a roll."
+        },
+        "enjoyment": {
+          "score": 78,
+          "confidence": "A",
+          "note": "The hole people mean."
+        },
+        "compulsiveness": {
+          "score": 62,
+          "confidence": "A",
+          "note": "Short duration feeds the loop. They like it."
+        },
+        "reinforcement": {
+          "score": 68,
+          "confidence": "A",
+          "note": "Club staple for decades."
+        }
+      },
+      "scores": {
+        "rush": 82,
+        "euphoria": 74,
+        "enjoyment": 88,
+        "compulsiveness": 84,
+        "reinforcement": 80,
+        "dissociation_depth": 90,
+        "warmth": 58,
+        "mania": 16
+      },
+      "negatives": {
+        "bladder": {
+          "score": 86,
+          "confidence": "A",
+          "note": "Ketamine cystitis is the paper trail the class inherits."
+        },
+        "confusion": {
+          "score": 62,
+          "confidence": "A",
+          "note": "Speech soup, amnesia."
+        },
+        "residual": {
+          "score": 36,
+          "confidence": "A",
+          "note": "Next-morning fog if you hole all night. Otherwise short."
+        },
+        "aftereffects": {
+          "score": 36,
+          "confidence": "A",
+          "note": ""
+        },
+        "sleep": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Can knock you out after a hole."
+        },
+        "paranoia": {
+          "score": 18,
+          "confidence": "B",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Transient, not 3-MeO-PCP."
+        },
+        "cardiovascular": {
+          "score": 24,
+          "confidence": "B",
+          "note": "Clinic-known lift."
+        }
+      },
+      "confidence": 0.95,
+      "one_liner": "Kitchen-door hole. Bump until the floor wins.",
+      "npc_line": "Kitchen-door disso.",
+      "flags": [
+        "redose",
+        "bladder"
+      ],
+      "route_myth": "The bump is the culture. Clinic stories exist; no SOP.",
+      "sources": [
+        "morgan_curran_2012",
+        "erowid_ketamine",
+        "pw_ketamine",
+        "chu_2007_bladder",
+        "product_families"
+      ],
+      "gaps": [
+        "Street enantiomer split is rumor. Norketamine is a metabolite, not a SKU."
+      ]
+    },
+    {
+      "id": "dck",
+      "name": "DCK",
+      "full_name": "deschloroketamine",
+      "substitutive": "2-oxo-PCM",
+      "systematic": "2-phenyl-2-(methylamino)cyclohexanone",
+      "aliases": [
+        "DXE",
+        "O-PCM",
+        "2'-oxo-PCM"
+      ],
+      "kit": "K",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "DCK is ket that stays for dinner.",
+        "hole_vs_walk": "Walk-friendly do-a-thing. Hole exists, shallower, then dinner.",
+        "rush": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Polite. Late. Not the ket whoosh."
+        },
+        "euphoria": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Cleaner than ket for a lot of old heads. Some call it cold."
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "B",
+          "note": "The analog people actually miss."
+        },
+        "compulsiveness": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Weekend loop, not key-loop."
+        },
+        "reinforcement": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Favorite-ever and threw-it-out both exist."
+        }
+      },
+      "scores": {
+        "rush": 38,
+        "euphoria": 72,
+        "enjoyment": 80,
+        "compulsiveness": 68,
+        "reinforcement": 70,
+        "dissociation_depth": 72,
+        "warmth": 56,
+        "mania": 22
+      },
+      "negatives": {
+        "bladder": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Class rumor. Less material myth."
+        },
+        "confusion": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Empty-head. Forgot why you feel this way."
+        },
+        "residual": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Next-day wooze. 12-24 h."
+        },
+        "aftereffects": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Hangover or afterglow."
+        },
+        "sleep": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Overstays into bedtime."
+        },
+        "paranoia": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.78,
+      "one_liner": "DCK is ket that stays for dinner.",
+      "npc_line": "Ket that stays for dinner.",
+      "flags": [
+        "redose",
+        "bladder"
+      ],
+      "route_myth": "Works when you swallow it is the RC-era brag vs ket. Flag only.",
+      "sources": [
+        "pw_dck",
+        "reddit_iz41zx",
+        "reddit_lrb85k",
+        "reddit_haf32p",
+        "reddit_524g3x",
+        "reddit_1ettplh",
+        "frison_2016",
+        "product_families"
+      ],
+      "gaps": [
+        "Antibacterial/immune rumor is folklore. Human tox thin."
+      ]
+    },
+    {
+      "id": "2f_dck",
+      "name": "2F-DCK",
+      "full_name": "2-fluorodeschloroketamine",
+      "substitutive": "2-F-2-oxo-PCM",
+      "systematic": "2-(2-fluorophenyl)-2-(methylamino)cyclohexan-1-one",
+      "aliases": [
+        "2-FDCK",
+        "2-FK",
+        "fluoroketamine",
+        "2-fluoroketamine"
+      ],
+      "kit": "K",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "2F-DCK batch lottery.",
+        "hole_vs_walk": "Walk/wonk default. Hole on good shards. Dumb hole on bad ones.",
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Ket-shaped, quieter. Lottery."
+        },
+        "euphoria": {
+          "score": 56,
+          "confidence": "B",
+          "note": "Ket lite or god, depending on the envelope."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Average of shine and trash. Good batch ~75."
+        },
+        "compulsiveness": {
+          "score": 76,
+          "confidence": "B",
+          "note": "Weak bags make people keep going. That is not love."
+        },
+        "reinforcement": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Rat abuse potential near ket. Humans split."
+        }
+      },
+      "scores": {
+        "rush": 48,
+        "euphoria": 56,
+        "enjoyment": 58,
+        "compulsiveness": 76,
+        "reinforcement": 62,
+        "dissociation_depth": 68,
+        "warmth": 44,
+        "mania": 14
+      },
+      "negatives": {
+        "bladder": {
+          "score": 70,
+          "confidence": "C",
+          "note": "Weaker-by-weight myth says more material, more bladder."
+        },
+        "confusion": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Slightly more wonky/confused than ket."
+        },
+        "residual": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Shorter than DCK. Dirty batches hang."
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 32,
+          "confidence": "C",
+          "note": "Stim-feeling batches do not sleep."
+        },
+        "paranoia": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 18,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Preclinical / case-mix."
+        }
+      },
+      "confidence": 0.8,
+      "one_liner": "2F-DCK batch lottery.",
+      "npc_line": "Depends which envelope.",
+      "flags": [
+        "redose",
+        "bladder",
+        "mislabel"
+      ],
+      "route_myth": "Oral-ok chatter vs ket. Flag only.",
+      "sources": [
+        "pw_2fdck",
+        "who_2fdck",
+        "li_2022_2fdck",
+        "reddit_e91n0d",
+        "reddit_1dlgu8z",
+        "reddit_iz41zx",
+        "reddit_1kwludp",
+        "reddit_14a73tg",
+        "product_families"
+      ],
+      "gaps": [
+        "Batch variance is the science gap. Forum R/S talk is almost certainly dirt."
+      ]
+    },
+    {
+      "id": "nenk",
+      "name": "NENK",
+      "full_name": "N-ethylnorketamine",
+      "substitutive": "2-Cl-2-oxo-PCE",
+      "systematic": "2-(2-chlorophenyl)-2-(ethylamino)cyclohexan-1-one",
+      "aliases": [
+        "ethketamine",
+        "ENK",
+        "N-ethyl-norketamine"
+      ],
+      "kit": "K",
+      "sku_role": "filler",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "First-wave leftover. Can't hole, can disappoint.",
+        "hole_vs_walk": "Wonk only. Hole is a rumor you cannot buy.",
+        "rush": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Fast and thin."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "B",
+          "note": "A few raves. Consensus mild."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "B",
+          "note": "First-wave leftover."
+        },
+        "compulsiveness": {
+          "score": 46,
+          "confidence": "B",
+          "note": "Short so they try. Ceiling so they stop angry."
+        },
+        "reinforcement": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Almost nobody reordered."
+        }
+      },
+      "scores": {
+        "rush": 36,
+        "euphoria": 42,
+        "enjoyment": 36,
+        "compulsiveness": 46,
+        "reinforcement": 28,
+        "dissociation_depth": 30,
+        "warmth": 48,
+        "mania": 12
+      },
+      "negatives": {
+        "bladder": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Class rumor."
+        },
+        "confusion": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Clearer / less intoxicating than MXE. Underwhelming."
+        },
+        "residual": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Short. The kiss of death."
+        },
+        "aftereffects": {
+          "score": 22,
+          "confidence": "B",
+          "note": ""
+        },
+        "sleep": {
+          "score": 20,
+          "confidence": "C",
+          "note": ""
+        },
+        "paranoia": {
+          "score": 12,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 10,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 18,
+          "confidence": "D",
+          "note": "One old TR mentioned vasoconstriction."
+        }
+      },
+      "confidence": 0.7,
+      "one_liner": "First-wave leftover. Can't hole, can disappoint.",
+      "npc_line": "First-wave leftover.",
+      "flags": [
+        "mislabel"
+      ],
+      "route_myth": "IN wrecks the nose in the old thread. Flag, not a how-to.",
+      "sources": [
+        "bluelight_nenk",
+        "bluelight_nenk_disappointing",
+        "product_families"
+      ],
+      "gaps": [
+        "Do not confuse with O-PCE or 2F-NENDCK."
+      ]
+    },
+    {
+      "id": "2f_nendck",
+      "name": "2F-NENDCK",
+      "full_name": "2-fluoro-N-ethylnordeschloroketamine",
+      "substitutive": "2-F-2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-(2-fluorophenyl)cyclohexan-1-one",
+      "aliases": [
+        "CanKet",
+        "2-FXE",
+        "2F-NENK",
+        "2F-2oxo-PCE",
+        "2-FDCNEK",
+        "Canberra ketamine"
+      ],
+      "kit": "K",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Late Flask sticker.",
+        "hole_vs_walk": "Walk-around stim-disso. Hole is short and hard to stay in.",
+        "rush": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Fast. Duration is def not ketamine."
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Split: mild/none vs life-is-good."
+        },
+        "enjoyment": {
+          "score": 64,
+          "confidence": "B",
+          "note": "Current chase after 2F dried. Not ket."
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "B",
+          "note": "The bag that replaced the bag."
+        },
+        "reinforcement": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Sold as three other names."
+        }
+      },
+      "scores": {
+        "rush": 58,
+        "euphoria": 52,
+        "enjoyment": 64,
+        "compulsiveness": 70,
+        "reinforcement": 66,
+        "dissociation_depth": 64,
+        "warmth": 38,
+        "mania": 32
+      },
+      "negatives": {
+        "bladder": {
+          "score": 72,
+          "confidence": "C",
+          "note": "FXE-toxicity threads are probably this molecule."
+        },
+        "confusion": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Disorient, filter vision, oscillating audio."
+        },
+        "residual": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Hangover. Residual filter. Can't sleep."
+        },
+        "aftereffects": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Next day is part of the product."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Brain switch stuck on."
+        },
+        "paranoia": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Irritated, not hunted."
+        },
+        "psychosis_concern": {
+          "score": 34,
+          "confidence": "C",
+          "note": "Body-horror minority reports."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.72,
+      "one_liner": "Late Flask sticker.",
+      "npc_line": "Late Flask sticker.",
+      "flags": [
+        "mislabel",
+        "redose",
+        "bladder"
+      ],
+      "route_myth": "",
+      "sources": [
+        "cahma_canket",
+        "ndews_canket",
+        "drugsdata_fxe_revision",
+        "reddit_18e2h8d",
+        "reddit_15ewn12",
+        "vice_canket",
+        "product_families"
+      ],
+      "gaps": [
+        "No controlled human feel study. Bladder scare is anecdote."
+      ]
+    },
+    {
+      "id": "fxe",
+      "name": "FXE",
+      "full_name": "fluorexetamine",
+      "substitutive": "3-F-2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-(3-fluorophenyl)cyclohexan-1-one",
+      "aliases": [
+        "3-FXE",
+        "3'-fluoro-2-oxo-PCE"
+      ],
+      "kit": "K",
+      "sku_role": "headliner",
+      "card_weight": "full",
+      "research_status": "identity_uncertain",
+      "market": "uncertain",
+      "feel": {
+        "headline": "They said it was MXE. Labs said CanKet.",
+        "hole_vs_walk": "Between ket and MXE — walk with color, hole possible, not ket-couch.",
+        "rush": {
+          "score": 50,
+          "confidence": "C",
+          "note": "If genuine. Street bags inherit CanKet."
+        },
+        "euphoria": {
+          "score": 62,
+          "confidence": "C",
+          "note": "Brighter than ket in 2022 love letters."
+        },
+        "enjoyment": {
+          "score": 68,
+          "confidence": "C",
+          "note": "Molecule mid-high. Street bag = see CanKet."
+        },
+        "compulsiveness": {
+          "score": 56,
+          "confidence": "C",
+          "note": "Less bump-loop than ket."
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Name chase is real. Molecule supply is the question."
+        }
+      },
+      "scores": {
+        "rush": 50,
+        "euphoria": 62,
+        "enjoyment": 68,
+        "compulsiveness": 56,
+        "reinforcement": 58,
+        "dissociation_depth": 62,
+        "warmth": 56,
+        "mania": 28
+      },
+      "negatives": {
+        "bladder": {
+          "score": 64,
+          "confidence": "D",
+          "note": "Threads exist. Many were CanKet."
+        },
+        "confusion": {
+          "score": 48,
+          "confidence": "C",
+          "note": ""
+        },
+        "residual": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Contaminated by CanKet lore."
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 44,
+          "confidence": "D",
+          "note": "Genuine-FXE sleep unknown."
+        },
+        "paranoia": {
+          "score": 20,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 26,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.4,
+      "one_liner": "They said it was MXE. Labs said CanKet.",
+      "npc_line": "They said it was MXE. It wasn't.",
+      "flags": [
+        "mislabel",
+        "bladder"
+      ],
+      "route_myth": "",
+      "sources": [
+        "pw_talk_fxe",
+        "cahma_canket",
+        "drugsdata_fxe_revision",
+        "reddit_wo85cz",
+        "reddit_wj441o",
+        "product_families"
+      ],
+      "gaps": [
+        "True 3-FXE barely exists as a confirmed bag."
+      ]
+    },
+    {
+      "id": "hxe",
+      "name": "HXE",
+      "full_name": "hydroxetamine",
+      "substitutive": "3-HO-2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-(3-hydroxyphenyl)cyclohexan-1-one",
+      "aliases": [
+        "3-HO-2'-oxo-PCE"
+      ],
+      "kit": "K",
+      "sku_role": "shelf",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Couch, not a hole. Warm weak dinner guest.",
+        "hole_vs_walk": "Couch walk. Not a hole.",
+        "rush": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Shrug."
+        },
+        "euphoria": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Soft. Music."
+        },
+        "enjoyment": {
+          "score": 62,
+          "confidence": "C",
+          "note": "Liked, not hunted."
+        },
+        "compulsiveness": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Lazy. You sit."
+        },
+        "reinforcement": {
+          "score": 36,
+          "confidence": "C",
+          "note": "Nobody fiends the weak warm one."
+        }
+      },
+      "scores": {
+        "rush": 22,
+        "euphoria": 58,
+        "enjoyment": 62,
+        "compulsiveness": 40,
+        "reinforcement": 36,
+        "dissociation_depth": 38,
+        "warmth": 76,
+        "mania": 16
+      },
+      "negatives": {
+        "bladder": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Class only."
+        },
+        "confusion": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Clearer than the hole bottles."
+        },
+        "residual": {
+          "score": 44,
+          "confidence": "C",
+          "note": "Long-ish afterglow, not a wreck."
+        },
+        "aftereffects": {
+          "score": 44,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": 24,
+          "confidence": "C",
+          "note": "Couch. Sleeps."
+        },
+        "paranoia": {
+          "score": 12,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 14,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.45,
+      "one_liner": "Couch, not a hole.",
+      "npc_line": "Couch, not a hole.",
+      "flags": [],
+      "route_myth": "",
+      "sources": [
+        "pw_hxe",
+        "reddit_15ewn12",
+        "reddit_mfowg6",
+        "reddit_jzolvd",
+        "product_families"
+      ],
+      "gaps": [
+        "Dual-owned with assignment 14. Warmth is use-case, not lab fact. PW page unapproved."
+      ]
+    },
+    {
+      "id": "2meo_ketamine",
+      "name": "2-MeO-ketamine",
+      "full_name": "methoxyketamine",
+      "substitutive": "2-MeO-2-oxo-PCM",
+      "systematic": "2-(2-methoxyphenyl)-2-(methylamino)cyclohexanone",
+      "aliases": [
+        "2-MeO-DCK",
+        "2-MK",
+        "2-MDCK",
+        "methoxyketamine"
+      ],
+      "kit": "K",
+      "sku_role": "filler",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Ket's methoxy cousin who never showed up.",
+        "hole_vs_walk": "Neither. Almost inactive.",
+        "rush": {
+          "score": 12,
+          "confidence": "B",
+          "note": "Vague threshold if anything."
+        },
+        "euphoria": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Missing."
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Consensus flop."
+        },
+        "compulsiveness": {
+          "score": 18,
+          "confidence": "B",
+          "note": "Nothing to chase."
+        },
+        "reinforcement": {
+          "score": 14,
+          "confidence": "B",
+          "note": "Nobody reordered."
+        }
+      },
+      "scores": {
+        "rush": 12,
+        "euphoria": 22,
+        "enjoyment": 22,
+        "compulsiveness": 18,
+        "reinforcement": 14,
+        "dissociation_depth": 24,
+        "warmth": 26,
+        "mania": 8
+      },
+      "negatives": {
+        "bladder": {
+          "score": 34,
+          "confidence": "D",
+          "note": "Class only."
+        },
+        "confusion": {
+          "score": 16,
+          "confidence": "C",
+          "note": ""
+        },
+        "residual": {
+          "score": 14,
+          "confidence": "C",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": 14,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": 8,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 8,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.65,
+      "one_liner": "Ket's methoxy cousin who never showed up.",
+      "npc_line": "Skip unless the crate is a joke.",
+      "flags": [],
+      "route_myth": "",
+      "sources": [
+        "bluelight_methoxyketamine",
+        "bluelight_nenk_disappointing",
+        "product_families"
+      ],
+      "gaps": [
+        "Do not clone MXE scores onto the ortho-MeO."
+      ]
+    },
+    {
+      "id": "2bdck",
+      "name": "2-BDCK",
+      "full_name": "2-bromo-deschloroketamine",
+      "substitutive": "2-Br-2-oxo-PCM",
+      "systematic": "2-(2-bromophenyl)-2-(methylamino)cyclohexan-1-one",
+      "aliases": [
+        "2-Br-DCK",
+        "bromoketamine",
+        "2B-DCK"
+      ],
+      "kit": "K",
+      "sku_role": "filler",
+      "card_weight": "full",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "feel": {
+        "headline": "Bromo ket. Empty squares, burning nose.",
+        "hole_vs_walk": "Mild walk. Hole not really.",
+        "rush": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Fast, thin."
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "C",
+          "note": "A little silly-float, then nothing."
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Disappointing."
+        },
+        "compulsiveness": {
+          "score": 26,
+          "confidence": "C",
+          "note": "Short, not worth the next bump."
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "C",
+          "note": "2022 curiosity, then dump."
+        }
+      },
+      "scores": {
+        "rush": 40,
+        "euphoria": 36,
+        "enjoyment": 28,
+        "compulsiveness": 26,
+        "reinforcement": 18,
+        "dissociation_depth": 26,
+        "warmth": 48,
+        "mania": 8
+      },
+      "negatives": {
+        "bladder": {
+          "score": 46,
+          "confidence": "D",
+          "note": "Class."
+        },
+        "confusion": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Empty, not confusing."
+        },
+        "residual": {
+          "score": 24,
+          "confidence": "C",
+          "note": "Short."
+        },
+        "aftereffects": {
+          "score": 24,
+          "confidence": "C",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": 10,
+          "confidence": "D",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 10,
+          "confidence": "D",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.4,
+      "one_liner": "Bromo ket. Empty squares, burning nose.",
+      "npc_line": "Skip unless the crate is a joke.",
+      "flags": [
+        "freakout"
+      ],
+      "route_myth": "IN is famously awful. Flag, not a how-to.",
+      "sources": [
+        "reddit_rykjtv",
+        "reddit_s04lur",
+        "product_families"
+      ],
+      "gaps": [
+        "One January 2022 wave. Thin."
+      ]
+    },
+    {
+      "id": "tiletamine",
+      "name": "tiletamine",
+      "full_name": "tiletamine",
+      "substitutive": "2-thienyl-2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-(thiophen-2-yl)cyclohexan-1-one",
+      "aliases": [
+        "polar bear ket"
+      ],
+      "kit": "K",
+      "sku_role": "filler",
+      "card_weight": "full",
+      "research_status": "moderately_documented",
+      "market": "street",
+      "feel": {
+        "headline": "Polar-bear ket. Vet shelf that overstays the welcome.",
+        "hole_vs_walk": "Instant rough smash. Not a cherished hole. Not a walk.",
+        "rush": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Instant. The hit is the whole product."
+        },
+        "euphoria": {
+          "score": 42,
+          "confidence": "C",
+          "note": "Numb bliss for some. Kinda crappy for the thread."
+        },
+        "enjoyment": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Split. Not the Friday bottle."
+        },
+        "compulsiveness": {
+          "score": 38,
+          "confidence": "C",
+          "note": "Short so they try. Pain stops them."
+        },
+        "reinforcement": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Mislabel chase, not a fanbase."
+        }
+      },
+      "scores": {
+        "rush": 78,
+        "euphoria": 44,
+        "enjoyment": 38,
+        "compulsiveness": 40,
+        "reinforcement": 32,
+        "dissociation_depth": 72,
+        "warmth": 28,
+        "mania": 24
+      },
+      "negatives": {
+        "bladder": {
+          "score": 48,
+          "confidence": "D",
+          "note": "Class."
+        },
+        "confusion": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Instant one-eye-warrior."
+        },
+        "residual": {
+          "score": 34,
+          "confidence": "C",
+          "note": "Pure is short. Telazol residual is the benzo."
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Nose wreck."
+        },
+        "sleep": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Smash then empty. Combo knocks out."
+        },
+        "paranoia": {
+          "score": 26,
+          "confidence": "C",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 36,
+          "confidence": "C",
+          "note": "freakout is the kit flag."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.55,
+      "one_liner": "Polar-bear ket. Vet shelf.",
+      "npc_line": "Skip unless the crate is a joke.",
+      "flags": [
+        "freakout",
+        "mislabel"
+      ],
+      "route_myth": "Burns. Flag, not a how-to.",
+      "sources": [
+        "bluelight_tiletamine",
+        "cahma_canket",
+        "product_families"
+      ],
+      "gaps": [
+        "Feel is contaminated by Telazol / Zoletil."
+      ]
+    },
+    {
+      "id": "2_tfmdck",
+      "name": "2-TFMDCK",
+      "full_name": "2-trifluoromethyldeschloroketamine",
+      "substitutive": "2-TFM-2-oxo-PCM",
+      "systematic": "2-(methylamino)-2-[2-(trifluoromethyl)phenyl]cyclohexan-1-one",
+      "aliases": [
+        "TFM-K",
+        "2-TFM-DCK"
+      ],
+      "kit": "K",
+      "sku_role": "dust",
+      "card_weight": "thin",
+      "research_status": "unverified_claim",
+      "market": "literature_only",
+      "feel": {
+        "headline": "Hype thread. Almost never a real bag.",
+        "hole_vs_walk": null,
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "reinforcement": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "negatives": {
+        "bladder": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "confusion": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "residual": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.15,
+      "one_liner": "Sold since ~2016. Genuine bags look rare.",
+      "npc_line": "Believe the sticker last.",
+      "flags": [],
+      "route_myth": "",
+      "sources": [
+        "bluelight_tfmdck"
+      ],
+      "gaps": [
+        "No confirmed trip-report pile."
+      ]
+    },
+    {
+      "id": "npnk",
+      "name": "NPNK",
+      "full_name": "N-propylnorketamine",
+      "substitutive": "2-Cl-2-oxo-PCPr",
+      "systematic": "2-(2-chlorophenyl)-2-(propylamino)cyclohexan-1-one",
+      "aliases": [
+        "propylketamine"
+      ],
+      "kit": "K",
+      "sku_role": "dust",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "headline": "INCB line, no chorus.",
+        "hole_vs_walk": null,
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "reinforcement": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "negatives": {
+        "bladder": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "confusion": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "residual": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.2,
+      "one_liner": "Propylketamine. Paper cousin of NENK.",
+      "npc_line": "Watch-list dust.",
+      "flags": [],
+      "route_myth": "",
+      "sources": [
+        "incb_ketamines"
+      ],
+      "gaps": [
+        "Do not clone NENK scores. Do not confuse with O-PCPr."
+      ]
+    },
+    {
+      "id": "2_fxpr",
+      "name": "2-FXPr",
+      "full_name": "2-fluoro-2-oxo-PCPr",
+      "substitutive": "2-F-2-oxo-PCPr",
+      "systematic": "2-(2-fluorophenyl)-2-(propylamino)cyclohexan-1-one",
+      "aliases": [
+        "2F-2oxo-PCPr",
+        "2-fluoro-N-propylnordeschloroketamine",
+        "2F-NPrNDCK"
+      ],
+      "kit": "K",
+      "sku_role": "dust",
+      "card_weight": "thin",
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "feel": {
+        "headline": "New sticker. N-propyl CanKet.",
+        "hole_vs_walk": null,
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "reinforcement": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "negatives": {
+        "bladder": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "confusion": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "residual": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.25,
+      "one_liner": "New sticker. N-propyl CanKet.",
+      "npc_line": "Later-wave Flask stamp if the wall needs a third fluoro.",
+      "flags": [],
+      "route_myth": "",
+      "sources": [
+        "cfsre_2f_oxo_pcpr",
+        "yeon_2025_2f_oxo_pcpr",
+        "incb_ketamines"
+      ],
+      "gaps": [
+        "Forensic IDs, zero honest reviews. Do not clone CanKet scores."
+      ]
+    },
+    {
+      "id": "2meo_nek",
+      "name": "2-MeO-NEK",
+      "full_name": "2-methoxy-N-ethylketamine",
+      "substitutive": "2-MeO-2-oxo-PCE",
+      "systematic": "2-(ethylamino)-2-(2-methoxyphenyl)cyclohexan-1-one",
+      "aliases": [
+        "2-methoxy-N-ethylketamine"
+      ],
+      "kit": "K",
+      "sku_role": "dust",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "headline": "Ortho-MeO N-ethyl. Not MXPr.",
+        "hole_vs_walk": null,
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "reinforcement": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "negatives": {
+        "bladder": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "confusion": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "residual": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.15,
+      "one_liner": "Easy to misfile as MXE-kit because of the MeO.",
+      "npc_line": "Watch-list dust.",
+      "flags": [],
+      "route_myth": "",
+      "sources": [
+        "incb_ketamines"
+      ],
+      "gaps": [
+        "Almost no human chatter."
+      ]
+    },
+    {
+      "id": "tilmetamine",
+      "name": "tilmetamine",
+      "full_name": "tilmetamine",
+      "substitutive": "2-thienyl-2-oxo-PCM",
+      "systematic": "2-(methylamino)-2-(thiophen-2-yl)cyclohexan-1-one",
+      "aliases": [
+        "N-methyl tiletamine"
+      ],
+      "kit": "K",
+      "sku_role": "dust",
+      "card_weight": "thin",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "feel": {
+        "headline": "Tiletamine with a shorter N.",
+        "hole_vs_walk": null,
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "scores": {
+        "rush": null,
+        "euphoria": null,
+        "enjoyment": null,
+        "compulsiveness": null,
+        "reinforcement": null,
+        "dissociation_depth": null,
+        "warmth": null,
+        "mania": null
+      },
+      "negatives": {
+        "bladder": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "confusion": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "residual": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "confidence": 0.15,
+      "one_liner": "INCB name. No recreational file.",
+      "npc_line": "Museum shelf.",
+      "flags": [],
+      "route_myth": "",
+      "sources": [
+        "incb_ketamines"
+      ],
+      "gaps": [
+        "tilprotamine is even thinner — name-check only, not a row."
+      ]
+    }
+  ],
+  "coverage": {
+    "full_cards": 10,
+    "thin_cards": 5,
+    "distinct_molecules": 15,
+    "searched": [
+      "r/dissociatives comparison threads (DCK vs 2F-DCK, FXE vs 2F, CanKet, ket vs 2F)",
+      "r/researchchemicals (FXE/2FDCK/DCK which-do-you-enjoy, 2-BDCK, HXE)",
+      "Bluelight Big & Dandy NENK, methoxyketamine, tiletamine, 2-TFMDCK, 2F-DCK",
+      "Erowid / PsychonautWiki ketamine, DCK, 2-FDCK, HXE, Fluorexetamine talk",
+      "CAHMA CanKet, CanTEST notes, DrugsData FXE revision, NDEWS 2-FXE/CanKet",
+      "WHO ECDD 2-FDCK critical review, Li et al. 2022 abuse potential",
+      "Wallach & Brandt 2018, Morris & Wallach 2014",
+      "CFSRE 2F-2oxo-PCPr, INCB ket-analog annex"
+    ],
+    "strength": "Ket / DCK / 2F-DCK triangulate paper plus huge forum. CanKet triangulates drug-checking plus NDEWS plus forum. Name collisions are the design risk.",
+    "weakness": "FXE-the-molecule is a ghost. Thin N-propyl / thiophene / CF3 names have forensic IDs and no feel. Urotoxicity beyond ketamine is class inference."
+  },
+  "gaps": [
+    "True 3-FXE still barely exists as a confirmed bag; most FXE lore is CanKet in a stolen jacket.",
+    "2-TFMDCK, NPNK, 2-MeO-NEK, 2-FXPr, tilmetamine: names without a chorus.",
+    "2F-DCK isomer batches are almost certainly dirt, not S/R boutique.",
+    "HXE warmth is split (PW cooler, users cozier).",
+    "Tiletamine feel is contaminated by Telazol.",
+    "Bladder ranking across 2F-DCK vs CanKet vs ket is anecdote and fear.",
+    "No enantiomer street split except clinical esketamine.",
+    "Later 2-halo / N-propyl stamps will keep arriving; do not auto-clone scores.",
+    "HXE dual-owned with Kit L — one mesh, two stickers."
+  ],
+  "one_liners": {
+    "ketamine": "Kitchen-door hole. Bump until the floor wins.",
+    "dck": "DCK is ket that stays for dinner.",
+    "2f_dck": "2F-DCK batch lottery.",
+    "nenk": "First-wave leftover. Can't hole, can disappoint.",
+    "2f_nendck": "Late Flask sticker.",
+    "fxe": "They said it was MXE. Labs said CanKet.",
+    "hxe": "Couch, not a hole.",
+    "2meo_ketamine": "Ket's methoxy cousin who never showed up.",
+    "2bdck": "Bromo ket. Empty squares, burning nose.",
+    "tiletamine": "Polar-bear ket. Vet shelf."
+  },
+  "sources": [
+    {
+      "id": "product_families",
+      "kind": "house",
+      "title": "wiki/product_families.md Kit K / disso feel cards",
+      "path": "wiki/product_families.md"
+    },
+    {
+      "id": "morgan_curran_2012",
+      "kind": "paper",
+      "title": "Ketamine use: a review (Morgan & Curran)",
+      "cite": "Addiction. 2012;107(1):27-38"
+    },
+    {
+      "id": "chu_2007_bladder",
+      "kind": "paper",
+      "title": "Street ketamine-associated bladder dysfunction",
+      "cite": "Hong Kong Med J. 2007;13(4):311-313"
+    },
+    {
+      "id": "morris_wallach_2014",
+      "kind": "paper",
+      "title": "From PCP to MXE: a comprehensive review of the non-medical use of dissociative drugs",
+      "cite": "Drug Test Anal. 2014;6(7-8):614-632"
+    },
+    {
+      "id": "wallach_brandt_2018",
+      "kind": "paper",
+      "title": "1,2-Diarylethylamine- and Ketamine-Based New Psychoactive Substances",
+      "url": "https://doi.org/10.1007/164_2018_148"
+    },
+    {
+      "id": "who_2fdck",
+      "kind": "paper",
+      "title": "WHO ECDD critical review: 2-Fluorodeschloroketamine",
+      "url": "https://cdn.who.int/media/docs/default-source/46th-ecdd/2-fdck_46th-ecdd-critical-review_public-version.pdf"
+    },
+    {
+      "id": "li_2022_2fdck",
+      "kind": "paper",
+      "title": "2-Fluorodeschloroketamine has similar abuse potential as ketamine",
+      "url": "https://doi.org/10.1111/adb.13171"
+    },
+    {
+      "id": "frison_2016",
+      "kind": "paper",
+      "title": "Characterization of the designer drug deschloroketamine",
+      "cite": "Rapid Commun Mass Spectrom. 2016;30(1):151-160"
+    },
+    {
+      "id": "yeon_2025_2f_oxo_pcpr",
+      "kind": "paper",
+      "title": "Structural identification of 2-fluoro-2-oxo-PCPr",
+      "url": "https://doi.org/10.1016/j.forsciint.2025.112716"
+    },
+    {
+      "id": "cfsre_2f_oxo_pcpr",
+      "kind": "monograph",
+      "title": "CFSRE NPS Discovery: 2F-2oxo-PCPr",
+      "url": "https://www.cfsre.org/images/monographs/2F-2oxo-PCPr-New-Drug-Monograph-NPS-Discovery.pdf"
+    },
+    {
+      "id": "incb_ketamines",
+      "kind": "list",
+      "title": "INCB GRIDS annex: Ketamines with no known legitimate uses",
+      "url": "https://www.incb.org/incb/uploads/documents/Global_Projects_OPIOIDS/INCB.GRIDS.OPIOIDS.Ketamines_list.pdf"
+    },
+    {
+      "id": "cahma_canket",
+      "kind": "harm_reduction",
+      "title": "CAHMA Safer Using — 2F-NENDCK (CanKet)",
+      "url": "https://www.cahma.org.au/article/safer-using-canket/"
+    },
+    {
+      "id": "ndews_canket",
+      "kind": "alert",
+      "title": "NDEWS Web Monitoring: 2-FXE / CanKet",
+      "url": "https://ndews.org/wordpress/files/2024/11/7.5.24_2-FXECanKet_PDF.pdf"
+    },
+    {
+      "id": "drugsdata_fxe_revision",
+      "kind": "lab",
+      "title": "DrugsData FXE / 2F-NENDCK revision",
+      "url": "https://drugsdata.org/view.php?id=11706"
+    },
+    {
+      "id": "vice_canket",
+      "kind": "news",
+      "title": "VICE: scientists discover imitation ketamine",
+      "url": "https://www.vice.com/en/article/5d3jp5/scientists-discover-imitation-ketamine-on-the-market"
+    },
+    {
+      "id": "erowid_ketamine",
+      "kind": "vault",
+      "title": "Erowid Ketamine Vault",
+      "url": "https://www.erowid.org/chemicals/ketamine/"
+    },
+    {
+      "id": "pw_ketamine",
+      "kind": "wiki",
+      "title": "PsychonautWiki Ketamine",
+      "url": "https://psychonautwiki.org/wiki/Ketamine"
+    },
+    {
+      "id": "pw_dck",
+      "kind": "wiki",
+      "title": "PsychonautWiki Deschloroketamine",
+      "url": "https://psychonautwiki.org/wiki/Deschloroketamine"
+    },
+    {
+      "id": "pw_2fdck",
+      "kind": "wiki",
+      "title": "PsychonautWiki 2-Fluorodeschloroketamine",
+      "url": "https://psychonautwiki.org/wiki/2-Fluorodeschloroketamine"
+    },
+    {
+      "id": "pw_hxe",
+      "kind": "wiki",
+      "title": "PsychonautWiki HXE",
+      "url": "https://psychonautwiki.org/wiki/HXE"
+    },
+    {
+      "id": "pw_talk_fxe",
+      "kind": "wiki",
+      "title": "PsychonautWiki Talk:Fluorexetamine",
+      "url": "https://psychonautwiki.org/wiki/Talk:Fluorexetamine"
+    },
+    {
+      "id": "bluelight_nenk",
+      "kind": "thread",
+      "title": "The Big & Dandy N-Ethyl-Norketamine Thread",
+      "url": "https://www.bluelight.org/community/threads/the-big-dandy-n-ethyl-norketamine-thread.635994/"
+    },
+    {
+      "id": "bluelight_nenk_disappointing",
+      "kind": "thread",
+      "title": "Why 2-methoxydeschloroketamine & ethylnorketamine were disappointing",
+      "url": "https://www.bluelight.org/community/threads/why-2-methoxydeschloroketamine-ethylnorketamine-were-disappointing.718879/"
+    },
+    {
+      "id": "bluelight_methoxyketamine",
+      "kind": "thread",
+      "title": "The Big & Dandy Methoxyketamine Thread",
+      "url": "https://www.bluelight.org/community/threads/the-big-dandy-methoxyketamine-thread.594944/"
+    },
+    {
+      "id": "bluelight_tiletamine",
+      "kind": "thread",
+      "title": "The Big & Dandy Tiletamine Thread",
+      "url": "https://www.bluelight.org/community/threads/the-big-dandy-tiletamine-thread.60479/"
+    },
+    {
+      "id": "bluelight_tfmdck",
+      "kind": "thread",
+      "title": "The Small & Handy 2-TFMDCK (TFM-K) Thread",
+      "url": "https://www.bluelight.org/community/threads/the-small-handy-2-trifluoromethyldeschloroketamine-2-tfmdck-tfm-k-thread.792223/"
+    },
+    {
+      "id": "reddit_iz41zx",
+      "kind": "thread",
+      "title": "DCK vs 2FDCK",
+      "url": "https://www.reddit.com/r/dissociatives/comments/iz41zx/dck_vs_2fdck/"
+    },
+    {
+      "id": "reddit_lrb85k",
+      "kind": "thread",
+      "title": "Differences between 2FDCK and DCK?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/lrb85k/differences_between_2fdck_and_dck/"
+    },
+    {
+      "id": "reddit_haf32p",
+      "kind": "thread",
+      "title": "Difference between 2fdck and dck",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/haf32p/difference_between_2fdck_and_dck_i_only_tried/"
+    },
+    {
+      "id": "reddit_1kwludp",
+      "kind": "thread",
+      "title": "Ket vs 2FDCK — a detailed comparison?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/1kwludp/ket_vs_2fdck_a_detailed_comparison/"
+    },
+    {
+      "id": "reddit_wo85cz",
+      "kind": "thread",
+      "title": "FXE, 2FDCK, or DCK? Which do you guys enjoy most?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/wo85cz/fxe_2fdck_or_dck_which_do_you_guys_enjoy_most/"
+    },
+    {
+      "id": "reddit_wj441o",
+      "kind": "thread",
+      "title": "Fxe vs 2f-dck?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/wj441o/fxe_vs_2fdck/"
+    },
+    {
+      "id": "reddit_15ewn12",
+      "kind": "thread",
+      "title": "Dissociatives comparison: ket isomers, FXE, DMXE, DCK, HXE, O-PCE, 3-HO-PCP",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/15ewn12/dissociatives_comparison_ketamine_isomers_fxe/"
+    },
+    {
+      "id": "reddit_18e2h8d",
+      "kind": "thread",
+      "title": "Anyone tried canket?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/18e2h8d/anyone_tried_canket/"
+    },
+    {
+      "id": "reddit_e91n0d",
+      "kind": "thread",
+      "title": "2f-dck quality makes all the difference",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/e91n0d/2fdck_quality_makes_all_the_difference/"
+    },
+    {
+      "id": "reddit_1dlgu8z",
+      "kind": "thread",
+      "title": "2F-DCK ain't what it used to be",
+      "url": "https://www.reddit.com/r/dissociatives/comments/1dlgu8z/2fdck_aint_what_it_used_to_be2fdck_warning/"
+    },
+    {
+      "id": "reddit_14a73tg",
+      "kind": "thread",
+      "title": "Does 2fdck cause bladder problems like ketamine?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/14a73tg/does_2fdck_cause_bladder_problems_like_ketamine/"
+    },
+    {
+      "id": "reddit_524g3x",
+      "kind": "thread",
+      "title": "Does DCK give anyone else a MASSIVE hangover?",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/524g3x/does_deschloroketamine_dck_give_anyone_else_a/"
+    },
+    {
+      "id": "reddit_1ettplh",
+      "kind": "thread",
+      "title": "How is DCK lingering effects day after?",
+      "url": "https://www.reddit.com/r/dissociatives/comments/1ettplh/how_is_dck_lingering_effects_day_after_after/"
+    },
+    {
+      "id": "reddit_rykjtv",
+      "kind": "thread",
+      "title": "2-BDCK, 2-Br-DCK, Bromoketamine finally made it",
+      "url": "https://www.reddit.com/r/ChemResearch/comments/rykjtv/2bdck_2brdck_bromoketamine_finally_made_it/"
+    },
+    {
+      "id": "reddit_s04lur",
+      "kind": "thread",
+      "title": "2BDCK write up",
+      "url": "https://www.reddit.com/r/dissociatives/comments/s04lur/2bdck_write_up/"
+    },
+    {
+      "id": "reddit_mfowg6",
+      "kind": "thread",
+      "title": "Some insight on effects and duration of HXE",
+      "url": "https://www.reddit.com/r/researchchemicals/comments/mfowg6/some_insight_on_effects_and_duration_of_hxe/"
+    },
+    {
+      "id": "reddit_jzolvd",
+      "kind": "thread",
+      "title": "Hydroxetamine aka HXE aka 3-HO-2-oxo-PCE",
+      "url": "https://www.reddit.com/r/dissociatives/comments/jzolvd/hydroxetamine_aka_hxe_aka_3ho2oxopce/"
+    }
+  ]
+}

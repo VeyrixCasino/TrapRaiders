@@ -1,0 +1,2883 @@
+{
+  "assignment": 24,
+  "id": "lysergamides",
+  "title": "Lysergamides",
+  "family": "lysergamide",
+  "mesh": "blotter",
+  "disclaimer": "Game catalog. No recipes. No doses. No how-to. Unitless 0-100 inferences from public reports. Unknown is null, never 0. Pleasure and compulsiveness are independent.",
+  "rules": [
+    "no_recipes",
+    "no_doses",
+    "unknown_is_null",
+    "enjoyment_euphoria_first",
+    "rush_usually_none",
+    "compulsiveness_low",
+    "prodrug_is_not_unique_feel"
+  ],
+  "score_range": "0-100 or null",
+  "lead_axes": [
+    "enjoyment",
+    "euphoria",
+    "rush",
+    "compulsiveness"
+  ],
+  "nomenclature_merges": [
+    {
+      "id": "lsd",
+      "same": [
+        "LSD-25",
+        "lysergide",
+        "acid",
+        "tabs",
+        "sunshine",
+        "Orange Sunshine"
+      ],
+      "not": [
+        "NBOMe",
+        "1P-LSD as a different trip",
+        "ALD-52 as Orange Sunshine"
+      ]
+    },
+    {
+      "id": "ald-52",
+      "same": [
+        "1A-LSD",
+        "1-acetyl-LSD"
+      ],
+      "not": [
+        "Orange Sunshine"
+      ]
+    },
+    {
+      "id": "1p-lsd",
+      "same": [
+        "1-propionyl-LSD",
+        "1-propanoyl-LSD"
+      ],
+      "not": [
+        "1P-ETH-LAD",
+        "1B-LSD"
+      ]
+    },
+    {
+      "id": "1cp-lsd",
+      "same": [
+        "1CP-LSD",
+        "1-cyclopropanoyl-LSD"
+      ],
+      "not": [
+        "1cP-AL-LAD",
+        "1cP-MIPLA"
+      ]
+    },
+    {
+      "id": "1v-lsd",
+      "same": [
+        "Valerie",
+        "1-valeryl-LSD",
+        "1-pentanoyl-LSD"
+      ],
+      "not": []
+    },
+    {
+      "id": "al-lad",
+      "same": [
+        "ALLY-LAD",
+        "6-allyl-6-nor-LSD",
+        "ALLAD"
+      ],
+      "not": [
+        "1cP-AL-LAD as a third flavor"
+      ]
+    },
+    {
+      "id": "eth-lad",
+      "same": [
+        "6-ethyl-6-nor-LSD"
+      ],
+      "not": [
+        "1P-ETH-LAD as a third flavor"
+      ]
+    }
+  ],
+  "alias_validations": [
+    {
+      "label": "Orange Sunshine",
+      "resolves_to": "lsd",
+      "is_separate_agent": false,
+      "confidence": "A",
+      "note": "1973 defense claimed ALD-52. Sample tested LSD. Sand/Scully later said they never made ALD-52. Branding, not a molecule."
+    },
+    {
+      "label": "1A-LSD",
+      "resolves_to": "ald-52",
+      "is_separate_agent": false,
+      "confidence": "A",
+      "note": "Same compound as ALD-52."
+    },
+    {
+      "label": "Valerie",
+      "resolves_to": "1v-lsd",
+      "is_separate_agent": false,
+      "confidence": "A",
+      "note": "Street name for 1V-LSD."
+    },
+    {
+      "label": "1D-LSD bags",
+      "resolves_to": "1t-lsd",
+      "is_separate_agent": false,
+      "confidence": "B",
+      "note": "Japanese sheet labeled 1D was 1T on the instrument. Identity of a random 1D bag is uncertain."
+    }
+  ],
+  "prodrug_map": {
+    "confirmed_prodrug_of_lsd": [
+      "1p-lsd"
+    ],
+    "likely_prodrug_of_lsd": [
+      "ald-52",
+      "1cp-lsd",
+      "1b-lsd",
+      "1v-lsd",
+      "1t-lsd",
+      "1s-lsd",
+      "1d-lsd"
+    ],
+    "likely_prodrug_of_other": {
+      "1p-eth-lad": "eth-lad",
+      "1p-al-lad": "al-lad",
+      "1cp-al-lad": "al-lad",
+      "1cp-mipla": "mipla"
+    },
+    "distinct_active": [
+      "lsd",
+      "al-lad",
+      "eth-lad",
+      "pro-lad",
+      "lsz",
+      "mipla",
+      "lsm-775",
+      "lsa",
+      "mld-41"
+    ],
+    "not_lsd_prodrugs": [
+      "mld-41",
+      "al-lad",
+      "eth-lad",
+      "pro-lad",
+      "lsz",
+      "mipla",
+      "lsm-775",
+      "lsa",
+      "lae-32",
+      "bol-148"
+    ]
+  },
+  "count": 29,
+  "full_cards": 16,
+  "thin_or_null": 13,
+  "alias_only": 1,
+  "punchiest_one_liners": [
+    "The night that teaches you what a night is.",
+    "1P is the RC door. Same movie, legal envelope.",
+    "Acid that forgot to be sinister.",
+    "Same blotter. Different head. The visuals brought a lawyer.",
+    "Picnic acid. Not the sermon.",
+    "They sold a morpholine and called it acid. It was not.",
+    "Orange Sunshine was a lawyer story.",
+    "You did not buy 1P. You bought ETH wearing a P."
+  ],
+  "street_rack": [
+    "lsd",
+    "1p-lsd",
+    "1cp-lsd",
+    "1v-lsd",
+    "al-lad",
+    "eth-lad"
+  ],
+  "dusty_shelf": [
+    "pro-lad",
+    "lsz",
+    "lsm-775",
+    "mipla",
+    "ald-52"
+  ],
+  "clone_rack": [
+    "1p-lsd",
+    "ald-52",
+    "1cp-lsd",
+    "1b-lsd",
+    "1v-lsd",
+    "1d-lsd",
+    "1t-lsd",
+    "1s-lsd"
+  ],
+  "actually_different": [
+    "al-lad",
+    "eth-lad",
+    "pro-lad",
+    "lsz",
+    "mipla",
+    "lsm-775",
+    "lsa"
+  ],
+  "gaps": [
+    "No licensed human head-to-head of LSD vs 1P vs AL-LAD vs ETH-LAD with confirmed paper.",
+    "AL-LAD shorter vs Coney 2017 same-clock-as-a-group is unresolved. Do not invent hours.",
+    "1cP vs 1P hydrolysis speed in people is not a published number.",
+    "1D / 1T / 1S unique feel is unevidenced; 1D bags may be 1T.",
+    "1cP-AL-LAD / 1cP-MIPLA deacylation is expected, not proven in the forensic note.",
+    "PRO-LAD modern supply is contaminated by scam listings.",
+    "Dirty isomer blotters (iso-1P, cis-LSZ) confuse 'this analogue feels dirty.'",
+    "NBOMe-as-acid deaths will be blamed on LSD in NPC talk. Different kit.",
+    "Seed LSA reports are never pure ergine.",
+    "Later silicon / phosphoryl / ferrocene stickers: names on charts; no SKU without a seizure or a paper.",
+    "Blinded 1P / ALD-52 vs LSD still missing. Smoother come-up stays rumor."
+  ],
+  "substances": [
+    {
+      "id": "lsd",
+      "name": "LSD",
+      "aliases": [
+        "LSD-25",
+        "lysergide",
+        "acid",
+        "tabs",
+        "sunshine"
+      ],
+      "family": "lysergamide",
+      "subclass": "parent_diethylamide",
+      "research_status": "well_documented",
+      "market": "street",
+      "status_vs_lsd": "parent",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "The night that teaches you what a night is.",
+        "rush": {
+          "score": 6,
+          "confidence": "A",
+          "note": "None. A slow door. Come-up energy is not a rush."
+        },
+        "euphoria": {
+          "score": 72,
+          "confidence": "A",
+          "note": "Wonder, music, the grin. Not a roll. Not MDMA."
+        },
+        "enjoyment": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Gold-standard blotter. The want is the experience, not a binge."
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "A",
+          "note": "Low. Instant tolerance kills the encore. Fail-state is 'tab was weak.'"
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "B",
+          "note": "People chase the first time. Not a fiend loop."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 42,
+          "confidence": "A",
+          "note": "Anxiety and a heavy head if the room is wrong."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "A",
+          "note": "Next day can be flat or holy. Sleep is gone until it is over."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "B",
+          "note": "Real fail-state for the wrong brain, not the typical receipt."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Mild tightness, not a stim heart story."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "A",
+          "note": "The night is the whole night."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "The night that teaches you what a night is.",
+      "flags": [
+        "mislabel"
+      ],
+      "notes": "Deadly blotter story on this island is NBOMe sold as acid — different kit, same paper.",
+      "sources": [
+        {
+          "title": "Hofmann history / modern 5-HT2A clinical work",
+          "url": "",
+          "type": "paper",
+          "year": null
+        },
+        {
+          "title": "Coney et al. Genie in a blotter (GDS 2016)",
+          "url": "",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "Street tabs are a lottery (underdosed, leftover 1P, NBOMe)."
+      ]
+    },
+    {
+      "id": "1p-lsd",
+      "name": "1P-LSD",
+      "aliases": [
+        "1-propionyl-LSD",
+        "1-propanoyl-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "confirmed_prodrug_of_lsd",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "1P is the RC door. Same movie, legal envelope.",
+        "rush": {
+          "score": 6,
+          "confidence": "A",
+          "note": "None. Same door as LSD."
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "A",
+          "note": "LSD's mood. Smoother/slower open is hydrolysis gossip. Blind tests mostly fail."
+        },
+        "enjoyment": {
+          "score": 86,
+          "confidence": "A",
+          "note": "How the RC generation met acid. The trip is the metabolite."
+        },
+        "compulsiveness": {
+          "score": 14,
+          "confidence": "A",
+          "note": "Low. Same maybe-the-tab-is-weak mistake."
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "B",
+          "note": "Clone of LSD reinforcement."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "A",
+          "note": "Same bill as LSD."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "A",
+          "note": "Same as LSD."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "B",
+          "note": "Same as LSD."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Same as LSD."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Same as LSD."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "1P is the RC door. Same movie, legal envelope.",
+      "flags": [
+        "mislabel",
+        "prodrug_lsd"
+      ],
+      "notes": "Human oral/IV: parent gone, LSD remains. Weak 5-HT2A as the intact acyl. Dirty clone blotters are a quality roll, not a new feel.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return of the lysergamides Part I",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4829483/",
+          "type": "paper",
+          "year": 2016
+        },
+        {
+          "title": "Halberstadt et al. 1-acyl LSD prodrug paper",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191647/",
+          "type": "paper",
+          "year": 2020
+        },
+        {
+          "title": "Grumann et al. 1P-LSD human PK / intoxication",
+          "url": "",
+          "type": "paper",
+          "year": 2020
+        }
+      ],
+      "gaps": [
+        "No licensed human head-to-head vs LSD. Smoother come-up stays rumor."
+      ]
+    },
+    {
+      "id": "ald-52",
+      "name": "ALD-52",
+      "aliases": [
+        "1-acetyl-LSD",
+        "1A-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "well_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_lsd",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "Orange Sunshine was a lawyer story. The 2016 bottle is just LSD with a sticker.",
+        "rush": {
+          "score": 6,
+          "confidence": "B",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 76,
+          "confidence": "B",
+          "note": "Old trials: LSD-like. Modern pharmacology: prodrug. If the acyl falls off, it is LSD."
+        },
+        "enjoyment": {
+          "score": 88,
+          "confidence": "B",
+          "note": "Clone enjoyment. Historical romance is the name, not the molecule."
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "B",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "C",
+          "note": "Clone."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 38,
+          "confidence": "B",
+          "note": "Same as LSD. Extra bill is the myth."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": "Same as LSD."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Same family."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Same family."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Same as LSD."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "Orange Sunshine was a lawyer story. The 2016 bottle is just LSD with a sticker.",
+      "flags": [
+        "rumor",
+        "mislabel",
+        "prodrug_lsd"
+      ],
+      "notes": "First confirmed illicit detection is modern (~2016). Orange Sunshine was LSD branding, not this molecule.",
+      "sources": [
+        {
+          "title": "Halberstadt 1-acyl paper (rat plasma LSD)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191647/",
+          "type": "paper",
+          "year": 2020
+        },
+        {
+          "title": "Erowid / Scully 2017 Orange Sunshine defense",
+          "url": "",
+          "type": "forum",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "No modern controlled human PK. Old more-body-image claim never rebuilt."
+      ]
+    },
+    {
+      "id": "1cp-lsd",
+      "name": "1cP-LSD",
+      "aliases": [
+        "1CP-LSD",
+        "1-cyclopropanoyl-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_lsd",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "They banned the P. They did not ban the night.",
+        "rush": {
+          "score": 6,
+          "confidence": "B",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Clone. Serum makes LSD; slower than 1P in the dish. Street: same blotter."
+        },
+        "enjoyment": {
+          "score": 88,
+          "confidence": "B",
+          "note": "2019 German-door replacement."
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "B",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "C",
+          "note": "Clone."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Same as LSD."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "B",
+          "note": "Same as LSD."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "C",
+          "note": "Same family."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Same family."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "B",
+          "note": "Same as LSD."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "They banned the P. They did not ban the night.",
+      "flags": [
+        "prodrug_lsd"
+      ],
+      "notes": "People chasing a new trip on this sticker will be bored.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part VI (1CP-LSD)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191646/",
+          "type": "paper",
+          "year": 2020
+        }
+      ],
+      "gaps": [
+        "Human conversion speed vs 1P is not a published clock."
+      ]
+    },
+    {
+      "id": "1b-lsd",
+      "name": "1B-LSD",
+      "aliases": [
+        "1-butanoyl-LSD",
+        "1-butyryl-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_lsd",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "They added a carbon instead of a feeling.",
+        "rush": {
+          "score": 6,
+          "confidence": "C",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 74,
+          "confidence": "C",
+          "note": "Inferred clone. Hydrolyzes to LSD in vitro. Mouse HTR LSD-shaped, weaker molar."
+        },
+        "enjoyment": {
+          "score": 82,
+          "confidence": "C",
+          "note": "Brief 2018 wave, then the next stamp."
+        },
+        "compulsiveness": {
+          "score": 14,
+          "confidence": "C",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "D",
+          "note": "Clone, thinner literature."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Same family. Distinct dialect almost absent."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Inferred clone."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "D",
+          "note": "Family inference."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Family inference."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "C",
+          "note": "Inferred clone."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "They added a carbon instead of a feeling.",
+      "flags": [
+        "prodrug_lsd"
+      ],
+      "notes": "If someone swears 1B feels different, treat as batch / set / setting until a paper says otherwise.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part V",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6899222/",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "Halberstadt 1-acyl paper",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191647/",
+          "type": "paper",
+          "year": 2020
+        }
+      ],
+      "gaps": [
+        "Almost no distinct trip-report dialect."
+      ]
+    },
+    {
+      "id": "1v-lsd",
+      "name": "1V-LSD",
+      "aliases": [
+        "Valerie",
+        "1-valeryl-LSD",
+        "1-pentanoyl-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_lsd",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "Valerie. Pretty name. Same sermon.",
+        "rush": {
+          "score": 6,
+          "confidence": "C",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 74,
+          "confidence": "C",
+          "note": "Believed prodrug. HTR in the 1-acyl cluster."
+        },
+        "enjoyment": {
+          "score": 84,
+          "confidence": "C",
+          "note": "Bought because it was the legal blotter, not a new head."
+        },
+        "compulsiveness": {
+          "score": 14,
+          "confidence": "C",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "D",
+          "note": "Clone."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Clone bill."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Clone bill."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "D",
+          "note": "Family inference."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Family inference."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "C",
+          "note": "Clone bill."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "Valerie. Pretty name. Same sermon.",
+      "flags": [
+        "prodrug_lsd"
+      ],
+      "notes": "2021 German door after 1cP heat. Tanaka 2023 saw it on Japanese sheets.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part VII (1V-LSD)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9191648/",
+          "type": "paper",
+          "year": 2022
+        },
+        {
+          "title": "Tanaka et al. sheet products",
+          "url": "",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Human PK unconfirmed. Unique feel not evidenced."
+      ]
+    },
+    {
+      "id": "1d-lsd",
+      "name": "1D-LSD",
+      "aliases": [
+        "1-(1,2-dimethylcyclobutane-carbonyl)-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "status_vs_lsd": "unverified_molecule",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "New stamp. Old movie. Read the lab, not the art.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "No reason to invent a rush."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "No unique feel evidenced. Class inference only."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": "People bought a legal square."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "New stamp. Old movie. Read the lab, not the art.",
+      "flags": [
+        "mislabel"
+      ],
+      "notes": "German NpSG cat-and-mouse sticker. A Japanese sheet labeled 1D was 1T. Do not score a new psychedelic.",
+      "sources": [
+        {
+          "title": "Tanaka / NIHS 1T-LSD in blotters labeled 1D-LSD",
+          "url": "",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "No human feel literature. Identity of a random 1D bag is uncertain."
+      ]
+    },
+    {
+      "id": "1t-lsd",
+      "name": "1T-LSD",
+      "aliases": [
+        "1-(thiophene-2-carbonyl)-LSD",
+        "1-thienoyl-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_lsd",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "The thiophene that showed up when 1D was the name on the bag.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "No unique feel. Deacylates toward LSD in methanol during NMR."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": "Class-inferred clone only."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "New stamp. Old movie. Read the lab, not the art.",
+      "flags": [
+        "mislabel",
+        "prodrug_lsd"
+      ],
+      "notes": "Forensically real. Feel reports contaminated by the 1D mislabel. Fluorescence looks wrong vs other lysergamides.",
+      "sources": [
+        {
+          "title": "Characterization of 1T-LSD from a blotter product",
+          "url": "https://doi.org/10.1002/dta.3565",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "No HTR, no human PK, no blinded feel."
+      ]
+    },
+    {
+      "id": "1s-lsd",
+      "name": "1S-LSD",
+      "aliases": [
+        "1-(3-(trimethylsilyl)propionyl)-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_lsd",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_lsd",
+      "prodrug_of": "lsd",
+      "feel": {
+        "headline": "They put silicon on the sticker. They did not put silicon in the dream.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Silicon is paperwork, not a new headspace."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "They put silicon on the sticker. They did not put silicon in the dream.",
+      "flags": [
+        "prodrug_lsd"
+      ],
+      "notes": "German successor after 1D/1T heat. Microsomes form LSD early. No peer-reviewed feel study.",
+      "sources": [
+        {
+          "title": "Azuma et al. in vitro metabolic fate of 1S-LSD",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40730742/",
+          "type": "paper",
+          "year": 2025
+        },
+        {
+          "title": "Tanaka et al. 1S-LSD in sheet products",
+          "url": "",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "No Halberstadt-style feel paper. Scores stay null."
+      ]
+    },
+    {
+      "id": "al-lad",
+      "name": "AL-LAD",
+      "aliases": [
+        "ALLY-LAD",
+        "6-allyl-6-nor-LSD",
+        "ALLAD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n6_nor_lad",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "Acid that forgot to be sinister.",
+        "rush": {
+          "score": 8,
+          "confidence": "B",
+          "note": "Still not a rush. Shulgin's people felt it fast sometimes. Fast is not a slam."
+        },
+        "euphoria": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Warmer, softer, more candy than LSD. Less mindfuck, more visual."
+        },
+        "enjoyment": {
+          "score": 86,
+          "confidence": "B",
+          "note": "The analogue people actually ask for. N6-allyl. Not a prodrug."
+        },
+        "compulsiveness": {
+          "score": 12,
+          "confidence": "B",
+          "note": "Low. Shorter-feeling nights in rumor make it less of a trap."
+        },
+        "reinforcement": {
+          "score": 16,
+          "confidence": "C",
+          "note": "Want a second bottle. Not a binge."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Friendlier than LSD. Bad rooms still happen."
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Shorter rumor vs Coney 2017 same-clock. Unresolved."
+        },
+        "psychosis_concern": {
+          "score": 22,
+          "confidence": "C",
+          "note": "Still a full psychedelic."
+        },
+        "cardiovascular": {
+          "score": 18,
+          "confidence": "C",
+          "note": "Mild family tightness."
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Shorter-feeling nights in rumor."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "Acid that forgot to be sinister.",
+      "flags": [],
+      "notes": "Hoffman & Nichols 1985: full LSD substitution. Brandt Part II HTR. Dirty 1cP-AL-LAD copies later poisoned the well.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part II (AL-LAD and LSZ)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5411264/",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "TiHKAL qualitative AL-LAD comments",
+          "url": "",
+          "type": "book",
+          "year": 1997
+        },
+        {
+          "title": "Coney et al. 2017 GDS analogue survey",
+          "url": "",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "No modern controlled human vs LSD. Duration split unresolved."
+      ]
+    },
+    {
+      "id": "eth-lad",
+      "name": "ETH-LAD",
+      "aliases": [
+        "6-ethyl-6-nor-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n6_nor_lad",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "Same blotter. Different head. The visuals brought a lawyer.",
+        "rush": {
+          "score": 8,
+          "confidence": "B",
+          "note": "None as a family. Potency gossip is not a rush."
+        },
+        "euphoria": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Real, but pushier. Some cleaner/more visual; some body-heavy and nauseous."
+        },
+        "enjoyment": {
+          "score": 82,
+          "confidence": "B",
+          "note": "The analogue RC threads argue about. Not a clone. Polarizing."
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "B",
+          "note": "Low. People do not binge it. They remember it."
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "C",
+          "note": "Respect, not a fiend."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Heavier head than AL-LAD."
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Still long-ish. Do not invent a clock."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Pushier than AL-LAD."
+        },
+        "cardiovascular": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Body/gut slice of reports."
+        },
+        "sleep": {
+          "score": 66,
+          "confidence": "C",
+          "note": "Shulgin listed it near LSD-length."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "Same blotter. Different head. The visuals brought a lawyer.",
+      "flags": [],
+      "notes": "Nichols rats: among the most potent N6. Human rumor follows. Split reviews never sorted by a lab.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part III (ETH-LAD / 1P-ETH-LAD)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6230477/",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "TiHKAL qualitative ETH-LAD comments",
+          "url": "",
+          "type": "book",
+          "year": 1997
+        }
+      ],
+      "gaps": [
+        "Beautiful vs body-load split never sorted by a lab."
+      ]
+    },
+    {
+      "id": "pro-lad",
+      "name": "PRO-LAD",
+      "aliases": [
+        "6-propyl-6-nor-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n6_nor_lad",
+      "research_status": "limited_evidence",
+      "market": "uncertain",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "Picnic acid. Not the sermon.",
+        "rush": {
+          "score": 6,
+          "confidence": "C",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 66,
+          "confidence": "C",
+          "note": "Shulgin: not the flavor of LSD. Humor, clear thinking, music-locked visuals."
+        },
+        "enjoyment": {
+          "score": 74,
+          "confidence": "C",
+          "note": "Actually different, thinner magic. Rare bag. Later listings are scammer-bait."
+        },
+        "compulsiveness": {
+          "score": 12,
+          "confidence": "C",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 12,
+          "confidence": "D",
+          "note": "Nobody hunts a picnic."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 34,
+          "confidence": "C",
+          "note": "One Shulgin note: paranoia / dull affect at mid."
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Shulgin listed shorter than LSD."
+        },
+        "psychosis_concern": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Thinner magic."
+        },
+        "cardiovascular": {
+          "score": 18,
+          "confidence": "D",
+          "note": "Thin."
+        },
+        "sleep": {
+          "score": 48,
+          "confidence": "D",
+          "note": "Shorter rumor."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "Picnic acid. Not the sermon.",
+      "flags": [
+        "mislabel"
+      ],
+      "notes": "Treat a random PRO-LAD vendor as mislabel until a lab says otherwise. Do not build a v1 headliner on this name.",
+      "sources": [
+        {
+          "title": "TiHKAL #51 qualitative comments",
+          "url": "",
+          "type": "book",
+          "year": 1997
+        },
+        {
+          "title": "Hoffman & Nichols 1985 N6-alkyl nor-LSD",
+          "url": "",
+          "type": "paper",
+          "year": 1985
+        }
+      ],
+      "gaps": [
+        "Almost no confirmed modern bags."
+      ]
+    },
+    {
+      "id": "lsz",
+      "name": "LSZ",
+      "aliases": [
+        "LA-SS-Az",
+        "lysergic acid 2,4-dimethylazetidide"
+      ],
+      "family": "lysergamide",
+      "subclass": "amide_locked",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "LSD that drew graph paper on the wall.",
+        "rush": {
+          "score": 6,
+          "confidence": "C",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 68,
+          "confidence": "C",
+          "note": "LSD-like, less candy than AL-LAD. Geometric visuals."
+        },
+        "enjoyment": {
+          "score": 76,
+          "confidence": "C",
+          "note": "First-wave RC blotter with AL-LAD, then it faded. Active amide stamp, not a 1-acyl."
+        },
+        "compulsiveness": {
+          "score": 14,
+          "confidence": "C",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 16,
+          "confidence": "D",
+          "note": "Faded for a reason."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 36,
+          "confidence": "C",
+          "note": "A bit more body / nausea than clean LSD."
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "C",
+          "note": "Shorter rumor than LSD."
+        },
+        "psychosis_concern": {
+          "score": 32,
+          "confidence": "D",
+          "note": "LSD-shaped."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Family tightness plus body load."
+        },
+        "sleep": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Shorter rumor."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "LSD that drew graph paper on the wall.",
+      "flags": [
+        "mislabel"
+      ],
+      "notes": "Dirty isomer mixes (cis / iso) in cheap sheets — stomach story, not a new molecule.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part II",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5411264/",
+          "type": "paper",
+          "year": 2017
+        },
+        {
+          "title": "Nichols et al. 2002 LSZ",
+          "url": "",
+          "type": "paper",
+          "year": 2002
+        },
+        {
+          "title": "Tanaka 2023 Japanese sheets",
+          "url": "",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Human potency vs LSD is forum weather plus mouse numbers."
+      ]
+    },
+    {
+      "id": "1p-eth-lad",
+      "name": "1P-ETH-LAD",
+      "aliases": [
+        "1-propionyl-ETH-LAD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_analogue",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_other",
+      "prodrug_of": "eth-lad",
+      "feel": {
+        "headline": "You did not buy 1P. You bought ETH wearing a P.",
+        "rush": {
+          "score": 8,
+          "confidence": "C",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 74,
+          "confidence": "C",
+          "note": "Copy ETH-LAD, not 1P-LSD. Hydrolysis goes to ETH-LAD."
+        },
+        "enjoyment": {
+          "score": 80,
+          "confidence": "C",
+          "note": "Sold as the legal ETH."
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "C",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "D",
+          "note": "Follows ETH-LAD."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 48,
+          "confidence": "C",
+          "note": "ETH-LAD's body bill."
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Follows ETH-LAD."
+        },
+        "psychosis_concern": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Follows ETH-LAD."
+        },
+        "cardiovascular": {
+          "score": 28,
+          "confidence": "D",
+          "note": "Follows ETH-LAD."
+        },
+        "sleep": {
+          "score": 66,
+          "confidence": "C",
+          "note": "Follows ETH-LAD."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "You did not buy 1P. You bought ETH wearing a P.",
+      "flags": [
+        "mislabel",
+        "prodrug_other"
+      ],
+      "notes": "Constitutional isomer of 1B-LSD on paper — labs can tell them apart; stickers cannot.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part III",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6230477/",
+          "type": "paper",
+          "year": 2017
+        }
+      ],
+      "gaps": [
+        "Fewer head-to-heads vs plain ETH-LAD than 1P vs LSD."
+      ]
+    },
+    {
+      "id": "1cp-al-lad",
+      "name": "1cP-AL-LAD",
+      "aliases": [
+        "1-cyclopropanoyl-AL-LAD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_analogue",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_other",
+      "prodrug_of": "al-lad",
+      "feel": {
+        "headline": "AL-LAD with a cyclopropane hat. Ask the blood, not the print.",
+        "rush": {
+          "score": 8,
+          "confidence": "D",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 70,
+          "confidence": "D",
+          "note": "Inferred AL-LAD. Metabolism should deacylate; sheet paper said path not yet shown."
+        },
+        "enjoyment": {
+          "score": 84,
+          "confidence": "D",
+          "note": "If it is a prodrug, it is AL-LAD."
+        },
+        "compulsiveness": {
+          "score": 14,
+          "confidence": "D",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 16,
+          "confidence": "U",
+          "note": "Analogy only."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Inferred AL-LAD. Dirty-copy scandal is the real bill."
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "D",
+          "note": "Analogy."
+        },
+        "psychosis_concern": {
+          "score": 22,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 18,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Analogy."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "AL-LAD with a cyclopropane hat. Ask the blood, not the print.",
+      "flags": [
+        "mislabel",
+        "prodrug_other"
+      ],
+      "notes": "Tanaka 2023 found it on Japanese sheets. Scores are analogy.",
+      "sources": [
+        {
+          "title": "Tanaka et al. 2023 1cP-AL-LAD sheets",
+          "url": "",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Deacylation not confirmed in the forensic writeup."
+      ]
+    },
+    {
+      "id": "1p-al-lad",
+      "name": "1P-AL-LAD",
+      "aliases": [
+        "1-propionyl-AL-LAD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_analogue",
+      "research_status": "limited_evidence",
+      "market": "literature_only",
+      "status_vs_lsd": "likely_prodrug_of_other",
+      "prodrug_of": "al-lad",
+      "feel": {
+        "headline": "A paper, not a bag — at the time they wrote it.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "In-vitro deacylation to AL-LAD. Not circulating when described."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "Literature card. Not a crate.",
+      "flags": [
+        "prodrug_other"
+      ],
+      "notes": "Brandt 2022 analytical / HTR / in-vitro deacylation. Paper said no sign it was on internet blotter at that time.",
+      "sources": [
+        {
+          "title": "Brandt et al. 1P-AL-LAD analytical / metabolism / HTR",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9546273/",
+          "type": "paper",
+          "year": 2022
+        }
+      ],
+      "gaps": [
+        "All scores null. Literature card."
+      ]
+    },
+    {
+      "id": "mipla",
+      "name": "MIPLA",
+      "aliases": [
+        "MiPLA",
+        "lysergic acid methylisopropylamide"
+      ],
+      "family": "lysergamide",
+      "subclass": "amide_swap",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "They twisted the amide and the magic got quiet.",
+        "rush": {
+          "score": 4,
+          "confidence": "D",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Weaker, less LSD in the small report pile."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "D",
+          "note": "A real name that circulated. Not a headliner."
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "D",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 10,
+          "confidence": "U",
+          "note": "Thin."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 20,
+          "confidence": "D",
+          "note": "Quieter."
+        },
+        "aftereffects": {
+          "score": 32,
+          "confidence": "D",
+          "note": "Shorter rumor in later RC talk."
+        },
+        "psychosis_concern": {
+          "score": 16,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 14,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 38,
+          "confidence": "D",
+          "note": "Shorter rumor."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "They twisted the amide and the magic got quiet.",
+      "flags": [],
+      "notes": "Do not invent a personality. 1cP-MIPLA is the acyl wrapper; expected metabolite is MIPLA, not LSD.",
+      "sources": [
+        {
+          "title": "Halberstadt 2019 ECPLA paper citing Shulgin MIPLA notes",
+          "url": "https://ncbi.nlm.nih.gov/pmc/articles/PMC6848745/",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "Tanaka 2023 1cP-MIPLA sheets",
+          "url": "",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Almost no comparison language. Scores stay humble."
+      ]
+    },
+    {
+      "id": "1cp-mipla",
+      "name": "1cP-MIPLA",
+      "aliases": [
+        "1cP-MiPLA",
+        "1-cyclopropanoyl-MIPLA"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_acyl_analogue",
+      "research_status": "limited_evidence",
+      "market": "rc_era",
+      "status_vs_lsd": "likely_prodrug_of_other",
+      "prodrug_of": "mipla",
+      "feel": {
+        "headline": "Short laugh in a cyclopropanoyl sleeve.",
+        "rush": {
+          "score": 4,
+          "confidence": "D",
+          "note": "Copy MIPLA by analogy."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "D",
+          "note": "Expected metabolite is MIPLA, not LSD."
+        },
+        "enjoyment": {
+          "score": 58,
+          "confidence": "D",
+          "note": "Tanaka found it on sheets."
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "D",
+          "note": "Low."
+        },
+        "reinforcement": {
+          "score": 10,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 20,
+          "confidence": "D",
+          "note": "Analogy."
+        },
+        "aftereffects": {
+          "score": 32,
+          "confidence": "D",
+          "note": "Analogy."
+        },
+        "psychosis_concern": {
+          "score": 16,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 14,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": 38,
+          "confidence": "D",
+          "note": "Analogy."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "They twisted the amide and the magic got quiet.",
+      "flags": [
+        "prodrug_other"
+      ],
+      "notes": "Dual N1+amide modification. Metabolism unpublished.",
+      "sources": [
+        {
+          "title": "Tanaka et al. 2023",
+          "url": "",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Deacylation expected, not proven."
+      ]
+    },
+    {
+      "id": "lsm-775",
+      "name": "LSM-775",
+      "aliases": [
+        "lysergic acid morpholide",
+        "SLM"
+      ],
+      "family": "lysergamide",
+      "subclass": "amide_swap",
+      "research_status": "moderately_documented",
+      "market": "rc_era",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "They sold a morpholine and called it acid. It was not.",
+        "rush": {
+          "score": 2,
+          "confidence": "B",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Weak. Forums: low-LSD, nausea, lethargy."
+        },
+        "enjoyment": {
+          "score": 32,
+          "confidence": "B",
+          "note": "A flop that stayed on shelves because nobody finished it."
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": "B",
+          "note": "You do not hunt this."
+        },
+        "reinforcement": {
+          "score": 6,
+          "confidence": "B",
+          "note": "Negative."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 24,
+          "confidence": "B",
+          "note": "The bill is the night: nausea, sedation, disappointment."
+        },
+        "aftereffects": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Lethargy."
+        },
+        "psychosis_concern": {
+          "score": 12,
+          "confidence": "C",
+          "note": "Too weak to be the scary one."
+        },
+        "cardiovascular": {
+          "score": 16,
+          "confidence": "C",
+          "note": "Not the story."
+        },
+        "sleep": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Sedating, not an all-nighter."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "They sold a morpholine and called it acid. It was not.",
+      "flags": [],
+      "notes": "Brandt Part IV: 5-HT1A activity looks like it masks the 5-HT2A twitch unless you block 1A in mice.",
+      "sources": [
+        {
+          "title": "Brandt et al. Return Part IV: LSM-775",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6230476/",
+          "type": "paper",
+          "year": 2018
+        }
+      ],
+      "gaps": [
+        "Old human numbers conflict. Catalog follows weak + 1A brake, not the optimistic 1950s line."
+      ]
+    },
+    {
+      "id": "lsa",
+      "name": "LSA",
+      "aliases": [
+        "ergine",
+        "LA-111",
+        "lysergic acid amide"
+      ],
+      "family": "lysergamide",
+      "subclass": "natural_primary_amide",
+      "research_status": "well_documented",
+      "market": "street",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "Natural does not mean kind. It means you also bought the stomach.",
+        "rush": {
+          "score": 4,
+          "confidence": "B",
+          "note": "None."
+        },
+        "euphoria": {
+          "score": 36,
+          "confidence": "B",
+          "note": "A druggy lift under the nausea, not LSD joy."
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "B",
+          "note": "Different fantasy. Seed lore. Not an RC blotter SKU."
+        },
+        "compulsiveness": {
+          "score": 8,
+          "confidence": "B",
+          "note": "Low. People try it once for the story."
+        },
+        "reinforcement": {
+          "score": 8,
+          "confidence": "B",
+          "note": "Once is the story."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 44,
+          "confidence": "B",
+          "note": "Fog and anxiety under the body load."
+        },
+        "aftereffects": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Sedation, hangover."
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Case reports exist; seed matrix confounds."
+        },
+        "cardiovascular": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Vasoconstriction is the signature."
+        },
+        "sleep": {
+          "score": 45,
+          "confidence": "B",
+          "note": "Sedating more than all-night."
+        }
+      },
+      "route_myth": "seeds",
+      "npc_line": "Natural does not mean kind. It means you also bought the stomach.",
+      "flags": [
+        "mislabel"
+      ],
+      "notes": "Sold as natural LSD. It is not. Different mesh. Seed identity and other alkaloids confuse every report.",
+      "sources": [
+        {
+          "title": "Hofmann / seed lysergamide history",
+          "url": "",
+          "type": "paper",
+          "year": null
+        },
+        {
+          "title": "LSA systematic reviews",
+          "url": "",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Do not score a packet of flowers as pure ergine."
+      ]
+    },
+    {
+      "id": "bu-lad",
+      "name": "BU-LAD",
+      "aliases": [
+        "6-butyl-6-nor-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n6_nor_lad",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "They added carbon until the magic left.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Nichols/Shulgin N6 walk. No reliable modern bag."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Literature. Not a crate.",
+      "flags": [],
+      "notes": "Rats ~10x less than LSD. Do not invent a crate.",
+      "sources": [
+        {
+          "title": "Hoffman & Nichols 1985",
+          "url": "",
+          "type": "paper",
+          "year": 1985
+        }
+      ],
+      "gaps": [
+        "No modern bag."
+      ]
+    },
+    {
+      "id": "pargy-lad",
+      "name": "PARGY-LAD",
+      "aliases": [
+        "6-propynyl-6-nor-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n6_nor_lad",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "A spark at the edge of the series. Barely a rumor.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Old-book human notes only."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Literature. Not a crate.",
+      "flags": [],
+      "notes": "Do not invent a personality.",
+      "sources": [
+        {
+          "title": "TiHKAL N6 notes",
+          "url": "",
+          "type": "book",
+          "year": 1997
+        }
+      ],
+      "gaps": [
+        "No reliable modern bag."
+      ]
+    },
+    {
+      "id": "ip-lad",
+      "name": "IP-LAD",
+      "aliases": [
+        "6-isopropyl-6-nor-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n6_nor_lad",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "Rats said half. Humans never wrote it down.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Literature. Not a crate.",
+      "flags": [],
+      "notes": "Hoffman & Nichols: about half LSD in discrimination. No circulating product.",
+      "sources": [
+        {
+          "title": "Hoffman & Nichols 1985",
+          "url": "",
+          "type": "paper",
+          "year": 1985
+        }
+      ],
+      "gaps": [
+        "No human feel."
+      ]
+    },
+    {
+      "id": "mld-41",
+      "name": "MLD-41",
+      "aliases": [
+        "1-methyl-LSD",
+        "1M-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "n1_alkyl",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "status_vs_lsd": "distinct_active",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "A methyl that stays. Diluted acid, not a mask.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Not a 1-acyl prodrug. Methyl does not fall off like acetyl."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Hofmann-era, weaker. Null street feel."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Sandoz drawer. Not a tab.",
+      "flags": [],
+      "notes": "UNODC lists as reported NPS analogue. Not a hydrolytic prodrug.",
+      "sources": [
+        {
+          "title": "Cerletti / Abramson 1950s tables",
+          "url": "",
+          "type": "paper",
+          "year": 1959
+        }
+      ],
+      "gaps": [
+        "Thin qualitative human notes. Null street feel."
+      ]
+    },
+    {
+      "id": "lampa",
+      "name": "LAMPA",
+      "aliases": [
+        "LMP-55",
+        "MPLA",
+        "lysergic acid methylpropylamide"
+      ],
+      "family": "lysergamide",
+      "subclass": "amide_swap",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "status_vs_lsd": "weak_or_inactive",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "The isomer labs used as a fingerprint. Not a trip.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Old human: mostly nothing. Forensic marker, not an RC SKU."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "A fingerprint, not a night.",
+      "flags": [],
+      "notes": "Abramson & Rolo 1967. Do not confuse with LSD.",
+      "sources": [
+        {
+          "title": "Abramson & Rolo 1967",
+          "url": "",
+          "type": "paper",
+          "year": 1967
+        }
+      ],
+      "gaps": [
+        "Not an RC SKU."
+      ]
+    },
+    {
+      "id": "lae-32",
+      "name": "LAE-32",
+      "aliases": [
+        "lysergic acid ethylamide",
+        "LAE"
+      ],
+      "family": "lysergamide",
+      "subclass": "amide_swap",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "status_vs_lsd": "weak_or_sedating",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "They took an ethyl off and the magic sat down.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Old Sandoz: autonomic, sedating, little psychedelia. Null street feel."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Sandoz drawer.",
+      "flags": [],
+      "notes": "Rothlin: the ethyl pair is special. One ethyl is not enough.",
+      "sources": [
+        {
+          "title": "Rothlin 1957",
+          "url": "",
+          "type": "paper",
+          "year": 1957
+        }
+      ],
+      "gaps": [
+        "Not an RC SKU."
+      ]
+    },
+    {
+      "id": "dam-57",
+      "name": "DAM-57",
+      "aliases": [
+        "lysergic acid dimethylamide"
+      ],
+      "family": "lysergamide",
+      "subclass": "amide_swap",
+      "research_status": "chemical_literature_only",
+      "market": "literature_only",
+      "status_vs_lsd": "weak_or_sedating",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "Dimethyl. A tenth of a ghost.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Old amide walk. Not an RC SKU."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Sandoz drawer.",
+      "flags": [],
+      "notes": "Null street feel.",
+      "sources": [
+        {
+          "title": "Cerletti 1959",
+          "url": "",
+          "type": "paper",
+          "year": 1959
+        }
+      ],
+      "gaps": [
+        "Not an RC SKU."
+      ]
+    },
+    {
+      "id": "bol-148",
+      "name": "BOL-148",
+      "aliases": [
+        "2-bromo-LSD",
+        "bromolysergide"
+      ],
+      "family": "lysergamide",
+      "subclass": "2_substituted",
+      "research_status": "well_documented",
+      "market": "literature_only",
+      "status_vs_lsd": "inactive_or_antagonist",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "The anti-tab. Same bones, no cathedral.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Non-hallucinogenic / research leftover. Not a party tab."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not file it as acid."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": "Null on enjoyment."
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Same bones, no cathedral.",
+      "flags": [
+        "not_fun"
+      ],
+      "notes": "Used to block acid. Later cluster-headache research. Not Flask.",
+      "sources": [
+        {
+          "title": "Cerletti / Hofmann BOL literature",
+          "url": "",
+          "type": "paper",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Modern biased-agonist papers vs old inactive language."
+      ]
+    },
+    {
+      "id": "iso-lsd",
+      "name": "iso-LSD",
+      "aliases": [
+        "8-epi-LSD"
+      ],
+      "family": "lysergamide",
+      "subclass": "epimer",
+      "research_status": "well_documented",
+      "market": "uncertain",
+      "status_vs_lsd": "inactive_or_antagonist",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "The epimer that grows when the tab sits wrong.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Inactive isomer. Contaminant story, not a SKU."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "route_myth": "",
+      "npc_line": "Dead weight in a warm bag.",
+      "flags": [
+        "mislabel"
+      ],
+      "notes": "C8 epimerization under heat/base. Also seen on other lysergamides.",
+      "sources": [
+        {
+          "title": "LSD stability literature",
+          "url": "",
+          "type": "paper",
+          "year": null
+        }
+      ],
+      "gaps": []
+    },
+    {
+      "id": "orange-sunshine",
+      "name": "Orange Sunshine",
+      "aliases": [
+        "sunshine"
+      ],
+      "family": "lysergamide",
+      "subclass": "alias",
+      "research_status": "alias_duplicate",
+      "market": "street",
+      "status_vs_lsd": "alias_of_lsd",
+      "prodrug_of": null,
+      "feel": {
+        "headline": "The courtroom name for regular sunshine.",
+        "rush": {
+          "score": 6,
+          "confidence": "A",
+          "note": "Same as LSD. Not a second agent."
+        },
+        "euphoria": {
+          "score": 72,
+          "confidence": "A",
+          "note": "Same as LSD."
+        },
+        "enjoyment": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Same as LSD. Branding, not a molecule."
+        },
+        "compulsiveness": {
+          "score": 16,
+          "confidence": "A",
+          "note": "Same as LSD."
+        },
+        "reinforcement": {
+          "score": 20,
+          "confidence": "B",
+          "note": "Same as LSD."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 42,
+          "confidence": "A",
+          "note": "Same as LSD."
+        },
+        "aftereffects": {
+          "score": 55,
+          "confidence": "A",
+          "note": "Same as LSD."
+        },
+        "psychosis_concern": {
+          "score": 35,
+          "confidence": "B",
+          "note": "Same as LSD."
+        },
+        "cardiovascular": {
+          "score": 22,
+          "confidence": "B",
+          "note": "Same as LSD."
+        },
+        "sleep": {
+          "score": 78,
+          "confidence": "A",
+          "note": "Same as LSD."
+        }
+      },
+      "route_myth": "blotter",
+      "npc_line": "Orange Sunshine was a lawyer story.",
+      "flags": [
+        "rumor"
+      ],
+      "notes": "Not ALD-52. Zero extra SKU. Port Rook branding for LSD.",
+      "sources": [
+        {
+          "title": "Erowid / Scully 2017",
+          "url": "",
+          "type": "forum",
+          "year": 2017
+        }
+      ],
+      "gaps": []
+    }
+  ]
+}

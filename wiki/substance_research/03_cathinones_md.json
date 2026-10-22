@@ -1,0 +1,2613 @@
+{
+  "assignment": "03",
+  "title": "Methylenedioxy cathinones (bk-MDMA family)",
+  "kit": "F",
+  "disclaimer": "Game catalog. No recipes, precursors, doses, or injection SOP. Unknown scores are null, never 0. Pleasure and compulsiveness scored independently.",
+  "count": 27,
+  "out_of_scope": [
+    "MDPV",
+    "MDPPP",
+    "MDPBP",
+    "MDPHP",
+    "MDPiHP",
+    "MDPEP",
+    "2,3-MDPV",
+    "methedrone",
+    "3,4-DMMC",
+    "N-ethylhexedrone"
+  ],
+  "compounds": [
+    {
+      "id": "methylone",
+      "name": "Methylone",
+      "aliases": [
+        "bk-MDMA",
+        "M1",
+        "MDMC",
+        "Explosion",
+        "Ease",
+        "Neocor"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "well_documented",
+      "status": "well_documented",
+      "market": "street",
+      "one_liner": "Tuesday night Molly. The hug is real. The clock is cruel.",
+      "positives_writeup": "Only lone with a controlled human MDMA comparison: euphoria, wellbeing, empathy, faster on and earlier gone. Erowid reads like a roll — love, closeness, music, this-moment-is-perfect. Rush is a lift, not slam poetry. Enjoyment stays high because the hug is documented, not folklore.",
+      "negatives_writeup": "Short clock. Bluelight: kinda rolling, then poof — redose chase. Jaw, sweat, heart tick in the RCT. Hangover is real but not pyro wreckage. Sold as Molly since Explosion bags.",
+      "route_myth": "oral_ok redose mislabel",
+      "feel": {
+        "headline": "Tuesday night Molly. The hug is real. The clock is cruel.",
+        "rush": {
+          "score": 8,
+          "confidence": "B",
+          "note": "Fast lift, short; not slam-poem energy.",
+          "x": 8
+        },
+        "euphoria": {
+          "score": 14,
+          "confidence": "A",
+          "note": "Human RCT + Erowid positives.",
+          "x": 14
+        },
+        "enjoyment": {
+          "score": 16,
+          "confidence": "A",
+          "note": "Closest honest MDMA-lite on the wall.",
+          "x": 16
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "B",
+          "note": "Short duration redose, not pyro vacuum.",
+          "x": 10
+        },
+        "reinforcement": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Abuse potential comparable to MDMA in humans."
+        },
+        "sociability": {
+          "score": 82,
+          "confidence": "A",
+          "note": "Empathy and talk are the point."
+        },
+        "rush_x": 8,
+        "euphoria_x": 14,
+        "enjoyment_x": 16,
+        "compulsive_x": 10
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 36,
+          "confidence": "B",
+          "note": "Listed on Erowid negatives; not the lead story."
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "B",
+          "note": "After effects 1–6 h vault; crash from the short peak."
+        },
+        "psychosis_concern": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Class stim risk, not a famous outbreak."
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "A",
+          "note": "BP/HR up vs placebo in RCT; palpitations in vault."
+        },
+        "sleep": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Stim leftover after the hug dies."
+        }
+      },
+      "npc_line": "Tuesday night Molly.",
+      "sources": [
+        {
+          "title": "Erowid Methylone Vault",
+          "url": "https://erowid.org/chemicals/methylone/methylone.shtml",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "Erowid Methylone Effects",
+          "url": "https://erowid.org/chemicals/methylone/methylone_effects.shtml",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "Poyatos et al. Methylone vs MDMA in humans",
+          "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2023.1122861/full",
+          "type": "paper",
+          "year": 2023
+        },
+        {
+          "title": "Bluelight MEGA cathinone thread",
+          "url": "https://www.bluelight.org/community/threads/mega-cathinone-subthread-methylone-ethylone-pentylone-chemical-alphabet-soup.678004/",
+          "type": "forum",
+          "year": 2013
+        },
+        {
+          "title": "PsychonautWiki Methylone",
+          "url": "https://psychonautwiki.org/wiki/Methylone",
+          "type": "wiki",
+          "year": null
+        },
+        {
+          "title": "EUDA synthetic cathinones profile",
+          "url": "https://www.euda.europa.eu/publications/drug-profiles/synthetic-cathinones_en",
+          "type": "agency",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "No modern street-batch vs RCT-batch comparison.",
+        "Shulgin 'not the unique magic' vs user 'Tuesday Molly' is a real split."
+      ]
+    },
+    {
+      "id": "ethylone",
+      "name": "Ethylone",
+      "aliases": [
+        "bk-MDEA",
+        "MDEC",
+        "bk-MDE"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "moderately_documented",
+      "status": "moderately_documented",
+      "market": "rc_era",
+      "one_liner": "Sit down or you miss it. Quiet roll, not a siren.",
+      "positives_writeup": "Bluelight: waves, tactile, music, libido, subtle. Longer night than methylone's pop. Some prefer it. Empathy is there if you sit still.",
+      "negatives_writeup": "Easy to miss in a club. More stim/less therapeutic hug than MDMA on PW. SERT step-down from methylone. Confused with ephylone by name.",
+      "route_myth": "oral_ok mislabel",
+      "feel": {
+        "headline": "Sit down or you miss it. Quiet roll, not a siren.",
+        "rush": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Slow waves, not a hit."
+        },
+        "euphoria": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Tactile/emotional; less intense than methylone."
+        },
+        "enjoyment": {
+          "score": 62,
+          "confidence": "B",
+          "note": "Fans exist; not a headliner high."
+        },
+        "compulsiveness": {
+          "score": 42,
+          "confidence": "B",
+          "note": "Longer/subtler, less chase than methylone."
+        },
+        "reinforcement": {
+          "score": 50,
+          "confidence": "C",
+          "note": "In-vitro releaser/blocker mix; no human abuse trial."
+        },
+        "sociability": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Connected if you stay put."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 32,
+          "confidence": "C",
+          "note": "Not the lead complaint."
+        },
+        "aftereffects": {
+          "score": 46,
+          "confidence": "B",
+          "note": "PW comedown list; milder than later lones."
+        },
+        "psychosis_concern": {
+          "score": 24,
+          "confidence": "C",
+          "note": "Class risk only."
+        },
+        "cardiovascular": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Stim BP/HR; one BL pulse anecdote."
+        },
+        "sleep": {
+          "score": 56,
+          "confidence": "B",
+          "note": "Residual stim."
+        }
+      },
+      "npc_line": "Sit down or you miss it.",
+      "sources": [
+        {
+          "title": "Bluelight Ethylone / BK-MDEA",
+          "url": "https://www.bluelight.org/community/threads/ethylone-bk-mdea.590326/",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "PsychonautWiki Ethylone",
+          "url": "https://psychonautwiki.org/wiki/Ethylone",
+          "type": "wiki",
+          "year": null
+        },
+        {
+          "title": "Simmler et al. cathinone pharmacology (via PW)",
+          "url": "https://psychonautwiki.org/wiki/Ethylone",
+          "type": "paper",
+          "year": 2013
+        },
+        {
+          "title": "GOV.UK ACMD cathinone harms — ethylone detections",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "No human RCT.",
+        "Name collision with ephylone in NPC chatter."
+      ]
+    },
+    {
+      "id": "butylone",
+      "name": "Butylone",
+      "aliases": [
+        "bk-MBDB",
+        "B1",
+        "βk-MBDB"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "moderately_documented",
+      "status": "moderately_documented",
+      "market": "rc_era",
+      "one_liner": "Longer tail, flatter hug. Stim wearing an MD shirt.",
+      "positives_writeup": "Some BL: more euphoria than ethylone, less saucer-eyes and less connectedness. Rats self-admin. Hybrid DAT-block / SERT-release still lifts DA and motion.",
+      "negatives_writeup": "PW: more classic stim than entactogen. House card: longer, flatter. One Erowid cocktail just calls it shitty. Serotonin-syndrome case with methylone in a fake-ecstasy cap.",
+      "route_myth": "oral_ok mislabel",
+      "feel": {
+        "headline": "Longer tail, flatter hug. Stim wearing an MD shirt.",
+        "rush": {
+          "score": 46,
+          "confidence": "B",
+          "note": "Present, not famous."
+        },
+        "euphoria": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Stim-euphoria more than hug."
+        },
+        "enjoyment": {
+          "score": 56,
+          "confidence": "B",
+          "note": "Average of a split."
+        },
+        "compulsiveness": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Below pentylone; rats still take it."
+        },
+        "reinforcement": {
+          "score": 68,
+          "confidence": "B",
+          "note": "Self-admin + meth/MDMA substitution (Dolan)."
+        },
+        "sociability": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Talky-stim more than roll."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Stim tax."
+        },
+        "aftereffects": {
+          "score": 54,
+          "confidence": "B",
+          "note": "Flatter morning."
+        },
+        "psychosis_concern": {
+          "score": 32,
+          "confidence": "C",
+          "note": "Class."
+        },
+        "cardiovascular": {
+          "score": 56,
+          "confidence": "B",
+          "note": "With methylone: lethal serotonin syndrome case."
+        },
+        "sleep": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Stim leftover."
+        }
+      },
+      "npc_line": "Stim wearing an MD shirt.",
+      "sources": [
+        {
+          "title": "PsychonautWiki Butylone",
+          "url": "https://psychonautwiki.org/wiki/Butylone",
+          "type": "wiki",
+          "year": null
+        },
+        {
+          "title": "Dolan et al. Ecstasy to Addiction",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5858975/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Saha et al. butylone/pentylone hybrid transporters",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6476708/",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "Erowid bk-MBDB index",
+          "url": "https://erowid.org/experiences/subs/exp_bkMBDB.shtml",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "Lethal serotonin syndrome methylone+butylone",
+          "url": "https://doi.org/10.1007/s13181-011-0199-6",
+          "type": "paper",
+          "year": 2012
+        }
+      ],
+      "gaps": [
+        "Feel reports thinner than methylone and contradictory."
+      ]
+    },
+    {
+      "id": "pentylone",
+      "name": "Pentylone",
+      "aliases": [
+        "bk-MBDP",
+        "βk-methyl-K",
+        "methylenedioxypentedrone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "moderately_documented",
+      "status": "moderately_documented",
+      "market": "rc_era",
+      "one_liner": "First of the lones that would rather steal than hug.",
+      "positives_writeup": "One loud Erowid: unique, euphoric, route-dependent movies (no SOP here). Rush can be the high number on this wall. Music/function stories exist.",
+      "negatives_writeup": "Most DAT-leaning of the methylone/butylone/pentylone trio. Partial MDMA cue only. Strongest progressive-ratio self-admin. Vape-talk paranoia in that same report. After 2021, pentylone in blood often means dipentylone metabolite — don't double-count.",
+      "route_myth": "redose vape_talk mislabel",
+      "feel": {
+        "headline": "First of the lones that would rather steal than hug.",
+        "rush": {
+          "score": 56,
+          "confidence": "B",
+          "note": "Route-myth: some ROAs hit; we do not write them."
+        },
+        "euphoria": {
+          "score": 50,
+          "confidence": "B",
+          "note": "Present; less roll than methylone."
+        },
+        "enjoyment": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Fans exist; not Molly."
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "A",
+          "note": "Highest PR self-admin of the three (Dolan)."
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "A",
+          "note": "DAT-selective hybrid + robust SA."
+        },
+        "sociability": {
+          "score": 44,
+          "confidence": "B",
+          "note": "Failed/partial MDMA substitution."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Vape-talk in Erowid; stim lean."
+        },
+        "aftereffects": {
+          "score": 52,
+          "confidence": "C",
+          "note": "One report claimed no chemical hangover; treat as anecdote."
+        },
+        "psychosis_concern": {
+          "score": 42,
+          "confidence": "C",
+          "note": "DAT story."
+        },
+        "cardiovascular": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Stim class."
+        },
+        "sleep": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Stay-up chatter."
+        }
+      },
+      "npc_line": "First of the lones that would rather steal than hug.",
+      "sources": [
+        {
+          "title": "Erowid Pentylone exp 96666",
+          "url": "https://erowid.org/experiences/exp.php?ID=96666",
+          "type": "forum",
+          "year": 2012
+        },
+        {
+          "title": "Dolan et al. 2018",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5858975/",
+          "type": "paper",
+          "year": 2018
+        },
+        {
+          "title": "Saha et al. 2019",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6476708/",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "Krotulski DMP series — pentylone as metabolite",
+          "url": "https://academic.oup.com/jat/article/47/8/753/7199914",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Thin first-person set besides one glowing Erowid.",
+        "Post-2021 tox: parent vs metabolite confusion."
+      ]
+    },
+    {
+      "id": "eutylone",
+      "name": "Eutylone",
+      "aliases": [
+        "bk-EBDB",
+        "N-ethylbutylone",
+        "bk-ethyl-B"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "well_documented",
+      "status": "well_documented",
+      "market": "street",
+      "one_liner": "They pressed it in Molly pills anyway.",
+      "positives_writeup": "Low-dose sliver of glow; music can slap (reddit). Tiny empathy at the bottom of the bag. That's the whole compliment.",
+      "negatives_writeup": "2019–21 US king. CDC deaths. WHO Schedule II. Hybrid pentylone-shaped. BL: entactogen 2/10, meth substitute that isn't enjoyable, heart/heat/headache amplified. NZ checking: kids thought MDMA; some unwell for days. First hour is 'is this it?' — bag answers.",
+      "route_myth": "redose mislabel pressed_as_molly vape_talk",
+      "feel": {
+        "headline": "They pressed it in Molly pills anyway.",
+        "rush": {
+          "score": 48,
+          "confidence": "B",
+          "note": "Vape talk exists; oral/insufflation mid."
+        },
+        "euphoria": {
+          "score": 46,
+          "confidence": "B",
+          "note": "Weak roll, stim-euphoria if any."
+        },
+        "enjoyment": {
+          "score": 42,
+          "confidence": "B",
+          "note": "Shitty-drug consensus with rare low-dose fans."
+        },
+        "compulsiveness": {
+          "score": 68,
+          "confidence": "B",
+          "note": "WHO: high abuse potential chatter; redose the empty roll."
+        },
+        "reinforcement": {
+          "score": 70,
+          "confidence": "B",
+          "note": "Meth-like in animal abuse model; market persistence."
+        },
+        "sociability": {
+          "score": 40,
+          "confidence": "B",
+          "note": "Hug dies as dose climbs."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "B",
+          "note": "Anxiety/agitation in WHO list."
+        },
+        "aftereffects": {
+          "score": 74,
+          "confidence": "B",
+          "note": "NZ: unwell up to ~10 days in scare copy."
+        },
+        "psychosis_concern": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Delirium/psychosis in clinical features."
+        },
+        "cardiovascular": {
+          "score": 76,
+          "confidence": "A",
+          "note": "Tachycardia, hypertension, deaths."
+        },
+        "sleep": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Insomnia in WHO feature list."
+        }
+      },
+      "npc_line": "They pressed it in Molly pills anyway.",
+      "sources": [
+        {
+          "title": "CDC MMWR eutylone deaths 2020",
+          "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7132a3.htm",
+          "type": "agency",
+          "year": 2022
+        },
+        {
+          "title": "WHO ECDD 44th eutylone",
+          "url": "https://www.unodc.org/documents/commissions/CND/CND_Sessions/CND_64Reconvened/ECN72021_CRP12_V2108992.pdf",
+          "type": "agency",
+          "year": 2021
+        },
+        {
+          "title": "CFSRE eutylone monograph",
+          "url": "https://www.cfsre.org/nps-discovery/monographs/eutylone",
+          "type": "forensic",
+          "year": 2018
+        },
+        {
+          "title": "Gatch/Baumann eutylone isomers",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9423000/",
+          "type": "paper",
+          "year": 2022
+        },
+        {
+          "title": "Bluelight Eutylone",
+          "url": "https://www.bluelight.org/community/threads/eutylone.883830/",
+          "type": "forum",
+          "year": 2020
+        },
+        {
+          "title": "KnowYourStuff NZ eutylone substitution",
+          "url": "https://knowyourstuff.nz/high-levels-of-eutylone-substitition-found-in-o-week-testing-in-south-island/",
+          "type": "checking",
+          "year": null
+        },
+        {
+          "title": "r/researchchemicals eutylone experiences",
+          "url": "https://www.reddit.com/r/researchchemicals/comments/mj2toh/eutylone_experiences/",
+          "type": "forum",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "No human psychopharm vs MDMA.",
+        "Vape enjoyment claims are reddit-thin."
+      ]
+    },
+    {
+      "id": "ephylone",
+      "name": "Ephylone",
+      "aliases": [
+        "N-ethylpentylone",
+        "N-ethylnorpentylone",
+        "bk-EBDP",
+        "βk-EBDP",
+        "βk-ethyl-K",
+        "NEP-MD"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "well_documented",
+      "status": "well_documented",
+      "market": "street",
+      "one_liner": "Don't press this as ecstasy. The heart remembers.",
+      "positives_writeup": "PW/BL: stim, some enthusiasm rumor, a rush that is sharp not satisfying. That's the compliment. Do not confuse with N-ethylpentedrone (also 'NEP').",
+      "negatives_writeup": "2016–18 death wave. Krotulski series; 23 fatalities in 2017–20 review. PW: empathy weak, sides outrun pleasure, compulsive redose looking for a roll that isn't there. BL: awkward adrenergic stim, vasoconstriction stories, heart screaming. Psychosis/hallucination in hospital cases.",
+      "route_myth": "OD redose mislabel pressed_as_molly",
+      "feel": {
+        "headline": "Don't press this as ecstasy. The heart remembers.",
+        "rush": {
+          "score": 52,
+          "confidence": "B",
+          "note": "Sharp; satisfaction does not match."
+        },
+        "euphoria": {
+          "score": 38,
+          "confidence": "B",
+          "note": "Far from MDMA magic."
+        },
+        "enjoyment": {
+          "score": 34,
+          "confidence": "B",
+          "note": "Sides/pleasure ratio is the review."
+        },
+        "compulsiveness": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Redose to find a hug that never arrives."
+        },
+        "reinforcement": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Gatch locomotor + death/market persistence."
+        },
+        "sociability": {
+          "score": 28,
+          "confidence": "B",
+          "note": "Cold stim, not a roll."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 72,
+          "confidence": "B",
+          "note": "Hospital: delusion, auditory hallucination, paranoia."
+        },
+        "aftereffects": {
+          "score": 76,
+          "confidence": "B",
+          "note": "Long residual, headache, agitation."
+        },
+        "psychosis_concern": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Psychiatric presentations in case series."
+        },
+        "cardiovascular": {
+          "score": 88,
+          "confidence": "A",
+          "note": "Cardiac arrest / extreme tachy stories; highest CV flag on the wall."
+        },
+        "sleep": {
+          "score": 82,
+          "confidence": "B",
+          "note": "Long stim."
+        }
+      },
+      "npc_line": "Don't press this as ecstasy.",
+      "sources": [
+        {
+          "title": "PsychonautWiki Ephylone",
+          "url": "https://psychonautwiki.org/wiki/Ephylone",
+          "type": "wiki",
+          "year": null
+        },
+        {
+          "title": "Bluelight Ephylone",
+          "url": "https://www.bluelight.org/community/threads/novel-stimulant-ephylone-n-ethyl-pentylone-%CE%B2k-ethyl-k-%CE%B2k-ebdp.774023/",
+          "type": "forum",
+          "year": 2017
+        },
+        {
+          "title": "NPS adverse events 2017–2020 review",
+          "url": "https://doi.org/10.1093/jat/bkac023",
+          "type": "paper",
+          "year": 2022
+        },
+        {
+          "title": "Gatch 2019 N-ethylpentylone discrimination",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30986635/",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "GOV.UK ACMD — ephylone detections",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "NEP abbreviation collides with N-ethylpentedrone.",
+        "Slam-era posts exist; catalog will not turn them into SOP."
+      ]
+    },
+    {
+      "id": "dipentylone",
+      "name": "Dipentylone",
+      "aliases": [
+        "N,N-dimethylpentylone",
+        "DMP",
+        "bk-DMBDP",
+        "βk-dimethyl-K",
+        "dimethylpentylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "moderately_documented",
+      "status": "moderately_documented",
+      "market": "street",
+      "one_liner": "Molly stamp. Meth manners. The metabolite is pentylone.",
+      "positives_writeup": "Almost no first-person library. Market replaced eutylone in weeks. Do not invent a hug.",
+      "negatives_writeup": "DAT IC50 49 nM vs SERT 4990 nM — hundred-fold cold. 125 PM cases. Pentylone in 98% as metabolite. Pressed as Ecstasy/Molly. Labs mix it with a crowd of isomers. Pleasure scores are inferred cold, confidence C.",
+      "route_myth": "mislabel pressed_as_molly OD redose",
+      "feel": {
+        "headline": "Molly stamp. Meth manners. The metabolite is pentylone.",
+        "rush": {
+          "score": 40,
+          "confidence": "C",
+          "note": "Inferred stim; no vault."
+        },
+        "euphoria": {
+          "score": 30,
+          "confidence": "C",
+          "note": "DAT>>SERT. Not a roll on paper."
+        },
+        "enjoyment": {
+          "score": 28,
+          "confidence": "C",
+          "note": "Inferred low. Upgrade only if threads appear."
+        },
+        "compulsiveness": {
+          "score": 70,
+          "confidence": "C",
+          "note": "DAT-selective + market persistence."
+        },
+        "reinforcement": {
+          "score": 74,
+          "confidence": "B",
+          "note": "Locomotor ~ eutylone/NEP/pentylone; death series."
+        },
+        "sociability": {
+          "score": 24,
+          "confidence": "C",
+          "note": "Sold as Molly. Transporters say no."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 60,
+          "confidence": "C",
+          "note": "Class stim + analog series, not a diary."
+        },
+        "aftereffects": {
+          "score": 70,
+          "confidence": "C",
+          "note": "Inferred from cousins + tox."
+        },
+        "psychosis_concern": {
+          "score": 55,
+          "confidence": "C",
+          "note": "Psychostimulant adverse outcomes."
+        },
+        "cardiovascular": {
+          "score": 80,
+          "confidence": "B",
+          "note": "Large PM series; stimulant deaths."
+        },
+        "sleep": {
+          "score": 76,
+          "confidence": "C",
+          "note": "DAT stim inference."
+        }
+      },
+      "npc_line": "Molly stamp. Meth manners.",
+      "sources": [
+        {
+          "title": "Krotulski et al. DMP case series",
+          "url": "https://academic.oup.com/jat/article/47/8/753/7199914",
+          "type": "paper",
+          "year": 2023
+        },
+        {
+          "title": "Fogarty et al. DMP + analogs 125 cases",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892558/",
+          "type": "paper",
+          "year": 2025
+        },
+        {
+          "title": "CFSRE N,N-Dimethylpentylone monograph",
+          "url": "https://www.cfsre.org/images/monographs/NN-Dimethylpentylone_121721_CFSRE_Toxicology_Report.pdf",
+          "type": "forensic",
+          "year": 2021
+        }
+      ],
+      "gaps": [
+        "Human feel writing is the hole in this card.",
+        "Isomer mis-ID vs ephylone / isopropylbutylone / hexylone."
+      ]
+    },
+    {
+      "id": "dimethylone",
+      "name": "Dimethylone",
+      "aliases": [
+        "bk-MDDMA",
+        "bk-MDDM"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "rc_era",
+      "one_liner": "Rats said MDMA. People barely wrote it down.",
+      "positives_writeup": "Gatch 2019: locomotor; full meth substitution; full MDMA substitution. Club-drug shape on paper.",
+      "negatives_writeup": "Human poems almost none. Do not invent a hug from a rat lever.",
+      "route_myth": "rc_era",
+      "feel": {
+        "headline": "Rats said MDMA. People barely wrote it down.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "No trusted human rush library."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": "MDMA substitution is not a trip report."
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 64,
+          "confidence": "C",
+          "note": "Animal substitution only."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Rats said MDMA. People barely wrote it down.",
+      "sources": [
+        {
+          "title": "Gatch et al. 2019 five cathinone analogs",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30986635/",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "EUDA POD chemistry table — dimethylone",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "agency",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "Need any first-person set before scoring pleasure."
+      ]
+    },
+    {
+      "id": "dibutylone",
+      "name": "Dibutylone",
+      "aliases": [
+        "bk-DMBDB",
+        "bk-MMBDB",
+        "methylbutylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "moderately_documented",
+      "status": "moderately_documented",
+      "market": "rc_era",
+      "one_liner": "Same carbons as eutylone. Half the room hugged. Half wanted a refund.",
+      "positives_writeup": "One BL camp: warm sparkle, music, empathy, safer-feeling than ephylone. Gatch: meth, coke, and MDMA substitution. Do not average the hate into low euphoria.",
+      "negatives_writeup": "Other camp: shittiest RC, disappointment at common amounts. UK PM mentions. Butylone in every dibutylone blood (metabolite). Oral-inactive rumor is a vendor myth some posts fight.",
+      "route_myth": "mislabel redose oral_inactive_rumor",
+      "feel": {
+        "headline": "Same carbons as eutylone. Half the room hugged. Half wanted a refund.",
+        "rush": {
+          "score": 44,
+          "confidence": "C",
+          "note": "Split; some coke-lite hour."
+        },
+        "euphoria": {
+          "score": 52,
+          "confidence": "C",
+          "note": "Warm-sparkle vs nothing. Mid of a fight."
+        },
+        "enjoyment": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Polarizing."
+        },
+        "compulsiveness": {
+          "score": 56,
+          "confidence": "C",
+          "note": "Binge posts exist; not ephylone."
+        },
+        "reinforcement": {
+          "score": 66,
+          "confidence": "B",
+          "note": "Full meth/coke/MDMA substitution."
+        },
+        "sociability": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Hug camp vs refund camp."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": 34,
+          "confidence": "C",
+          "note": "Not the lead complaint."
+        },
+        "aftereffects": {
+          "score": 48,
+          "confidence": "C",
+          "note": "GI/chest in some posts."
+        },
+        "psychosis_concern": {
+          "score": 30,
+          "confidence": "C",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": 58,
+          "confidence": "B",
+          "note": "Chest/HR; UK PM detections with co-drugs."
+        },
+        "sleep": {
+          "score": 54,
+          "confidence": "C",
+          "note": ""
+        }
+      },
+      "npc_line": "Half the room hugged. Half wanted a refund.",
+      "sources": [
+        {
+          "title": "Bluelight Dibutylone",
+          "url": "https://www.bluelight.org/community/threads/dibutylone-bk-dmbdb.685786/",
+          "type": "forum",
+          "year": null
+        },
+        {
+          "title": "Gatch 2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30986635/",
+          "type": "paper",
+          "year": 2019
+        },
+        {
+          "title": "Gatch/Baumann eutylone isomers (dibutylone no SERT uptake)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9423000/",
+          "type": "paper",
+          "year": 2022
+        },
+        {
+          "title": "GOV.UK ACMD dibutylone detections / PM",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Feel is a knife fight. Do not pick a winner for v1 without a flag."
+      ]
+    },
+    {
+      "id": "mdc",
+      "name": "MDC",
+      "aliases": [
+        "bk-MDA",
+        "MDCATH",
+        "3,4-methylenedioxycathinone",
+        "βk-MDA"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "The parent that wouldn't stay a powder.",
+      "positives_writeup": "SNDRA on paper. Shulgin/Jacob patent as antidepressant. Related to methylone minus the N-methyl.",
+      "negatives_writeup": "Primary-amine cathinones dimerize. Limited prevalence. No vault to score.",
+      "route_myth": "",
+      "feel": {
+        "headline": "The parent that wouldn't stay a powder.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "The parent that wouldn't stay a powder.",
+      "sources": [
+        {
+          "title": "Wikipedia Methylenedioxycathinone (secondary; cites patent)",
+          "url": "https://en.wikipedia.org/wiki/Methylenedioxycathinone",
+          "type": "wiki",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "No modern seizure series found in this pass.",
+        "Do not treat wiki as a feel source."
+      ]
+    },
+    {
+      "id": "bmdp",
+      "name": "BMDP",
+      "aliases": [
+        "benzylone",
+        "3,4-MDBC",
+        "3,4-methylenedioxy-N-benzylcathinone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "rc_era",
+      "one_liner": "They put a benzyl on it and the party left.",
+      "positives_writeup": "Almost none. One forum crumb of mild oral/insufflation. WHO: not a significant psychomotor stimulant.",
+      "negatives_writeup": "Does not substitute for MDMA. SERT negligible. Six PM cases, always poly. UK seizures exist. The lone that forgot to work.",
+      "route_myth": "",
+      "feel": {
+        "headline": "They put a benzyl on it and the party left.",
+        "rush": {
+          "score": 8,
+          "confidence": "D",
+          "note": "Forum inactive/mild."
+        },
+        "euphoria": {
+          "score": 10,
+          "confidence": "D",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": 12,
+          "confidence": "D",
+          "note": "WHO + inactive reports."
+        },
+        "compulsiveness": {
+          "score": 10,
+          "confidence": "D",
+          "note": "Nothing to chase."
+        },
+        "reinforcement": {
+          "score": 18,
+          "confidence": "C",
+          "note": "Failed MDMA substitution; weak meth trend."
+        },
+        "sociability": {
+          "score": 8,
+          "confidence": "D",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "No standalone tox series."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "They put a benzyl on it and the party left.",
+      "sources": [
+        {
+          "title": "WHO ECDD BMDP / benzylone review",
+          "url": "https://cdn.who.int/media/docs/default-source/essential-medicines/unedited--advance-copy-44th-ecdd-review-report_bmdp.pdf",
+          "type": "agency",
+          "year": 2021
+        },
+        {
+          "title": "EUDA POD chemistry table — BMDP",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "agency",
+          "year": 2015
+        },
+        {
+          "title": "GOV.UK ACMD — BMDP detections",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "agency",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Forum volume is crumbs."
+      ]
+    },
+    {
+      "id": "bmdb",
+      "name": "BMDB",
+      "aliases": [
+        "N-benzyl butylone",
+        "2-benzylamino-1-(3,4-methylenedioxyphenyl)butan-1-one"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "uncertain",
+      "one_liner": "Benzylone's longer cousin. Still a shrug, on paper.",
+      "positives_writeup": "Named on EUDA / NPS review tables.",
+      "negatives_writeup": "No feel library.",
+      "route_myth": "",
+      "feel": {
+        "headline": "Benzylone's longer cousin. Still a shrug, on paper.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Vendor dust.",
+      "sources": [
+        {
+          "title": "EUDA POD chemistry table — BMDB",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "agency",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "No user reports found."
+      ]
+    },
+    {
+      "id": "n_propylbutylone",
+      "name": "N-Propylbutylone",
+      "aliases": [
+        "bk-PBDB",
+        "putylone",
+        "propylbutylone",
+        "N-propyl butylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "uncertain",
+      "one_liner": "The isomer that shows up in the autopsy, not the review.",
+      "positives_writeup": "None written.",
+      "negatives_writeup": "Czech EWS 2013 then quiet. US tox beside dipentylone (7 cases in 2025 series). Isomer of DMP/ephylone.",
+      "route_myth": "mislabel",
+      "feel": {
+        "headline": "The isomer that shows up in the autopsy, not the review.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "The lab found a cousin in the same pill.",
+      "sources": [
+        {
+          "title": "CFSRE N-Propyl Butylone (HRB)",
+          "url": "https://www.drugsandalcohol.ie/36677/",
+          "type": "forensic",
+          "year": 2022
+        },
+        {
+          "title": "Fogarty et al. 2025 DMP analogs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892558/",
+          "type": "paper",
+          "year": 2025
+        },
+        {
+          "title": "EUDA POD — bk-PBDB",
+          "url": "https://www.euda.europa.eu/topics/pods/synthetic-cathinones-injection_en",
+          "type": "agency",
+          "year": 2015
+        }
+      ],
+      "gaps": [
+        "No user vault."
+      ]
+    },
+    {
+      "id": "n_isopropylbutylone",
+      "name": "N-Isopropylbutylone",
+      "aliases": [
+        "N-isopropyl butylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "street",
+      "one_liner": "Biggest bag in the lab. Nobody wrote the night.",
+      "positives_writeup": "None we trust. Do not invent 'like eutylone.'",
+      "negatives_writeup": "Virginia 2024–25: 170 CS cases, handful of PM bloods. Sold as MDMA in NZ 2024 and Europe 2025. NFLIS late-2024 most prevalent US cathinone for a minute. No published human-toxicity series yet (Axis).",
+      "route_myth": "mislabel pressed_as_molly",
+      "feel": {
+        "headline": "Biggest bag in the lab. Nobody wrote the night.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Market yes. Diary no."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": "Do not steal DMP's number."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "PM cases are poly; no standalone profile."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Biggest bag in the lab. Nobody wrote the night.",
+      "sources": [
+        {
+          "title": "Virginia N-isopropyl butylone PM series",
+          "url": "https://academic.oup.com/jat/article/50/6/bkag037/8700943",
+          "type": "paper",
+          "year": 2026
+        },
+        {
+          "title": "Axis Forensics newest stims",
+          "url": "https://axisfortox.com/about-the-newest-stimulants-n-isopropyl-butylone-and-n-cyclohexyl-methylone/",
+          "type": "forensic",
+          "year": 2025
+        },
+        {
+          "title": "Krotulski 2023 isomer list",
+          "url": "https://academic.oup.com/jat/article/47/8/753/7199914",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Highest-priority feel gap on the 2024–26 wall."
+      ]
+    },
+    {
+      "id": "n_cyclohexyl_methylone",
+      "name": "N-Cyclohexyl methylone",
+      "aliases": [
+        "N-cyclohexylnormethylone",
+        "cyputylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "street",
+      "one_liner": "Ecstasy stamp. Convulsant manners.",
+      "positives_writeup": "Sold as ecstasy tablet / crystal. That's marketing.",
+      "negatives_writeup": "CFSRE: do not use 'cyputylone.' Animal 2026: weak locomotor, failed MDMA/meth/coke full substitution, convulsions at the top. NFLIS 2023 snapshot: third US cathinone.",
+      "route_myth": "mislabel pressed_as_molly OD",
+      "feel": {
+        "headline": "Ecstasy stamp. Convulsant manners.",
+        "rush": {
+          "score": 20,
+          "confidence": "D",
+          "note": "Weak locomotor."
+        },
+        "euphoria": {
+          "score": 18,
+          "confidence": "D",
+          "note": "Failed MDMA substitution."
+        },
+        "enjoyment": {
+          "score": 22,
+          "confidence": "D",
+          "note": "Inferred from animal + sold-as-Molly pattern."
+        },
+        "compulsiveness": {
+          "score": 28,
+          "confidence": "D",
+          "note": "Weak stim liability in the mouse/rat."
+        },
+        "reinforcement": {
+          "score": 30,
+          "confidence": "C",
+          "note": "Failed full stim/MDMA cues."
+        },
+        "sociability": {
+          "score": 16,
+          "confidence": "D",
+          "note": "Not a roll in the box."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": 50,
+          "confidence": "C",
+          "note": "Convulsions in animals at the high end."
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": "No published human tox series (Axis)."
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Ecstasy stamp. Convulsant manners.",
+      "sources": [
+        {
+          "title": "CFSRE N-cyclohexyl methylone",
+          "url": "https://www.cfsre.org/nps-discovery/monographs/n-cyclohexyl-methylone",
+          "type": "forensic",
+          "year": 2022
+        },
+        {
+          "title": "Frontiers locomotor/discrimination 2026",
+          "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1823177/full",
+          "type": "paper",
+          "year": 2026
+        },
+        {
+          "title": "Axis Forensics",
+          "url": "https://axisfortox.com/about-the-newest-stimulants-n-isopropyl-butylone-and-n-cyclohexyl-methylone/",
+          "type": "forensic",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Human feel still missing.",
+        "Kill the cyputylone sticker in UI copy."
+      ]
+    },
+    {
+      "id": "n_cyclohexyl_butylone",
+      "name": "N-Cyclohexyl butylone",
+      "aliases": [
+        "N-cyclohexylnorbutylone",
+        "N-cyclohexyl butylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "uncertain",
+      "one_liner": "The cyclohexyl that acts like speed, not like Molly.",
+      "positives_writeup": "Animal: full meth and coke substitution. More of a stim product than the methylone twin.",
+      "negatives_writeup": "Still fails MDMA. Human feel null. UK ACMD listed N-cyclohexylnorbutylone.",
+      "route_myth": "mislabel",
+      "feel": {
+        "headline": "The cyclohexyl that acts like speed, not like Molly.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": "Animal stim ≠ human rush diary."
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": 58,
+          "confidence": "C",
+          "note": "Full meth/coke substitution; no MDMA."
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": "Failed MDMA cue."
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "The cyclohexyl that acts like speed, not like Molly.",
+      "sources": [
+        {
+          "title": "Frontiers 2026 cyclohexyl pair",
+          "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2026.1823177/full",
+          "type": "paper",
+          "year": 2026
+        },
+        {
+          "title": "GOV.UK ACMD — N-cyclohexylnorbutylone",
+          "url": "https://www.gov.uk/government/publications/synthetic-cathinones-an-updated-harms-assessment/synthetic-cathinones-an-updated-harms-assessment-accessible",
+          "type": "agency",
+          "year": 2025
+        },
+        {
+          "title": "Fogarty 2025 analog panel",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11892558/",
+          "type": "paper",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "No user reports."
+      ]
+    },
+    {
+      "id": "n_butylpentylone",
+      "name": "N-Butylpentylone",
+      "aliases": [
+        "bk-BBDP",
+        "bk-Butyl-K",
+        "N-butyl pentylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "uncertain",
+      "one_liner": "Seized. Not reviewed.",
+      "positives_writeup": "None.",
+      "negatives_writeup": "CFSRE/NMS 2019 pink solid, DHS. Next to ephylone with a fatter N. Brazil list also names it.",
+      "route_myth": "",
+      "feel": {
+        "headline": "Seized. Not reviewed.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Seized. Not reviewed.",
+      "sources": [
+        {
+          "title": "CFSRE N-butyl Pentylone",
+          "url": "https://www.cfsre.org/images/monographs/N-butyl_Pentylone_051619_NMSLabs_Report.pdf",
+          "type": "forensic",
+          "year": 2019
+        }
+      ],
+      "gaps": [
+        "No feel. No tox series."
+      ]
+    },
+    {
+      "id": "n_ethylhexylone",
+      "name": "N-Ethylhexylone",
+      "aliases": [
+        "N-ethyl hexylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "The MD one. Not hexen. Don't mix the folders.",
+      "positives_writeup": "Named on CFSRE isomer-scope slides.",
+      "negatives_writeup": "Fatal-review 'NEH' is usually N-ethylhexedrone (no MD). Do not steal hexen's reviews.",
+      "route_myth": "mislabel",
+      "feel": {
+        "headline": "The MD one. Not hexen. Don't mix the folders.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "The MD one. Not hexen.",
+      "sources": [
+        {
+          "title": "CFSRE Fogarty SOFT DMP method scope",
+          "url": "https://www.cfsre.org/images/S_25_Fogarty97.pdf",
+          "type": "forensic",
+          "year": 2022
+        }
+      ],
+      "gaps": [
+        "Confirm any actual MD-N-ethylhexylone seizure vs hexedrone mixups."
+      ]
+    },
+    {
+      "id": "nn_diethylpentylone",
+      "name": "N,N-Diethylpentylone",
+      "aliases": [
+        "N,N-diethyl pentylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "limited_evidence",
+      "status": "limited_evidence",
+      "market": "uncertain",
+      "one_liner": "Brazil wrote it on a 2025 list. That's the card.",
+      "positives_writeup": "None.",
+      "negatives_writeup": "Named in Brazil PF synthetic-drugs 2025 list. No feel.",
+      "route_myth": "",
+      "feel": {
+        "headline": "Brazil wrote it on a 2025 list. That's the card.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Brazil wrote it on a 2025 list.",
+      "sources": [
+        {
+          "title": "Brazil PF drogas sintéticas 2025",
+          "url": "https://www.gov.br/pf/pt-br/acesso-a-informacao/estatisticas/diretoria-tecnico-cientifica-ditec/relatorios-de-quimica-forense/relatorios-de-quimica-forense-2025/relatorio-drogas-sinteticas-2025.pdf",
+          "type": "forensic",
+          "year": 2025
+        }
+      ],
+      "gaps": [
+        "Single-country list. No monograph opened."
+      ]
+    },
+    {
+      "id": "diethylone",
+      "name": "Diethylone",
+      "aliases": [
+        "N,N-diethyl methylone",
+        "N,N-diethylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "Isomer bait. The chromatogram's problem, not the club's.",
+      "positives_writeup": "None.",
+      "negatives_writeup": "In CFSRE scopes so DMP is not mis-ID'd. Product status unproven in pages opened.",
+      "route_myth": "",
+      "feel": {
+        "headline": "Isomer bait. The chromatogram's problem, not the club's.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Isomer bait.",
+      "sources": [
+        {
+          "title": "CFSRE N-cyclohexyl methylone (mentions diethylone)",
+          "url": "https://www.cfsre.org/nps-discovery/monographs/n-cyclohexyl-methylone",
+          "type": "forensic",
+          "year": 2022
+        },
+        {
+          "title": "Krotulski 2023 isomer panel",
+          "url": "https://academic.oup.com/jat/article/47/8/753/7199914",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Circulation as a bag unproven."
+      ]
+    },
+    {
+      "id": "hexylone",
+      "name": "Hexylone",
+      "aliases": [],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma_isomer",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "Isomer bait. The chromatogram's problem, not the club's.",
+      "positives_writeup": "None.",
+      "negatives_writeup": "Named so LC can split DMP from lookalikes. Do not write a personality.",
+      "route_myth": "",
+      "feel": {
+        "headline": "Isomer bait. The chromatogram's problem, not the club's.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Isomer bait.",
+      "sources": [
+        {
+          "title": "Krotulski 2023 DMP isomers",
+          "url": "https://academic.oup.com/jat/article/47/8/753/7199914",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Product status unproven."
+      ]
+    },
+    {
+      "id": "tertylone",
+      "name": "Tertylone",
+      "aliases": [
+        "tBuONE"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma_isomer",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "Isomer bait. The chromatogram's problem, not the club's.",
+      "positives_writeup": "None.",
+      "negatives_writeup": "In DMP isomer panels and a Brazil list tag. No feel.",
+      "route_myth": "",
+      "feel": {
+        "headline": "Isomer bait. The chromatogram's problem, not the club's.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Isomer bait.",
+      "sources": [
+        {
+          "title": "Krotulski 2023 DMP isomers",
+          "url": "https://academic.oup.com/jat/article/47/8/753/7199914",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Product status unproven."
+      ]
+    },
+    {
+      "id": "n_ethyl_n_methylbutylone",
+      "name": "N-Ethyl-N-methylbutylone",
+      "aliases": [
+        "N-ethyl N-methyl butylone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma_isomer",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "Isomer bait. The chromatogram's problem, not the club's.",
+      "positives_writeup": "None.",
+      "negatives_writeup": "Listed so labs can tell it from dipentylone. No bag story opened.",
+      "route_myth": "",
+      "feel": {
+        "headline": "Isomer bait. The chromatogram's problem, not the club's.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "Isomer bait.",
+      "sources": [
+        {
+          "title": "Krotulski 2023 DMP isomers",
+          "url": "https://academic.oup.com/jat/article/47/8/753/7199914",
+          "type": "paper",
+          "year": 2023
+        }
+      ],
+      "gaps": [
+        "Product status unproven."
+      ]
+    },
+    {
+      "id": "2_3_methylone",
+      "name": "2,3-Methylone",
+      "aliases": [
+        "2,3-MDMC",
+        "2,3-methylenedioxymethcathinone"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma_positional_isomer",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "The isomer the bag never was.",
+      "positives_writeup": "None. Lab standard.",
+      "negatives_writeup": "Kavanagh 2011 synthesis for GC/IR vs 3,4. Two seized samples were 3,4. Later ion-mobility keeps it in the tray.",
+      "route_myth": "",
+      "feel": {
+        "headline": "The isomer the bag never was.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "The isomer the bag never was.",
+      "sources": [
+        {
+          "title": "Kavanagh et al. 2,3-MD cathinones",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21907509/",
+          "type": "paper",
+          "year": 2012
+        }
+      ],
+      "gaps": [
+        "Do not add a 2,3 wall."
+      ]
+    },
+    {
+      "id": "2_3_ethylone",
+      "name": "2,3-Ethylone",
+      "aliases": [
+        "2,3-MDEC"
+      ],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma_positional_isomer",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "The isomer the bag never was.",
+      "positives_writeup": "None. Analytical standard.",
+      "negatives_writeup": "In ion-mobility isomer tables next to 3,4-ethylone. No street series opened.",
+      "route_myth": "",
+      "feel": {
+        "headline": "The isomer the bag never was.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "The isomer the bag never was.",
+      "sources": [
+        {
+          "title": "TIMS cathinone isomer supporting info (2,3- vs 3,4-ethylone)",
+          "url": "https://pure.uva.nl/ws/files/174673244/Supporting_Information-Trapped_ion_mobility_mass_spectrometry.pdf",
+          "type": "paper",
+          "year": null
+        }
+      ],
+      "gaps": [
+        "Lab tray only."
+      ]
+    },
+    {
+      "id": "2_3_butylone",
+      "name": "2,3-Butylone",
+      "aliases": [],
+      "family": "synthetic_cathinone",
+      "subclass": "bk_mdma_positional_isomer",
+      "research_status": "chemical_literature_only",
+      "status": "chemical_literature_only",
+      "market": "literature_only",
+      "one_liner": "The isomer the bag never was.",
+      "positives_writeup": "None. Lab standard.",
+      "negatives_writeup": "Kavanagh 2011 first synthesis with 2,3-methylone / 2,3-MDPV. Seized pair were 3,4.",
+      "route_myth": "",
+      "feel": {
+        "headline": "The isomer the bag never was.",
+        "rush": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "euphoria": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "enjoyment": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "compulsiveness": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "reinforcement": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sociability": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "negatives": {
+        "paranoia": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "aftereffects": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "psychosis_concern": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "cardiovascular": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        },
+        "sleep": {
+          "score": null,
+          "confidence": "U",
+          "note": ""
+        }
+      },
+      "npc_line": "The isomer the bag never was.",
+      "sources": [
+        {
+          "title": "Kavanagh et al. 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21907509/",
+          "type": "paper",
+          "year": 2012
+        }
+      ],
+      "gaps": [
+        "Lab tray only."
+      ]
+    }
+  ]
+}
