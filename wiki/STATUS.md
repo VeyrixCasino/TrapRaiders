@@ -15,7 +15,7 @@ TrapRaiders is **Unreal Engine 5.8, online**. Bellhaven / Port Rook.
 | UE net client → 8787 | **Not wired** |
 | Sloyd house meshes | In `Content/SloydModels/` |
 | Bake (r16, roads.json, lots, sat) | On disk under the Node tree `data/` |
-| Catalog / locked drug math | `wiki/substance_research/` + GitHub |
+| Catalog values | **NOT DONE** — equations + 3 anchors only. A/B boards unfinished, many nulls, leftover scales |
 | Node 8787 | Authority prototype + **HTML debug walker**. Not the game. |
 
 ## Wiki honesty
@@ -23,6 +23,8 @@ TrapRaiders is **Unreal Engine 5.8, online**. Bellhaven / Port Rook.
 Most files in this folder were written while agents built a **browser walker**. World spec (districts, height, CITY_MAP, kits) can still feed Unreal. CHECK_A/B/C, `gameplay.md` control tables, and the old STATUS log describe **8787 HTML**, not a shipped island.
 
 Bake **counts disagree** across docs. Trust `data/meta.json` + the files on disk, not a STATUS bullet.
+
+**Drug numbers are not done.** Do not paste GAMEPLAY_STATS as a finished roster.
 
 ## Next
 

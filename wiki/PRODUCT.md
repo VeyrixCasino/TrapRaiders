@@ -26,7 +26,7 @@ Ignore nested `TrapRaiders\TrapRaiders 5.8`, desktop bat → `C:\TrapRaiders 5.8
 - `data/heightmap.r16` (2017²) + roads/lots/splats/sat — **import spec**, not Landscape
 - Sloyd house uassets
 - World names / districts / KEEP POIs (`CITY_MAP.md`, sector notes)
-- Substance catalog + locked batch math (`GAMEPLAY_RESPONSE.md`). Dual A/B boards; do not merge. `gameplay_estimate` only. No recipes, no doses-as-how-to, no opioids.
+- Substance catalog is **not finished**. Equations + three anchors are locked. The per-SKU tables are not. Dual A/B boards disagree. Dozens of rows are null. Old feel-card files still sit on leftover 0–100 / coke=10 scales. `gameplay_estimate` only. No recipes, no doses-as-how-to, no opioids.
 
 **Real, but not the game:**
 - Node `server/index.js` on 8787 (inventory 403, clock, clampMove)
@@ -44,6 +44,10 @@ Ignore nested `TrapRaiders\TrapRaiders 5.8`, desktop bat → `C:\TrapRaiders 5.8
 2. Roads/lots onto it. Possess a pawn.
 3. Point that pawn at 8787. Stop growing HTML.
 
-## Locked math (still binding)
+## Locked math (the *equations* are binding — the roster is not)
 
-`wiki/substance_research/GAMEPLAY_RESPONSE.md` — Strength = W×P×E×R, coke 1/100/100, α-PVP 5/250/350 D=90, MDPV D=210. 100 is not a cap. Economy ≠ Enjoyment.
+`wiki/substance_research/GAMEPLAY_RESPONSE.md` — Strength = W×P×E×R. Mix proof 20 PVP + 80 caffeine. Economy ≠ Enjoyment. Duration ≠ HalfLife.
+
+**Only these three anchors are locked:** caffeine `0.05/5/5` · coke `1/100/100` · α-PVP `5/250/350` Duration 90. 100 is not a cap.
+
+**Values are not done.** `GAMEPLAY_STATS_A` ≈ 133 scored / 54 null. `GAMEPLAY_STATS_B` ≈ 143 scored / 101 null. A vs B still fights (4-MMC rush, Vyvanse P/E, Dex P, meth P, NEP rush, EPH, 2-FMA, hexen…). Cross-check sat those fights instead of finishing. MDPV Duration 210 is a sit on 180 vs 240, not a closed science pass. Feel cards in `01_`–`07_` / `FEEL_GRAPH.md` were never fully remapped onto this wall. Do not tell anyone the catalog shipped.
