@@ -1,5 +1,7 @@
 # CHECK LINE C — terrain + roads auditor
 
+**Scope: bake files on disk. PASS ≠ Landscape in Unreal.**
+
 **RESULT: PASS (bake contract)**
 
 Ran `_check_c.js` 2026-10-21T21:16:49.676Z. This line still does **not** claim an Unreal Landscape exists.

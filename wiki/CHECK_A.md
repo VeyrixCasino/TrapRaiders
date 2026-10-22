@@ -1,5 +1,7 @@
 # CHECK A — independent disk audit
 
+**Scope: Node tree + bake files. This is not an Unreal ship check.**
+
 Auditor: CHECK LINE A. Ran `node _check_a.js` (exit 0, printed `CHECK A PASS`) then **re-measured every file on disk**. Did not trust prior wiki, other agents, or `data/meta.json` until the arrays were parsed.
 
 Workspace: `C:\Users\uybuv\Downloads\TrapRaiders`  

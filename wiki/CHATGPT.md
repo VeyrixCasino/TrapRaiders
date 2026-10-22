@@ -1,6 +1,6 @@
 # How ChatGPT (and anyone) sees the Bellhaven wiki
 
-**TrapRaiders is an Unreal 5.8 online game.** This wiki is the world + catalog bible. 8787 is the authority server, not the player client. Start at `wiki/PRODUCT.md`.
+**TrapRaiders is an Unreal 5.8 online game.** 8787 is the authority server, not the player client. **This wiki is not fully accurate** — a lot of it is a Node/HTML work log. Start at `wiki/PRODUCT.md` and `wiki/STATUS.md`. Ignore CHECK_A/B as “the game passed.”
 
 **The public GitHub repo is the access path.** ChatGPT cannot read this PC, `C:\Users\uybuv\Downloads\TrapRaiders`, or `http://127.0.0.1:8787`. Localhost stays invisible when the game is off. That is why the wiki lives on GitHub.
 

@@ -1,6 +1,8 @@
 # CHECK LINE B — auditor
 
-**RESULT: PASS**
+**Scope: localhost 8787 HTML harness. This is not Unreal. PASS ≠ game shipped.**
+
+**RESULT: PASS (harness)**
 
 Independent audit (do not trust prior CHECK_B / `_check_b.js` text). Live target `http://127.0.0.1:8787` already listening — did **not** start `node server/index.js`. Ran `node _check_b.js` → `CHECK B PASS` (exit 0) at 2026-10-21T06:43:07Z. That script is source-regex + GET/POST only; walk/clamp/fly were re-probed with `curl.exe` and a node HTTP client.
 

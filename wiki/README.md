@@ -1,6 +1,6 @@
 # Bellhaven Wiki
 
-**Read `wiki/PRODUCT.md` first.** TrapRaiders is an **Unreal 5.8 online game**. 8787 is the launch **authority server**, not a second client. This wiki is the world + catalog bible. Height/roads/lots in `data/` are the Landscape **import spec** — they are not “the game” until they sit in the `.uproject`.
+**Read `wiki/PRODUCT.md` first.** TrapRaiders is an **Unreal 5.8 online game**. 8787 is the launch **authority server**, not a second client. **Much of this wiki was written for a browser walker and is not accurate as a ship log.** World/district/catalog pages can still feed Unreal. `STATUS_NODE_LOG.md` is the old agent diary.
 
 Every agent **reads PRODUCT.md then this file** and **only writes their assigned file**. Do not edit another agent’s file. Append a dated line to `wiki/STATUS.md` when you finish.
 

@@ -1,34 +1,49 @@
 # PRODUCT — read this first
 
-**TrapRaiders is an Unreal Engine 5.8 online game.** Bellhaven / Port Rook is the world. That is the whole product.
+**TrapRaiders is an Unreal Engine 5.8 online game.** Bellhaven / Port Rook is the world.
 
-The localhost process on **127.0.0.1:8787** is the **upcoming launch authority** (inventory, movement clamp, clock, economy, substance sim). It is **not** a second game. It is **not** the player client. HTML/Three.js on `/` is a debug harness only. Do not add features there and call the game shipped.
+**This wiki is not fully accurate.** It is a 2-day dump from agents who built a localhost HTML walker and wrote as if that were the game. A header sticker does not make those pages true. Use this file + `wiki/STATUS.md`. Treat `wiki/STATUS_NODE_LOG.md`, CHECK_A/B, and the WASD tables in `gameplay.md` as **harness notes**.
+
+## What the game is
+
+Unreal client. Local (then dedicated) **authority server**. 8787 was requested so launch authority could exist *before* the editor world was filled — not so the player would live in a browser.
 
 ## Roots (do not mix)
 
-| What | Path | Open this |
-|---|---|---|
-| **The game** | `Z:\AI Hangout\TrapRaiders 5.8` | `TrapRaiders.uproject` (UE **5.8**, `C:\UE\UE_5.8`) |
-| Newer UE copy (extra plugins: Sloyd, phone, Interchange) | `Z:\UnrealProjects\TrapRaiders` | same `.uproject` name |
-| Authority + wiki + bake | `Z:\AI Hangout\TrapRaiders` (also `Z:\TrapRaiders`) | `server/index.js` on 8787 |
-| Public wiki | https://github.com/VeyrixCasino/TrapRaiders/tree/master/wiki | always-on for ChatGPT |
+| What | Path |
+|---|---|
+| **The game** | `Z:\AI Hangout\TrapRaiders 5.8\TrapRaiders.uproject` |
+| Newer UE copy (plugins) | `Z:\UnrealProjects\TrapRaiders` |
+| Authority + bake + this wiki | `Z:\AI Hangout\TrapRaiders` (also `Z:\TrapRaiders`) |
+| Public wiki | https://github.com/VeyrixCasino/TrapRaiders/tree/master/wiki |
 
-Ignore: nested `TrapRaiders\TrapRaiders 5.8`, desktop bat pointing at `C:\TrapRaiders 5.8`, `C:\Users\uybuv` home git.
+Ignore nested `TrapRaiders\TrapRaiders 5.8`, desktop bat → `C:\TrapRaiders 5.8`, home-directory git.
 
-## What is true
+## What you actually have (honest)
 
-- Bake exists: `data/heightmap.r16` (2017²), `roads.json`, `lots.json`, splats, sat. Spec for **Landscape import**.
-- Unreal project exists. Maps `TrapRaiders.umap` / `TrapRaiders2.umap` are starter tiles. **Landscape is not imported.** House Sloyd meshes are in `Content/SloydModels/`.
-- Wiki / kits / locked drug math exist (`GAMEPLAY_RESPONSE.md`). Gameplay numbers are `gameplay_estimate`. No recipes, no doses-as-how-to, no opioids.
-- Node walk/run/jump/phone proves the **authority API**. Next: Unreal pawn talks to that API. Do not grow the browser walker.
+**Real, keep:**
+- UE 5.8 project on disk
+- `data/heightmap.r16` (2017²) + roads/lots/splats/sat — **import spec**, not Landscape
+- Sloyd house uassets
+- World names / districts / KEEP POIs (`CITY_MAP.md`, sector notes)
+- Substance catalog + locked batch math (`GAMEPLAY_RESPONSE.md`). Dual A/B boards; do not merge. `gameplay_estimate` only. No recipes, no doses-as-how-to, no opioids.
 
-## Next job (Unreal)
+**Real, but not the game:**
+- Node `server/index.js` on 8787 (inventory 403, clock, clampMove)
+- `client/*.js` walker, HTML phone, KeyM sat — debug harness
 
-1. Import `data/heightmap.r16` as Landscape into `Z:\AI Hangout\TrapRaiders 5.8` (playbook: `wiki/unreal.md`).
-2. Project roads/lots onto it. Possess a walking Character.
-3. Keep 8787 as server-authoritative. Unreal is the client.
+**Not done:**
+- Landscape in the editor
+- Roads as UE splines
+- Character on Bellhaven
+- Unreal talking to 8787
 
-## Locked (do not reinvent)
+## Next job
 
-Drug batch math, coke/α-PVP anchors, MDPV duration 210: `wiki/substance_research/GAMEPLAY_RESPONSE.md`.
-World size, districts, KEEP POIs: this folder’s `README.md` + `CITY_MAP.md`.
+1. Import `heightmap.r16` into `Z:\AI Hangout\TrapRaiders 5.8` (`wiki/unreal.md`).
+2. Roads/lots onto it. Possess a pawn.
+3. Point that pawn at 8787. Stop growing HTML.
+
+## Locked math (still binding)
+
+`wiki/substance_research/GAMEPLAY_RESPONSE.md` — Strength = W×P×E×R, coke 1/100/100, α-PVP 5/250/350 D=90, MDPV D=210. 100 is not a cap. Economy ≠ Enjoyment.
